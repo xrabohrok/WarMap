@@ -26,7 +26,8 @@ export default {
             var horizontalPos = Math.floor((rowId-1) / (maxRow + 1) * 100);
             // console.log(`${rowId} : against ${maxRow}, ${horizontalPos}`)
             return {
-                "top": `${horizontalPos}%`
+                "top": `${horizontalPos}%`,
+                "z-index": `${rowId}`
             };
         }
     },

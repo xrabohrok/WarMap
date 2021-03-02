@@ -1,9 +1,13 @@
 <template>
-    <div class="mapTile" :style="tileWidth">
+    <div class="mapTile" :style="tileWidth"
+        @mouseover="mousedOver()"
+        @mouseleave="mousedOut()">
         <img src="../assets/mapTiles/map-tile.png">
-        <div class="label">
-            {{title}}
-        </div>
+        <transition name="fade">
+            <div class="label" v-if="isHovered">
+                {{title}}
+            </div>
+        </transition>
     </div>
 </template>
 
@@ -11,6 +15,11 @@
 
 export default {
     name: 'MapTile',
+    data(){
+        return{
+            isHovered: false
+        }
+    },
     computed:{
         tileWidth: function(){
             return{
@@ -21,6 +30,14 @@ export default {
     },
     props: {
         title: String
+    },
+    methods: {
+        mousedOver: function(){
+            this.isHovered = true;
+        },
+        mousedOut: function(){
+            this.isHovered = false;
+        }
     }
 }
 
@@ -38,7 +55,7 @@ export default {
 }
 
 .mapTile:hover{
-    transform: translateY(-.3em);
+    transform: translateY(-.4em);
 }
 
 img{
@@ -46,13 +63,33 @@ img{
     height: auto;
 }
 
-div.label{
+.label{
     position: absolute;
-    top: 20%;
+    top: -80%;
     left: 50%;
     transform: translate(-50%, -20%);
     font-size: .9em;
+    width: 70%;
+    /* z-index: 99; */
+    /* opacity: 1; */
 
+    background-color: whitesmoke;
+    border: solid black;
+    border-width: .02em;
+    padding: .2em .65em .2em .65em;
+    border-radius: .8em;
+
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s ease;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translate(-50%, -200%);
+  top: -200%;
+  background-color: purple;
+  color: white;
 }
 
 </style>

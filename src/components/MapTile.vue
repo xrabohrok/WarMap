@@ -28,12 +28,17 @@ export default {
 
 <style scoped>
 
-div.mapTile{
+.mapTile{
     color: black;
     padding: 0;
     text-align: center;
     position: relative;
     /* height: 3em; */
+    transition: translation 400ms;
+}
+
+.mapTile:hover{
+    transform: translateY(-.3em);
 }
 
 img{

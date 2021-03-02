@@ -34,7 +34,7 @@ export default {
     text-align: center;
     position: relative;
     /* height: 3em; */
-    transition: translation 400ms;
+    transition: transform 400ms;
 }
 
 .mapTile:hover{

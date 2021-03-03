@@ -1,7 +1,6 @@
 <template>
     <div class="mapTile" :style="tileWidth"
-        @mouseover="mousedOver()"
-        @mouseleave="mousedOut()">
+        @mouseover="mousedOver()">
         <img src="../assets/mapTiles/map-tile.png">
         <transition name="fade">
             <div class="label" v-if="isHovered">
@@ -13,30 +12,37 @@
 
 <script>
 
+import {mapGetters} from 'vuex'
+import {NEW_HOVERED} from '../state/mutations'
+import {HOVERING_GETTER} from '../state/getters'
+
 export default {
     name: 'MapTile',
-    data(){
-        return{
-            isHovered: false
-        }
-    },
+    // data(){
+    //     return{
+    //         isHovered: false
+    //     }
+    // },
     computed:{
         tileWidth: function(){
             return{
                 "width": `${(100/14)}%`
             }
-        }
+        },
+        isHovered: function(){
+            return this.hoveredTile === this.title
+        },
+        ...mapGetters({
+            hoveredTile: HOVERING_GETTER
+        })
 
     },
     props: {
         title: String
     },
     methods: {
-        mousedOver: function(){
-            this.isHovered = true;
-        },
-        mousedOut: function(){
-            this.isHovered = false;
+        mousedOver(){
+            this.$store.commit(NEW_HOVERED, this.title)
         }
     }
 }

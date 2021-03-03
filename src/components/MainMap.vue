@@ -1,7 +1,8 @@
 <template>
-    <div id="mainMap">
+    <div id="mainMap"
+        @mouseleave="mouseOut">
         <div class="row" v-for="row in mapSource" v-bind:key="row.id" :style="rowPosition(row.id, mapSource.length)">
-            {{row.id}} : 
+            <!-- {{row.id}} :  -->
             <MapTile v-for="item in row.set" :key="item" :title="item"/>
         </div> 
     </div>
@@ -10,6 +11,8 @@
 <script>
 import {mapLayout} from '../assets/data/map.js'
 import MapTile from './MapTile.vue'
+
+import {NEW_HOVERED} from '../state/mutations'
 
 export default {
     data(){
@@ -29,6 +32,9 @@ export default {
                 "top": `${horizontalPos}%`,
                 "z-index": `${rowId}`
             };
+        },
+        mouseOut: function(){
+            this.$store.commit(NEW_HOVERED, 'mouse-out')
         }
     },
     name: 'MainMap'

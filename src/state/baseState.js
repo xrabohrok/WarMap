@@ -1,8 +1,8 @@
 
 const defaultState = {
     
-    curHover: 'x-100',
-    curSelect: ""
+    curHovered: 'x-100',
+    curSelected: ""
     
 }
 

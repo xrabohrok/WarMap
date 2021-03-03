@@ -8,3 +8,8 @@ const mutations = {
 }
 
 export default mutations;
+
+const NEW_HOVERED = 'newHovered'
+const NEW_SELECTED = 'newSelected'
+
+export {NEW_HOVERED, NEW_SELECTED}

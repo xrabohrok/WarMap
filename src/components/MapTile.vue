@@ -1,6 +1,7 @@
 <template>
     <div class="mapTile" :style="tileWidth"
-        @mouseover="mousedOver()">
+        @mouseenter="mousedOver()"
+        >
         <img src="../assets/mapTiles/map-tile.png">
         <transition name="fade">
             <div class="label" v-if="isHovered">

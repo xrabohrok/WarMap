@@ -2,7 +2,8 @@
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
         >
-        <img src="../assets/mapTiles/test-tile-2.png">
+        <img src="../assets/mapTiles/test-tile-2.png"
+            v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
         <transition name="fade">
             <div class="label" v-if="isHovered">
                 {{title}}
@@ -15,7 +16,7 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED} from '../state/mutations'
-import {HOVERING_GETTER} from '../state/getters'
+import {HOVERING_GETTER, TILE_OWNER} from '../state/getters'
 
 export default {
     name: 'MapTile',
@@ -34,8 +35,19 @@ export default {
         isHovered: function(){
             return this.hoveredTile === this.title
         },
+        bastionOwned: function(){
+            return this.tileOwner(this.title) === "BASTION"
+        },
+        pyreOwned: function(){
+            return this.tileOwner(this.title) === "PYRE"
+        },
+        unowned: function(){
+            let owner = this.tileOwner(this.title);
+            return !(owner === "PYRE" || owner === "BASTION")
+        },
         ...mapGetters({
-            hoveredTile: HOVERING_GETTER
+            hoveredTile: HOVERING_GETTER,
+            tileOwner: TILE_OWNER
         })
 
     },
@@ -77,6 +89,17 @@ img{
     position:absolute;
     left: 0%;
     top: 0%;
+}
+
+/* .bastionOwned{
+} */
+
+.pyreOwned{
+    filter: hue-rotate(129deg);
+}
+
+.unOwned{
+    filter: grayscale();
 }
 
 .label{

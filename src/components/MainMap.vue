@@ -26,7 +26,7 @@ export default {
     },
     methods: {
         rowPosition: function(rowId, maxRow){
-            var horizontalPos = Math.floor((rowId-1) / (maxRow + 1) * 100);
+            var horizontalPos = ((rowId-1) / (maxRow + 1) * 100).toFixed(2);
             // console.log(`${rowId} : against ${maxRow}, ${horizontalPos}`)
             return {
                 "top": `${horizontalPos}%`,
@@ -44,8 +44,8 @@ export default {
 <style scoped>
 #mainMap{
     position: relative;
-    height: 12.5em;
-    width: 80%;
+    height: 43vw;
+    width: 80vw;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -59,7 +59,7 @@ export default {
   right:0;
   margin: auto;
   width: 100%;
-  height: auto;
+  height: 7.14%;
 }
 
 </style>

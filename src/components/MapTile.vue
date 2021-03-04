@@ -2,7 +2,7 @@
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
         >
-        <img src="../assets/mapTiles/map-tile.png">
+        <img src="../assets/mapTiles/test-tile-2.png">
         <transition name="fade">
             <div class="label" v-if="isHovered">
                 {{title}}
@@ -27,7 +27,8 @@ export default {
     computed:{
         tileWidth: function(){
             return{
-                "width": `${(100/14)}%`
+                "width": `${(100/14)}%`,
+                // "height": `${(100/28)}%`
             }
         },
         isHovered: function(){
@@ -57,8 +58,11 @@ export default {
     padding: 0;
     text-align: center;
     position: relative;
-    /* height: 3em; */
+    height: 80%;
     transition: transform 400ms;
+    overflow: visible;
+
+
 }
 
 .mapTile:hover{
@@ -68,6 +72,11 @@ export default {
 img{
     width: 100%;
     height: auto;
+    pointer-events: none;
+    transform: translateY(-50%);
+    position:absolute;
+    left: 0%;
+    top: 0%;
 }
 
 .label{

@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <LandingPage msg="The War For Rayuba Map Placeholder"/>
+    <MainPage msg="The Rayuba Battle Chronicle"/>
   </div>
 </template>
 
 <script>
-import LandingPage from './components/LandingPage.vue'
+import MainPage from './components/MainPage.vue'
 
 export default {
   name: 'App',
   components: {
-    LandingPage
+    MainPage
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

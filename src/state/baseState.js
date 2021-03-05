@@ -5,7 +5,8 @@ const defaultState = {
     curHovered: 'x100',
     curSelected: "",
     curRound:0,
-    roundData: allRounds
+    roundData: allRounds,
+    simpleMode: false
 }
 
 export default defaultState;

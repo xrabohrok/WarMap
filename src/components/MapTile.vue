@@ -1,9 +1,21 @@
 <template>
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
+        @mouseup="selectingClick()"
         >
-        <img :src="mapTilePath"
-            v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
+        <transition name="stab">
+            <img src="../assets/pics/chooser-knife.png"
+                v-if="isSelected" class="selector"
+            >
+        </transition>
+        <transition name="fall">
+            <img :src="mapTilePath" v-if="!simple_mode"
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle">
+        </transition>
+        <transition name="fall">
+            <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle">
+        </transition>
         <transition name="fade">
             <div class="label" v-if="isHovered">
                 {{title}}
@@ -15,8 +27,8 @@
 <script>
 
 import {mapGetters} from 'vuex'
-import {NEW_HOVERED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER} from '../state/getters'
+import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE} from '../state/getters'
 
 export default {
     name: 'MapTile',
@@ -49,9 +61,19 @@ export default {
             // return `${this.title}.png`
             return `tileimages/${this.title}.png`
         },
+        isSelected: function(){
+            return this.selected == this.title;
+        },
+        fallTimeStyle: function(){
+            return {
+                '--fall-time': `${(Math.random() + .1) *1.1}s`
+            }
+        },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,
-            tileOwner: TILE_OWNER
+            tileOwner: TILE_OWNER,
+            selected: SELECTING_GETTER,
+            simple_mode: SIMPLE_MODE,
         })
 
     },
@@ -61,6 +83,9 @@ export default {
     methods: {
         mousedOver(){
             this.$store.commit(NEW_HOVERED, this.title)
+        },
+        selectingClick(){
+            this.$store.commit(NEW_SELECTED, this.title)
         }
     }
 }
@@ -68,6 +93,14 @@ export default {
 </script>
 
 <style scoped>
+
+.selector{
+    height: 9em;
+    width: auto;
+    z-index: 97;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
 
 .mapTile{
     color: black;
@@ -106,6 +139,10 @@ img{
     filter: grayscale();
 }
 
+.simple.unOwned{
+    filter: grayscale() brightness(1.8)
+}
+
 .label{
     position: absolute;
     top: -80%;
@@ -113,7 +150,7 @@ img{
     transform: translate(-50%, -20%);
     font-size: .9em;
     width: 70%;
-    /* z-index: 99; */
+    z-index: 99;
     /* opacity: 1; */
 
     background-color: whitesmoke;
@@ -122,6 +159,19 @@ img{
     padding: .2em .65em .2em .65em;
     border-radius: .8em;
 
+}
+
+.stab-enter-active, .stab-leave-active {
+  transition: all .3s ease-in;
+}
+.stab-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translate(-50%, -300%);
+  /* top: 500%; */
+
+}
+.stab-leave-to{
+  opacity: 0;
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -133,6 +183,21 @@ img{
   top: -200%;
   background-color: purple;
   color: white;
+}
+
+.fall-enter-active, .fall-leave-active {
+  transition: all var(--fall-time) ease-out;
+  position:absolute;
+}
+.fall-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translatey(-20vh);
+  /* top: 500%; */
+
+}
+.fall-leave-to{
+  opacity: 0;
+  transform: translatey(20vh);
 }
 
 </style>

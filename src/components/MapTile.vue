@@ -1,7 +1,13 @@
 <template>
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
+        @mouseup="selectingClick()"
         >
+        <transition name="stab">
+            <img src="../assets/pics/chooser-knife.png"
+                v-if="isSelected" class="selector"
+            >
+        </transition>
         <img :src="mapTilePath"
             v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
         <transition name="fade">
@@ -15,8 +21,8 @@
 <script>
 
 import {mapGetters} from 'vuex'
-import {NEW_HOVERED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER} from '../state/getters'
+import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER} from '../state/getters'
 
 export default {
     name: 'MapTile',
@@ -49,9 +55,13 @@ export default {
             // return `${this.title}.png`
             return `tileimages/${this.title}.png`
         },
+        isSelected: function(){
+            return this.selected == this.title;
+        },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,
-            tileOwner: TILE_OWNER
+            tileOwner: TILE_OWNER,
+            selected: SELECTING_GETTER,
         })
 
     },
@@ -61,6 +71,9 @@ export default {
     methods: {
         mousedOver(){
             this.$store.commit(NEW_HOVERED, this.title)
+        },
+        selectingClick(){
+            this.$store.commit(NEW_SELECTED, this.title)
         }
     }
 }
@@ -68,6 +81,14 @@ export default {
 </script>
 
 <style scoped>
+
+.selector{
+    height: 9em;
+    width: auto;
+    z-index: 97;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
 
 .mapTile{
     color: black;
@@ -113,7 +134,7 @@ img{
     transform: translate(-50%, -20%);
     font-size: .9em;
     width: 70%;
-    /* z-index: 99; */
+    z-index: 99;
     /* opacity: 1; */
 
     background-color: whitesmoke;
@@ -122,6 +143,19 @@ img{
     padding: .2em .65em .2em .65em;
     border-radius: .8em;
 
+}
+
+.stab-enter-active, .stab-leave-active {
+  transition: all .3s ease-in;
+}
+.stab-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translate(-50%, -500%);
+  /* top: 500%; */
+
+}
+.stab-leave-to{
+  opacity: 0;
 }
 
 .fade-enter-active, .fade-leave-active {

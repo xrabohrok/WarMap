@@ -2,7 +2,7 @@
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
         >
-        <img src="../assets/mapTiles/test-tile-2.png"
+        <img :src="mapTilePath"
             v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
         <transition name="fade">
             <div class="label" v-if="isHovered">
@@ -20,11 +20,11 @@ import {HOVERING_GETTER, TILE_OWNER} from '../state/getters'
 
 export default {
     name: 'MapTile',
-    // data(){
-    //     return{
-    //         isHovered: false
-    //     }
-    // },
+    data(){
+        return{
+            publicPath: process.env.BASE_URL
+        }
+    },
     computed:{
         tileWidth: function(){
             return{
@@ -44,6 +44,10 @@ export default {
         unowned: function(){
             let owner = this.tileOwner(this.title);
             return !(owner === "PYRE" || owner === "BASTION")
+        },
+        mapTilePath: function(){
+            // return `${this.title}.png`
+            return `tileimages/${this.title}.png`
         },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,

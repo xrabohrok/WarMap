@@ -10,11 +10,11 @@
         </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle">
         </transition>
         <transition name="fall">
             <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle">
         </transition>
         <transition name="fade">
             <div class="label" v-if="isHovered">
@@ -63,6 +63,11 @@ export default {
         },
         isSelected: function(){
             return this.selected == this.title;
+        },
+        fallTimeStyle: function(){
+            return {
+                '--fall-time': `${(Math.random() + .1) *1.1}s`
+            }
         },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,
@@ -161,7 +166,7 @@ img{
 }
 .stab-enter /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
-  transform: translate(-50%, -500%);
+  transform: translate(-50%, -300%);
   /* top: 500%; */
 
 }
@@ -181,17 +186,18 @@ img{
 }
 
 .fall-enter-active, .fall-leave-active {
-  transition: all .8s ease-out;
+  transition: all var(--fall-time) ease-out;
+  position:absolute;
 }
 .fall-enter /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
-  transform: translatey(-500%);
+  transform: translatey(-20vh);
   /* top: 500%; */
 
 }
 .fall-leave-to{
   opacity: 0;
-  transform: translatey(300%);
+  transform: translatey(20vh);
 }
 
 </style>

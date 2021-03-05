@@ -9,7 +9,7 @@
 import MainMap from './MainMap.vue'
 
 export default {
-  name: 'LandingPage',
+  name: 'MainPage',
   props: {
     msg: String
   },
@@ -21,6 +21,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1{
+  font-family: 'Saira', sans-serif;
+  font-size: 6em;
+  margin-bottom: 1em;
+}
 h3 {
   margin: 40px 0 0;
 }

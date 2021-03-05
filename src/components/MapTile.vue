@@ -8,7 +8,9 @@
                 v-if="isSelected" class="selector"
             >
         </transition>
-        <img :src="mapTilePath"
+        <img :src="mapTilePath" v-if="!simple_mode"
+            v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
+        <img src="../assets/pics/simple_tile/simple_tile.png" v-else
             v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
         <transition name="fade">
             <div class="label" v-if="isHovered">
@@ -22,7 +24,7 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER} from '../state/getters'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE} from '../state/getters'
 
 export default {
     name: 'MapTile',
@@ -62,6 +64,7 @@ export default {
             hoveredTile: HOVERING_GETTER,
             tileOwner: TILE_OWNER,
             selected: SELECTING_GETTER,
+            simple_mode: SIMPLE_MODE,
         })
 
     },

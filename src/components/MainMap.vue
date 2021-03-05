@@ -44,10 +44,11 @@ export default {
 <style scoped>
 #mainMap{
     position: relative;
-    height: 43vw;
+    height: 40vw;
     width: 80vw;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top:12vh;
 }
 
 .row {

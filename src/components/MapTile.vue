@@ -8,10 +8,14 @@
                 v-if="isSelected" class="selector"
             >
         </transition>
-        <img :src="mapTilePath" v-if="!simple_mode"
-            v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
-        <img src="../assets/pics/simple_tile/simple_tile.png" v-else
-            v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
+        <transition name="fall">
+            <img :src="mapTilePath" v-if="!simple_mode"
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}">
+        </transition>
+        <transition name="fall">
+            <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple">
+        </transition>
         <transition name="fade">
             <div class="label" v-if="isHovered">
                 {{title}}
@@ -130,6 +134,10 @@ img{
     filter: grayscale();
 }
 
+.simple.unOwned{
+    filter: grayscale() brightness(1.8)
+}
+
 .label{
     position: absolute;
     top: -80%;
@@ -170,6 +178,20 @@ img{
   top: -200%;
   background-color: purple;
   color: white;
+}
+
+.fall-enter-active, .fall-leave-active {
+  transition: all .8s ease-out;
+}
+.fall-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translatey(-500%);
+  /* top: 500%; */
+
+}
+.fall-leave-to{
+  opacity: 0;
+  transform: translatey(300%);
 }
 
 </style>

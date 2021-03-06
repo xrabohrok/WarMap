@@ -122,7 +122,7 @@ img{
     width: 100%;
     height: auto;
     pointer-events: none;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     position:absolute;
     left: 0%;
     top: 0%;

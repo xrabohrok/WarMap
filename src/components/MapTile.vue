@@ -99,7 +99,7 @@ export default {
     width: auto;
     z-index: 97;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -80%);
 }
 
 .mapTile{

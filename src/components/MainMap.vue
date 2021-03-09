@@ -49,6 +49,7 @@ export default {
     margin-left: 10%;
     margin-right: 10%;
     margin-top:12vh;
+    margin-bottom: 14vh;
 }
 
 .row {

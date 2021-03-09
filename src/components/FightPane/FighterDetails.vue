@@ -8,9 +8,9 @@
             <div class="detail_row"> <h4> Faction </h4> </div>
             <div class="detail_row"><b>Artist:</b> Artist Name</div>
             <div class="detail_row"><b>Artist Contact:</b> 
-                <div class="sub_row"> twitter </div>
-                <div class="sub_row"> discord </div>
-                <div class="sub_row"> something else </div>
+                <div class="sub_row"> <a href="www.twitter.com"> twitter </a></div>
+                <div class="sub_row"> <a href="www.discord.com"> discord </a></div>
+                <div class="sub_row"> <a href="www.imdb.com"> something else </a></div>
             </div>
             <div class="detail_row"><b>Backstory:</b> Fighter Name</div>
         </div>
@@ -28,9 +28,15 @@ export default {
 </script>
 
 <style scoped>
+.toplevel{
+    font-size: 1.6em;
+}
+
 h2{
     font-family: 'Saira', sans-serif;
     font-size: 3em;
+    margin-top: .2em;
+    margin-bottom: .2em;
 }
 
 </style>

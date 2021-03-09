@@ -5,12 +5,14 @@
       <ToggleButton :value="false" :labels="{checked:'Simple', unchecked:'Detail'}" 
         @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
     </div>
-    <MainMap></MainMap>
+    <MainMap/>
+    <DetailPane/>
   </div>
 </template>
 
 <script>
 import MainMap from './MainMap.vue'
+import DetailPane from './DetailPane'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import {SET_SIMPLE_MODE} from '../state/mutations'
@@ -23,7 +25,8 @@ export default {
   },
   components: {
     MainMap,
-    ToggleButton
+    ToggleButton,
+    DetailPane
   },
   methods:{
     setSimpleMode: function({value}){

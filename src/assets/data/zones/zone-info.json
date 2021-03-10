@@ -1,7 +1,7 @@
 {
     "ridgeback": {
         "name": "Ridgeback Canyon",
-        "desc": "A deep canyon of rust colored rock. The train from the old mines sweeps across the falls here on a precarious bridge, presenting a difficult crossing point.  Deep below, the valley is riddled with decripit boat houses, long abandoned."
+        "desc": "A deep canyon of rust colored rock. The train from the old mines sweeps across the falls here on a precarious bridge, presenting a difficult crossing point.  Deep below, the valley is riddled with decrepit boat houses, long abandoned."
     },
     "arus": {
         "name": "Arus Desert",
@@ -9,19 +9,19 @@
     },
     "bn": {
         "name": "Battlefield North",
-        "desc": "The front lines of the conflict between the Pyre and Bastion. Choked with the remains of old last-ditch offensives, charges, valiant last stands, and desperate retreats.  The banners of a thousand war companies lie limp and ragged in the fetid breeze, and the bones of the recently dead are everywhere. \r  The fields crawl with scavengers (of the human as well as the animal variety) when the battle ebbs, making it almost as dangerous when the there are lulls in the fighting."
+        "desc": "The front lines of the conflict between the Pyre and Bastion. Choked with the remains of old last-ditch offensives, charges, valiant last stands, and desperate retreats.  The banners of a thousand war companies lie limp and ragged in the fetid breeze, and the bones of the recently dead are everywhere. \r  The fields crawl with scavengers (of the human as well as the animal variety) when the battle ebbs, making it almost as dangerous when there are lulls in the fighting."
     },
     "bs": {
         "name": "Battlefield South",
-        "desc": "The front lines of the conflict between the Pyre and Bastion. Choked with the remains of old last-ditch offensives, charges, valiant last stands, and desperate retreats.  The banners of a thousand war companies lie limp and ragged in the fetid breeze, and the bones of the recently dead are everywhere. \r  The fields crawl with scavengers (of the human as well as the animal variety) when the battle ebbs, making it almost as dangerous when the there are lulls in the fighting."
+        "desc": "The front lines of the conflict between the Pyre and Bastion. Choked with the remains of old last-ditch offensives, charges, valiant last stands, and desperate retreats.  The banners of a thousand war companies lie limp and ragged in the fetid breeze, and the bones of the recently dead are everywhere. \r  The fields crawl with scavengers (of the human as well as the animal variety) when the battle ebbs, making it almost as dangerous when there are lulls in the fighting."
     },
     "lostcity": {
         "name": "The Lost City",
-        "desc": "One of Rayuba's great old cities, YARU AMAN, now reduced to a smoking ruin.  The Pyre-controlled half of the city is mostly rubble, teeming with looters, bandits, Pyre war bands, and loose war monsters.  The Bastion half is still mostly intact, but it, like the rest of the city, is long-abandoned. \r In it's day, the city was a center of art and high culture, with a prestigious celestial university that trained the Empire's top sorcerers. \r At the center of the city is the mysterious Tower, a structure sealed by Solomon David himself.  Passage into the tower is prevented by a mysterious force that violently incinterates all who get close, but is presumed to contain a great and terrible power."
+        "desc": "One of Rayuba's great old cities, YARU AMAN, now reduced to a smoking ruin.  The Pyre-controlled half of the city is mostly rubble, teeming with looters, bandits, Pyre war bands, and loose war monsters.  The Bastion half is still mostly intact, but it, like the rest of the city, is long-abandoned. \r In its day, the city was a center of art and high culture, with a prestigious celestial university that trained the Empire's top sorcerers. \r At the center of the city is the mysterious Tower, a structure sealed by Solomon David himself.  Passage into the tower is prevented by a mysterious force that violently incinterates all who get close, but is presumed to contain a great and terrible power."
     },
     "coast": {
         "name": "The Coast",
-        "desc": "The coast line of Rayuba's main continent was once considered the most beautiful sight of the empire.  Now its floating shrines, holy rocks, lighthouses, and overlooks are all choked with debris and smoke.  On good days, when the suns are out, its original beauty can sometimes peek through. \r Smugglers, pirates, and other privateers frequently sail through on supply runs."
+        "desc": "The coastline of Rayuba's main continent was once considered the most beautiful sight of the empire.  Now its floating shrines, holy rocks, lighthouses, and overlooks are all choked with debris and smoke.  On good days, when the suns are out, its original beauty can sometimes peek through. \r Smugglers, pirates, and other privateers frequently sail through on supply runs."
     },
     "titanfall": {
         "name": "Titanfall",
@@ -29,7 +29,7 @@
     },
     "aru": {
         "name": "Aru Village",
-        "desc": "A worn and ancient farming village, rumored in popular myth to be Celestial Emperor Solomon's birthplace. \r Very few villagers remain here, but those that do desperately try to eke out a living under the constant threat of invasion."
+        "desc": "A worn and ancient farming village, frequently rumored to be Celestial Emperor Solomon's birthplace. \r Very few villagers remain here, but those that do desperately try to eke out a living under the constant threat of invasion."
     },
     "rime": {
         "name": "Rime Peaks",
@@ -53,7 +53,7 @@
     },
     "mines": {
         "name": "Mines",
-        "desc": "The old whitestone mines that serviced the construction of the city have now been pressed into feverish activity by the Pyre.  The artisans who once ran this place took great pride in the quality of the stone, cut in whole blocks and and hauled by soldiers to the mine trains. \r Now the mines are aflame with Pyre soldiers digging for ore and chemical veins with which to make weapons.  The great Erendrakk keep, with the skull of a dead god embedded, keeps watch. \r This is the source of the stone that built the great colosseum of the Ring of Power."
+        "desc": "The old whitestone mines that serviced the construction of the city have now been pressed into feverish activity by the Pyre.  The artisans who once ran this place took great pride in the quality of the stone, cut in whole blocks and hauled by soldiers to the mine trains. \r Now the mines are aflame with Pyre soldiers digging for ore and chemical veins with which to make weapons.  The great Erendrakk Keep, with the skull of a dead god embedded, keeps watch. \r This is the source of the stone that built the great colosseum of the Ring of Power."
     },
     "swamp":{
         "name": "Illridge Swamp",
@@ -65,15 +65,15 @@
     },
     "heap": {
         "name": "The Heap",
-        "desc": "The dregs, garbage, and refuse of the dead city and war alike have ended up here.  At the top of the piles are rickety shanty towns set up by assorted scum: deserters, desperate regugees, scavengers, and rogue Pyre soldiers.  Ath the bottom are toxic pools that can dissolve a body in minutes. \r You can buy almost anything here, but it's guaranteed to be filthy and almost certainly stolen."
+        "desc": "The dregs, garbage, and refuse of the dead city and war alike have ended up here.  At the top of the piles are rickety shanty towns set up by assorted scum: deserters, desperate refugees, scavengers, and rogue Pyre soldiers.  At the bottom are toxic pools that can dissolve a body in minutes. \r You can buy almost anything here, but it's guaranteed to be filthy and almost certainly stolen."
     },
     "jungle": {
         "name": "Beast Jungle",
-        "desc": "This thick, steaming jungle has sprung out above the volcanic plains of Hell Pit, feeding off the sweltering heat.  Everything in this jungle is deadly: the insects, the animals, even the plants.  Smart Pyre soldiers give it a wide berth, foolhardy or especially brave ones journey in to fight or attempt to numerous feral beasts. \r The jungle is said to be home to an old spirit tree, the fruit of which can introduce terrifying bodily transformations and grant supernatural powers, but so far nobody has ventured deep enough to find it even assuming it exists. \r The ancient and much feared Red Onyx Temple looks over the jungle, once home to an order of evil, blood-drinking diviners who would slaughter the beasts of the jungle and read their entrials for clues to the future."
+        "desc": "This thick, steaming jungle has sprung out above the volcanic plains of Hell Pit, feeding off the sweltering heat.  Everything in this jungle is deadly: the insects, the animals, even the plants.  Smart Pyre soldiers give it a wide berth, foolhardy or especially brave ones journey in to fight or attempt to numerous feral beasts. \r The jungle is said to be home to an old spirit tree, the fruit of which can introduce terrifying bodily transformations and grant supernatural powers, but so far nobody has ventured deep enough to find it even assuming it exists. \r The ancient and much feared Red Onyx Temple looks over the jungle, once home to an order of evil, blood-drinking diviners who would slaughter the beasts of the jungle and read their entrails for clues to the future."
     },
     "burn": {
         "name": "The Burn",
-        "desc": "The Burn was once a wooded, hilly area outside the city dotted with farms and logging estates. \r During the war, it was damaged so badly by the initial fighting on Rayuba, that the fabric of the Wheel around it began to fray, and the entire area began to disintigrate. \r It's still slowly burning away to this day, gravity-defying fragments of it dissolving off into the sky. The natural laws of the world are loose in this place, and one may tear a hole to the Void here or perform terrible magic fairly easily."
+        "desc": "The Burn was once a wooded, hilly area outside the city dotted with farms and logging estates. \r During the war, it was damaged so badly by the initial fighting on Rayuba that the fabric of the Wheel around it began to fray, and the entire area began to disintegrate. \r It's still slowly burning away to this day, gravity-defying fragments of it dissolving off into the sky. The natural laws of the world are loose in this place, and one may tear a hole to the Void here or perform terrible magic fairly easily."
     },
     "hell": {
         "name": "Hell Pit",

@@ -86,6 +86,10 @@ export default {
         },
         selectingClick(){
             this.$store.commit(NEW_SELECTED, this.title)
+            //need to let the dom claim the space before scrolling
+            setTimeout(function(){
+                window.scrollTo({top: window.innerHeight *.8, behavior: 'smooth'}) 
+            },200)
         }
     }
 }

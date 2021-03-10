@@ -61,6 +61,7 @@ export default {
     methods:{
         closePane: function(){
             this.$store.commit(DESELECT)
+            window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
         }      
     },
 
@@ -88,6 +89,7 @@ export default {
 #majorPane{
 
     width: 100%;
+    height: auto;
 }
 
 .areaDescription{
@@ -135,7 +137,7 @@ export default {
 @media all and (orientation: portrait) {
     .subContent{
         flex-flow:wrap; 
-        height: 100px;
+        height: auto;
     }
     .details {
         width: 100%;

@@ -6,7 +6,9 @@
         @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
     </div>
     <MainMap/>
-    <DetailPane v-show="isSelected"/>
+    <transition name="slideup">
+      <DetailPane v-show="isSelected"/>
+    </transition>
   </div>
 </template>
 
@@ -63,4 +65,23 @@ h1{
 a {
   color: #42b983;
 }
+
+.slideup-enter-active, .slideup-leave-active {
+  transition: all .9s;
+}
+.slideup-enter{
+  opacity: 0;
+  transform: translatey(-100%);
+  /* top: 500%; */
+  /* height: 0; */
+
+
+}
+.slideup-leave-to{
+  opacity: 0;
+  transform: translatey(-100%);
+  /* height: 0; */
+
+}
+
 </style>

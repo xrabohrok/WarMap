@@ -14,9 +14,9 @@ or for less intense files:
 
 or if it is a .json file already, just `require('./foo.json')`
 
-Once loaded, use `JSON.parse()` to get it as a java thing
+Once loaded, use `JSON.parse()` to get it as a javascript object thing
 
-empty.js is made specifically to allow one to not have to type out all the spaces again.  Try loading that.
+empty.js is made specifically to allow one to not have to type out all the spaces again.  Try mapping from that.
 
 from there, you should be able to Map to your heart's content
 

@@ -1,0 +1,584 @@
+{
+    "a13": {
+      "zone": "coast"
+    },
+    "a12": {
+      "zone": "coast"
+    },
+    "a11": {
+      "zone": "coast"
+    },
+    "a10": {
+      "zone": "crags"
+    },
+    "a9": {
+      "zone": "crags"
+    },
+    "a8": {
+      "zone": "crags"
+    },
+    "a7": {
+      "zone": "rime"
+    },
+    "a6": {
+      "zone": "rime"
+    },
+    "a5": {
+      "zone": "rime"
+    },
+    "a4": {
+      "zone": "exalted"
+    },
+    "a3": {
+      "zone": "exalted"
+    },
+    "a2": {
+      "zone": "exalted"
+    },
+    "a1": {
+      "zone": "exalted"
+    },
+    "b14": {
+      "zone": "coast"
+    },
+    "b13": {
+      "zone": "coast"
+    },
+    "b12": {
+      "zone": "coast"
+    },
+    "b11": {
+      "zone": "crags"
+    },
+    "b10": {
+      "zone": "crags"
+    },
+    "b9": {
+      "zone": "ardenweald"
+    },
+    "b8": {
+      "zone": "ardenweald"
+    },
+    "b7": {
+      "zone": "rime"
+    },
+    "b6": {
+      "zone": "rime"
+    },
+    "b5": {
+      "zone": "rime"
+    },
+    "b4": {
+      "zone": "exalted"
+    },
+    "b3": {
+      "zone": "exalted"
+    },
+    "b2": {
+      "zone": "exalted"
+    },
+    "b1": {
+      "zone": "exalted"
+    },
+    "c14": {
+      "zone": "coast"
+    },
+    "c13": {
+      "zone": "coast"
+    },
+    "c12": {
+      "zone": "coast"
+    },
+    "c11": {
+      "zone": "bn"
+    },
+    "c10": {
+      "zone": "bn"
+    },
+    "c9": {
+      "zone": "ardenweald"
+    },
+    "c8": {
+      "zone": "ardenweald"
+    },
+    "c7": {
+      "zone": "rime"
+    },
+    "c6": {
+      "zone": "rime"
+    },
+    "c5": {
+      "zone": "rime"
+    },
+    "c4": {
+      "zone": "exalted"
+    },
+    "c3": {
+      "zone": "exalted"
+    },
+    "c2": {
+      "zone": "exalted"
+    },
+    "c1": {
+      "zone": "exalted"
+    },
+    "d14": {
+      "zone": "coast"
+    },
+    "d13": {
+      "zone": "burn"
+    },
+    "d12": {
+      "zone": "bn"
+    },
+    "d11": {
+      "zone": "bn"
+    },
+    "d10": {
+      "zone": "bn"
+    },
+    "d9": {
+      "zone": "ardenweald"
+    },
+    "d8": {
+      "zone": "ardenweald"
+    },
+    "d7": {
+      "zone": "ardenweald"
+    },
+    "d6": {
+      "zone": "aru"
+    },
+    "d5": {
+      "zone": "aru"
+    },
+    "d4": {
+      "zone": "exalted"
+    },
+    "d3": {
+      "zone": "exalted"
+    },
+    "d2": {
+      "zone": "exalted"
+    },
+    "d1": {
+      "zone": "exalted"
+    },
+    "e14": {
+      "zone": "burn"
+    },
+    "e13": {
+      "zone": "burn"
+    },
+    "e12": {
+      "zone": "bn"
+    },
+    "e11": {
+      "zone": "bn"
+    },
+    "e10": {
+      "zone": "bn"
+    },
+    "e9": {
+      "zone": "lostcity"
+    },
+    "e8": {
+      "zone": "lostcity"
+    },
+    "e7": {
+      "zone": "lostcity"
+    },
+    "e6": {
+      "zone": "aru"
+    },
+    "e5": {
+      "zone": "aru"
+    },
+    "e4": {
+      "zone": "emerald"
+    },
+    "e3": {
+      "zone": "emerald"
+    },
+    "e2": {
+      "zone": "emerald"
+    },
+    "e1": {
+      "zone": "emerald"
+    },
+    "f14": {
+      "zone": "burn"
+    },
+    "f13": {
+      "zone": "factories"
+    },
+    "f12": {
+      "zone": "factories"
+    },
+    "f11": {
+      "zone": "factories"
+    },
+    "f10": {
+      "zone": "lostcity"
+    },
+    "f9": {
+      "zone": "lostcity"
+    },
+    "f8": {
+      "zone": "lostcity"
+    },
+    "f7": {
+      "zone": "lostcity"
+    },
+    "f6": {
+      "zone": "lostcity"
+    },
+    "f5": {
+      "zone": "titanfall"
+    },
+    "f4": {
+      "zone": "titanfall"
+    },
+    "f3": {
+      "zone": "titanfall"
+    },
+    "f2": {
+      "zone": "emerald"
+    },
+    "f1": {
+      "zone": "emerald"
+    },
+    "g14": {
+      "zone": "burn"
+    },
+    "g13": {
+      "zone": "factories"
+    },
+    "g12": {
+      "zone": "factories"
+    },
+    "g11": {
+      "zone": "factories"
+    },
+    "g10": {
+      "zone": "lostcity"
+    },
+    "g9": {
+      "zone": "lostcity"
+    },
+    "g8": {
+      "zone": "lostcity"
+    },
+    "g7": {
+      "zone": "lostcity"
+    },
+    "g6": {
+      "zone": "lostcity"
+    },
+    "g5": {
+      "zone": "titanfall"
+    },
+    "g4": {
+      "zone": "titanfall"
+    },
+    "g3": {
+      "zone": "titanfall"
+    },
+    "g2": {
+      "zone": "emerald"
+    },
+    "g1": {
+      "zone": "emerald"
+    },
+    "h14": {
+      "zone": "jungle"
+    },
+    "h13": {
+      "zone": "jungle"
+    },
+    "h12": {
+      "zone": "jungle"
+    },
+    "h11": {
+      "zone": "factories"
+    },
+    "h10": {
+      "zone": "lostcity"
+    },
+    "h9": {
+      "zone": "lostcity"
+    },
+    "h8": {
+      "zone": "lostcity"
+    },
+    "h7": {
+      "zone": "lostcity"
+    },
+    "h6": {
+      "zone": "lostcity"
+    },
+    "h5": {
+      "zone": "titanfall"
+    },
+    "h4": {
+      "zone": "titanfall"
+    },
+    "h3": {
+      "zone": "titanfall"
+    },
+    "h2": {
+      "zone": "emerald"
+    },
+    "h1": {
+      "zone": "emerald"
+    },
+    "i14": {
+      "zone": "jungle"
+    },
+    "i13": {
+      "zone": "jungle"
+    },
+    "i12": {
+      "zone": "jungle"
+    },
+    "i11": {
+      "zone": "heap"
+    },
+    "i10": {
+      "zone": "heap"
+    },
+    "i9": {
+      "zone": "lostcity"
+    },
+    "i8": {
+      "zone": "lostcity"
+    },
+    "i7": {
+      "zone": "lostcity"
+    },
+    "i6": {
+      "zone": "lostcity"
+    },
+    "i5": {
+      "zone": "titanfall"
+    },
+    "i4": {
+      "zone": "titanfall"
+    },
+    "i3": {
+      "zone": "titanfall"
+    },
+    "i2": {
+      "zone": "arus"
+    },
+    "i1": {
+      "zone": "arus"
+    },
+    "j14": {
+      "zone": "jungle"
+    },
+    "j13": {
+      "zone": "jungle"
+    },
+    "j12": {
+      "zone": "jungle"
+    },
+    "j11": {
+      "zone": "heap"
+    },
+    "j10": {
+      "zone": "heap"
+    },
+    "j9": {
+      "zone": "swamp"
+    },
+    "j8": {
+      "zone": "swamp"
+    },
+    "j7": {
+      "zone": "swamp"
+    },
+    "j6": {
+      "zone": "bs"
+    },
+    "j5": {
+      "zone": "bs"
+    },
+    "j4": {
+      "zone": "bs"
+    },
+    "j3": {
+      "zone": "arus"
+    },
+    "j2": {
+      "zone": "arus"
+    },
+    "j1": {
+      "zone": "arus"
+    },
+    "k14": {
+      "zone": "hell"
+    },
+    "k13": {
+      "zone": "hell"
+    },
+    "k12": {
+      "zone": "hell"
+    },
+    "k11": {
+      "zone": "hell"
+    },
+    "k10": {
+      "zone": "mines"
+    },
+    "k9": {
+      "zone": "swamp"
+    },
+    "k8": {
+      "zone": "swamp"
+    },
+    "k7": {
+      "zone": "swamp"
+    },
+    "k6": {
+      "zone": "bs"
+    },
+    "k5": {
+      "zone": "bs"
+    },
+    "k4": {
+      "zone": "arus"
+    },
+    "k3": {
+      "zone": "arus"
+    },
+    "k2": {
+      "zone": "arus"
+    },
+    "k1": {
+      "zone": "arus"
+    },
+    "l14": {
+      "zone": "hell"
+    },
+    "l13": {
+      "zone": "hell"
+    },
+    "l12": {
+      "zone": "hell"
+    },
+    "l11": {
+      "zone": "hell"
+    },
+    "l10": {
+      "zone": "mines"
+    },
+    "l9": {
+      "zone": "swamp"
+    },
+    "l8": {
+      "zone": "swamp"
+    },
+    "l7": {
+      "zone": "swamp"
+    },
+    "l6": {
+      "zone": "arus"
+    },
+    "l5": {
+      "zone": "arus"
+    },
+    "l4": {
+      "zone": "arus"
+    },
+    "l3": {
+      "zone": "ridgeback"
+    },
+    "l2": {
+      "zone": "ridgeback"
+    },
+    "l1": {
+      "zone": "ridgeback"
+    },
+    "m14": {
+      "zone": "hell"
+    },
+    "m13": {
+      "zone": "hell"
+    },
+    "m12": {
+      "zone": "hell"
+    },
+    "m11": {
+      "zone": "hell"
+    },
+    "m10": {
+      "zone": "mines"
+    },
+    "m9": {
+      "zone": "mines"
+    },
+    "m8": {
+      "zone": "mines"
+    },
+    "m7": {
+      "zone": "mines"
+    },
+    "m6": {
+      "zone": "arus"
+    },
+    "m5": {
+      "zone": "arus"
+    },
+    "m4": {
+      "zone": "arus"
+    },
+    "m3": {
+      "zone": "ridgeback"
+    },
+    "m2": {
+      "zone": "ridgeback"
+    },
+    "m1": {
+      "zone": "ridgeback"
+    },
+    "n14": {
+      "zone": "hell"
+    },
+    "n13": {
+      "zone": "hell"
+    },
+    "n12": {
+      "zone": "hell"
+    },
+    "n11": {
+      "zone": "hell"
+    },
+    "n10": {
+      "zone": "mines"
+    },
+    "n9": {
+      "zone": "mines"
+    },
+    "n8": {
+      "zone": "mines"
+    },
+    "n7": {
+      "zone": "mines"
+    },
+    "n6": {
+      "zone": "arus"
+    },
+    "n5": {
+      "zone": "arus"
+    },
+    "n4": {
+      "zone": "ridgeback"
+    },
+    "n3": {
+      "zone": "ridgeback"
+    },
+    "n2": {
+      "zone": "ridgeback"
+    }
+  }

@@ -55,6 +55,10 @@
         "name": "Mines",
         "desc": "The old whitestone mines that serviced the construction of the city have now been pressed into feverish activity by the Pyre.  The artisans who once ran this place took great pride in the quality of the stone, cut in whole blocks and and hauled by soldiers to the mine trains. \r Now the mines are aflame with Pyre soldiers digging for ore and chemical veins with which to make weapons.  The great Erendrakk keep, with the skull of a dead god embedded, keeps watch. \r This is the source of the stone that built the great colosseum of the Ring of Power."
     },
+    "swamp":{
+        "name": "Illridge Swamp",
+        "desc": "A fetid and deep swamp, fed by the pollution of the city and factories.  The life that remians here is so hardy that it has thrived anyway.  Twisted darkroot trees grow into each other in malformed patterns, and scaled beasts lurk beneath the waters. \r In places, the very water itself is bubbling, muddy poison, inhospitable to all but the harshest of life. \r The few swamp folk that live here have not left and continue to trade with and raid the few Pyre troops that are foolish enough to pass through."
+    },
     "factories":{
         "name": "Factories",
         "desc": "The old smelters, manufactories, and forges that fed the city's construction.  Many more have been built, and they constantly belch black smoke into the sky as they work towards fueling the Pyre's war effort. \r The armored trains that run through here go directly to the mines, at times passing underground."

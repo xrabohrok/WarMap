@@ -10,6 +10,15 @@ const getters = {
     },
     tileOwner: (state) => (tileName) => {
         return state.roundData[state.curRound][tileName].owner;
+    },
+    curZoneId: (state) => (tileName) => {
+        return state.metaMap[tileName].zone
+    },
+    curZoneName: (state) => (tileName) => {
+        return state.zoneDesc[getters.curZoneId(state)(tileName)].name
+    },
+    curZoneDesc: (state) => (tileName) => {
+        return state.zoneDesc[getters.curZoneId(state)(tileName)].desc
     }
 
 }
@@ -21,5 +30,7 @@ const SELECTING_GETTER = 'selecting'
 const CURRENT_ROUND = 'round'
 const TILE_OWNER = 'tileOwner'
 const SIMPLE_MODE = 'simple_mode'
+const CURRENT_ZONE_NAME = 'curZoneName'
+const CURRENT_ZONE_DESC = 'curZoneDesc'
 
-export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE}
+export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC}

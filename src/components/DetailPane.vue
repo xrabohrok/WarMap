@@ -15,13 +15,10 @@
                         Put the outcome text here.
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" v-if="isSelecting">
                     <div class="blockText areaDescription">
-                        <p><b>Area Description:</b> Area Name</p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices vitae auctor eu augue ut lectus arcu. Tincidunt augue interdum velit euismod in. Viverra nibh cras pulvinar mattis nunc sed. Ac tortor dignissim convallis aenean et tortor. Nec tincidunt praesent semper feugiat. Scelerisque purus semper eget duis. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Nullam ac tortor vitae purus faucibus ornare suspendisse sed.
-
-                        Ultrices in iaculis nunc sed augue. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Blandit aliquam etiam erat velit scelerisque. Libero nunc consequat interdum varius sit amet mattis vulputate. Porttitor massa id neque aliquam. Sed tempus urna et pharetra. Nisl tincidunt eget nullam non nisi est. Aliquam faucibus purus in massa tempor nec feugiat nisl. Tempus urna et pharetra pharetra. Lorem donec massa sapien faucibus et molestie. Eu feugiat pretium nibh ipsum. Praesent tristique magna sit amet purus gravida. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. At auctor urna nunc id cursus metus aliquam eleifend mi.
-
+                        <p><b>Zone:</b> {{zoneName}}</p>
+                        {{zoneDesc}}
                     </div>
                 </div>
             </div>    
@@ -35,12 +32,31 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER} from '../state/getters'
 import FighterDetails from './FightPane/FighterDetails.vue'
 
 export default {
     components:{
         FighterDetails
     },
+    computed:{
+        isSelecting: function(){
+            return this.selected !== "NA"
+        },
+        zoneName: function(){
+            return this.currZone(this.selected)
+        },
+        zoneDesc: function(){
+            return this.currZoneDesc(this.selected)
+        },
+        ...mapGetters({
+            currZone: CURRENT_ZONE_NAME,
+            currZoneDesc: CURRENT_ZONE_DESC,
+            selected: SELECTING_GETTER
+        })
+    },
+
     name: 'DetailPane'
 }
 </script>
@@ -60,6 +76,10 @@ export default {
 #majorPane{
 
     width: 100%;
+}
+
+.areaDescription{
+    white-space: pre-line;
 }
 
 .subContent{

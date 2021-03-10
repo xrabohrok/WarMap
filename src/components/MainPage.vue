@@ -6,7 +6,7 @@
         @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
     </div>
     <MainMap/>
-    <DetailPane/>
+    <DetailPane v-show="isSelected"/>
   </div>
 </template>
 
@@ -16,6 +16,8 @@ import DetailPane from './DetailPane'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import {SET_SIMPLE_MODE} from '../state/mutations'
+import {SELECTING_GETTER} from '../state/getters'
+import { mapGetters } from 'vuex'
 
 
 export default {
@@ -27,6 +29,16 @@ export default {
     MainMap,
     ToggleButton,
     DetailPane
+  },
+  computed:{
+    isSelected: function(){
+      return this.selcting !== "NA"
+    },
+    ...mapGetters(
+      {
+        selcting: SELECTING_GETTER
+      }
+    )
   },
   methods:{
     setSimpleMode: function({value}){

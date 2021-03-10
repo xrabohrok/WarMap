@@ -1,6 +1,7 @@
 <template>
     <div id=majorPane>
-        <div class="row close">
+        <div class="row close"
+            @click="closePane">
             click me to close
         </div>
 
@@ -34,6 +35,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER} from '../state/getters'
+import {DESELECT} from '../state/mutations'
 import FighterDetails from './FightPane/FighterDetails.vue'
 
 export default {
@@ -56,6 +58,11 @@ export default {
             selected: SELECTING_GETTER
         })
     },
+    methods:{
+        closePane: function(){
+            this.$store.commit(DESELECT)
+        }      
+    },
 
     name: 'DetailPane'
 }
@@ -63,9 +70,14 @@ export default {
 
 <style scoped>
 .close{
-    width:100%;
+    width:14%;
     order:0;
-    font-size: 1.5;
+    font-size: 1.5em;
+    padding: .7em;
+    border-style: solid;
+    border-width: .08em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blockText{

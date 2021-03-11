@@ -48,14 +48,14 @@ export default {
             return this.hoveredTile === this.title
         },
         bastionOwned: function(){
-            return this.tileOwner(this.title) === "BASTION"
+            return this.tileOwner(this.title) === "bastion"
         },
         pyreOwned: function(){
-            return this.tileOwner(this.title) === "PYRE"
+            return this.tileOwner(this.title) === "pyre"
         },
         unowned: function(){
             let owner = this.tileOwner(this.title);
-            return !(owner === "PYRE" || owner === "BASTION")
+            return !(owner === "pyre" || owner === "bastion")
         },
         mapTilePath: function(){
             // return `${this.title}.png`

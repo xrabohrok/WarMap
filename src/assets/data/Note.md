@@ -12,7 +12,7 @@ or for less intense files:
 .load foo.js
 ```
 
-or if it is a .json file already, just `require('./foo.json')`
+or if it is a .json file already, just `require('./foo.json')` (don't need to JSON parse)
 
 Once loaded, use `JSON.parse()` to get it as a javascript object thing
 

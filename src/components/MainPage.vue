@@ -8,7 +8,7 @@
           v-model="slider_round"
           :max="1"
           :min="0"
-          :width="100"
+          :width="200"
           :marks="true"
           :lazy="true"
           @change="setRound" 

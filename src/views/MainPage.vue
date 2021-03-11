@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>The Rayuba Archive</h1>
     <div class="control_bar">
       <div class="control_group">
         <div class="control_label">Rounds: </div>
@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import MainMap from './MainMap.vue'
-import DetailPane from './DetailPane'
+import MainMap from '../components/MainMap.vue'
+import DetailPane from '../components/DetailPane.vue'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import VueSlider from 'vue-slider-component'
@@ -44,9 +44,6 @@ export default {
       slider_round: 0
     }
   }, 
-  props: {
-    msg: String
-  },
   components: {
     MainMap,
     ToggleButton,

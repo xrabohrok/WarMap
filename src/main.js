@@ -5,6 +5,7 @@ import App from './App.vue'
 import defaultState from './state/baseState'
 import mutations from './state/mutations'
 import getters from './state/getters'
+import router from './router'
 
 
 Vue.config.productionTip = false
@@ -17,9 +18,10 @@ const store = new Vuex.Store({
   getters: getters
   //no actions yet
 })
- 
+
 
 new Vue({
   render: h => h(App),
+  router,
   store
 }).$mount('#app')

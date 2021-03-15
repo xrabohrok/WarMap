@@ -8,11 +8,17 @@
           v-model="slider_round"
           :max="1"
           :min="0"
-          :width="200"
+          :width="500"
           :marks="true"
+          :adsorb="true"
           :lazy="true"
+          :maxRange="1"
           @change="setRound" 
-        />
+        >
+          <template v-slot:step="{active}">
+            <div :class="['custom-step', {active}]"></div>
+          </template>
+        </vue-slider>
       </div>
       <ToggleButton :value="false" :labels="{checked:'Simple', unchecked:'Detail'}" 
         @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
@@ -90,6 +96,18 @@ export default {
   font-size: .9em;
   padding-bottom: .6em;
 }
+
+  .custom-step {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #ccc;
+    background-color: #fff;
+  }
+  .custom-step.active {
+    box-shadow: 0 0 0 3px #3498db;
+    background-color: #3498db;
+  }
 
 h1{
   font-family: 'Saira', sans-serif;

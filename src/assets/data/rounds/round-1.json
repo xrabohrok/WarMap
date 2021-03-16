@@ -717,7 +717,7 @@
   },
   "d12": {
     "location": "d12",
-    "contest": false,
+    "contest": true,
     "owner": "pyre",
     "attacker": "bastion",
     "fighters": {

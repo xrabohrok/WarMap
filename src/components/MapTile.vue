@@ -8,6 +8,12 @@
                 v-if="isSelected" class="selector"
             >
         </transition>
+        <transition name="ghost">
+            <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" />
+        </transition>
+        <transition name="ghost">
+            <img src='../assets/pics/gb-conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileGrandBattle" />
+        </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
                 v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle">
@@ -28,7 +34,7 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE} from '../state/getters'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE} from '../state/getters'
 
 export default {
     name: 'MapTile',
@@ -69,11 +75,19 @@ export default {
                 '--fall-time': `${(Math.random() + .1) *1.1}s`
             }
         },
+        tileContested: function(){
+            return this.isContested(this.title) && !this.isGrandBattle(this.title)
+        },
+        tileGrandBattle: function(){
+            return this.isGrandBattle(this.title)
+        },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,
             tileOwner: TILE_OWNER,
             selected: SELECTING_GETTER,
             simple_mode: SIMPLE_MODE,
+            isContested: CURRENT_ZONE_CONTESTED,
+            isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
         })
 
     },
@@ -114,8 +128,15 @@ export default {
     height: 80%;
     transition: transform 400ms;
     overflow: visible;
+}
 
-
+.battleIndicator{
+    width: 4.4em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 98;
 }
 
 .mapTile:hover{
@@ -202,6 +223,23 @@ img{
 .fall-leave-to{
   opacity: 0;
   transform: translatey(20vh);
+}
+
+.ghost-enter-active, .ghost-leave-active {
+  transition: opacity .3s ease-out, width .9s ease-in-out;
+
+}
+.ghost-enter /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  width: 0;
+
+  /* top: 500%; */
+
+}
+.ghost-leave-to{
+  opacity: 0;
+  width: 0;
+
 }
 
 </style>

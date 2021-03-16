@@ -3,15 +3,19 @@
     "location": "a13",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        0
+      ],
+      "bastion": [
+        1
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -211,15 +215,19 @@
     "location": "b14",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        48
+      ],
+      "bastion": [
+        49
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -227,15 +235,19 @@
     "location": "b13",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        4
+      ],
+      "bastion": [
+        5
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -243,15 +255,19 @@
     "location": "b12",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        2
+      ],
+      "bastion": [
+        3
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -451,15 +467,19 @@
     "location": "c13",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        50
+      ],
+      "bastion": [
+        51
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -467,15 +487,19 @@
     "location": "c12",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        8
+      ],
+      "bastion": [
+        9
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -483,15 +507,19 @@
     "location": "c11",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        6
+      ],
+      "bastion": [
+        7
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -691,15 +719,19 @@
     "location": "d12",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        52
+      ],
+      "bastion": [
+        53
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -707,15 +739,19 @@
     "location": "d11",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        12
+      ],
+      "bastion": [
+        13
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -723,15 +759,19 @@
     "location": "d10",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        10
+      ],
+      "bastion": [
+        11
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -904,7 +944,7 @@
       "pyre": [],
       "bastion": []
     },
-    "grandBattle": false,
+    "grandBattle": true,
     "outcome": {
       "bastion": "",
       "pyre": ""
@@ -931,15 +971,19 @@
     "location": "e11",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        54
+      ],
+      "bastion": [
+        55
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -947,15 +991,19 @@
     "location": "e10",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        16
+      ],
+      "bastion": [
+        17
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -963,15 +1011,19 @@
     "location": "e9",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        14
+      ],
+      "bastion": [
+        15
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -1171,15 +1223,19 @@
     "location": "f10",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        56
+      ],
+      "bastion": [
+        57
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -1187,15 +1243,19 @@
     "location": "f9",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        22
+      ],
+      "bastion": [
+        23
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1203,15 +1263,19 @@
     "location": "f8",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        20
+      ],
+      "bastion": [
+        21
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -1219,15 +1283,19 @@
     "location": "f7",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        18
+      ],
+      "bastion": [
+        19
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1411,15 +1479,19 @@
     "location": "g9",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        58
+      ],
+      "bastion": [
+        59
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1459,15 +1531,19 @@
     "location": "g6",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        24
+      ],
+      "bastion": [
+        25
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1635,15 +1711,19 @@
     "location": "h9",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        60
+      ],
+      "bastion": [
+        61
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1683,15 +1763,19 @@
     "location": "h6",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        26
+      ],
+      "bastion": [
+        27
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1875,15 +1959,19 @@
     "location": "i8",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        62
+      ],
+      "bastion": [
+        63
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1891,15 +1979,19 @@
     "location": "i7",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        64
+      ],
+      "bastion": [
+        65
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -1907,15 +1999,19 @@
     "location": "i6",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        30
+      ],
+      "bastion": [
+        31
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -1923,15 +2019,19 @@
     "location": "i5",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        28
+      ],
+      "bastion": [
+        29
+      ]
     },
-    "grandBattle": false,
+    "grandBattle": true,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2131,15 +2231,19 @@
     "location": "j6",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        66
+      ],
+      "bastion": [
+        67
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -2147,15 +2251,19 @@
     "location": "j5",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        34
+      ],
+      "bastion": [
+        35
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2163,15 +2271,19 @@
     "location": "j4",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        32
+      ],
+      "bastion": [
+        33
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2371,15 +2483,19 @@
     "location": "k5",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        68
+      ],
+      "bastion": [
+        69
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -2387,15 +2503,19 @@
     "location": "k4",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        38
+      ],
+      "bastion": [
+        39
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2403,15 +2523,19 @@
     "location": "k3",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        36
+      ],
+      "bastion": [
+        37
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2611,15 +2735,19 @@
     "location": "l4",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        70
+      ],
+      "bastion": [
+        71
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -2627,15 +2755,19 @@
     "location": "l3",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        42
+      ],
+      "bastion": [
+        43
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -2643,15 +2775,19 @@
     "location": "l2",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        40
+      ],
+      "bastion": [
+        41
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2851,15 +2987,19 @@
     "location": "m3",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        72
+      ],
+      "bastion": [
+        73
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -2867,15 +3007,19 @@
     "location": "m2",
     "contest": false,
     "owner": "na",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        46
+      ],
+      "bastion": [
+        47
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   },
@@ -2883,15 +3027,19 @@
     "location": "m1",
     "contest": false,
     "owner": "bastion",
-    "attacker": "na",
+    "attacker": "pyre",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        44
+      ],
+      "bastion": [
+        45
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },
@@ -3091,15 +3239,19 @@
     "location": "n2",
     "contest": false,
     "owner": "pyre",
-    "attacker": "na",
+    "attacker": "bastion",
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        74
+      ],
+      "bastion": [
+        75
+      ]
     },
     "grandBattle": false,
     "outcome": {
-      "bastion": "",
-      "pyre": ""
+      "bastion": "lose",
+      "pyre": "win"
     },
     "items": []
   }

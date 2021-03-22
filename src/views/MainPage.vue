@@ -25,15 +25,20 @@
     </div>
     <MainMap/>
     <transition name="slideup">
-      <DetailPane v-show="isSelected"/>
+      <DetailPaneMobile v-show="isSelected"/>
     </transition>
+      <DetailPaneDesktop :mode="onLeft" v-show="isSelected"/>
+      <DetailPaneDesktop :mode="onRight" v-show="isSelected"/>
   </div>
 </template>
 
 <script>
 import MainMap from '../components/MainMap.vue'
-import DetailPane from '../components/DetailPane.vue'
+import DetailPaneMobile from '../components/DetailPaneMobile.vue'
 import {ToggleButton} from 'vue-js-toggle-button'
+
+import DetailPaneDesktop from '../components/DetailPaneDesktop.vue'
+import {LEFT, RIGHT} from '../components/DetailPaneDesktop.vue'
 
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
@@ -53,12 +58,19 @@ export default {
   components: {
     MainMap,
     ToggleButton,
-    DetailPane,
+    DetailPaneMobile,
+    DetailPaneDesktop,
     VueSlider
   },
   computed:{
     isSelected: function(){
       return this.selcting !== "NA"
+    },
+    onLeft: function(){
+      return LEFT
+    },
+    onRight: function(){
+      return RIGHT
     },
     ...mapGetters(
       {

@@ -135,7 +135,7 @@ export default {
     margin-left: auto;
     margin-right: auto;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translate(-40%,-50%);
     z-index: 98;
 }
 

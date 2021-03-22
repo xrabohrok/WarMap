@@ -1,5 +1,5 @@
 <template>
-    <div id=majorPane>
+    <div id=majorPaneMobile>
         <div class="row close"
             @click="closePane">
             click me to close
@@ -13,7 +13,7 @@
             <div class="details">
                 <div class="row">
                     <div class="blockText outcome">
-                        Put the outcome text here.
+                        Put the outcome text here. Mobile.
                     </div>
                 </div>
                 <div class="row" v-if="isSelecting">
@@ -65,7 +65,7 @@ export default {
         }      
     },
 
-    name: 'DetailPane'
+    name: 'DetailPaneMobile'
 }
 </script>
 
@@ -86,7 +86,7 @@ export default {
     margin-bottom: .9em;
 }
 
-#majorPane{
+#majorPaneMobile{
 
     width: 100%;
     height: auto;
@@ -107,6 +107,7 @@ export default {
 .row{
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
     flex-wrap: wrap;
     justify-content: center;
     align-items:flex-start;
@@ -121,41 +122,28 @@ export default {
 
 .bastion{
     order: 1;
+    width: 80%;
 }
 
 .pyre{
-    order: 3;
+    order: 2;
 }
 
 .details{
     margin-top: .4em;
-    order: 2;
+    order: 3;
     min-width: 20vw;
-    width: 40%;
+    width: 100%;
 }
 
-@media all and (orientation: portrait) {
-    .subContent{
-        flex-flow:wrap; 
-        height: auto;
-    }
-    .details {
-        width: 100%;
-        order: 3;
-    }
+.left{
+    width: 50%;
+}
 
-    .pyre{
-        width: 80%;
-        order: 2;
-    }
-
-    .bastion{
-        order: 1;
-        width: 80%;
-    }
-
-    .left{
-        width: 50%;
+@media all and (orientation: landscape) {
+    #majorPaneMobile{
+        visibility: hidden;
+        display: none;
     }
 }
 

@@ -1,9 +1,5 @@
 <template>
-    <div class="toplevel" :class="{left: leftward, right: rightward}">
-        <div id="main_deets">
-            <img src="../../assets/pics/scratch-standin.png"/>
-            <div class="detail_row"> <h2> {{this.fighterId}} </h2></div>
-        </div>
+    <div class="toplevel" :class="{leftward: leftward, rightward: rightward}">
         <div class="deets">
             <div class="detail_row"> <h4> Faction </h4> </div>
             <div class="detail_row"><b>Artist:</b> Artist Name</div>
@@ -14,6 +10,11 @@
             </div>
             <div class="detail_row"><b>Backstory:</b> Fighter Name</div>
         </div>
+        <div class="main_deets">
+            <img :class="{right: rightward}" src="../../assets/pics/scratch-standin.png"/>
+            <div class="detail_row"> <h2> {{this.fighterId}} </h2></div>
+        </div>
+
     </div>
 
 </template>
@@ -45,6 +46,15 @@ export default {
     height: 22vh;
 }
 
+.deets{
+    width: 70%;
+}
+
+.main_deets{
+    margin-bottom: 1.4em;
+    margin-top: 1.2em;
+}
+
 h2{
     font-family: 'Saira', sans-serif;
     font-size: 1.7em;
@@ -53,18 +63,31 @@ h2{
 }
 
 img{
-    top:auto;
-    bottom: auto;
-    width: auto;
-    height: 60%;
+    width: 54%;
+    height: auto;
+    border-color: #9c031f;
+    border-radius: .2em;
+    border-style: solid;
 }
 
-.left{
+img.right{
+    transform: scaleX(-1);
+}
+
+.leftward{
     flex-direction: row;
 }
 
-.right{
+.leftward > .deets{
+    margin-left: 1.2em;
+}
+
+.rightward{
     flex-direction: row-reverse;
+}
+
+.rightward > .deets{
+    margin-right: 1.2em;
 }
 
 

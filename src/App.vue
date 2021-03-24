@@ -1,11 +1,26 @@
 <template>
-  <div id="app">
+  <div id="app" class="main">
     <router-view/>
   </div>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+html{
+  background-color: #3e112b;
+}
+
+.main{
+    color: #e37e30;
+  border-color: #9c031f;
+}
+
+.secondary{
+  background-color: #631042;
+  color: #f2a91d;
+  border-color: #9c031f;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

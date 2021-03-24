@@ -5,22 +5,22 @@
         >
         <transition name="stab">
             <img src="../assets/pics/chooser-knife.png"
-                v-if="isSelected" class="selector"
+                v-if="isSelected" class="selector" draggable="false"
             >
         </transition>
         <transition name="ghost">
-            <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" />
+            <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" draggable="false"/>
         </transition>
         <transition name="ghost">
-            <img src='../assets/pics/gb-conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileGrandBattle" />
+            <img src='../assets/pics/gb-conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
         </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle" draggable="false">
         </transition>
         <transition name="fall">
             <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle" draggable="false">
         </transition>
         <transition name="fade">
             <div class="label" v-if="isHovered">
@@ -151,6 +151,12 @@ img{
     position:absolute;
     left: 0%;
     top: 0%;
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 /* .bastionOwned{

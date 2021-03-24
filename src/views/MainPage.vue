@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="map_page main">
     <h1>The Rayuba Archive</h1>
     <div class="control_bar">
       <div class="control_group">
@@ -27,8 +27,19 @@
     <transition name="slideup">
       <DetailPaneMobile v-show="isSelected"/>
     </transition>
-      <DetailPaneDesktop :mode="onLeft" v-show="isSelected"/>
-      <DetailPaneDesktop :mode="onRight" v-show="isSelected"/>
+    <!-- Desktop details are broken into multiple parts -->
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="onLeft" v-show="isSelected"/>
+      </transition>
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="onRight" v-show="isSelected"/>
+      </transition>
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
+      </transition>
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="showFight" v-show="isSelected"/>
+      </transition>
   </div>
 </template>
 
@@ -38,7 +49,7 @@ import DetailPaneMobile from '../components/DetailPaneMobile.vue'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import DetailPaneDesktop from '../components/DetailPaneDesktop.vue'
-import {LEFT, RIGHT} from '../components/DetailPaneDesktop.vue'
+import {LEFT, RIGHT, DETAILS, FIGHT} from '../components/DetailPaneDesktop.vue'
 
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
@@ -72,6 +83,12 @@ export default {
     onRight: function(){
       return RIGHT
     },
+    showDetails: function(){
+      return DETAILS
+    },
+    showFight: function(){
+      return FIGHT
+    },
     ...mapGetters(
       {
         selcting: SELECTING_GETTER
@@ -90,6 +107,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+
+
 <style scoped>
 .control_bar{
   display: flex;
@@ -98,6 +117,8 @@ export default {
   padding-bottom: .5em;
   justify-content: center;
 }
+
+
 
 .control_bar > div {
   margin-right: 1.4em;

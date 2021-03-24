@@ -1,21 +1,39 @@
 <template>
-    <div id=majorPaneDesktop :class="{left:renderOnLeft, right: renderOnRight}">
+    <div id=majorPaneDesktop :class="{left:renderOnLeft, right: renderOnRight, top: renderOnTop, fight: renderFight}" class="secondary">
 
         <FighterDetails :fighterId="'bastion fighter'" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
 
         <div class="details" v-if="renderDetails">
+
             <div class="row">
-                <div class="blockText outcome">
-                    Put the outcome text here. Desktop.
-                </div>
-            </div>
-            <div class="row" v-if="isSelecting">
                 <div class="blockText areaDescription">
                     <p><b>Zone:</b> {{zoneName}}</p>
                     {{zoneDesc}}
                 </div>
             </div>
-        </div>    
+        </div>
+
+        <div class="fight" v-if="renderFight">
+            <div class="row">Fight</div>
+            <div class="row">
+                <div class="bastion title">
+                    Attacker: name
+                </div>
+                <div class="pyre title">
+                    Defender: name
+                </div>
+            </div>
+            <div class="row">
+                <div>comic link A</div>
+                <div>comic link B</div>
+            </div>
+            <div class="row">
+                <div class="outcome">
+                    Put the outcome text here. Desktop.
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </template>
@@ -25,9 +43,9 @@ import { mapGetters } from 'vuex'
 import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER} from '../state/getters'
 // import {DESELECT} from '../state/mutations'
 import FighterDetails from './FightPane/FighterDetails.vue'
-const LEFT = 1, RIGHT = 2, DETAILS = 3  //use with mode prop
+const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
-export {LEFT, RIGHT}
+export {LEFT, RIGHT, DETAILS, FIGHT}
 
 export default {
     components:{
@@ -56,7 +74,13 @@ export default {
             return this.mode === RIGHT
         },
         renderDetails: function(){
-            return this.mode === DETAILS
+            return this.mode === DETAILS && this.isSelecting
+        },
+        renderFight: function(){
+            return this.mode === FIGHT && this.isSelecting
+        },
+        renderOnTop: function(){
+            return this.renderDetails || this.renderFight
         },
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,
@@ -94,10 +118,11 @@ export default {
 
 #majorPaneDesktop{
 
-    width: 35%;
-    height: auto;
+    width: 31%;
+    height: 20vh;
     z-index: 120;
-    bottom: 18vh;
+    padding-bottom: .4em;
+    padding-left: .4em;
 }
 
 .areaDescription{
@@ -107,11 +132,20 @@ export default {
 .left{
     position: absolute;
     left: 0%;
+    bottom: -5vh;
+
 }
 
 .right{
     position: absolute;
     right: 0%;
+    bottom: -5vh;
+
+}
+
+.top{
+    position: absolute;
+    top: 20vh;
 }
 
 
@@ -140,9 +174,29 @@ export default {
 
 .details{
     margin-top: .4em;
+    margin-left: auto;
+    margin-right: auto;
     order: 2;
     min-width: 20vw;
-    width: 40%;
+    width: 90%;
+    height: 20vh;
+    font-size: .6em;
+    overflow-y: auto;
+    left: 0%;
+
+}
+
+.fight{
+    margin-top: .4em;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+    min-width: 20vw;
+    width: 60%;
+    height: 20vh;
+    font-size: 1.1em;
+    overflow-y: auto;
+    right: 0%;
 }
 
 @media all and (orientation: portrait) {

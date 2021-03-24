@@ -43,7 +43,7 @@ export default {
     display: flex;
     flex-direction: column;
     font-size: 1.2em;
-    height: 22vh;
+    height: 100%;
 }
 
 .deets{

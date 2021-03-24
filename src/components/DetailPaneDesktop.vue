@@ -119,7 +119,7 @@ export default {
 #majorPaneDesktop{
 
     width: 31%;
-    height: 20vh;
+    height: 22vh;
     z-index: 120;
     padding-bottom: .4em;
     padding-left: .4em;
@@ -132,14 +132,14 @@ export default {
 .left{
     position: absolute;
     left: 0%;
-    bottom: -5vh;
+    bottom: -8vw;
 
 }
 
 .right{
     position: absolute;
     right: 0%;
-    bottom: -5vh;
+    bottom: -8vw;
 
 }
 

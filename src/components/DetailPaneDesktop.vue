@@ -1,7 +1,7 @@
 <template>
     <div id=majorPaneDesktop :class="{left:renderOnLeft, right: renderOnRight, top: renderOnTop, fight: renderFight}" class="secondary">
 
-        <FighterDetails :fighterId="'bastion fighter'" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
+        <FighterDetails :fighterId="'bastion fighter'" :faction="faction" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
 
         <div class="details" v-if="renderDetails">
 
@@ -52,7 +52,8 @@ export default {
         FighterDetails
     },
     props:{
-        mode: Number  
+        mode: Number,
+        faction: String
     },
     computed:{
         isSelecting: function(){

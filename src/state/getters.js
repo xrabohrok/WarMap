@@ -21,14 +21,23 @@ const getters = {
         return state.zoneDesc[getters.curZoneId(state)(tileName)].desc
     },
     curZoneContested: (state) => (tileName) => {
+        if(state.curSelected === "NA") return false
         return state.roundData[state.curRound][tileName].contest
     },
     curZoneGrandBattle: (state) => (tileName) => {
         return state.roundData[state.curRound][tileName].grandBattle
     },
-    curZoneFight: (state) => (tileName) => {
-        return state.roundData[state.curRound][tileName]
+    curZoneFight: (state) => {
+        if(state.curSelected == "NA") return {
+            fighters: {pyre:[], bastion: []},
+            constest: false,
+            grandBattle:false
+        }
+        return state.roundData[state.curRound][state.curSelected]
     },
+    fighter: (state) => (fighterId) => {
+        return state.allFighters[fighterId]
+    }
 
 }
 
@@ -36,6 +45,7 @@ export default getters;
 
 const HOVERING_GETTER = 'hovering'
 const SELECTING_GETTER = 'selecting'
+const FIGHTER_GETTER = 'fighter'
 const CURRENT_ROUND = 'round'
 const TILE_OWNER = 'tileOwner'
 const SIMPLE_MODE = 'simple_mode'
@@ -46,4 +56,4 @@ const CURRENT_ZONE_GRANDBATTLE= 'curZoneGrandBattle'
 const CURRENT_ZONE_FIGHT = 'curZoneFight'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
-    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT}
+    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER}

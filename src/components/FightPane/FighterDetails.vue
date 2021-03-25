@@ -1,7 +1,7 @@
 <template>
-    <div class="toplevel" :class="{leftward: leftward, rightward: rightward}">
+    <div class="toplevel" :class="{leftward: leftward, rightward: rightward}" v-if="isSelected">
         <div class="deets">
-            <div class="detail_row"> <h4> Faction </h4> </div>
+            <div class="detail_row"> <h4> {{this.faction}} </h4> </div>
             <div class="detail_row"><b>Artist:</b> Artist Name</div>
             <div class="detail_row"><b>Artist Contact:</b> 
                 <div class="sub_row"> <a href="www.twitter.com"> twitter </a></div>
@@ -12,19 +12,22 @@
         </div>
         <div class="main_deets">
             <img :class="{right: rightward}" src="../../assets/pics/scratch-standin.png"/>
-            <div class="detail_row"> <h2> {{this.fighterId}} </h2></div>
+            <div class="detail_row"> <h2> {{this.fighterName}} </h2></div>
         </div>
-
     </div>
 
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+import {CURRENT_ZONE_FIGHT, SELECTING_GETTER, FIGHTER_GETTER, CURRENT_ZONE_CONTESTED} from '../../state/getters'
+
+
 export default {
     props:{
-        fighterId:String,
         isLeft:Boolean,
-        isRight:Boolean
+        isRight:Boolean,
+        faction:String
     },
     computed:{
         leftward: function(){
@@ -32,7 +35,26 @@ export default {
         },
         rightward: function(){
             return this.isRight
-        }
+        },
+        fighter: function(){
+            if(!this.isSelected) return -1
+            var zonefighters = this.zoneFight.fighters[this.faction]
+            if(zonefighters.length === 0) return null
+            return this.fighterGet( zonefighters[0] )
+        },
+        fighterName: function(){
+            if(this.fighter === -1) return "unselected"
+            return this.fighter.name
+        },
+        isSelected: function(){
+            return this.selected !== "na" && this.contested(this.selected)
+        },
+        ...mapGetters({
+            zoneFight: CURRENT_ZONE_FIGHT,
+            selected: SELECTING_GETTER,
+            fighterGet: FIGHTER_GETTER,
+            contested : CURRENT_ZONE_CONTESTED
+        })
     },
     name: "FighterDetails"
 }

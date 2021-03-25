@@ -24,15 +24,15 @@
         @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
     </div>
     <MainMap/>
-    <transition name="slideup">
-      <DetailPaneMobile v-show="isSelected"/>
-    </transition>
+    <!-- <transition name="slideup"> -->
+      <!-- <DetailPaneMobile v-show="isSelected"/> -->
+    <!-- </transition> -->
     <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedDuel"/>
+        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedDuel" :faction="'bastion'"/>
       </transition>
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onRight" v-show="isSelectedDuel"/>
+        <DetailPaneDesktop :mode="onRight" v-show="isSelectedDuel" :faction="'pyre'"/>
       </transition>
       <transition name="slideup">
         <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
@@ -46,7 +46,7 @@
 
 <script>
 import MainMap from '../components/MainMap.vue'
-import DetailPaneMobile from '../components/DetailPaneMobile.vue'
+// import DetailPaneMobile from '../components/DetailPaneMobile.vue'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import DetailPaneDesktop from '../components/DetailPaneDesktop.vue'
@@ -70,17 +70,17 @@ export default {
   components: {
     MainMap,
     ToggleButton,
-    DetailPaneMobile,
+    // DetailPaneMobile,
     DetailPaneDesktop,
     VueSlider
   },
   computed:{
     isSelected: function(){
-      return this.selcting !== "NA"
+      return this.selecting !== "NA"
     },
     isSelectedDuel: function(){
-      if(this.selcting == "NA") return false;
-      return this.fight(this.selcting).contest
+      if(this.selecting == "NA") return false;
+      return this.fight.contest
     },
     onLeft: function(){
       return LEFT
@@ -96,7 +96,7 @@ export default {
     },
     ...mapGetters(
       {
-        selcting: SELECTING_GETTER,
+        selecting: SELECTING_GETTER,
         fight: CURRENT_ZONE_FIGHT,
       }
     )

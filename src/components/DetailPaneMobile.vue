@@ -61,7 +61,7 @@ export default {
     methods:{
         closePane: function(){
             this.$store.commit(DESELECT)
-            window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
+            // window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
         }      
     },
 

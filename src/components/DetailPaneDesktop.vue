@@ -132,14 +132,14 @@ export default {
 .left{
     position: absolute;
     left: 0%;
-    bottom: -8vw;
+    bottom: -12vw;
 
 }
 
 .right{
     position: absolute;
     right: 0%;
-    bottom: -8vw;
+    bottom: -12vw;
 
 }
 

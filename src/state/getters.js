@@ -26,6 +26,9 @@ const getters = {
     curZoneGrandBattle: (state) => (tileName) => {
         return state.roundData[state.curRound][tileName].grandBattle
     },
+    curZoneFight: (state) => (tileName) => {
+        return state.roundData[state.curRound][tileName]
+    },
 
 }
 
@@ -40,5 +43,7 @@ const CURRENT_ZONE_NAME = 'curZoneName'
 const CURRENT_ZONE_DESC = 'curZoneDesc'
 const CURRENT_ZONE_CONTESTED = 'curZoneContested'
 const CURRENT_ZONE_GRANDBATTLE= 'curZoneGrandBattle'
+const CURRENT_ZONE_FIGHT = 'curZoneFight'
 
-export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE}
+export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
+    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT}

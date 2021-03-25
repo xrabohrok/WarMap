@@ -29,17 +29,18 @@
     </transition>
     <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onLeft" v-show="isSelected"/>
+        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedDuel"/>
       </transition>
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onRight" v-show="isSelected"/>
+        <DetailPaneDesktop :mode="onRight" v-show="isSelectedDuel"/>
       </transition>
       <transition name="slideup">
         <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
       </transition>
       <transition name="slideup">
-        <DetailPaneDesktop :mode="showFight" v-show="isSelected"/>
+        <DetailPaneDesktop :mode="showFight" v-show="isSelectedDuel"/>
       </transition>
+
   </div>
 </template>
 
@@ -55,7 +56,7 @@ import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 
 import {SET_SIMPLE_MODE, CHANGE_ROUND} from '../state/mutations'
-import {SELECTING_GETTER} from '../state/getters'
+import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
 import { mapGetters } from 'vuex'
 
 
@@ -77,6 +78,10 @@ export default {
     isSelected: function(){
       return this.selcting !== "NA"
     },
+    isSelectedDuel: function(){
+      if(this.selcting == "NA") return false;
+      return this.fight(this.selcting).contest
+    },
     onLeft: function(){
       return LEFT
     },
@@ -91,7 +96,8 @@ export default {
     },
     ...mapGetters(
       {
-        selcting: SELECTING_GETTER
+        selcting: SELECTING_GETTER,
+        fight: CURRENT_ZONE_FIGHT,
       }
     )
   },
@@ -118,7 +124,9 @@ export default {
   justify-content: center;
 }
 
-
+.map_page{
+  height: 110vh;
+}
 
 .control_bar > div {
   margin-right: 1.4em;
@@ -130,17 +138,17 @@ export default {
   padding-bottom: .6em;
 }
 
-  .custom-step {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #ccc;
-    background-color: #fff;
-  }
-  .custom-step.active {
-    box-shadow: 0 0 0 3px #3498db;
-    background-color: #3498db;
-  }
+.custom-step {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #ccc;
+  background-color: #fff;
+}
+.custom-step.active {
+  box-shadow: 0 0 0 3px #3498db;
+  background-color: #3498db;
+}
 
 h1{
   font-family: 'Saira', sans-serif;
@@ -167,5 +175,13 @@ a {
   transform: translatey(-100%);
   /* height: 0; */
 }
+
+/* .map_page::after{
+  display: block;
+  content: "";
+  height: 26vh;
+  width: 100vw;
+  background-color: blue;
+} */
 
 </style>

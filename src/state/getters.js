@@ -30,13 +30,20 @@ const getters = {
     curZoneFight: (state) => {
         if(state.curSelected == "NA") return {
             fighters: {pyre:[], bastion: []},
-            constest: false,
+            contest: false,
             grandBattle:false
         }
         return state.roundData[state.curRound][state.curSelected]
     },
     fighter: (state) => (fighterId) => {
         return state.allFighters[fighterId]
+    },
+    DuelistComicCurrent: (state, getters)=> (faction) => {
+        var fight = getters.curZoneFight
+        if(!fight.contest) return ""
+        var fighter = state.allFighters[fight.fighters[faction][0]]
+        var subIndex = fighter.rounds.findIndex(i => i == state.curRound)
+        return fighter.link[subIndex]
     }
 
 }
@@ -54,6 +61,7 @@ const CURRENT_ZONE_DESC = 'curZoneDesc'
 const CURRENT_ZONE_CONTESTED = 'curZoneContested'
 const CURRENT_ZONE_GRANDBATTLE= 'curZoneGrandBattle'
 const CURRENT_ZONE_FIGHT = 'curZoneFight'
+const CUR_FIGHTER_LINK = 'DuelistComicCurrent'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
-    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER}
+    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK}

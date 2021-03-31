@@ -14,18 +14,22 @@
         </div>
 
         <div class="fight" v-if="renderFight">
-            <div class="row">Fight</div>
+            <div class="row"><h2>{{fightTitle}}</h2></div>
+            <div class="row header">
+                <div class="cell">Attacker</div>
+                <div class="cell">Defender</div>
+            </div>
             <div class="row">
-                <div class="bastion title">
-                    Attacker: name
+                <div class="title cell" :class="{bastion: bastionAttacking, pyre: !bastionAttacking}">
+                    {{bastionAttacking ? "Bastion" : "Pyre"}}
                 </div>
-                <div class="pyre title">
-                    Defender: name
+                <div class="title cell" :class="{bastion: !bastionAttacking, pyre: bastionAttacking}">
+                    {{bastionAttacking ?  "Pyre" : "Bastion"}}
                 </div>
             </div>
             <div class="row">
-                <div>comic link A</div>
-                <div>comic link B</div>
+                <div class="cell"> <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" >link</a></div>
+                <div class="cell"> <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" >link</a></div>
             </div>
             <div class="row">
                 <div class="outcome">
@@ -40,7 +44,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER} from '../state/getters'
+import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER, CURRENT_ZONE_FIGHT, CUR_FIGHTER_LINK} from '../state/getters'
 // import {DESELECT} from '../state/mutations'
 import FighterDetails from './FightPane/FighterDetails.vue'
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
@@ -83,17 +87,35 @@ export default {
         renderOnTop: function(){
             return this.renderDetails || this.renderFight
         },
+        bastionAttacking: function(){
+            if(!this.selected == "NA") return -1
+            return this.zoneFight.attacker === "bastion"
+        },
+        fightTitle: function(){
+            var fightType = ""
+            if(this.zoneFight.contest){
+                fightType = "Duel at "
+            }
+            else if(this.zoneFight.grandBattle){
+                fightType = "Grand Battle at"
+            }
+            var name = this.zoneName
+
+            return `${fightType} ${name}`
+        },
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,
             currZoneDesc: CURRENT_ZONE_DESC,
-            selected: SELECTING_GETTER
+            selected: SELECTING_GETTER,
+            zoneFight: CURRENT_ZONE_FIGHT,
+            comicLink: CUR_FIGHTER_LINK,
         })
     },
     methods:{
         // closePane: function(){
         //     this.$store.commit(DESELECT)
         //     window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
-        // }      
+        // }    
     },
 
     name: 'DetailPaneDesktop'
@@ -115,6 +137,16 @@ export default {
 .blockText{
     font-size: 1.8em;
     margin-bottom: .9em;
+}
+
+.cell{
+    justify-content: center;
+    width: 100%;
+    flex: 1
+}
+
+.header{
+    font-weight: bold;
 }
 
 #majorPaneDesktop{
@@ -156,6 +188,7 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items:flex-start;
+    margin-top: .3em
 }
 
 .combatant{
@@ -166,11 +199,13 @@ export default {
 }
 
 .bastion{
-    order: 1;
+    color: rgb(69, 123, 221);
+    font-weight: bold;
 }
 
 .pyre{
-    order: 3;
+    color: rgb(226, 119, 76);
+    font-weight: bold;
 }
 
 .details{
@@ -193,11 +228,14 @@ export default {
     margin-right: auto;
     order: 2;
     min-width: 20vw;
-    width: 60%;
+    width: 80%;
     height: 20vh;
     font-size: 1.1em;
     overflow-y: auto;
     right: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 @media all and (orientation: portrait) {

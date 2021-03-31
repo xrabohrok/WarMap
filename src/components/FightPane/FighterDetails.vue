@@ -1,7 +1,7 @@
 <template>
     <div class="toplevel" :class="{leftward: leftward, rightward: rightward}" v-if="isSelected">
         <div class="deets">
-            <div class="detail_row"> <h4> {{this.faction}} </h4> </div>
+            <div class="detail_row"> <h3> {{this.faction}} </h3> </div>
             <div class="detail_row"><b>Artist:</b> Artist Name</div>
             <div class="detail_row"><b>Artist Contact:</b> 
                 <div class="sub_row"> <a href="www.twitter.com"> twitter </a></div>
@@ -45,6 +45,10 @@ export default {
         fighterName: function(){
             if(this.fighter === -1) return "unselected"
             return this.fighter.name
+        },
+        attackerDefender: function(){
+            if(!this.isSelected) return ""
+            return this.zoneFight.attacker == this.faction ? "Attacker" : "Defender"
         },
         isSelected: function(){
             return this.selected !== "na" && this.contested(this.selected)

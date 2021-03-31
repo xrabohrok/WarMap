@@ -38,7 +38,7 @@
         <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
       </transition>
       <transition name="slideup">
-        <DetailPaneDesktop :mode="showFight" v-show="isSelectedDuel"/>
+        <DetailPaneDesktop :mode="showFight" v-show="isSelectedFight"/>
       </transition>
 
   </div>
@@ -81,6 +81,10 @@ export default {
     isSelectedDuel: function(){
       if(this.selecting == "NA") return false;
       return this.fight.contest
+    },
+    isSelectedFight: function(){
+      if(this.selecting == "NA") return false;
+      return this.fight.contest || this.fight.grandBattle
     },
     onLeft: function(){
       return LEFT

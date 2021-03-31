@@ -937,7 +937,7 @@
   },
   "e13": {
     "location": "e13",
-    "contest": true,
+    "contest": false,
     "owner": "pyre",
     "attacker": "na",
     "fighters": {

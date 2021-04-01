@@ -13,6 +13,7 @@ const defaultState = {
     metaMap: mapMeta,
     zoneDesc: zoneInfo,
     allFighters: fighters,
+    revealed: [[], [],[],[],[],[],[],[],[]]
 }
 
 export default defaultState;

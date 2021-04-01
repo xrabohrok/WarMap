@@ -38,12 +38,18 @@ const getters = {
     fighter: (state) => (fighterId) => {
         return state.allFighters[fighterId]
     },
-    DuelistComicCurrent: (state, getters)=> (faction) => {
+    duelistComicCurrent: (state, getters)=> (faction) => {
         var fight = getters.curZoneFight
         if(!fight.contest) return ""
         var fighter = state.allFighters[fight.fighters[faction][0]]
         var subIndex = fighter.rounds.findIndex(i => i == state.curRound)
         return fighter.link[subIndex]
+    },
+    currentSpoilerRevealed: (state, getters) => {
+        var fight = getters.curZoneFight
+        if(!(fight.contest || fight.grandBattle)) return false
+
+        return state.revealed[state.curRound].findIndex(i => i === state.curSelected) !== -1
     }
 
 }
@@ -61,7 +67,8 @@ const CURRENT_ZONE_DESC = 'curZoneDesc'
 const CURRENT_ZONE_CONTESTED = 'curZoneContested'
 const CURRENT_ZONE_GRANDBATTLE= 'curZoneGrandBattle'
 const CURRENT_ZONE_FIGHT = 'curZoneFight'
-const CUR_FIGHTER_LINK = 'DuelistComicCurrent'
+const CUR_FIGHTER_LINK = 'duelistComicCurrent'
+const CUR_SPOILER_REVEALED = 'currentSpoilerRevealed'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
-    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK}
+    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED}

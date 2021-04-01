@@ -32,9 +32,7 @@
                 <div class="cell"> <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" >link</a></div>
             </div>
             <div class="row">
-                <div class="outcome">
-                    Put the outcome text here. Desktop.
-                </div>
+                <Spoiler :hiddenText="fightOutcome"/>
             </div>
         </div>
 
@@ -47,13 +45,15 @@ import { mapGetters } from 'vuex'
 import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER, CURRENT_ZONE_FIGHT, CUR_FIGHTER_LINK} from '../state/getters'
 // import {DESELECT} from '../state/mutations'
 import FighterDetails from './FightPane/FighterDetails.vue'
+import Spoiler from './FightPane/Spoiler.vue'
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
 export {LEFT, RIGHT, DETAILS, FIGHT}
 
 export default {
     components:{
-        FighterDetails
+        FighterDetails,
+        Spoiler
     },
     props:{
         mode: Number,
@@ -102,6 +102,10 @@ export default {
             var name = this.zoneName
 
             return `${fightType} ${name}`
+        },
+        fightOutcome: function(){
+            if(!(this.zoneFight.contest || this.zoneFight.grandBattle)) return "Not Available"
+            return `Bastion: ${this.zoneFight.outcome.bastion} , Pyre: ${this.zoneFight.outcome.pyre} \n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
         },
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,

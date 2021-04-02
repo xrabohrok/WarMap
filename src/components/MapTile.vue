@@ -8,6 +8,9 @@
                 v-if="isSelected" class="selector" draggable="false"
             >
         </transition>
+        <div class="zone_title" v-if="shouldShowZone">
+            {{zoneTitle}}
+        </div>
         <transition name="ghost">
             <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" draggable="false"/>
         </transition>
@@ -38,7 +41,8 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID} from '../state/getters'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
+    CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -87,6 +91,12 @@ export default {
         tileGrandBattle: function(){
             return this.isGrandBattle(this.title)
         },
+        zoneTitle: function(){
+            return this.currZoneTitle(this.title)
+        },
+        shouldShowZone: function(){
+            return this.showZoneTitle(this.title)
+        },
         neBorder: function(){
             if(!this.simple_mode) return false
             var num = parseInt(this.title.slice(1))
@@ -94,10 +104,6 @@ export default {
             if(num + 1 > 14) return true
             var other = `${letter}${num+1}`
             if(other === 'a14' || other === 'n1') return true
-            console.log(this.curZoneId(other))
-            console.log(this.title)
-            console.log(this.curZoneId(this.title))
-            console.log(other)
             return this.curZoneId(this.title) !== this.curZoneId(other)
         },
         swBorder: function(){
@@ -137,6 +143,8 @@ export default {
             isContested: CURRENT_ZONE_CONTESTED,
             isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
             curZoneId: CUR_ZONE_ID,
+            showZoneTitle: SHOW_ZONE_LABEL,
+            currZoneTitle: CURRENT_ZONE_NAME,
         })
 
     },
@@ -160,6 +168,18 @@ export default {
 </script>
 
 <style scoped>
+
+.zone_title{
+    color: rgb(255, 22, 151);
+    font-weight: bolder;
+    z-index: 200;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    font-size: 1.3em;
+}
 
 .selector{
     height: 9em;
@@ -200,6 +220,7 @@ img{
     position:absolute;
     left: 0%;
     top: 0%;
+    z-index: 90;
 
     -khtml-user-select: none;
     -o-user-select: none;

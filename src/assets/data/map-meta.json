@@ -9,7 +9,8 @@
       "zone": "coast"
     },
     "a10": {
-      "zone": "crags"
+      "zone": "crags",
+      "label": true
     },
     "a9": {
       "zone": "crags"
@@ -42,7 +43,8 @@
       "zone": "coast"
     },
     "b13": {
-      "zone": "coast"
+      "zone": "coast",
+      "label": true
     },
     "b12": {
       "zone": "coast"
@@ -63,7 +65,8 @@
       "zone": "rime"
     },
     "b6": {
-      "zone": "rime"
+      "zone": "rime",
+      "label": true
     },
     "b5": {
       "zone": "rime"
@@ -75,7 +78,8 @@
       "zone": "exalted"
     },
     "b2": {
-      "zone": "exalted"
+      "zone": "exalted",
+      "label":true
     },
     "b1": {
       "zone": "exalted"
@@ -99,7 +103,8 @@
       "zone": "ardenweald"
     },
     "c8": {
-      "zone": "ardenweald"
+      "zone": "ardenweald",
+      "label": true
     },
     "c7": {
       "zone": "rime"
@@ -132,7 +137,8 @@
       "zone": "bn"
     },
     "d11": {
-      "zone": "bn"
+      "zone": "bn",
+      "label": true
     },
     "d10": {
       "zone": "bn"
@@ -165,7 +171,8 @@
       "zone": "exalted"
     },
     "e14": {
-      "zone": "burn"
+      "zone": "burn",
+      "label": true
     },
     "e13": {
       "zone": "burn"
@@ -192,7 +199,8 @@
       "zone": "aru"
     },
     "e5": {
-      "zone": "aru"
+      "zone": "aru",
+      "label": true
     },
     "e4": {
       "zone": "emerald"
@@ -213,7 +221,8 @@
       "zone": "factories"
     },
     "f12": {
-      "zone": "factories"
+      "zone": "factories",
+      "label": true
     },
     "f11": {
       "zone": "factories"
@@ -243,7 +252,8 @@
       "zone": "titanfall"
     },
     "f2": {
-      "zone": "emerald"
+      "zone": "emerald",
+      "label": true
     },
     "f1": {
       "zone": "emerald"
@@ -267,7 +277,8 @@
       "zone": "lostcity"
     },
     "g8": {
-      "zone": "lostcity"
+      "zone": "lostcity",
+      "label": true
     },
     "g7": {
       "zone": "lostcity"
@@ -279,7 +290,8 @@
       "zone": "titanfall"
     },
     "g4": {
-      "zone": "titanfall"
+      "zone": "titanfall",
+      "label": true
     },
     "g3": {
       "zone": "titanfall"
@@ -336,7 +348,8 @@
       "zone": "jungle"
     },
     "i13": {
-      "zone": "jungle"
+      "zone": "jungle",
+      "label": true
     },
     "i12": {
       "zone": "jungle"
@@ -387,7 +400,8 @@
       "zone": "heap"
     },
     "j10": {
-      "zone": "heap"
+      "zone": "heap",
+      "label": true
     },
     "j9": {
       "zone": "swamp"
@@ -402,7 +416,8 @@
       "zone": "bs"
     },
     "j5": {
-      "zone": "bs"
+      "zone": "bs",
+      "label": true
     },
     "j4": {
       "zone": "bs"
@@ -411,7 +426,8 @@
       "zone": "arus"
     },
     "j2": {
-      "zone": "arus"
+      "zone": "arus",
+      "label": true
     },
     "j1": {
       "zone": "arus"
@@ -435,7 +451,8 @@
       "zone": "swamp"
     },
     "k8": {
-      "zone": "swamp"
+      "zone": "swamp",
+      "label": true
     },
     "k7": {
       "zone": "swamp"
@@ -456,7 +473,7 @@
       "zone": "arus"
     },
     "k1": {
-      "zone": "arus"
+      "zone": "ridgeback"
     },
     "l14": {
       "zone": "hell"
@@ -504,7 +521,8 @@
       "zone": "hell"
     },
     "m13": {
-      "zone": "hell"
+      "zone": "hell",
+      "label": true
     },
     "m12": {
       "zone": "hell"
@@ -519,7 +537,8 @@
       "zone": "mines"
     },
     "m8": {
-      "zone": "mines"
+      "zone": "mines",
+      "label": true
     },
     "m7": {
       "zone": "mines"
@@ -528,7 +547,8 @@
       "zone": "arus"
     },
     "m5": {
-      "zone": "arus"
+      "zone": "arus",
+      "label": true
     },
     "m4": {
       "zone": "arus"
@@ -537,7 +557,8 @@
       "zone": "ridgeback"
     },
     "m2": {
-      "zone": "ridgeback"
+      "zone": "ridgeback",
+      "label": true
     },
     "m1": {
       "zone": "ridgeback"

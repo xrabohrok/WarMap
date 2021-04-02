@@ -27,6 +27,10 @@
                 {{title}}
             </div>
         </transition>
+        <img src="../assets/pics/simple_tile/top-left.png"  v-show="nwBorder" />
+        <img src="../assets/pics/simple_tile/top-right.png" v-show="neBorder" />
+        <img src="../assets/pics/simple_tile/bot-left.png"  v-show="swBorder" />
+        <img src="../assets/pics/simple_tile/bot-right.png" v-show="seBorder" />
     </div>
 </template>
 
@@ -34,7 +38,9 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE} from '../state/getters'
+import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID} from '../state/getters'
+
+const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
 export default {
     name: 'MapTile',
@@ -81,6 +87,48 @@ export default {
         tileGrandBattle: function(){
             return this.isGrandBattle(this.title)
         },
+        neBorder: function(){
+            if(!this.simple_mode) return false
+            var num = parseInt(this.title.slice(1))
+            var letter = this.title[0]
+            if(num + 1 > 14) return true
+            var other = `${letter}${num+1}`
+            if(other === 'a14' || other === 'n1') return true
+            console.log(this.curZoneId(other))
+            console.log(this.title)
+            console.log(this.curZoneId(this.title))
+            console.log(other)
+            return this.curZoneId(this.title) !== this.curZoneId(other)
+        },
+        swBorder: function(){
+            if(!this.simple_mode) return false
+            var num = parseInt( this.title.slice(1))
+            var letter = this.title[0]
+            if(num - 1 < 1) return true
+            var other = `${letter}${num-1}`
+            if(other === 'a14' || other === 'n1') return true
+            return this.curZoneId(this.title) !== this.curZoneId(other)
+        },
+        nwBorder: function(){
+            if(!this.simple_mode) return false
+            var num = parseInt(this.title.slice(1))
+            var letter = this.title[0]
+            var iletter = letters.findIndex(l => l === letter)
+            if(iletter - 1 < 1) return true
+            var other = `${letters[iletter -1 ]}${num}`
+            if(other === 'a14' || other === 'n1') return true
+            return this.curZoneId(this.title) !== this.curZoneId(other)
+        },
+        seBorder: function(){
+            if(!this.simple_mode) return false
+            var num = parseInt(this.title.slice(1))
+            var letter = this.title[0]
+            var iletter = letters.findIndex(l => l === letter)
+            if(iletter + 1 > 14 ) return true
+            var other = `${letters[iletter +1 ]}${num}`
+            if(other === 'a14' || other === 'n1') return true
+            return this.curZoneId(this.title) !== this.curZoneId(other)
+        },
         ...mapGetters({
             hoveredTile: HOVERING_GETTER,
             tileOwner: TILE_OWNER,
@@ -88,6 +136,7 @@ export default {
             simple_mode: SIMPLE_MODE,
             isContested: CURRENT_ZONE_CONTESTED,
             isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
+            curZoneId: CUR_ZONE_ID,
         })
 
     },
@@ -189,6 +238,12 @@ img{
     border-width: .02em;
     padding: .2em .65em .2em .65em;
     border-radius: .8em;
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 
 }
 

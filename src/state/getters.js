@@ -21,10 +21,11 @@ const getters = {
         return state.zoneDesc[getters.curZoneId(state)(tileName)].desc
     },
     curZoneContested: (state) => (tileName) => {
-        if(state.curSelected === "NA") return false
+        if(tileName === "NA") return false
         return state.roundData[state.curRound][tileName].contest
     },
     curZoneGrandBattle: (state) => (tileName) => {
+        if(tileName === "NA") return false
         return state.roundData[state.curRound][tileName].grandBattle
     },
     curZoneFight: (state) => {

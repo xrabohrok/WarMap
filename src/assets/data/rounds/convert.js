@@ -9,6 +9,8 @@
 //pyre_comic_link
 //winner
 
+//then require in that file, and this one, pass in the new round file into this adapt_fighters
+
 // "h6": {
 //     "location": "h6",
 //     "contest": true,
@@ -30,6 +32,11 @@
 //     "items": []
 //   },
 
+//bastion_fighter
+//bastion_comic_link
+//pyre_fighter
+//pyre_comic_link
+
 
 // import { assert } from 'console';
 const fs = require('fs')
@@ -37,8 +44,10 @@ const fighters = require('../allfighters.json')
 // const round = require('../empty-map-schema.js')
 
 console.log('Loaded, use adapt_fighters(round number, round_json, bool-pyre-attacking')
+console.log('or use the gb loader adapt_grand_battle(round_num, round_data, tile_location, context)')
+console.log(`found `)
 
-const upsert_fighter = function(match, fighter_map, faction, lastId, round_num){
+const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
     let curFighter = null
     for (const [_, value] of fighter_map) {
         if(value.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase()){
@@ -55,7 +64,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num){
             name: match[`${faction}_fighter`],
             rounds: [round_num],
             link: [match[`${faction}_comic_link`]],
-            context: ['duel'],
+            context: [context],
             faction: [faction],
             artists: [],
             backstory: "",
@@ -66,7 +75,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num){
 
     var fighter = fighter_map[fighterId]
     fighter.rounds.push(round_num)
-    fighter.context.push('duel')
+    fighter.context.push(context)
     fighter.faction.push(faction)
     fighter.link.push(match[`${faction}_comic_link`])
     return fighterId
@@ -81,13 +90,58 @@ const determine_tile_owner = function(tile){
     return "na"
 }
 
+//load the grand battle info
+//context 
+exports.adapt_grand_battle = function(round_num, round_data, tile_location, context){
+    var map_round = require(`./round-${round_num}.json`)
+    var lastId = 0
+    
+    var fighterIter = Object.values(fighters)
+    var fighter_map = new Map()
+    for (const fighter of fighterIter) {
+        fighter_map[fighter.id] = fighter
+        lastId = lastId < fighter.id ? fighter.id : lastId
+    }
+
+    var tile = map_round[tile_location.toLowerCase()]
+    tile.grandBattle = true
+
+
+    round_data.forEach((match, i) => {
+        //bastion
+        if(match.bastion_fighter !== ""){
+            var bastionfighterId = upsert_fighter(match, fighter_map, 'bastion', lastId, round_num, context)
+            lastId = bastionfighterId > lastId ? bastionfighterId : lastId
+            tile.fighters.bastion.push(bastionfighterId)
+        }
+
+        //pyre
+        if(match.pyre_fighter !== ""){
+            var pyrefighterId = upsert_fighter(match, fighter_map, 'pyre', lastId, round_num, context)
+            lastId = pyrefighterId > lastId ? pyrefighterId : lastId
+            tile.fighters.pyre.push(pyrefighterId)
+        }
+    })
+
+        //output the round and the new fighters
+        var fighter_data = JSON.stringify(fighter_map, null, 2)
+        fs.writeFileSync('./new_allfighters.json', fighter_data)
+    
+        var round_data = JSON.stringify(map_round, null, 2)
+        fs.writeFileSync(`./new_round-${round_num}.json`, round_data)
+
+}
+
 exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
     var map_round = {}
     var lastId = 0
-    fighters.forEach(f => lastId = lastId < f.id ? f.id : lastId)
 
+    var fighterIter = Object.values(fighters)
     var fighter_map = new Map()
-    fighters.forEach(f => fighter_map[f.id] = f)
+    for (const fighter of fighterIter) {
+        fighter_map[fighter.id] = fighter
+        lastId = lastId < fighter.id ? fighter.id : lastId
+    }
 
     //initialize round schema:
     var round = require(`./round-${round_num-1}.json`)

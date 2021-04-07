@@ -5593,24 +5593,6 @@
     "backstory": "",
     "verified": false
   },
-  "304": {
-    "id": 304,
-    "rounds": [
-      2
-    ],
-    "link": [
-      null
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
   "305": {
     "id": 305,
     "name": "Meadows",

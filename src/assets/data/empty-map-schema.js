@@ -1,4 +1,4 @@
-const metaMap = {
+exports.metaMap = {
 a13:{},
 a12:{},
 a11:{},

@@ -11,6 +11,9 @@ const getters = {
     tileOwner: (state) => (tileName) => {
         return state.roundData[state.curRound][tileName].owner;
     },
+    numRounds: (state) => {
+        return state.roundData.length
+    },
     curZoneId: (state) => (tileName) => {
         return state.metaMap[tileName].zone
     },
@@ -75,6 +78,7 @@ const CUR_FIGHTER_LINK = 'duelistComicCurrent'
 const CUR_SPOILER_REVEALED = 'currentSpoilerRevealed'
 const CUR_ZONE_ID = 'curZoneId'
 const SHOW_ZONE_LABEL = 'showZoneLabel'
+const NUMBER_OF_ROUNDS = 'numRounds'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
-    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL}
+    CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS}

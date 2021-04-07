@@ -170,7 +170,7 @@ export default {
 <style scoped>
 
 .zone_title{
-    color: rgb(255, 22, 151);
+    color: rgb(80, 58, 70);
     font-weight: bolder;
     z-index: 200;
     position: absolute;

@@ -1,0 +1,3306 @@
+{
+  "a13": {
+    "location": "a13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a12": {
+    "location": "a12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a11": {
+    "location": "a11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a10": {
+    "location": "a10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a9": {
+    "location": "a9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a8": {
+    "location": "a8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a7": {
+    "location": "a7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a6": {
+    "location": "a6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a5": {
+    "location": "a5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a4": {
+    "location": "a4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a3": {
+    "location": "a3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a2": {
+    "location": "a2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "a1": {
+    "location": "a1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b14": {
+    "location": "b14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b13": {
+    "location": "b13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b12": {
+    "location": "b12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b11": {
+    "location": "b11",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        233
+      ],
+      "bastion": [
+        232
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "b10": {
+    "location": "b10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b9": {
+    "location": "b9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b8": {
+    "location": "b8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b7": {
+    "location": "b7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b6": {
+    "location": "b6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b5": {
+    "location": "b5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b4": {
+    "location": "b4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b3": {
+    "location": "b3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b2": {
+    "location": "b2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "b1": {
+    "location": "b1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c14": {
+    "location": "c14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c13": {
+    "location": "c13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c12": {
+    "location": "c12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c11": {
+    "location": "c11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c10": {
+    "location": "c10",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        237
+      ],
+      "bastion": [
+        236
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "c9": {
+    "location": "c9",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        235
+      ],
+      "bastion": [
+        234
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "c8": {
+    "location": "c8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c7": {
+    "location": "c7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c6": {
+    "location": "c6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c5": {
+    "location": "c5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c4": {
+    "location": "c4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c3": {
+    "location": "c3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c2": {
+    "location": "c2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "c1": {
+    "location": "c1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d14": {
+    "location": "d14",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        231
+      ],
+      "bastion": [
+        230
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "d13": {
+    "location": "d13",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        185
+      ],
+      "bastion": [
+        184
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "d12": {
+    "location": "d12",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        243
+      ],
+      "bastion": [
+        242
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "d11": {
+    "location": "d11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "na",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d10": {
+    "location": "d10",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        183
+      ],
+      "bastion": [
+        182
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "d9": {
+    "location": "d9",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        241
+      ],
+      "bastion": [
+        240
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "d8": {
+    "location": "d8",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        239
+      ],
+      "bastion": [
+        238
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "d7": {
+    "location": "d7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d6": {
+    "location": "d6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d5": {
+    "location": "d5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d4": {
+    "location": "d4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d3": {
+    "location": "d3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d2": {
+    "location": "d2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "d1": {
+    "location": "d1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e14": {
+    "location": "e14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e13": {
+    "location": "e13",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        251
+      ],
+      "bastion": [
+        250
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "e12": {
+    "location": "e12",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        191
+      ],
+      "bastion": [
+        190
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "e11": {
+    "location": "e11",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        189
+      ],
+      "bastion": [
+        188
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "e10": {
+    "location": "e10",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        249
+      ],
+      "bastion": [
+        248
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "e9": {
+    "location": "e9",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        187
+      ],
+      "bastion": [
+        186
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "e8": {
+    "location": "e8",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        247
+      ],
+      "bastion": [
+        246
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "e7": {
+    "location": "e7",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        245
+      ],
+      "bastion": [
+        244
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "e6": {
+    "location": "e6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e5": {
+    "location": "e5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e4": {
+    "location": "e4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e3": {
+    "location": "e3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e2": {
+    "location": "e2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "e1": {
+    "location": "e1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f14": {
+    "location": "f14",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        203
+      ],
+      "bastion": [
+        202
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "f13": {
+    "location": "f13",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        201
+      ],
+      "bastion": [
+        200
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "f12": {
+    "location": "f12",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        199
+      ],
+      "bastion": [
+        198
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "f11": {
+    "location": "f11",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        197
+      ],
+      "bastion": [
+        196
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "f10": {
+    "location": "f10",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        195
+      ],
+      "bastion": [
+        194
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "f9": {
+    "location": "f9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f8": {
+    "location": "f8",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        193
+      ],
+      "bastion": [
+        192
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "f7": {
+    "location": "f7",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        253
+      ],
+      "bastion": [
+        252
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "f6": {
+    "location": "f6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f5": {
+    "location": "f5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f4": {
+    "location": "f4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f3": {
+    "location": "f3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f2": {
+    "location": "f2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "f1": {
+    "location": "f1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g14": {
+    "location": "g14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g13": {
+    "location": "g13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g12": {
+    "location": "g12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g11": {
+    "location": "g11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g10": {
+    "location": "g10",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        205
+      ],
+      "bastion": [
+        204
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "g9": {
+    "location": "g9",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        255
+      ],
+      "bastion": [
+        254
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "g8": {
+    "location": "g8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "na",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g7": {
+    "location": "g7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "na",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g6": {
+    "location": "g6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g5": {
+    "location": "g5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g4": {
+    "location": "g4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g3": {
+    "location": "g3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g2": {
+    "location": "g2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "g1": {
+    "location": "g1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h14": {
+    "location": "h14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h13": {
+    "location": "h13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h12": {
+    "location": "h12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h11": {
+    "location": "h11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h10": {
+    "location": "h10",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        207
+      ],
+      "bastion": [
+        206
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "h9": {
+    "location": "h9",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        263
+      ],
+      "bastion": [
+        262
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "h8": {
+    "location": "h8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "na",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h7": {
+    "location": "h7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "na",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h6": {
+    "location": "h6",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        261
+      ],
+      "bastion": [
+        260
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "h5": {
+    "location": "h5",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        259
+      ],
+      "bastion": [
+        258
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "h4": {
+    "location": "h4",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        257
+      ],
+      "bastion": [
+        256
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "h3": {
+    "location": "h3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h2": {
+    "location": "h2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "h1": {
+    "location": "h1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i14": {
+    "location": "i14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i13": {
+    "location": "i13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i12": {
+    "location": "i12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i11": {
+    "location": "i11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i10": {
+    "location": "i10",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        215
+      ],
+      "bastion": [
+        214
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "i9": {
+    "location": "i9",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        213
+      ],
+      "bastion": [
+        212
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "i8": {
+    "location": "i8",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        269
+      ],
+      "bastion": [
+        268
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "i7": {
+    "location": "i7",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        211
+      ],
+      "bastion": [
+        210
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "i6": {
+    "location": "i6",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        267
+      ],
+      "bastion": [
+        266
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "i5": {
+    "location": "i5",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        209
+      ],
+      "bastion": [
+        208
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "i4": {
+    "location": "i4",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        265
+      ],
+      "bastion": [
+        264
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "i3": {
+    "location": "i3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i2": {
+    "location": "i2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "i1": {
+    "location": "i1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j14": {
+    "location": "j14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j13": {
+    "location": "j13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j12": {
+    "location": "j12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j11": {
+    "location": "j11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j10": {
+    "location": "j10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j9": {
+    "location": "j9",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        221
+      ],
+      "bastion": [
+        220
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "j8": {
+    "location": "j8",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        219
+      ],
+      "bastion": [
+        218
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "j7": {
+    "location": "j7",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        217
+      ],
+      "bastion": [
+        216
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "j6": {
+    "location": "j6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j5": {
+    "location": "j5",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        273
+      ],
+      "bastion": [
+        272
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "j4": {
+    "location": "j4",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        271
+      ],
+      "bastion": [
+        270
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "j3": {
+    "location": "j3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j2": {
+    "location": "j2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "j1": {
+    "location": "j1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k14": {
+    "location": "k14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k13": {
+    "location": "k13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k12": {
+    "location": "k12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k11": {
+    "location": "k11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k10": {
+    "location": "k10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k9": {
+    "location": "k9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k8": {
+    "location": "k8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k7": {
+    "location": "k7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k6": {
+    "location": "k6",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        223
+      ],
+      "bastion": [
+        222
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "k5": {
+    "location": "k5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "k4": {
+    "location": "k4",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        279
+      ],
+      "bastion": [
+        278
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "k3": {
+    "location": "k3",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        277
+      ],
+      "bastion": [
+        276
+      ]
+    },
+    "outcome": {
+      "pyre": "win",
+      "bastion": "lose"
+    }
+  },
+  "k2": {
+    "location": "k2",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        275
+      ],
+      "bastion": [
+        274
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "k1": {
+    "location": "k1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l14": {
+    "location": "l14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l13": {
+    "location": "l13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l12": {
+    "location": "l12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l11": {
+    "location": "l11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l10": {
+    "location": "l10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l9": {
+    "location": "l9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l8": {
+    "location": "l8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l7": {
+    "location": "l7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l6": {
+    "location": "l6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l5": {
+    "location": "l5",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        227
+      ],
+      "bastion": [
+        226
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "l4": {
+    "location": "l4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l3": {
+    "location": "l3",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        225
+      ],
+      "bastion": [
+        224
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "l2": {
+    "location": "l2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "l1": {
+    "location": "l1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m14": {
+    "location": "m14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m13": {
+    "location": "m13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m12": {
+    "location": "m12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m11": {
+    "location": "m11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m10": {
+    "location": "m10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m9": {
+    "location": "m9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m8": {
+    "location": "m8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m7": {
+    "location": "m7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m6": {
+    "location": "m6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m5": {
+    "location": "m5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m4": {
+    "location": "m4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "m3": {
+    "location": "m3",
+    "contest": true,
+    "attacker": "bastion",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        281
+      ],
+      "bastion": [
+        280
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "m2": {
+    "location": "m2",
+    "contest": true,
+    "attacker": "pyre",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [
+        229
+      ],
+      "bastion": [
+        228
+      ]
+    },
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    }
+  },
+  "m1": {
+    "location": "m1",
+    "contest": false,
+    "attacker": "na",
+    "owner": "bastion",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n14": {
+    "location": "n14",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n13": {
+    "location": "n13",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n12": {
+    "location": "n12",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n11": {
+    "location": "n11",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n10": {
+    "location": "n10",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n9": {
+    "location": "n9",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n8": {
+    "location": "n8",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n7": {
+    "location": "n7",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n6": {
+    "location": "n6",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n5": {
+    "location": "n5",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n4": {
+    "location": "n4",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n3": {
+    "location": "n3",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  },
+  "n2": {
+    "location": "n2",
+    "contest": false,
+    "attacker": "na",
+    "owner": "pyre",
+    "grandBattle": false,
+    "items": [],
+    "fighters": {
+      "pyre": [],
+      "bastion": []
+    },
+    "outcome": {
+      "pyre": "",
+      "bastion": ""
+    }
+  }
+}

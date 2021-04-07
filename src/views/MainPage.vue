@@ -6,7 +6,7 @@
         <div class="control_label">Rounds: </div>
         <vue-slider 
           v-model="slider_round"
-          :max="1"
+          :max="maxRounds-1"
           :min="0"
           :width="500"
           :marks="true"
@@ -56,7 +56,7 @@ import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 
 import {SET_SIMPLE_MODE, CHANGE_ROUND} from '../state/mutations'
-import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
+import {SELECTING_GETTER, CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS} from '../state/getters'
 import { mapGetters } from 'vuex'
 
 
@@ -102,6 +102,7 @@ export default {
       {
         selecting: SELECTING_GETTER,
         fight: CURRENT_ZONE_FIGHT,
+        maxRounds: NUMBER_OF_ROUNDS,
       }
     )
   },

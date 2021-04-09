@@ -1,3 +1,5 @@
+const server = require('./server/index');
+
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
       ? '/WarMap/'
@@ -7,7 +9,8 @@ module.exports = {
         devServer: {
            watchOptions: {
               poll: true
-           }
+           },
+           before: server
         }
      }
   }

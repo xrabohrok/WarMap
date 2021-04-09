@@ -10,6 +10,20 @@ const readAvailableRounds = async function(){
     return files.filter(f => roundtype.test(f))
 }
 
+const syncFileLoc = async function(){
+    if(!fs.existsSync('./changes')){
+        fs.mkdirSync('./changes')
+        await fsp.copyFile('./src/assets/data/allfighters.json', './changes/allfighters.json')
+
+        const roundNumTest = /\d/  //there are only 8 rounds, don't need to be ready for double digits
+        var roundNums = (await readAvailableRounds()).map(rf => rf.match(roundNumTest)[0])
+        // console.log(roundNums)
+        for (const r of roundNums) {
+            await fsp.copyFile(`./src/assets/data/rounds/round-${r}.json`, `./changes/round-${r}.json`)     
+        };
+    }
+}
+
 module.exports = function (app) {
     app.use(Express.json());
     app.use(Express.text());
@@ -17,15 +31,20 @@ module.exports = function (app) {
 
     app.get('/server/allFighters', async function(req,res){
         try{
-            res.send((fs.readFileSync('./src/assets/data/allfighters.json')).toString());
+            await syncFileLoc()
+
+            res.send((fs.readFileSync('./changes/allfighters.json')).toString());
         }
         catch(err){
+            console.log(err)
             res.status(500).send(err)
         }
     })
 
     app.get('/server/dataList', async function (req, res) {
         try {
+            await syncFileLoc()
+
             let finalFiles = readAvailableRounds()
             res.json(finalFiles);
         } catch (err) {
@@ -35,12 +54,14 @@ module.exports = function (app) {
 
     app.get('/server/data', async function (req, res) {
         try {
+            await syncFileLoc()
+
             if(!('round' in req.query)){
                 res.status(400).send("the round query is required for this request")
                 return
             }
             const round = req.query.round;
-            res.send((await fs.readFile(`./src/assets/data/rounds/round-${round}.json`)).toString());
+            res.send((await fs.readFile(`./changes/round-${round}.json`)).toString());
         } catch (err) {
             console.log(err)
             res.status(500).send(err);
@@ -49,6 +70,7 @@ module.exports = function (app) {
 
     app.post('/server/mergeFighters', async function(req, res){
         try{
+            await syncFileLoc()
             //two things need to happen if a fighter is deleted:
             //- delete the fighter entry (duh)
             //- (more difficult) remove any listing of that fighter on a tile
@@ -72,7 +94,7 @@ module.exports = function (app) {
             var roundNums = (await readAvailableRounds()).map(rf => rf.match(roundNumTest)[0])
             //iterate the FILES as that is slightly more efficient
             roundNums.forEach(rn =>{
-                var roundfile = fs.readFileSync(`./src/assets/data/rounds/round-${rn}.json`)
+                var roundfile = fs.readFileSync(`./changes/round-${rn}.json`)
                 var roundData = JSON.parse(roundfile)
                 var tiles = Object.keys(roundData)
                 tiles.forEach(t =>{
@@ -94,11 +116,11 @@ module.exports = function (app) {
 
                 })
 
-                fs.writeFileSync(`./src/assets/data/rounds/round-${rn}.json`, JSON.stringify(roundData, null, 2))
+                fs.writeFileSync(`./changes/round-${rn}.json`, JSON.stringify(roundData, null, 2))
 
             })
 
-            var allFighters = JSON.parse((await fsp.readFile('./src/assets/data/allfighters.json')).toString())
+            var allFighters = JSON.parse((await fsp.readFile('./changes/allfighters.json')).toString())
             var targetFighter = allFighters[target]
             //extract details from doomed and transfer to target
             doomed.forEach(d =>{
@@ -110,8 +132,10 @@ module.exports = function (app) {
                 delete allFighters[d]
             })
 
-            await fs.writeFileSync('./src/assets/data/allfighters.json', JSON.stringify(allFighters, null, 2))
-            res.status(200)
+            targetFighter.verified = true
+
+            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allFighters, null, 2))
+            res.status(200).send()
 
         }
         catch(err){
@@ -120,28 +144,4 @@ module.exports = function (app) {
         }
     })
 
-    app.post('/server/data', async function (req, res) {
-        const name = req.query.name;
-        const content = req.body;
-        try {
-            await fsp.writeFile('./src/data/' + name, content);
-            const files = await fsp.readdir('./src/data');
-            const names = files.map(
-                filename => filename
-                    .substr(0, filename.length - '.json'.length)
-                    .replace(/-([a-z])/g, match => match[1].toUpperCase())
-            );
-            const dataTs =
-                names.map((name, index) => `import ${name} from './data/${files[index]}'`)
-                    .join('\n')
-                + '\n\n'
-                + 'export default [\n'
-                + names.map(name => `    ...${name},`).join('\n')
-                + '\n];'
-            await fs.writeFile('./src/data.ts', dataTs);
-            res.status(200).send('ok');
-        } catch (err) {
-            res.status(500).send(err);
-        }
-    });
 };

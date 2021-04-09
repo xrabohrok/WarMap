@@ -55,18 +55,18 @@ export default {
       this.selected = []
     },
     async save(){
-      //from https://stackoverflow.com/questions/48611671/vue-js-write-json-object-to-local-file
-
-      // return api.getUri('test').then(resp => console.log(resp))
-
       axios
       .post('/server/mergeFighters', {target:this.selected[0], doomed:this.selected.slice(1)})
-      .then(response => {
-        console.log(response.data)
+      .then(()=>{
+        // console.log("merge done")
+        // console.log(response.data)
         axios
           .get('/server/allFighters')
-          .then(response => this.curFighters = response.data)
-          .catch(r => console.log(r))
+          .then(response2 => {
+            this.curFighters = response2.data
+            this.selected = []
+            })
+          .catch(r2 => console.log(r2))
         })
       .catch(r => console.log(r))
 

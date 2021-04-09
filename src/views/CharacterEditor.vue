@@ -9,9 +9,10 @@
     v-model="selected"
      class="boxClass"/>
   <div class="button" @click="clear">Clear</div>
-  <div class="button" @click="save">Download Chars</div>
+  <div class="button" @click="save">Merge Chars</div>
 
   <div>{{selected}}</div>
+  <div>{{output}}</div>
   </div>
 
 </template>
@@ -20,9 +21,10 @@
 
 import vMultiselectListbox from 'vue-multiselect-listbox'
 import 'vue-multiselect-listbox/dist/vue-multi-select-listbox.css';
-import fighters from '../assets/data/allfighters.json'
 
-const fs = require('fs').promises;
+
+const axios = require('axios').default
+// const api = axios.create({baseURL: '/server'});
 
 const alpahbeticalSort = function(a, b) {
     var textA = a.name.toUpperCase();
@@ -37,7 +39,8 @@ export default {
   data(){
     return {
       selected:[],
-      curFighters: fighters
+      curFighters: [],
+      output: "",
     }
   },
   computed:{
@@ -51,21 +54,29 @@ export default {
       console.log(this.selected)
       this.selected = []
     },
-    save: function() {
+    async save(){
       //from https://stackoverflow.com/questions/48611671/vue-js-write-json-object-to-local-file
 
-      fs.writeFile('./test.json', "BEHOLD, A FILW")
+      // return api.getUri('test').then(resp => console.log(resp))
 
-      // const data = JSON.stringify(this.curFighters, null, 2)
-      // const blob = new Blob([data], {type: 'text/plain'})
-      // const e = document.createEvent('MouseEvents'),
-      // a = document.createElement('a');
-      // a.download = "allfighters.json";
-      // a.href = window.URL.createObjectURL(blob);
-      // a.dataset.downloadurl = ['text/json', a.download, a.href].join(':');
-      // e.initEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-      // a.dispatchEvent(e);
+      axios
+      .post('/server/mergeFighters', {target:this.selected[0], doomed:this.selected.slice(1)})
+      .then(response => {
+        console.log(response.data)
+        axios
+          .get('/server/allFighters')
+          .then(response => this.curFighters = response.data)
+          .catch(r => console.log(r))
+        })
+      .catch(r => console.log(r))
+
     }
+  },
+  mounted:function(){
+      axios
+      .get('/server/allFighters')
+      .then(response => this.curFighters = response.data)
+      .catch(r => console.log(r))
   },
   name: "CharacterEditor"
 }

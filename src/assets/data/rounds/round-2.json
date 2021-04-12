@@ -1,4 +1,7 @@
 {
+  "grandbattle":{
+    "zones":["ardenweald", "factories"]
+  },
   "a13": {
     "location": "a13",
     "contest": false,
@@ -767,7 +770,7 @@
     "location": "d11",
     "contest": false,
     "attacker": "na",
-    "owner": "na",
+    "owner": "pyre",
     "grandBattle": false,
     "items": [],
     "fighters": {

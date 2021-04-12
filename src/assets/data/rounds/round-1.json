@@ -1,4 +1,7 @@
 {
+  "grandbattle":{
+    "zones":["bn", "bs"]
+  },
   "a13": {
     "location": "a13",
     "contest": true,
@@ -737,7 +740,7 @@
   },
   "d11": {
     "location": "d11",
-    "contest": false,
+    "contest": true,
     "owner": "na",
     "attacker": "pyre",
     "fighters": {

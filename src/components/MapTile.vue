@@ -12,10 +12,19 @@
             {{zoneTitle}}
         </div>
         <transition name="ghost">
+            <img src='../assets/pics/grand-battle-overlay.png' id="battlezone" class="gboverlay" v-if="markAsGrandBattle" draggable="false"/>
+        </transition>
+        <!-- <transition name="ghost">
             <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" draggable="false"/>
+        </transition> -->
+        <transition name="ghost">
+            <img src='../assets/pics/pyre-attack.png' id="conflictedpyre" class="battleIndicator" v-if="pyreAttacking" draggable="false"/>
         </transition>
         <transition name="ghost">
-            <img src='../assets/pics/gb-conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
+            <img src='../assets/pics/bastion-attack.png' id="conflictedbastion" class="battleIndicator" v-if="bastionAttacking" draggable="false"/>
+        </transition>
+        <transition name="ghost">
+            <img src='../assets/pics/gb-conflicted-marker.png' id="conflictedgrand" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
         </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
@@ -42,7 +51,7 @@
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
 import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
-    CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME} from '../state/getters'
+    CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -97,6 +106,15 @@ export default {
         shouldShowZone: function(){
             return this.showZoneTitle(this.title)
         },
+        pyreAttacking: function(){
+            return this.tileContested && this.zoneAttacker(this.title) === "pyre"
+        },
+        bastionAttacking: function(){
+            return this.tileContested && this.zoneAttacker(this.title) === "bastion"
+        },
+        markAsGrandBattle: function(){
+            return this.grandBattles.includes(this.curZoneId(this.title))
+        },
         neBorder: function(){
             if(!this.simple_mode) return false
             var num = parseInt(this.title.slice(1))
@@ -145,6 +163,8 @@ export default {
             curZoneId: CUR_ZONE_ID,
             showZoneTitle: SHOW_ZONE_LABEL,
             currZoneTitle: CURRENT_ZONE_NAME,
+            zoneAttacker: CUR_ZONE_ATTACKER,
+            grandBattles: ROUND_GRANDBATTLES,
         })
 
     },
@@ -168,6 +188,15 @@ export default {
 </script>
 
 <style scoped>
+
+.gboverlay{
+    width: 100%;
+    left:-50%;
+    top:50%;
+    transform: translate(50%, -80%);
+    z-index: 97;
+    position: absolute;
+}
 
 .zone_title{
     color: rgb(80, 58, 70);

@@ -1,8 +1,15 @@
 <template>
 <div class="onefighter">
-    <div class="imghere"></div>
+    <div class="imghere">
+        <object :data="fighterBackupIcon" type="image/png" class="fighterIcon">
+            <img :src="fighterIcon" class="fighterIcon"/>
+        </object>
+    </div>
     <div class="fightername">
         {{fighterName}}
+    </div>
+    <div class="gbcomic fightername">
+        <a :href="fighterComic"> link</a>
     </div>
     
 </div>
@@ -19,6 +26,18 @@ export default {
         round: Number
     },
     computed:{
+        fighterComic: function(){
+            var fighterEntry =this.fighter(this.fighterId)
+            var roundIndex = fighterEntry.rounds.findIndex(r => r === this.round)
+            return roundIndex >= 0 ? fighterEntry.link[roundIndex] : "na"
+        },
+        fighterIcon: function(){
+            return `fighterimages/${this.fighterId}.png`
+        },
+        fighterBackupIcon: function(){
+            if (this.faction === 'pyre') return require('../../assets/pics/pyre-standin.png') 
+            return require('../../assets/pics/bastion-standin.png') 
+        },
         fighterName: function(){
             return this.fighter(this.fighterId).name
         },
@@ -39,9 +58,19 @@ export default {
 .onefighter{
     display: flex;
     flex-direction: row;
-    height: 1em;
-    padding: .5em;
-    width: 100%;
+    height: 5em;
+    padding: .3em;
+    width: 95%;
+    border-bottom: brown solid;
+}
+
+.fightername{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    padding: .2em;
+    text-align: center;
+    font-size: 1.7em;
 }
 
 img::before{
@@ -49,7 +78,12 @@ img::before{
     display: block;
     height: .6em;
     width: .6em;
+}
 
+.fighterIcon{
+    width: 4.7em;
+    height: 4.7em;
+    margin: .1em;
 }
 
 </style>

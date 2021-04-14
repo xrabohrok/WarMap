@@ -50,7 +50,7 @@ console.log(`found `)
 const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
     let curFighter = null
     for (const [_, value] of fighter_map) {
-        if(value.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase()){
+        if(value.name.trim().toLowerCase() === match[`${faction}_fighter`].trim().toLowerCase()){
             curFighter = value
             break
         }
@@ -178,9 +178,9 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
         lastId = pyrefighterId > lastId ? pyrefighterId : lastId
 
         let winnerId = -1
-        if(fighter_map[bastionfighterId].name.toLowerCase() === match.winner.toLowerCase()){
+        if(fighter_map[bastionfighterId].name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
             winnerId = bastionfighterId
-        }else if (fighter_map[pyrefighterId].name.toLowerCase() === match.winner.toLowerCase()){
+        }else if (fighter_map[pyrefighterId].name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
             winnerId = pyrefighterId
         }
         assert(winnerId !== -1, `Could not find the winner of match for ${match.tile}, could not find ${match.winner}`)

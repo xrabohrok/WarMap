@@ -29,10 +29,10 @@
     <!-- </transition> -->
     <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedDuel" :faction="'bastion'"/>
+        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
       </transition>
       <transition name="slideup">
-        <DetailPaneDesktop :mode="onRight" v-show="isSelectedDuel" :faction="'pyre'"/>
+        <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
       </transition>
       <transition name="slideup">
         <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>

@@ -1,10 +1,11 @@
 <template>
     <div id=majorPaneDesktop :class="{left:renderOnLeft, right: renderOnRight, top: renderOnTop, fight: renderFight}" class="secondary">
 
-        <FighterDetails :fighterId="'bastion fighter'" :faction="faction" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
+        <FighterDetails :faction="faction" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
+
+        <GrandBattleView :faction="faction" v-if="renderGrandBattleList" />
 
         <div class="details" v-if="renderDetails">
-
             <div class="row">
                 <div class="blockText areaDescription">
                     <p><b>Zone:</b> {{zoneName}}</p>
@@ -36,6 +37,8 @@
             </div>
         </div>
 
+
+
     </div>
 
 </template>
@@ -46,6 +49,7 @@ import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER, CURRENT_ZONE_FIG
 // import {DESELECT} from '../state/mutations'
 import FighterDetails from './FightPane/FighterDetails.vue'
 import Spoiler from './FightPane/Spoiler.vue'
+import GrandBattleView from './FightPane/GrandBattleView.vue'
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
 export {LEFT, RIGHT, DETAILS, FIGHT}
@@ -53,7 +57,8 @@ export {LEFT, RIGHT, DETAILS, FIGHT}
 export default {
     components:{
         FighterDetails,
-        Spoiler
+        Spoiler,
+        GrandBattleView,
     },
     props:{
         mode: Number,
@@ -69,8 +74,11 @@ export default {
         zoneDesc: function(){
             return this.currZoneDesc(this.selected)
         },
+        renderGrandBattleList: function(){
+            return (this.mode === LEFT || this.mode === RIGHT) && this.zoneFight.grandBattle
+        },
         shouldShowFighter: function(){
-            return this.mode === LEFT || this.mode === RIGHT
+            return (this.mode === LEFT || this.mode === RIGHT) && !this.zoneFight.grandBattle
         },
         renderOnLeft: function(){
             return this.mode === LEFT

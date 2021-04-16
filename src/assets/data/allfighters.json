@@ -2098,20 +2098,25 @@
   "103": {
     "name": "Razzberry Tallshark",
     "rounds": [
-      1
+      1,
+      2
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "link": [
-      "https://imgur.com/gallery/CYx7xAX"
+      "https://imgur.com/gallery/CYx7xAX",
+      "https://imgur.com/gallery/IsFeuxg"
     ],
     "context": [
-      "gbn"
+      "gbn",
+      "duel"
     ],
     "id": 103,
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "104": {
     "name": "Am-Sha-Ka Bedlam",
@@ -3802,25 +3807,6 @@
     ],
     "link": [
       "https://sites.google.com/view/war2-count-log-vs-gorilla"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "200": {
-    "id": 200,
-    "name": "Prisoner Tallshark",
-    "rounds": [
-      2
-    ],
-    "link": [
-      "https://imgur.com/gallery/IsFeuxg"
     ],
     "context": [
       "duel"

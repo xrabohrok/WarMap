@@ -1,6 +1,9 @@
 {
-  "grandbattle":{
-    "zones":["ardenweald", "factories"]
+  "grandbattle": {
+    "zones": [
+      "ardenweald",
+      "factories"
+    ]
   },
   "a13": {
     "location": "a13",
@@ -1254,7 +1257,7 @@
         64
       ],
       "bastion": [
-        200,
+        103,
         106,
         51,
         76,

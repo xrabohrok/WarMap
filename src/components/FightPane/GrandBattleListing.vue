@@ -9,7 +9,7 @@
         {{fighterName}}
     </div>
     <div class="gbcomic fightername">
-        <a :href="fighterComic"> link</a>
+        <a :href="fighterComic" target="_blank" rel="noopener noreferrer"> link</a>
     </div>
     
 </div>

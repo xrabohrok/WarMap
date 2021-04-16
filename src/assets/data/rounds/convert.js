@@ -43,6 +43,11 @@ const fs = require('fs')
 const fighters = require('../allfighters.json')
 // const round = require('../empty-map-schema.js')
 
+const checkForNonSubmission = function(url){
+    if(url === "[no submission]") return "na"
+    return url
+}
+
 console.log('Loaded, use adapt_fighters(round number, round_json, bool-pyre-attacking')
 console.log('or use the gb loader adapt_grand_battle(round_num, round_data, tile_location, context)')
 console.log(`found `)
@@ -63,7 +68,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
             id: lastId + 1,
             name: match[`${faction}_fighter`],
             rounds: [round_num],
-            link: [match[`${faction}_comic_link`]],
+            link: [checkForNonSubmission(match[`${faction}_comic_link`])],
             context: [context],
             faction: [faction],
             artists: [],
@@ -77,7 +82,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
     fighter.rounds.push(round_num)
     fighter.context.push(context)
     fighter.faction.push(faction)
-    fighter.link.push(match[`${faction}_comic_link`])
+    fighter.link.push(checkForNonSubmission(match[`${faction}_comic_link`]))
     return fighterId
     
 }

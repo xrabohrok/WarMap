@@ -11,7 +11,7 @@
             <div class="detail_row"><b>Backstory:</b> Fighter Name</div>
         </div>
         <div class="main_deets">
-            <img :class="{right: rightward}" src="../../assets/pics/scratch-standin.png"/>
+            <img :class="{right: rightward}"  :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
             <div class="detail_row"> <h2> {{this.fighterName}} </h2></div>
         </div>
     </div>
@@ -28,6 +28,16 @@ export default {
         isLeft:Boolean,
         isRight:Boolean,
         faction:String
+    },
+    data: function(){
+        return {
+
+        }
+    },
+    methods:{
+        altIcon(event){
+            event.target.src = this.fighterBackupIcon
+        }
     },
     computed:{
         leftward: function(){
@@ -53,6 +63,13 @@ export default {
         isSelected: function(){
             return this.selected !== "na" && this.contested(this.selected)
         },
+        fighterIcon: function(){
+            return `fighterimages/${this.fighter.id}.png`
+        },
+        fighterBackupIcon: function(){
+            if (this.faction === 'pyre') return require('../../assets/pics/pyre-standin.png') 
+            return require('../../assets/pics/bastion-standin.png') 
+        },
         ...mapGetters({
             zoneFight: CURRENT_ZONE_FIGHT,
             selected: SELECTING_GETTER,
@@ -65,6 +82,14 @@ export default {
 </script>
 
 <style scoped>
+
+.fighterIcon {
+    width: 12vh;
+    height: 12vh;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
 .toplevel{
     display: flex;
     flex-direction: column;

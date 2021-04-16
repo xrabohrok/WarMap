@@ -1,9 +1,7 @@
 <template>
 <div class="onefighter">
     <div class="imghere">
-        <object :data="fighterBackupIcon" type="image/png" class="fighterIcon">
-            <img :src="fighterIcon" class="fighterIcon"/>
-        </object>
+        <img :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
     </div>
     <div class="fightername">
         {{fighterName}}
@@ -24,6 +22,11 @@ export default {
     props:{
         fighterId: Number,
         round: Number
+    },
+        methods:{
+        altIcon(event){
+            event.target.src = this.fighterBackupIcon
+        }
     },
     computed:{
         fighterComic: function(){

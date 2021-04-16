@@ -45,7 +45,6 @@ const getters = {
     },
     grandBattleFighters: (state) => ( faction) => {
         if(state.curSelected === "NA") return []
-        console.log(state.curSelected)
         var allFighters = state.roundData[state.curRound][state.curSelected].fighters[faction]
         //the first fighter is the duelist if it is a mixed tile
         return state.roundData[state.curRound].contest ? allFighters.slice(1) : allFighters

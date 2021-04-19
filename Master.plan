@@ -1,12 +1,12 @@
 {
   "Version": "0.7.2",
   "LockProject": false,
-  "BoardIndex": 0,
+  "BoardIndex": 2,
   "BoardCount": 4,
   "AutoSave": false,
-  "Pan.X": -584.9445190429688,
-  "Pan.Y": -426.077392578125,
-  "ZoomLevel": 3,
+  "Pan.X": -444.46630859375,
+  "Pan.Y": -180.9065704345703,
+  "ZoomLevel": 4,
   "TaskTransparency": 5,
   "OutlineTasks": true,
   "BracketSubtasks": true,
@@ -1324,6 +1324,54 @@
       "Selected": false,
       "TaskType.CurrentChoice": 0,
       "CreationTime": "Apr 19 2021 14:05:43"
+    }, 
+    {
+      "BoardIndex": 1,
+      "Position.X": 352,
+      "Position.Y": 304,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "Nice To Haves",
+      "Selected": false,
+      "TaskType.CurrentChoice": 2,
+      "CreationTime": "Apr 19 2021 14:15:49"
+    }, 
+    {
+      "BoardIndex": 1,
+      "Position.X": 352,
+      "Position.Y": 320,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "Cubari.moe link support",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Apr 19 2021 14:15:59"
+    }, 
+    {
+      "BoardIndex": 1,
+      "Position.X": 352,
+      "Position.Y": 192,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "Multilink support for comics",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Apr 19 2021 14:17:33"
+    }, 
+    {
+      "BoardIndex": 3,
+      "Position.X": 144,
+      "Position.Y": 96,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "fix round slider on reload",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Apr 19 2021 14:45:07"
     }
   ]
 }

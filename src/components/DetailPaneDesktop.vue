@@ -22,15 +22,29 @@
             </div>
             <div class="row">
                 <div class="title cell" :class="{bastion: bastionAttacking, pyre: !bastionAttacking}">
-                    {{bastionAttacking ? "Bastion" : "Pyre"}}
+                    {{bastionAttacking ? "bastion" : "pyre"}}
                 </div>
                 <div class="title cell" :class="{bastion: !bastionAttacking, pyre: bastionAttacking}">
-                    {{bastionAttacking ?  "Pyre" : "Bastion"}}
+                    {{bastionAttacking ?  "pyre" : "bastion"}}
                 </div>
             </div>
             <div class="row">
-                <div class="cell"> <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" >link</a></div>
-                <div class="cell"> <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" >link</a></div>
+                <div class="cell"> 
+                    <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" target="_blank" rel="noopener noreferrer">{{linkLabel(true)}}</a>
+                    <span v-show="showCubari(true)">
+                        <a :href="curbariLink(true)" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/pics/cubari.svg" class="iconLink">
+                        </a>
+                    </span>
+                </div>
+                <div class="cell"> 
+                    <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" target="_blank" rel="noopener noreferrer">{{linkLabel(false)}}</a>
+                    <span v-show="showCubari(false)">
+                        <a :href="curbariLink(false)" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/pics/cubari.svg" class="iconLink">
+                        </a>
+                    </span>
+                </div>
             </div>
             <div class="row">
                 <Spoiler :hiddenText="fightOutcome"/>
@@ -51,6 +65,10 @@ import FighterDetails from './FightPane/FighterDetails.vue'
 import Spoiler from './FightPane/Spoiler.vue'
 import GrandBattleView from './FightPane/GrandBattleView.vue'
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
+
+const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/mi
+const twitterTest = /^(https:\/\/)twitter\.com/mi
+const tumblrTest = /^(https:\/\/).*mrlemur\.tumblr\.com\/post\//mi
 
 export {LEFT, RIGHT, DETAILS, FIGHT}
 
@@ -115,6 +133,7 @@ export default {
             if(!(this.zoneFight.contest || this.zoneFight.grandBattle)) return "Not Available"
             return `Bastion: ${this.zoneFight.outcome.bastion} , Pyre: ${this.zoneFight.outcome.pyre} \n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
         },
+
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,
             currZoneDesc: CURRENT_ZONE_DESC,
@@ -128,6 +147,27 @@ export default {
         //     this.$store.commit(DESELECT)
         //     window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
         // }    
+        linkLabel:function(attacker){
+            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
+            var link = this.comicLink(facs)
+            if (imgrTest.test(link)) return "Imgur"
+            if (twitterTest.test(link)) return "Twitter"
+            if (tumblrTest.test(link)) return "Tumblr"
+            return "Link"
+        },
+        showCubari: function(attacker){
+            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
+            var link = this.comicLink(facs)
+            return imgrTest.test(link)
+        },
+        curbariLink: function(attacker){
+            const imgurIDPart = /\/(a|gallery)\/.......$/i
+            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
+            var link = this.comicLink(facs)
+            var parts = link.match(imgurIDPart)
+            var id = parts[0].split('/')[2]
+            return `https://cubari.moe/read/imgur/${id}/`
+        }
     },
 
     name: 'DetailPaneDesktop'
@@ -135,6 +175,17 @@ export default {
 </script>
 
 <style scoped>
+
+.iconLink{
+    width: 2em;
+    position: relative;
+    overflow: overlay;
+    top: -50%;
+    transform: translateY(40%);
+    margin-left: .4em;
+    fill:chartreuse;
+}
+
 .close{
     width:14%;
     order:0;

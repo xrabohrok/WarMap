@@ -165,6 +165,8 @@ export default {
             var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
             var link = this.comicLink(facs)
             var parts = link.match(imgurIDPart)
+            
+            if(parts === null) return ""
             var id = parts[0].split('/')[2]
             return `https://cubari.moe/read/imgur/${id}/`
         }

@@ -609,8 +609,8 @@
       ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "win",
+      "bastion": "lose"
     }
   },
   "c6": {
@@ -1275,9 +1275,10 @@
       ]
     },
     "outcome": {
-      "pyre": "lose",
-      "bastion": "win"
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "note": "Bastion won the duel, but Pyre took it back through Grand Battle Victory"
   },
   "f12": {
     "location": "f12",

@@ -1,19 +1,9 @@
 {
   "grandbattle": {
-    "location": "grandbattle",
-    "contest": false,
-    "attacker": "na",
-    "grandBattle": false,
-    "clash": false,
-    "items": [],
-    "fighters": {
-      "pyre": [],
-      "bastion": []
-    },
-    "outcome": {
-      "pyre": "",
-      "bastion": ""
-    }
+    "zones": [
+      "titanfall",
+      "swamp"
+    ]
   },
   "a13": {
     "location": "a13",
@@ -1273,7 +1263,7 @@
     "location": "f13",
     "contest": true,
     "attacker": "bastion",
-    "owner": "bastion",
+    "owner": "pyre",
     "grandBattle": false,
     "clash": false,
     "items": [],
@@ -1481,12 +1471,42 @@
     "contest": false,
     "attacker": "na",
     "owner": "bastion",
-    "grandBattle": false,
+    "grandBattle": true,
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        136,
+        267,
+        377,
+        378,
+        241,
+        158,
+        209,
+        149,
+        380,
+        314,
+        381,
+        36,
+        30
+      ],
+      "bastion": [
+        132,
+        376,
+        284,
+        55,
+        379,
+        76,
+        137,
+        186,
+        75,
+        159,
+        104,
+        31,
+        98,
+        96,
+        73
+      ]
     },
     "outcome": {
       "pyre": "",
@@ -2603,15 +2623,33 @@
     "contest": true,
     "attacker": "bastion",
     "owner": "pyre",
-    "grandBattle": false,
+    "grandBattle": true,
     "clash": false,
     "items": [],
     "fighters": {
       "pyre": [
-        225
+        225,
+        131,
+        383,
+        83,
+        331,
+        167,
+        122,
+        99,
+        165,
+        160,
+        111
       ],
       "bastion": [
-        375
+        375,
+        382,
+        172,
+        41,
+        25,
+        113,
+        198,
+        139,
+        78
       ]
     },
     "outcome": {

@@ -50,21 +50,24 @@ const checkForNonSubmission = function(url){
 
 console.log('Loaded, use adapt_fighters(round number, round_json, bool-pyre-attacking')
 console.log('or use the gb loader adapt_grand_battle(round_num, round_data, tile_location, context)')
-console.log(`found `)
+console.log(`Duels must be processed and accepted first! `)
 
 const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
+    
     let curFighter = null
-    for (const [_, value] of fighter_map) {
+
+    for (const value of fighter_map.values()) {
         if(value.name.trim().toLowerCase() === match[`${faction}_fighter`].trim().toLowerCase()){
             curFighter = value
+            console.log(`adding to ${value.name} 's entry`)
             break
         }
     }
 
     //var curFighter = fighter_map.find(f => f.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase())
-    var fighterId = !!curFighter ? curFighter.id : -1
+    var fighterId = curFighter != null ? curFighter.id : -1
     if(fighterId === -1){
-        fighter_map[lastId+1] = {
+        fighter_map.set(lastId+1, {
             id: lastId + 1,
             name: match[`${faction}_fighter`],
             rounds: [round_num],
@@ -74,16 +77,17 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
             artists: [],
             backstory: "",
             verified: false  //new fighters need to be audited
-        }
+        })
         return lastId + 1
     }
 
-    var fighter = fighter_map[fighterId]
+    var fighter = fighter_map.get(fighterId)
     fighter.rounds.push(round_num)
     fighter.context.push(context)
     fighter.faction.push(faction)
     fighter.link.push(checkForNonSubmission(match[`${faction}_comic_link`]))
-    return fighterId
+    console.log(`fighter id : ${fighter.id}`)
+    return fighter.id
     
 }
 
@@ -95,6 +99,18 @@ const determine_tile_owner = function(tile){
     return "na"
 }
 
+exports.precheck_round = function(round_data){
+    round_data.forEach(rd => {
+        const winner = rd.winner.trim().toLowerCase()
+        if(!(rd.bastion_fighter.trim().toLowerCase() ===winner || rd.pyre_fighter.trim().toLowerCase() === winner )){
+            console.log(`${rd.bastion_fighter} v ${rd.pyre_fighter} does not resolve`)
+        }
+        if(rd.tile.length > 3){
+            console.log(`Something is up with ${rd.tile}`)
+        }
+    })
+}
+
 //load the grand battle info
 //context 
 exports.adapt_grand_battle = function(round_num, round_data, tile_location, context){
@@ -104,7 +120,7 @@ exports.adapt_grand_battle = function(round_num, round_data, tile_location, cont
     var fighterIter = Object.values(fighters)
     var fighter_map = new Map()
     for (const fighter of fighterIter) {
-        fighter_map[fighter.id] = fighter
+        fighter_map.set(fighter.id, fighter) //apparantly you need this in order to be iterable
         lastId = lastId < fighter.id ? fighter.id : lastId
     }
 
@@ -128,12 +144,15 @@ exports.adapt_grand_battle = function(round_num, round_data, tile_location, cont
         }
     })
 
-        //output the round and the new fighters
-        var fighter_data = JSON.stringify(fighter_map, null, 2)
-        fs.writeFileSync('./new_allfighters.json', fighter_data)
-    
-        var round_data = JSON.stringify(map_round, null, 2)
-        fs.writeFileSync(`./new_round-${round_num}.json`, round_data)
+    var flatmap = {}
+    fighter_map.forEach((v,k) => flatmap[`${k}`] = v)
+
+    //output the round and the new fighters
+    var fighter_data = JSON.stringify(flatmap, null, 2)
+    fs.writeFileSync('./new_allfighters.json', fighter_data)
+
+    var round_data = JSON.stringify(map_round, null, 2)
+    fs.writeFileSync(`./new_round-${round_num}.json`, round_data)
 
 }
 
@@ -144,7 +163,7 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
     var fighterIter = Object.values(fighters)
     var fighter_map = new Map()
     for (const fighter of fighterIter) {
-        fighter_map[fighter.id] = fighter
+        fighter_map.set(fighter.id, fighter) //apparantly you need this in order to be iterable
         lastId = lastId < fighter.id ? fighter.id : lastId
     }
 
@@ -159,6 +178,7 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
             attacker: 'na',
             owner: ownership,
             grandBattle: false,
+            clash: false,
             items: [],
             fighters: {
                 pyre: [],
@@ -183,9 +203,11 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
         lastId = pyrefighterId > lastId ? pyrefighterId : lastId
 
         let winnerId = -1
-        if(fighter_map[bastionfighterId].name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
+        // console.log(`${pyrefighterId}: ${fighter_map}`)
+
+        if(fighter_map.get(bastionfighterId).name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
             winnerId = bastionfighterId
-        }else if (fighter_map[pyrefighterId].name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
+        }else if (fighter_map.get(pyrefighterId).name.trim().toLowerCase() === match.winner.trim().toLowerCase()){
             winnerId = pyrefighterId
         }
         assert(winnerId !== -1, `Could not find the winner of match for ${match.tile}, could not find ${match.winner}`)
@@ -202,8 +224,11 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
 
     });
 
+    var flatmap = {}
+    fighter_map.forEach((v,k) => flatmap[`${k}`] = v)
+
     //output the round and the new fighters
-    var fighter_data = JSON.stringify(fighter_map, null, 2)
+    var fighter_data = JSON.stringify(flatmap, null, 2)
     fs.writeFileSync('./new_allfighters.json', fighter_data)
 
     var round_data = JSON.stringify(map_round, null, 2)

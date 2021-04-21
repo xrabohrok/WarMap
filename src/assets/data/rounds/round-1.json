@@ -1,6 +1,9 @@
 {
-  "grandbattle":{
-    "zones":["bn", "bs"]
+  "grandbattle": {
+    "zones": [
+      "bn",
+      "bs"
+    ]
   },
   "a13": {
     "location": "a13",

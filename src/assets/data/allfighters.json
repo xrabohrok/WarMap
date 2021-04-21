@@ -229,18 +229,22 @@
     "name": "The King's Players",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://mrlemur.tumblr.com/post/643429978032275456/the-war-for-rayuba-round-1",
-      "https://mrlemur.tumblr.com/post/646100135678541824/war-for-rayuba-round-2"
+      "https://mrlemur.tumblr.com/post/646100135678541824/war-for-rayuba-round-2",
+      "https://imgur.com/a/6Id2aSn"
     ],
     "id": 10,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "duel"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre"
     ],
@@ -368,20 +372,25 @@
   "16": {
     "name": "Yuma Yun Yma",
     "rounds": [
-      1
+      1,
+      3
     ],
     "link": [
-      "[no submission]"
+      "[no submission]",
+      "https://imgur.com/a/dSInEFD"
     ],
     "id": 16,
     "context": [
+      "duel",
       "duel"
     ],
     "faction": [
+      "pyre",
       "pyre"
     ],
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "17": {
     "name": "Old Man Duque",
@@ -1005,38 +1014,48 @@
   "46": {
     "name": "The Buried King",
     "rounds": [
-      1
+      1,
+      2
     ],
     "link": [
-      "https://imgur.com/gallery/wUdCY37"
+      "https://imgur.com/gallery/wUdCY37",
+      "https://imgur.com/gallery/vJ1bpdp"
     ],
     "id": 46,
     "context": [
-      "duel"
+      "duel",
+      "gbn"
     ],
     "faction": [
+      "pyre",
       "pyre"
     ],
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "47": {
     "name": "Queen Paguroidea",
     "rounds": [
-      1
+      1,
+      3
     ],
     "link": [
-      "https://twitter.com/harrybogosian/status/1362954449619210241?s=20"
+      "https://twitter.com/harrybogosian/status/1362954449619210241?s=20",
+      "https://imgur.com/a/0jFszRr"
     ],
     "id": 47,
     "context": [
+      "duel",
       "duel"
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "48": {
     "name": "Ratasha the Rat Princess",
@@ -1479,18 +1498,22 @@
     "name": "Princess Xanthe Magellan",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://www.dropbox.com/s/nsat48hbzwurq6h/Jude%20R1.pdf?dl=0",
-      "https://www.dropbox.com/s/n95ir44vpvel8u2/interlude-2.pdf?dl=0"
+      "https://www.dropbox.com/s/n95ir44vpvel8u2/interlude-2.pdf?dl=0",
+      "[Late submission]"
     ],
     "id": 67,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "duel"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
@@ -1767,19 +1790,23 @@
     "name": "Marian & Mugon",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
     "link": [
       "https://imgur.com/a/Ws3QrWA",
-      "https://imgur.com/a/Ge4dmy2"
+      "https://imgur.com/a/Ge4dmy2",
+      "https://imgur.com/a/Ek0Vrok"
     ],
     "context": [
       "gbn",
-      "gbn"
+      "gbn",
+      "duel"
     ],
     "id": 80,
     "artists": [],
@@ -3160,20 +3187,25 @@
   "141": {
     "name": "Te-Shou Haath",
     "rounds": [
-      1
+      1,
+      2
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "link": [
-      "https://imgur.com/a/5KMmr52#IpXtzjQ"
+      "https://imgur.com/a/5KMmr52#IpXtzjQ",
+      "https://imgur.com/a/YD5UvS6#h8n2UJh"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "gbn"
     ],
     "id": 141,
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "142": {
     "name": "Elena Hellfire",
@@ -3817,20 +3849,25 @@
   "169": {
     "name": "Marissa Oran",
     "rounds": [
-      1
+      1,
+      2
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "link": [
-      "https://imgur.com/gallery/fSW3wiC"
+      "https://imgur.com/gallery/fSW3wiC",
+      "https://imgur.com/gallery/jHQBbvc"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "gbn"
     ],
     "id": 169,
     "artists": [],
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "170": {
     "name": "Jaagup",
@@ -3863,19 +3900,23 @@
     "name": "Grace Thoruson",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre"
     ],
     "link": [
       "https://imgur.com/a/0oxzaxE",
-      "https://imgur.com/a/9I4hAjU"
+      "https://imgur.com/a/9I4hAjU",
+      "https://imgur.com/a/0PHwsse"
     ],
     "context": [
       "gbs",
-      "gbn"
+      "gbn",
+      "duel"
     ],
     "id": 171,
     "artists": [],
@@ -4927,25 +4968,6 @@
     "backstory": "",
     "verified": false
   },
-  "285": {
-    "id": 285,
-    "name": "Buried King",
-    "rounds": [
-      2
-    ],
-    "link": [
-      "https://imgur.com/gallery/vJ1bpdp"
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
   "286": {
     "id": 286,
     "name": "Prism",
@@ -4969,25 +4991,6 @@
     "backstory": "",
     "verified": true
   },
-  "293": {
-    "id": 293,
-    "name": "Te-Shou",
-    "rounds": [
-      2
-    ],
-    "link": [
-      "https://imgur.com/a/YD5UvS6#h8n2UJh"
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
   "294": {
     "id": 294,
     "name": "Prophet Bilious",
@@ -5006,25 +5009,6 @@
     "faction": [
       "pyre",
       "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "295": {
-    "id": 295,
-    "name": "Marissa",
-    "rounds": [
-      2
-    ],
-    "link": [
-      "https://imgur.com/gallery/jHQBbvc"
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "bastion"
     ],
     "artists": [],
     "backstory": "",
@@ -5358,25 +5342,6 @@
     "backstory": "",
     "verified": false
   },
-  "349": {
-    "id": 349,
-    "name": "Queen Paguroidiea",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/0jFszRr"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
   "350": {
     "id": 350,
     "name": "Aubrey",
@@ -5410,25 +5375,6 @@
     ],
     "faction": [
       "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "352": {
-    "id": 352,
-    "name": "Grace",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/0PHwsse"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "pyre"
     ],
     "artists": [],
     "backstory": "",
@@ -5567,44 +5513,6 @@
     "backstory": "",
     "verified": false
   },
-  "361": {
-    "id": 361,
-    "name": "Xanthe",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "[Late submission]"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "362": {
-    "id": 362,
-    "name": "King's Players",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/6Id2aSn"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
   "363": {
     "id": 363,
     "name": "Reynauld",
@@ -5638,25 +5546,6 @@
     ],
     "faction": [
       "bastion"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "365": {
-    "id": 365,
-    "name": "Yma",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/dSInEFD"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "pyre"
     ],
     "artists": [],
     "backstory": "",
@@ -5790,25 +5679,6 @@
     ],
     "faction": [
       "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "375": {
-    "id": 375,
-    "name": "Marian and Mugon",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/Ek0Vrok"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "bastion"
     ],
     "artists": [],
     "backstory": "",

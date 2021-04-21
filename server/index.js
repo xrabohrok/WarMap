@@ -86,6 +86,7 @@ module.exports = function (app) {
                 return
             }
 
+            // var doomed = req.body.doomed.split(',')
             var doomed = req.body.doomed
             var target = req.body.target
 
@@ -99,16 +100,16 @@ module.exports = function (app) {
                 var tiles = Object.keys(roundData)
                 tiles.forEach(t =>{
                     var tile = roundData[t]
-                    if((tile.contest || tile.grandbattle)){ 
+                    if((tile.contest || tile.grandBattle)){ 
                         //check for any doomed
                         doomed.forEach(d => {
                             if(tile.fighters.pyre.includes(d)){
-                                var index = tile.fighters.pyre.findIndex(pf => pf == d)
+                                var index = tile.fighters.pyre.findIndex(pf => pf === d)
                                 tile.fighters.pyre[index] = target
                             }
 
                             if(tile.fighters.bastion.includes(d)){
-                                var index = tile.fighters.bastion.findIndex(bf => bf == d)
+                                var index = tile.fighters.bastion.findIndex(bf => bf === d)
                                 tile.fighters.bastion[index] = target
                             }
                         })

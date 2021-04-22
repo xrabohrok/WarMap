@@ -1,0 +1,953 @@
+{
+  "title": "War For Rayuba Round 3",
+  "description": "A War for Rayuba master set of comics for round 3.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!\r\n\r\n The following characters are not represented here:\r\n Cupid, Escher, KU, Princess Xanthe Magellan, Scoria, Izer Naam, Thunder Bravo, IBFARSHAN, They of Many Names, Fog of Graves, Impo, Jaagup, Count Log, Remiel, Irdunbrih, Qala, 12 Quiet Steps, Reynauld, Rhes, and Grwxfkz.\r\nTHIS DOES NOT CURRENTLY INCLUDE THE CLASH AT THE TOWER",
+  "artist": "Various artists on the WFR Discord (check each comic)",
+  "author": "Various artists on the WFR Discord (check each comic)",
+  "cover": "https://i.imgur.com/rzmmuDn.png",
+  "chapters": {
+    "1": {
+      "title": "Garuda",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/CzCydcj/"
+      },
+      "last_updated": "1619110614"
+    },
+    "2": {
+      "title": "Vessel Corpse",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/yowKkQj/"
+      },
+      "last_updated": "1619110614"
+    },
+    "3": {
+      "title": "Lata",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/dhgFRUZ/"
+      },
+      "last_updated": "1619110614"
+    },
+    "4": {
+      "title": "Morten",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MRiysxE/"
+      },
+      "last_updated": "1619110614"
+    },
+    "5": {
+      "title": "Vol. 23",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/HYSDtvR/"
+      },
+      "last_updated": "1619110614"
+    },
+    "6": {
+      "title": "The King's Players",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/6Id2aSn/"
+      },
+      "last_updated": "1619110614"
+    },
+    "7": {
+      "title": "Harrison Merrystide",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/FpU89Sn/"
+      },
+      "last_updated": "1619110614"
+    },
+    "8": {
+      "title": "Death Dealer",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/PIEf4FX/"
+      },
+      "last_updated": "1619110614"
+    },
+    "9": {
+      "title": "Yuma Yun Yma",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/dSInEFD/"
+      },
+      "last_updated": "1619110614"
+    },
+    "10": {
+      "title": "Rem",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/AfBiEgY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "11": {
+      "title": "THE CAT",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/n3b171V/"
+      },
+      "last_updated": "1619110614"
+    },
+    "12": {
+      "title": "Hok",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/7KinDwU/"
+      },
+      "last_updated": "1619110614"
+    },
+    "13": {
+      "title": "Bronwyn",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/T4Ga88M/"
+      },
+      "last_updated": "1619110614"
+    },
+    "14": {
+      "title": "Al Railcatcher",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/j0wF5D3/"
+      },
+      "last_updated": "1619110614"
+    },
+    "15": {
+      "title": "The Marquis",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/VclRM6B/"
+      },
+      "last_updated": "1619110614"
+    },
+    "16": {
+      "title": "The MANY HANDS",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/0X7RZ01/"
+      },
+      "last_updated": "1619110614"
+    },
+    "17": {
+      "title": "Prince Leopold",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Ppammup/"
+      },
+      "last_updated": "1619110614"
+    },
+    "18": {
+      "title": "20 Cresting Magma",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/vE7FA5Z/"
+      },
+      "last_updated": "1619110614"
+    },
+    "19": {
+      "title": "Temurin",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/pC1a7IL/"
+      },
+      "last_updated": "1619110614"
+    },
+    "20": {
+      "title": "Keenblade",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/NKsG4tW/"
+      },
+      "last_updated": "1619110614"
+    },
+    "21": {
+      "title": "Queen Paguroidea",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/0jFszRr/"
+      },
+      "last_updated": "1619110614"
+    },
+    "22": {
+      "title": "Bugmann",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/VkusWWB/"
+      },
+      "last_updated": "1619110614"
+    },
+    "23": {
+      "title": "Page Turner",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/PzdBnLT/"
+      },
+      "last_updated": "1619110614"
+    },
+    "24": {
+      "title": "Sishigeshiji Song",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/c3trKSm/"
+      },
+      "last_updated": "1619110614"
+    },
+    "25": {
+      "title": "Grandmother Silence",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/gxZRwOY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "26": {
+      "title": "Baja",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/2rI7wgF/"
+      },
+      "last_updated": "1619110614"
+    },
+    "27": {
+      "title": "Zan",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Sy58lHN/"
+      },
+      "last_updated": "1619110614"
+    },
+    "28": {
+      "title": "Bull",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/tBeoGQx/"
+      },
+      "last_updated": "1619110614"
+    },
+    "29": {
+      "title": "Mauveline",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Cy8DgWY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "30": {
+      "title": "Cassia Edgerite",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MoJh7lA/"
+      },
+      "last_updated": "1619110614"
+    },
+    "31": {
+      "title": "Blanket Wizard",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/eNhCGie/"
+      },
+      "last_updated": "1619110614"
+    },
+    "32": {
+      "title": "Jin Jin",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/FW8ghBV/"
+      },
+      "last_updated": "1619110614"
+    },
+    "33": {
+      "title": "Leslie",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/2OPJRNy/"
+      },
+      "last_updated": "1619110614"
+    },
+    "34": {
+      "title": "Shoota",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/kMcF5SN/"
+      },
+      "last_updated": "1619110614"
+    },
+    "35": {
+      "title": "Marian & Mugon",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Ek0Vrok/"
+      },
+      "last_updated": "1619110614"
+    },
+    "36": {
+      "title": "Mnem",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/kuo40nc/"
+      },
+      "last_updated": "1619110614"
+    },
+    "37": {
+      "title": "Disassembly",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/mvF23oa/"
+      },
+      "last_updated": "1619110614"
+    },
+    "38": {
+      "title": "Elsa Bee",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/HXhQUC5/"
+      },
+      "last_updated": "1619110614"
+    },
+    "39": {
+      "title": "Mozz",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/67Pvn6X/"
+      },
+      "last_updated": "1619110614"
+    },
+    "40": {
+      "title": "Mori",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/jXpvqED/"
+      },
+      "last_updated": "1619110614"
+    },
+    "41": {
+      "title": "Vesna & Jarilo",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/D51fGuT/"
+      },
+      "last_updated": "1619110614"
+    },
+    "42": {
+      "title": "Fisher of Men",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/LVZ60GT/"
+      },
+      "last_updated": "1619110614"
+    },
+    "43": {
+      "title": "Kerry",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/0POedEw/"
+      },
+      "last_updated": "1619110614"
+    },
+    "44": {
+      "title": "Kloe Canular",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/3f1wA7r/"
+      },
+      "last_updated": "1619110614"
+    },
+    "45": {
+      "title": "Mataw Ady",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Ne0QpBm/"
+      },
+      "last_updated": "1619110614"
+    },
+    "46": {
+      "title": "Gene Fauntleroy",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/iuT3OTU/"
+      },
+      "last_updated": "1619110614"
+    },
+    "47": {
+      "title": "Am-Sha-Ka Bedlam",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Fn8ywLT/"
+      },
+      "last_updated": "1619110614"
+    },
+    "48": {
+      "title": "56 Broken Spear",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/OXa373M/"
+      },
+      "last_updated": "1619110614"
+    },
+    "49": {
+      "title": "Fireonica",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/TdrH73r/"
+      },
+      "last_updated": "1619110614"
+    },
+    "50": {
+      "title": "Pacha Manka",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/n3pmLFB/"
+      },
+      "last_updated": "1619110614"
+    },
+    "51": {
+      "title": "Solis",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/cYrEezY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "52": {
+      "title": "Corone",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/5lra8tG/"
+      },
+      "last_updated": "1619110614"
+    },
+    "53": {
+      "title": "Brazen Pun",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/DyvVwww/"
+      },
+      "last_updated": "1619110614"
+    },
+    "54": {
+      "title": "Eris",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/AjCX3Iz/"
+      },
+      "last_updated": "1619110614"
+    },
+    "55": {
+      "title": "ACRIFOTG",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/yDXTr26/"
+      },
+      "last_updated": "1619110614"
+    },
+    "56": {
+      "title": "Murder Cube",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MjMZM7I/"
+      },
+      "last_updated": "1619110614"
+    },
+    "57": {
+      "title": "Fu",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/dJht7P9/"
+      },
+      "last_updated": "1619110614"
+    },
+    "58": {
+      "title": "Pretzel Man",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/rZP75oY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "59": {
+      "title": "Nalk Nuori",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/egKHzeI/"
+      },
+      "last_updated": "1619110614"
+    },
+    "60": {
+      "title": "Senki Dala Mozgalom",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/tVNTmmg/"
+      },
+      "last_updated": "1619110614"
+    },
+    "61": {
+      "title": "Lucille Evalume",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/kMcF5SN/"
+      },
+      "last_updated": "1619110614"
+    },
+    "62": {
+      "title": "Venus & Scarlett",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/E3e5ioe/"
+      },
+      "last_updated": "1619110614"
+    },
+    "63": {
+      "title": "Coffee Coffee Cake",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/hoyXPTa/"
+      },
+      "last_updated": "1619110614"
+    },
+    "64": {
+      "title": "GRAIL",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Zt9cyNk/"
+      },
+      "last_updated": "1619110614"
+    },
+    "65": {
+      "title": "Ink",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/rMMY37l/"
+      },
+      "last_updated": "1619110614"
+    },
+    "66": {
+      "title": "MOd",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/rg3lFiu/"
+      },
+      "last_updated": "1619110614"
+    },
+    "67": {
+      "title": "Red Helmet",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/vxmpI6S/"
+      },
+      "last_updated": "1619110614"
+    },
+    "68": {
+      "title": "Victorious Flame",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/7IGc6iI/"
+      },
+      "last_updated": "1619110614"
+    },
+    "69": {
+      "title": "28 Quicksilver",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/n4RzoVv/"
+      },
+      "last_updated": "1619110614"
+    },
+    "70": {
+      "title": "Xiton",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/m974grj/"
+      },
+      "last_updated": "1619110614"
+    },
+    "71": {
+      "title": "Vale & Sylvia",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/vZMr1Z9/"
+      },
+      "last_updated": "1619110614"
+    },
+    "72": {
+      "title": "Enorog",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/UKflaE7/"
+      },
+      "last_updated": "1619110614"
+    },
+    "73": {
+      "title": "Inami",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/I0sYb2G/"
+      },
+      "last_updated": "1619110614"
+    },
+    "74": {
+      "title": "Grace Thoruson",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/0PHwsse/"
+      },
+      "last_updated": "1619110614"
+    },
+    "75": {
+      "title": "Koji Ten Hekati",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/hUkwhgX/"
+      },
+      "last_updated": "1619110614"
+    },
+    "76": {
+      "title": "Agyp Aghta",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/L9GvFoQ/"
+      },
+      "last_updated": "1619110614"
+    },
+    "77": {
+      "title": "Arms Dealer",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/GRXE2HC/"
+      },
+      "last_updated": "1619110614"
+    },
+    "78": {
+      "title": "Red Hand of Ruin",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/VJX4YDt/"
+      },
+      "last_updated": "1619110614"
+    },
+    "79": {
+      "title": "SUKI",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/ApkEQl3/"
+      },
+      "last_updated": "1619110614"
+    },
+    "80": {
+      "title": "BESHKER",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/yxSF2Lu/"
+      },
+      "last_updated": "1619110614"
+    },
+    "81": {
+      "title": "Sour Fruit of Kebby-Ya",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/2hRvsDW/"
+      },
+      "last_updated": "1619110614"
+    },
+    "82": {
+      "title": "Troll Queen",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/vY59arL/"
+      },
+      "last_updated": "1619110614"
+    },
+    "83": {
+      "title": "Gilebren",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/eodEnUF/"
+      },
+      "last_updated": "1619110614"
+    },
+    "84": {
+      "title": "Mamuthon",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/E5tylFQ/"
+      },
+      "last_updated": "1619110614"
+    },
+    "85": {
+      "title": "Prophet Bilious",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/6y6OExr/"
+      },
+      "last_updated": "1619110614"
+    },
+    "86": {
+      "title": "Starla & Bodyguard",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/T0tiUdm/"
+      },
+      "last_updated": "1619110614"
+    },
+    "87": {
+      "title": "Va'ashura",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/clJnkWp/"
+      },
+      "last_updated": "1619110614"
+    },
+    "88": {
+      "title": "False King",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/kVLW7no/"
+      },
+      "last_updated": "1619110614"
+    },
+    "89": {
+      "title": "Izra'Kis",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/facdxB2/"
+      },
+      "last_updated": "1619110614"
+    },
+    "90": {
+      "title": "Kakal",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/nxnj7LO/"
+      },
+      "last_updated": "1619110614"
+    },
+    "91": {
+      "title": "Basil & Jeeves",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/b88D38i/"
+      },
+      "last_updated": "1619110614"
+    },
+    "92": {
+      "title": "Frog and Toad",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/mFsNAbK/"
+      },
+      "last_updated": "1619110614"
+    },
+    "93": {
+      "title": "Frogstar",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/tP4RqpJ/"
+      },
+      "last_updated": "1619110614"
+    },
+    "94": {
+      "title": "Svala",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/7NSdXRP/"
+      },
+      "last_updated": "1619110614"
+    },
+    "95": {
+      "title": "Oblivia Nyx",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/1t1kCRi/"
+      },
+      "last_updated": "1619110614"
+    },
+    "96": {
+      "title": "The Magi",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/j0MJUOf/"
+      },
+      "last_updated": "1619110614"
+    },
+    "97": {
+      "title": "Aubrey",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/DXlgYc2/"
+      },
+      "last_updated": "1619110614"
+    },
+    "98": {
+      "title": "0 KILLSTAR",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/3VZ17Zs/"
+      },
+      "last_updated": "1619110614"
+    },
+    "99": {
+      "title": "Tower City Blade",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/fDqv9fE/"
+      },
+      "last_updated": "1619110614"
+    },
+    "100": {
+      "title": "Long Arms Ten Anong",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/6j86YQg/"
+      },
+      "last_updated": "1619110614"
+    },
+    "101": {
+      "title": "Dumura'ah ot Mokur",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/y4bYL95/"
+      },
+      "last_updated": "1619110614"
+    },
+    "102": {
+      "title": "The Dregs",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/k1eFTa0/"
+      },
+      "last_updated": "1619110614"
+    },
+    "103": {
+      "title": "Ohne",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/dTaHfkB/"
+      },
+      "last_updated": "1619110614"
+    },
+    "104": {
+      "title": "Foundling & Idol",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/nCliZFx/"
+      },
+      "last_updated": "1619110614"
+    },
+    "105": {
+      "title": "Peggy",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/bWpXuXm/"
+      },
+      "last_updated": "1619110614"
+    },
+    "106": {
+      "title": "14 Windswept Meadows",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/t3Nu9h8/"
+      },
+      "last_updated": "1619110614"
+    },
+    "107": {
+      "title": "Tenacious",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/gIwMoEe/"
+      },
+      "last_updated": "1619110614"
+    },
+    "108": {
+      "title": "Lassius & Ed",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MJei4bs/"
+      },
+      "last_updated": "1619110614"
+    },
+    "109": {
+      "title": "Sawtooth Dancer",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/uA9uf06/"
+      },
+      "last_updated": "1619110614"
+    },
+    "110": {
+      "title": "Ordnance",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/Mtee87V/"
+      },
+      "last_updated": "1619110614"
+    },
+    "111": {
+      "title": "Adriel",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/hisHH9e/"
+      },
+      "last_updated": "1619110614"
+    },
+    "112": {
+      "title": "Benezra",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/fFwtWbS/"
+      },
+      "last_updated": "1619110614"
+    },
+    "113": {
+      "title": "Last Wish",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/JJdQthY/"
+      },
+      "last_updated": "1619110614"
+    },
+    "114": {
+      "title": "Bride of Jagganoth",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/gr5dLpz/"
+      },
+      "last_updated": "1619110614"
+    },
+    "115": {
+      "title": "Kay",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/zCcOiTi/"
+      },
+      "last_updated": "1619110614"
+    },
+    "116": {
+      "title": "Clearbell and Gandie",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/KtLnFKO/"
+      },
+      "last_updated": "1619110614"
+    },
+    "117": {
+      "title": "Tammuz",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MsrKKb7/"
+      },
+      "last_updated": "1619110614"
+    },
+    "118": {
+      "title": "Hess the Little",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/VvtnNrN/"
+      },
+      "last_updated": "1619110614"
+    }
+  }
+}

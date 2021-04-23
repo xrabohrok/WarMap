@@ -43,7 +43,7 @@ const getters = {
         if(tileName === "NA") return false
         return state.roundData[state.curRound][tileName].grandBattle
     },
-    grandBattleFighters: (state) => ( faction) => {
+    massBattleFighters: (state) => ( faction) => {
         if(state.curSelected === "NA") return []
         var allFighters = state.roundData[state.curRound][state.curSelected].fighters[faction]
         //the first fighter is the duelist if it is a mixed tile
@@ -72,6 +72,12 @@ const getters = {
         if(!(fight.contest || fight.grandBattle)) return false
 
         return state.revealed[state.curRound].findIndex(i => i === state.curSelected) !== -1
+    },
+    curZoneIsClash: () => {
+        //state.roundData[state.curRound][state.curSelected].fighters[faction]
+        if(state.curSelected === "NA") return false
+        if(!('clash' in state.roundData[state.curRound][state.curSelected])) return false
+        return state.roundData[state.curRound][state.curSelected].clash
     }
 
 }
@@ -96,8 +102,9 @@ const SHOW_ZONE_LABEL = 'showZoneLabel'
 const NUMBER_OF_ROUNDS = 'numRounds'
 const CUR_ZONE_ATTACKER = 'curZoneAttacker'
 const ROUND_GRANDBATTLES = 'roundGrandBattles'
-const GRANDBATTLE_FIGHTERS = 'grandBattleFighters'
+const MASSBATTLE_FIGHTERS = 'massBattleFighters'
+const ZONE_IS_CLASH = 'curZoneIsClash'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
     CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS
-    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, GRANDBATTLE_FIGHTERS}
+    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, ZONE_IS_CLASH}

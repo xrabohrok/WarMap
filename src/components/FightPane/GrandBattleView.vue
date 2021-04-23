@@ -1,13 +1,13 @@
 <template>
     <div class="grandbattle">
-        <grand-battle-listing v-for="id in fighterDebug" :key="id" :fighterId="id" :round="round" :faction="faction" />
+        <grand-battle-listing v-for="id in fighters" :key="id" :fighterId="id" :round="round" :faction="faction" />
     </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
 import GrandBattleListing from './GrandBattleListing'
-import {GRANDBATTLE_FIGHTERS, CURRENT_ROUND} from '../../state/getters'
+import {MASSBATTLE_FIGHTERS, CURRENT_ROUND} from '../../state/getters'
 
 export default {
     components:{
@@ -17,16 +17,15 @@ export default {
         faction: String,
     },
     computed:{
-        fighterDebug: function() {
-            return this.fighters(this.faction)
+        fighters: function() {
+            return this.gbfighters(this.faction)
         },
         ...mapGetters({
-            fighters: GRANDBATTLE_FIGHTERS,
+            gbfighters: MASSBATTLE_FIGHTERS,
             round: CURRENT_ROUND,
         })
     },
     name: 'GrandBattleView'
-    
 }
 </script>
 

@@ -4,6 +4,8 @@
         <FighterDetails :faction="faction" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
 
         <GrandBattleView :faction="faction" v-if="renderGrandBattleList" />
+        
+        <ClashView :faction="faction" v-if="renderClashView" />
 
         <div class="details" v-if="renderDetails">
             <div class="row">
@@ -64,6 +66,7 @@ import {CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, SELECTING_GETTER, CURRENT_ZONE_FIG
 import FighterDetails from './FightPane/FighterDetails.vue'
 import Spoiler from './FightPane/Spoiler.vue'
 import GrandBattleView from './FightPane/GrandBattleView.vue'
+import ClashView from './FightPane/ClashView.vue'
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
 const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/mi
@@ -77,6 +80,7 @@ export default {
         FighterDetails,
         Spoiler,
         GrandBattleView,
+        ClashView,
     },
     props:{
         mode: Number,
@@ -95,8 +99,11 @@ export default {
         renderGrandBattleList: function(){
             return (this.mode === LEFT || this.mode === RIGHT) && this.zoneFight.grandBattle
         },
+        renderClashView: function(){
+            return (this.mode === LEFT || this.mode === RIGHT) && this.zoneFight.clash
+        },
         shouldShowFighter: function(){
-            return (this.mode === LEFT || this.mode === RIGHT) && !this.zoneFight.grandBattle
+            return (this.mode === LEFT || this.mode === RIGHT) && !this.zoneFight.grandBattle && !this.zoneFight.clash
         },
         renderOnLeft: function(){
             return this.mode === LEFT

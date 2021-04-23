@@ -464,18 +464,22 @@
     "name": "GREENHORN",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://imgur.com/a/jGPyfTb",
-      "https://imgur.com/a/0bS8ky5"
+      "https://imgur.com/a/0bS8ky5",
+      "https://imgur.com/a/WbLlehF"
     ],
     "id": 20,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre"
     ],
@@ -1015,18 +1019,22 @@
     "name": "The Buried King",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://imgur.com/gallery/wUdCY37",
-      "https://imgur.com/gallery/vJ1bpdp"
+      "https://imgur.com/gallery/vJ1bpdp",
+      "https://imgur.com/a/WbLlehF"
     ],
     "id": 46,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre"
     ],
@@ -1173,16 +1181,20 @@
   "53": {
     "name": "Giga-Dreadnaught Galeru",
     "rounds": [
-      1
+      1,
+      3
     ],
     "link": [
-      "https://imgur.com/a/kO8syfD"
+      "https://imgur.com/a/kO8syfD",
+      "https://imgur.com/a/kSYuMZ2"
     ],
     "id": 53,
     "context": [
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "artists": [],
@@ -1407,18 +1419,22 @@
     "name": "Sabi",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://imgur.com/a/akXF0X3",
-      "https://imgur.com/0B7ufN8"
+      "https://imgur.com/0B7ufN8",
+      "https://imgur.com/a/kSYuMZ2"
     ],
     "id": 63,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
@@ -1475,20 +1491,24 @@
     "name": "Jude",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://imgur.com/a/m2z2met",
-      "https://imgur.com/a/YnsdT6s"
+      "https://imgur.com/a/YnsdT6s",
+      "https://imgur.com/a/WbLlehF"
     ],
     "id": 66,
     "context": [
       "duel",
-      "gbn"
+      "gbn",
+      "clash"
     ],
     "faction": [
       "pyre",
-      "pyre"
+      "pyre",
+      "clash"
     ],
     "artists": [],
     "backstory": "",
@@ -2530,19 +2550,23 @@
     "name": "Lezaford",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
     "link": [
       "https://imgur.com/a/dQriUm9",
-      "https://imgur.com/a/VszUFDx"
+      "https://imgur.com/a/VszUFDx",
+      "https://imgur.com/a/kSYuMZ2"
     ],
     "context": [
       "gbn",
-      "gbn"
+      "gbn",
+      "clash"
     ],
     "id": 112,
     "artists": [],
@@ -2861,19 +2885,23 @@
     "name": "Stylops Peldo",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
     "link": [
       "https://imgur.com/a/pId7Urg",
-      "https://imgur.com/a/QerpHJJ"
+      "https://imgur.com/a/QerpHJJ",
+      "https://imgur.com/a/kSYuMZ2"
     ],
     "context": [
       "gbs",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 127,
     "artists": [],
@@ -4678,15 +4706,19 @@
     "id": 263,
     "name": "TOR",
     "rounds": [
-      2
+      2,
+      3
     ],
     "link": [
-      "https://imgur.com/a/Kt62yrX"
+      "https://imgur.com/a/Kt62yrX",
+      "https://imgur.com/a/WbLlehF"
     ],
     "context": [
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre"
     ],
     "artists": [],

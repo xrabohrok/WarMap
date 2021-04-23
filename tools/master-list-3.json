@@ -1,6 +1,6 @@
 {
   "title": "War For Rayuba Round 3",
-  "description": "A War for Rayuba master set of comics for round 3.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!\r\n\r\n The following characters are not represented here:\r\n Cupid, Escher, KU, Princess Xanthe Magellan, Scoria, Izer Naam, Thunder Bravo, IBFARSHAN, They of Many Names, Fog of Graves, Impo, Jaagup, Count Log, Remiel, Irdunbrih, Qala, 12 Quiet Steps, Reynauld, Rhes, and Grwxfkz.\r\nTHIS DOES NOT CURRENTLY INCLUDE THE CLASH AT THE TOWER",
+  "description": "A War for Rayuba master set of comics for round 3.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!\r\n\r\n The following characters are not represented here:\r\n Cupid, Escher, KU, Princess Xanthe Magellan, Scoria, Izer Naam, Thunder Bravo, IBFARSHAN, They of Many Names, Impo, Jaagup, Count Log, Remiel, Irdunbrih, Qala, 12 Quiet Steps, Reynauld, Rhes, and Grwxfkz.\r\nTHIS DOES NOT CURRENTLY INCLUDE THE CLASH AT THE TOWER",
   "artist": "Various artists on the WFR Discord (check each comic)",
   "author": "Various artists on the WFR Discord (check each comic)",
   "cover": "https://i.imgur.com/rzmmuDn.png",
@@ -948,6 +948,14 @@
         "primary": "/proxy/api/imgur/chapter/VvtnNrN/"
       },
       "last_updated": "1619110614"
+    },
+    "119": {
+      "title": "Fog of Graves",
+      "volume": "3",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/B1ORPYl/"
+      },
+      "last_updated": "1619136507"
     }
   }
 }

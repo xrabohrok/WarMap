@@ -24,11 +24,17 @@
             <img src='../assets/pics/bastion-attack.png' id="conflictedbastion" class="battleIndicator" v-if="bastionAttacking" draggable="false"/>
         </transition>
         <transition name="ghost">
+            <img src='../assets/pics/clash-pyre.png' id="clashbastion" class="battleIndicator" v-if="bastionAttackingClash" draggable="false"/>
+        </transition>
+        <transition name="ghost">
+            <img src='../assets/pics/clash-bastion.png' id="clashpyre" class="battleIndicator" v-if="pyreAttackingClash" draggable="false"/>
+        </transition>
+        <transition name="ghost">
             <img src='../assets/pics/gb-conflicted-marker.png' id="conflictedgrand" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
         </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" :style="fallTimeStyle" draggable="false">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="terrainTile" :style="fallTimeStyle" draggable="false">
         </transition>
         <transition name="fall">
             <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
@@ -51,7 +57,8 @@
 import {mapGetters} from 'vuex'
 import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
 import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
-    CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES} from '../state/getters'
+    CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES,
+     TILE_IS_CLASH} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -112,6 +119,12 @@ export default {
         bastionAttacking: function(){
             return this.tileContested && this.zoneAttacker(this.title) === "bastion"
         },
+        pyreAttackingClash: function(){
+            return this.isClash(this.title) && this.zoneAttacker(this.title) === "pyre"
+        },
+        bastionAttackingClash: function(){
+            return this.isClash(this.title) && this.zoneAttacker(this.title) === "bastion"
+        },
         markAsGrandBattle: function(){
             return this.grandBattles.includes(this.curZoneId(this.title))
         },
@@ -160,6 +173,7 @@ export default {
             simple_mode: SIMPLE_MODE,
             isContested: CURRENT_ZONE_CONTESTED,
             isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
+            isClash: TILE_IS_CLASH,
             curZoneId: CUR_ZONE_ID,
             showZoneTitle: SHOW_ZONE_LABEL,
             currZoneTitle: CURRENT_ZONE_NAME,
@@ -271,6 +285,10 @@ img{
 
 .simple.unOwned{
     filter: grayscale() brightness(1.8)
+}
+
+.terrainTile{
+    transform: translateY(-50%);
 }
 
 .label{

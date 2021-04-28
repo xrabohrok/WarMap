@@ -110,7 +110,7 @@
   "a7": {
     "location": "a7",
     "contest": false,
-    "attacker": "na",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "clash": true,
@@ -370,7 +370,7 @@
   "b7": {
     "location": "b7",
     "contest": false,
-    "attacker": "na",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "clash": true,

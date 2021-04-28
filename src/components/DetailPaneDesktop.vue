@@ -32,17 +32,17 @@
             </div>
             <div class="row">
                 <div class="cell"> 
-                    <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" target="_blank" rel="noopener noreferrer">{{linkLabel(true)}}</a>
-                    <span v-show="showCubari(true)">
-                        <a :href="curbariLink(true)" target="_blank" rel="noopener noreferrer">
+                    <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" target="_blank" rel="noopener noreferrer">{{linkLabel(getComicLink(true))}}</a>
+                    <span v-show="showCubari(getComicLink(true))">
+                        <a :href="cubariLink(getComicLink(true))" target="_blank" rel="noopener noreferrer">
                             <img src="../assets/pics/cubari.svg" class="iconLink">
                         </a>
                     </span>
                 </div>
                 <div class="cell"> 
-                    <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" target="_blank" rel="noopener noreferrer">{{linkLabel(false)}}</a>
-                    <span v-show="showCubari(false)">
-                        <a :href="curbariLink(false)" target="_blank" rel="noopener noreferrer">
+                    <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" target="_blank" rel="noopener noreferrer">{{linkLabel(getComicLink(false))}}</a>
+                    <span v-show="showCubari(getComicLink(false))">
+                        <a :href="cubariLink(getComicLink(false))" target="_blank" rel="noopener noreferrer">
                             <img src="../assets/pics/cubari.svg" class="iconLink">
                         </a>
                     </span>
@@ -67,11 +67,9 @@ import FighterDetails from './FightPane/FighterDetails.vue'
 import Spoiler from './FightPane/Spoiler.vue'
 import GrandBattleView from './FightPane/GrandBattleView.vue'
 import ClashView from './FightPane/ClashView.vue'
-const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
+import {linkLabel, cubariLink, showCubari} from '../common/links'
 
-const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/mi
-const twitterTest = /^(https:\/\/)twitter\.com/mi
-const tumblrTest = /^(https:\/\/).*mrlemur\.tumblr\.com\/post\//mi
+const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
 export {LEFT, RIGHT, DETAILS, FIGHT}
 
@@ -130,7 +128,10 @@ export default {
                 fightType = "Duel at "
             }
             else if(this.zoneFight.grandBattle){
-                fightType = "Grand Battle at"
+                fightType = "Grand Battle for"
+            }
+            else if(this.zoneFight.clash){
+                fightType = "Clash at"
             }
             var name = this.zoneName
 
@@ -154,29 +155,13 @@ export default {
         //     this.$store.commit(DESELECT)
         //     window.scrollTo({top: window.innerHeight *.2, behavior: 'smooth'})
         // }    
-        linkLabel:function(attacker){
+        getComicLink: function(attacker){
             var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
-            var link = this.comicLink(facs)
-            if (imgrTest.test(link)) return "Imgur"
-            if (twitterTest.test(link)) return "Twitter"
-            if (tumblrTest.test(link)) return "Tumblr"
-            return "Link"
+            return this.comicLink(facs)
         },
-        showCubari: function(attacker){
-            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
-            var link = this.comicLink(facs)
-            return imgrTest.test(link)
-        },
-        curbariLink: function(attacker){
-            const imgurIDPart = /\/(a|gallery)\/.......$/i
-            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
-            var link = this.comicLink(facs)
-            var parts = link.match(imgurIDPart)
-            
-            if(parts === null) return ""
-            var id = parts[0].split('/')[2]
-            return `https://cubari.moe/read/imgur/${id}/`
-        }
+        linkLabel:linkLabel,
+        showCubari: showCubari,
+        cubariLink: cubariLink,
     },
 
     name: 'DetailPaneDesktop'

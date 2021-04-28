@@ -35,8 +35,9 @@ const getters = {
         return state.roundData[state.curRound].grandbattle.zones
     },
     curZoneAttacker:(state) => (tileName) => {
-        if(tileName === "NA") return false
-        if(!state.roundData[state.curRound][tileName].contest) return "na"
+        if(tileName === "NA") return "na"
+        const curZoneData = state.roundData[state.curRound][tileName]
+        if(!curZoneData.contest && !curZoneData.clash) return "na"
         return state.roundData[state.curRound][tileName].attacker
     },
     curZoneGrandBattle: (state) => (tileName) => {
@@ -73,11 +74,15 @@ const getters = {
 
         return state.revealed[state.curRound].findIndex(i => i === state.curSelected) !== -1
     },
-    curZoneIsClash: () => {
+    curZoneIsClash: (state) => {
         //state.roundData[state.curRound][state.curSelected].fighters[faction]
         if(state.curSelected === "NA") return false
         if(!('clash' in state.roundData[state.curRound][state.curSelected])) return false
         return state.roundData[state.curRound][state.curSelected].clash
+    },
+    tileIsClash: (state) => (tile) => {
+        if(!('clash' in state.roundData[state.curRound][tile])) return false
+        return state.roundData[state.curRound][tile].clash
     }
 
 }
@@ -103,8 +108,9 @@ const NUMBER_OF_ROUNDS = 'numRounds'
 const CUR_ZONE_ATTACKER = 'curZoneAttacker'
 const ROUND_GRANDBATTLES = 'roundGrandBattles'
 const MASSBATTLE_FIGHTERS = 'massBattleFighters'
-const ZONE_IS_CLASH = 'curZoneIsClash'
+const CURZONE_IS_CLASH = 'curZoneIsClash'
+const TILE_IS_CLASH = 'tileIsClash'
 
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
     CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS
-    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, ZONE_IS_CLASH}
+    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH}

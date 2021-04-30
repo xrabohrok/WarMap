@@ -9,6 +9,9 @@
     <div class="gbcomic fightername">
         <a :href="fighterComic" target="_blank" rel="noopener noreferrer"> link</a>
     </div>
+    <div class="fightername">
+        <ReadMarker :fighterId="fighterId" :round="round"/>
+    </div>
     
 </div>
     
@@ -18,10 +21,15 @@
 import {mapGetters} from 'vuex'
 import {FIGHTER_GETTER} from '../../state/getters'
 
+import ReadMarker from './ReadMarker.vue'
+
 export default {
     props:{
         fighterId: Number,
         round: Number
+    },
+    components:{
+        ReadMarker
     },
         methods:{
         altIcon(event){

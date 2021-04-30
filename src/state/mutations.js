@@ -1,3 +1,5 @@
+import { getKey, initializeKey, setKey} from '../common/localStorage'
+
 const mutations = {
     newHovered(state, target){
         state.curHovered = target
@@ -20,7 +22,44 @@ const mutations = {
         if(index === -1){
             state.revealed[state.curRound].push(state.curSelected)
         }
+    },
+    localStorageAvailable(state, result){
+        state.localStorageAvailable = result
+    },
+    initializeReadingListFromStorage(state){
+        //no local storage
+        if(!state.localStorageAvailable){
+            state.readingList = {}
+            return
+        }
+
+        var storageList = getKey('readingList')
+        //local storage but new user
+        if(storageList == null){
+            initializeKey('readingList')
+            state.readingList = {}
+        }else{
+            state.readingList = storageList
+        }
+    },
+    markAsRead(state, input){
+        if(!(`${input.fighterId}` in state.readingList)){
+            state.readingList[input.fighterId] = []
+        }
+
+        state.readingList[input.fighterId].push(input.round)
+
+        if(state.localStorageAvailable){
+            setKey('readingList', state.readingList)
+        }
+    },
+    unmarkAsRead(state, input){
+        if(`${input.fighterId}` in state.readingList){
+            var index = state.readingList[input.fighterId].indexOf(input.round)
+            if(index !== -1) state.readingList[input.fighterId].splice(index, 1)
+        }
     }
+
 }
 
 export default mutations;
@@ -31,5 +70,9 @@ const SET_SIMPLE_MODE = 'setSimpleMode'
 const DESELECT = 'deSelect'
 const CHANGE_ROUND = 'setCurrentRound'
 const REVEAL_SPOILER = 'revealSpoiler'
+const LS_INIT = 'initializeReadingListFromStorage'
+const LS_AVAILABLE = 'localStorageAvailable'
+const MARK_READ = 'markAsRead'
+const MARK_UNREAD = 'unmarkAsRead'
 
-export {NEW_HOVERED, NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER}
+export {NEW_HOVERED, NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD}

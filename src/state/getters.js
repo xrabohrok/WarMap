@@ -83,6 +83,10 @@ const getters = {
     tileIsClash: (state) => (tile) => {
         if(!('clash' in state.roundData[state.curRound][tile])) return false
         return state.roundData[state.curRound][tile].clash
+    },
+    hasReadFightersComic: (state) => (fighterId, round) => {
+        if(!(`${fighterId}` in state.readingList)) return false
+        return state.readingList[fighterId].includes(round)
     }
 
 }
@@ -111,6 +115,8 @@ const MASSBATTLE_FIGHTERS = 'massBattleFighters'
 const CURZONE_IS_CLASH = 'curZoneIsClash'
 const TILE_IS_CLASH = 'tileIsClash'
 
+const HAS_READ_COMIC = 'hasReadFightersComic'
+
 export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
     CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS
-    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH}
+    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH, HAS_READ_COMIC}

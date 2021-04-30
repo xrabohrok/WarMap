@@ -55,7 +55,9 @@ import {LEFT, RIGHT, DETAILS, FIGHT} from '../components/DetailPaneDesktop.vue'
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 
-import {SET_SIMPLE_MODE, CHANGE_ROUND} from '../state/mutations'
+import {storageAvailable} from '../common/localStorage'
+
+import {SET_SIMPLE_MODE, CHANGE_ROUND, LS_INIT, LS_AVAILABLE} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS} from '../state/getters'
 import { mapGetters } from 'vuex'
 
@@ -106,13 +108,22 @@ export default {
       }
     )
   },
+  mounted: function() {
+    //check availability of LS
+    const available = storageAvailable('localStorage')
+    this.$store.commit(LS_AVAILABLE, available)
+    //throw a toast or something on failure, I dunno
+
+    this.$store.commit(LS_INIT)
+
+  },
   methods:{
     setSimpleMode: function({value}){
       this.$store.commit(SET_SIMPLE_MODE, value)
     },
     setRound: function(value){
       this.$store.commit(CHANGE_ROUND, value)
-    }
+    },
   }
 }
 </script>

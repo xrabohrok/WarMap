@@ -222,6 +222,12 @@ export default {
     transform: translate(-50%, -50%);
     width: 120%;
     font-size: 1.3em;
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .selector{

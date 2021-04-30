@@ -45,6 +45,7 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import MainMap from '../components/MainMap.vue'
 // import DetailPaneMobile from '../components/DetailPaneMobile.vue'
 import {ToggleButton} from 'vue-js-toggle-button'
@@ -111,10 +112,28 @@ export default {
   mounted: function() {
     //check availability of LS
     const available = storageAvailable('localStorage')
+    if(!available){
+      Vue.$toast.open({
+        message: 'Something about this Browser is not allowing for Local Storage, Your read list will not be saved!',
+        duration: 10000,
+        type: 'warning',
+        position: 'top-right'
+      })
+    }
+    else{
+      Vue.$toast.open({
+        message: 'Reading-list loaded!',
+        duration: 10000,
+        type: 'success',
+        position: 'top-right'
+      })
+    }
+
     this.$store.commit(LS_AVAILABLE, available)
     //throw a toast or something on failure, I dunno
 
     this.$store.commit(LS_INIT)
+
 
   },
   methods:{

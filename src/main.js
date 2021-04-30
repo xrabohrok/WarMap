@@ -7,10 +7,14 @@ import mutations from './state/mutations'
 import getters from './state/getters'
 import router from './router'
 
+import VueToast from 'vue-toast-notification'
+import 'vue-toast-notification/dist/theme-sugar.css';
+
 
 Vue.config.productionTip = false
 
 Vue.use(Vuex)
+Vue.use(VueToast)
 
 const store = new Vuex.Store({
   state: defaultState,

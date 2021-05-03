@@ -130,10 +130,7 @@ export default {
     }
 
     this.$store.commit(LS_AVAILABLE, available)
-    //throw a toast or something on failure, I dunno
-
     this.$store.commit(LS_INIT)
-
 
   },
   methods:{

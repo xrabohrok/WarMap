@@ -59,7 +59,6 @@ const mutations = {
             if(index !== -1) state.readingList[input.fighterId].splice(index, 1)
         }
     }
-
 }
 
 export default mutations;

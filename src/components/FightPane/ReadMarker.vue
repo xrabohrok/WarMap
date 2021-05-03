@@ -37,6 +37,14 @@ export default {
             shouldBeChecked: HAS_READ_COMIC
         })
     },
+    watch: {
+        fighterId: function(val){
+            this.checked = this.shouldBeChecked(val, this.round)
+        },
+        round: function(val){
+            this.checked = this.shouldBeChecked(this.fighterId, val)
+        },
+    },
     name:"ReadMarker"
 }
 </script>

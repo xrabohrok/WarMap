@@ -7,12 +7,15 @@
     :reduce-display-property="(option) => option.name"
     :reduce-value-property="(option) => option.id"
     v-model="selected"
+    @change="getBackground"
      class="boxClass"/>
   <div class="button" @click="clear">Clear</div>
   <div class="button" @click="save">Merge Chars</div>
 
   <div>{{selected}}</div>
   <div>{{output}}</div>
+
+  <div><textarea class="backgrounds" v-model="curBackground"> </textarea></div>
   </div>
 
 </template>
@@ -40,6 +43,7 @@ export default {
     return {
       selected:[],
       curFighters: [],
+      curBackground:"",
       output: "",
     }
   },
@@ -70,6 +74,24 @@ export default {
         })
       .catch(r => console.log(r))
 
+    },
+    async getBackground(){
+      if(this.selected[0] === undefined) 
+      {
+        this.curBackground = ""
+        return
+      }
+      axios.get(
+        `/server/backstory/${this.selected[0]}`
+      ).then(response => this.curBackground = response.data)
+      .catch(r=>{
+        if(r.response.status === 404) {
+          console.log("no bg for " + this.selected[0]) 
+          this.curBackground = ""
+          return
+        }
+        console.log(r)
+      })
     }
   },
   mounted:function(){
@@ -100,6 +122,11 @@ export default {
   padding-left: .7em;
   padding-right: .7em;
   width: 5vw;
+}
+
+.backgrounds{
+  height: 30vh;
+  width: 30vw;
 }
 
 .button:active{

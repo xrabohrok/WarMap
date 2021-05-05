@@ -14,6 +14,7 @@ const syncFileLoc = async function(){
     if(!fs.existsSync('./changes')){
         fs.mkdirSync('./changes')
         await fsp.copyFile('./src/assets/data/allfighters.json', './changes/allfighters.json')
+        await fsp.copyFile('./src/assets/data/backstories.json', './changes/backstories.json')
 
         const roundNumTest = /\d/  //there are only 8 rounds, don't need to be ready for double digits
         var roundNums = (await readAvailableRounds()).map(rf => rf.match(roundNumTest)[0])
@@ -67,6 +68,30 @@ module.exports = function (app) {
             res.status(500).send(err);
         }
     });
+
+    app.get('/server/backstory/:fighterId', async function(req,res){
+        try{
+            await syncFileLoc()
+
+            if(isNaN(req.params.fighterId)){
+                res.status(400).send("The fighter Id is a number")
+                return
+            }
+
+            var allstories = JSON.parse(fs.readFileSync('./changes/backstories.json'))
+
+            if(!(`${req.params.fighterId}` in allstories)){
+                res.status(404).send("The fighter Id is not in the set")
+                return
+            }
+
+            res.send(allstories[req.params.fighterId].toString());
+        }
+        catch(err){
+            console.log(err)
+            res.status(500).send(err)
+        }
+    })
 
     app.post('/server/mergeFighters', async function(req, res){
         try{

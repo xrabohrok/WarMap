@@ -3,6 +3,7 @@ node_modules
 /dist
 *.plan_bak_*
 screenshots/
+changes/
 
 # local env files
 .env.local

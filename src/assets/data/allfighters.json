@@ -4119,7 +4119,16 @@
       "duel"
     ],
     "id": 180,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Mr. Black",
+        "role": "Creator",
+        "contacts": 
+          {
+            "twitter": "http://twitter.com/BregerW"
+          }
+      }
+    ],
     "backstory": "",
     "verified": true
   },

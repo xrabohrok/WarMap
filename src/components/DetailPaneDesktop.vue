@@ -9,14 +9,7 @@
 
         <FightSummary :mode="mode" />
 
-        <div class="details" v-if="renderDetails">
-            <div class="row">
-                <div class="blockText areaDescription">
-                    <p><b>Zone:</b> {{zoneName}}</p>
-                    {{zoneDesc}}
-                </div>
-            </div>
-        </div>
+        <TileDetails v-if="renderDetails"/>
 
     </div>
 
@@ -30,6 +23,7 @@ import FighterDetails from './FightPane/FighterDetails.vue'
 import GrandBattleView from './FightPane/GrandBattleView.vue'
 import ClashView from './FightPane/ClashView.vue'
 import FightSummary from './FightPane/FightSummary.vue'
+import TileDetails from './FightPane/TileDetails.vue'
 
 const LEFT = 1, RIGHT = 2, DETAILS = 3, FIGHT = 4  //use with mode prop
 
@@ -41,6 +35,7 @@ export default {
         GrandBattleView,
         ClashView,
         FightSummary,
+        TileDetails,
     },
     props:{
         mode: Number,
@@ -52,12 +47,6 @@ export default {
         },
         isSelecting: function(){
             return this.selected !== "NA"
-        },
-        zoneName: function(){
-            return this.currZone(this.selected)
-        },
-        zoneDesc: function(){
-            return this.currZoneDesc(this.selected)
         },
         renderGrandBattleList: function(){
             return (this.mode === LEFT || this.mode === RIGHT) && this.zoneFight.grandBattle
@@ -89,7 +78,6 @@ export default {
             round: CURRENT_ROUND,
         })
     },
-
     name: 'DetailPaneDesktop'
 }
 </script>
@@ -106,65 +94,25 @@ export default {
 }
 
 .fight{
-    margin-top: .4em;
-    margin-left: auto;
-    margin-right: auto;
-
-    font-size: 1.1em;
-    overflow-y: auto;
     right: 0%;
-
-}
-
-.areaDescription{
-    white-space: pre-line;
 }
 
 .left{
     position: absolute;
     left: 0%;
     bottom: -12vw;
-
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:flex-start;
-    margin-top: .3em
-}
 
 .right{
     position: absolute;
     right: 0%;
     bottom: -12vw;
-
 }
 
 .top{
     position: absolute;
     top: 20vh;
-}
-
-.details{
-    margin-top: .4em;
-    margin-left: auto;
-    margin-right: auto;
-    order: 2;
-    min-width: 20vw;
-    width: 90%;
-    height: 20vh;
-    font-size: .6em;
-    overflow-y: auto;
-    left: 0%;
-
-}
-
-.blockText{
-    font-size: 1.8em;
-    margin-bottom: .9em;
 }
 
 @media all and (orientation: portrait) {

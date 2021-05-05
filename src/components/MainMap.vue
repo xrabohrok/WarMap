@@ -65,3 +65,38 @@ export default {
 }
 
 </style>
+
+<style>
+
+body::-webkit-scrollbar {
+  width: 18px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color:  rgb(202, 136, 12) rgb(114, 11, 50)
+}
+body::-webkit-scrollbar-track {
+  background: var(rgb(202, 136, 12) );
+}
+body::-webkit-scrollbar-thumb {
+  background-color:  rgb(114, 11, 50);
+  border-radius: 6px;
+  border: 3px solid rgb(202, 136, 12) ;
+}
+
+div::-webkit-scrollbar {
+  width: 13px;
+}
+div {
+  scrollbar-width: thin;
+  scrollbar-color:  rgb(160, 109, 14) rgb(100, 23, 53)
+}
+div::-webkit-scrollbar-track {
+  background: var(rgb(165, 113, 17) );
+}
+div::-webkit-scrollbar-thumb {
+  background-color:  rgb(92, 25, 50);
+  border-radius: 6px;
+  border: 3px solid rgb(155, 110, 26) ;
+}
+</style>

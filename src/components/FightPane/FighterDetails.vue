@@ -1,26 +1,26 @@
 <template>
     <div class="toplevel" :class="{leftward: leftward, rightward: rightward}" v-if="isSelected">
         <div class="deets">
-            <div class="detail_row"> <h3> {{this.faction}} </h3> </div>
-            <div class="detail_row"><b>Artist:</b> Artist Name</div>
-            <div class="detail_row"><b>Artist Contact:</b> 
-                <div class="sub_row"> <a href="www.twitter.com"> twitter </a></div>
-                <div class="sub_row"> <a href="www.discord.com"> discord </a></div>
-                <div class="sub_row"> <a href="www.imdb.com"> something else </a></div>
+            <div class="detail_row"> <h3> {{this.faction.toUpperCase()}} </h3> </div>
+            <div class="allArtists" v-for="artist in fighter.artists" :key="artist.name">
+                <div class="detail_row"><b>{{artist.role}}:</b> {{artist.name}}</div>
+                <div class="detail_row" v-for="contact in Object.keys(artist.contacts)" :key="contact">
+                    <b>Artist Contact:</b> 
+                    <div class="sub_row"> <a :href="artist.contacts[contact]"> {{contact}} </a></div>
+                </div>
             </div>
-            <div class="detail_row"><b>Backstory:</b> Fighter Name</div>
+            <div class="detail_row"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
         </div>
         <div class="main_deets">
             <img :class="{right: rightward}"  :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
             <div class="detail_row"> <h2> {{this.fighterName}} </h2></div>
         </div>
     </div>
-
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-import {CURRENT_ZONE_FIGHT, SELECTING_GETTER, FIGHTER_GETTER, CURRENT_ZONE_CONTESTED} from '../../state/getters'
+import {CURRENT_ZONE_FIGHT, SELECTING_GETTER, FIGHTER_GETTER, CURRENT_ZONE_CONTESTED, FIGHTER_BACKSTORY} from '../../state/getters'
 
 
 export default {
@@ -74,7 +74,8 @@ export default {
             zoneFight: CURRENT_ZONE_FIGHT,
             selected: SELECTING_GETTER,
             fighterGet: FIGHTER_GETTER,
-            contested : CURRENT_ZONE_CONTESTED
+            contested : CURRENT_ZONE_CONTESTED,
+            backstory: FIGHTER_BACKSTORY,
         })
     },
     name: "FighterDetails"
@@ -95,6 +96,8 @@ export default {
     flex-direction: column;
     font-size: 1.2em;
     height: 100%;
+    overflow-y: auto;
+
 }
 
 .deets{

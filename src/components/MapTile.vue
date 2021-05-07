@@ -290,11 +290,15 @@ img{
 }
 
 .simple.unOwned{
-    filter: grayscale() brightness(1.8)
+    filter: grayscale() brightness(1.8);
+}
+
+.simple{
+    transform: translateY(-10%);
 }
 
 .terrainTile{
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 .label{

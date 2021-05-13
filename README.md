@@ -4,7 +4,7 @@
 
 I need your help!  There are currently 265 combatants to track, and I am only one person! When you have a moment, please fill out a survey about you and your character so it is recorded correctly!
 
-Please note: while I go on a screed about Discord handles later in this README, I do ask for your Discord handle.  This is not to be published, but instead so I can cross-reference info and DM you for clarification (it would be a DM from Westin).  
+Please note: While I go on a screed about Discord handles later in this README, I do ask for your Discord handle.  I will not be publishing or otherwise publicly post your Discord handle on the website, but I do need it so I can cross-reference info and DM you for clarification (it would be a DM from Westin).  
 
 Links here when I have one.
 Character and Artist registry
@@ -15,11 +15,11 @@ Correction Request
 
 ## What is this?
 
-In January 2021, Abaddon of Kill Six Billion Demons (KSBD) fame announced he would run a second Original Charater Tournament, [The War For Rayuba](https://killsixbilliondemons.com/war-for-rayuba-is-now-live/) .  This OCT, instead of being a tournament bracket format, would instead have a wargame setup with a map and environments that must be accounted for.  However, the multidimmensional aspect of this setup makes following along somewhat difficult.  
+In January 2021, Tom Parkinson-Morgan/Abaddon of Kill Six Billion Demons (KSBD) fame announced he would run a second Original Character Tournament, [The War For Rayuba](https://killsixbilliondemons.com/war-for-rayuba-is-now-live/) .  Instead of being a tournament bracket format, this OCT would instead have a wargame setup with a map and environments that must be accounted for.  However, the additonal complexity of this setup makes following along somewhat difficult.  
 
 This project has three goals:
 
-1. Make painfully obvious what happend, when, where, with who  
+1. Make painfully obvious what happened, when, where, with who  
 1. Track what you have read and what you still need to
 1. Archive in a usable and stable way the works that are generated from this OCT
     1. b. Encourage participants to put their comics in longer lasting locations
@@ -28,29 +28,29 @@ Discord keeps links to uploaded pictures as long as they aren't "orphaned" (i.e.
 
 ## What this is NOT
 
-**This is not your source for up-to-date WFR information**. Think of this more like an interactive history book tool. The source for what is happening currently in the OCT is still the discord channel itself and the set of enthusiastic fans who create and publish tracking spreadsheets.  Information on the War Map lags behind round results by about a week, and some information is still not included yet.
+**This is not your source for up-to-date WFR information**. Think of this more like an interactive history book tool. The source for what is happening currently in the OCT is still the discord channel itself and the enthusiastic members of the community who create, maintain, and publish tracking spreadsheets.  Information on this War Map lags behind round results by about a week, and some information is still not included yet.
 
-Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the 265 fighters _so far_, this suits me just fine.
+Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the 265 fighters (_so far_), this suits me just fine.
 
 This archive is not endorsed by Abaddon, KSBD, or the OCT team.  
 
 ## A Note on Record Keeping
 
-Due to the fact the the tournament is run for humans, by humans, some peculiarities are not captured here.  If items or special rules are invoked, those will be mentioned.  However, some events, such as defaults, expulsions, or special judgements are not recorded.  If infractions or events force an outcome on the board, the outcome alone is recorded (though with defaults, you might figure out what happened due to lack of links).  If the events don't affect the board, they are not recorded at all.
+Due to the fact that the tournament is run for humans, by humans, means some peculiarities are not captured here.  If items or special rules are invoked, those will be mentioned.  However, some events, such as defaults, expulsions, or special judgements are not recorded.  If infractions or events force an outcome on the board, the outcome alone is recorded (though with defaults, you might figure out what happened due to lack of links).  If the events don't affect the board, they are not recorded at all.
 
 Some characters have been merged to preserve narrative flow, despite becoming very different characters later.  For example, Prisoner Tallshark is listed under Razzberry Tallshark.  
 
 ## Making changes
 
-If you are not technically inclined, feel free to reach out to Mr.Black on the WFR Discord server and we can talk about it.
+As the OCT progresses I am open to any good-faith suggestions and changes.  Knowing myself, once the OCT is over the capcity for changes will be minimal.  Of special appreciation would be web-design advice and help with the CSS styles; while I know them I am not the best at them.
+
+If you are not familiar with how GitHub works, feel free to reach out to Mr.Black on the WFR Discord server and we can talk about it.
 
 I encourage people to interact with this project as GitHub allows: make issues, pull-requests, forks, I'll be receptive to them.  However, the map graphics themselves are :copyright: Tom Parkinson-Morgan i.e. Abaddon (heck, I probably should get more explicit permission myself).
 
-But yeah, as the OCT progresses I am open to any good-faith suggestions and changes.  Knowing myself, once the OCT is over the capcity for changes will be minimal.  Of special appreciation would be web-design advice and help with the CSS styles; while I know them I am not the best at them.
-
 ### Building and running.
 
-This website runs off of Vue 2 with some help from Vue-CLI.  A custom githup action publishes the website to github pages upon merges to `main`.  
+This website runs off of Vue 2 with some help from Vue-CLI.  A custom GitHub action publishes the website to GitHub pages upon merges to `main`.  
 
 You will need to run your favorite `npm` (I am using npm v15.8.0) tool in order to run.  Once pulled down from git, `npm install` will get dependencies. `npm run serve` will launch the developer instance and admin server, allowing use of the `\chars` admin endpoint.  
 
@@ -72,7 +72,7 @@ Let's talk about internet presence.
 
 What's done and said on a Discord server, even a public one, has different weight than when it is on a website that may get crawled by search engines.  Suddenly, the Internet has access to what was originally thought to be a limited set of people.  This is an invitation for potentially bad actors, and I don't want to open that up to people unless they are ready.
 
-To complicate matters, Discord server names are really nicknames.  Many of the artists (lookin at you, GUN) have changed their names _wildly_ over the course of the OCT.  Which one should I choose?  On the other hand, Discord handles (they look like #1234NAME) are _functionally phone numbers_ that would allow random people from the internet to DM artists.  This is why the survey asks artist how they want to be known, if at all.  It is ok if you decide not to provide any contact/social media info, but I encourage you to at least choose a name for yourself.  
+To complicate matters, Discord server names are really nicknames.  Many of the artists (lookin at you, GUN) have changed their names _wildly_ over the course of the OCT.  Which one should I choose?  On the other hand, Discord handles (they look like NAME#1234) are _functionally phone numbers_ that would allow random people from the internet to DM artists.  This is why the survey asks artists how they want to be known, if at all.  It is ok if you decide not to provide any contact/social media info, but I encourage you to at least choose a name for yourself.  
 
 ### My character information is wrong/missing/incomplete
 

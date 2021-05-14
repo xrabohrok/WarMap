@@ -592,7 +592,7 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [
         54

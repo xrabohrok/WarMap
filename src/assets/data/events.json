@@ -1,0 +1,10 @@
+{
+    "1":{
+        "name":"Scar Match",
+        "rule":"An injury inflicted upon the loser of the match in the winner's comic is now canonical and permanent. (or, if in the comic, the loser sustains multiple injuries, the winner chooses one that stays)"
+    },
+    "2":{
+        "name":"Duel to the Death",
+        "rule":"Any match undertaken here will be forced into a deathmatch. The Loser dies and stays dead.  Winning a match here also allows the claiming of an additional tile adjacent to the match tile."
+    }
+}

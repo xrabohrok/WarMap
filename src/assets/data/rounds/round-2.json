@@ -809,7 +809,7 @@
     "attacker": "bastion",
     "owner": "bastion",
     "grandBattle": false,
-    "items": [],
+    "items": [3],
     "fighters": {
       "pyre": [
         241
@@ -1812,7 +1812,7 @@
     "attacker": "bastion",
     "owner": "bastion",
     "grandBattle": false,
-    "items": [],
+    "items": [2],
     "fighters": {
       "pyre": [
         263
@@ -2888,7 +2888,7 @@
     "attacker": "pyre",
     "owner": "pyre",
     "grandBattle": false,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [
         225

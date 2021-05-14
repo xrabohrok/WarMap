@@ -1,0 +1,39 @@
+{
+    "1":{
+        "name": "Coiled Snake Sword",
+        "description": "This ancient blade is cold to the touch, and incredibly sharp",
+        "rules":"Once picked up, it bears a terrible curse, turning any match of its weilder into a Death Match.  The losing character of a death match, even the wielder, dies and is no longer able to participate.  (The Creator may submit a new character) \r\n\r\nIf the weilder dies, the sword remains in the tile where it was dropped to be picked up by anyone.\r\n Death match deaths from the Coiled Snake Sword fill the Ledger like any other deathmatch.",
+        "starting_round": 2
+    },
+    "2":{
+        "name": "Landwaster",
+        "description": "This enormous axe can be used to lay waste to a whole army",
+        "rules":"Once during the entire contest, the wielder can declare their intent to swing the axe in their next match.  If they win the match, they can capture any adjacent tile to their battle tile.\r\n\r\nIf they lose the match, it is dropped and their opponent may immediately posses it.  If they decline, it is remains in the space where it was dropped.  Once it is swung, it ceases to be an item of note.",
+        "starting_round": 2
+    },
+    "3":{
+        "name": "Hollowthorn",
+        "description": "This cursed bow is laced with a potent toxin that warps the mind",
+        "rules":"Losing a match to a character wielding this bow switches your team allegiance for your next match.  Once you fight that match, regardless of the outcome, you may switch back or remain on your new team.\r\n\r\nIf the wielder of the bow loses a match, the weapon is dropped and remains in that space until picked up by anyone.\r\n\r\nIt was later declared by Abaddon that team Capitains may retroactively switch out matches involving the bow, even after declarations, due to the administrative overhead for switching teams.",
+        "starting_round": 2
+    },
+    "4":{
+        "name": "Spiked Shackle",
+        "description": "Smells like blood, cigarettes, and cheap beer.  Seems to have been used as a bracelet, a belt, or a choker. \r\nFound in the garbage.  Soaked with an aura of inconceivable violence.  Merely touching this is likely to attract the attention of its owner.",
+        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
+        "starting_round": 4
+    },
+    "5":{
+        "name": "Antiquated Camera",
+        "description": "35mm photo camera.  Slightly damaged, likely nonfunctional.  Has the initials A/A written on the case.  They, uh, probably want it back.",
+        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
+        "starting_round": 4
+    },
+    "6":{
+        "name": "A Caged Bird",
+        "description": "A strange glass cage with no doors, and iron nails all around its rim.  Inside is a single bird comprised of hot black flame.  It is displeased with its circumstances.  If released, it will surely fly up into the heavens, calling of it's mistreatment...  ...Perhaps you should be careful with this.",
+        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
+        "starting_round": 4
+    }
+
+}

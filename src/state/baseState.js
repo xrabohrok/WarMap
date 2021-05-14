@@ -6,7 +6,6 @@ import fighters from './fighter-loader'
 
 const defaultState = {
     
-    curHovered: 'NA',
     curSelected: "NA",
     curRound:0,
     roundData: allRounds,

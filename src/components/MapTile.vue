@@ -1,6 +1,8 @@
 <template>
     <div class="mapTile" :style="tileWidth"
         @mouseenter="mousedOver()"
+        @mouseleave="mousedOut()"
+        @mouseout="mousedOut()"
         @mouseup="selectingClick()"
         >
         <transition name="stab">
@@ -14,9 +16,6 @@
         <transition name="ghost">
             <img src='../assets/pics/grand-battle-overlay.png' id="battlezone" class="gboverlay" v-if="markAsGrandBattle" draggable="false"/>
         </transition>
-        <!-- <transition name="ghost">
-            <img src='../assets/pics/conflicted-marker.png' id="conflicted" class="battleIndicator" v-if="tileContested" draggable="false"/>
-        </transition> -->
         <transition name="ghost">
             <img src='../assets/pics/pyre-attack.png' id="conflictedpyre" class="battleIndicator" v-if="pyreAttacking" draggable="false"/>
         </transition>
@@ -34,7 +33,7 @@
         </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="terrainTile" :style="fallTimeStyle" draggable="false">
+                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned, terrainTileHover:isHovered}" class="terrainTile" :style="fallTimeStyle" draggable="false">
         </transition>
         <transition name="fall">
             <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
@@ -45,18 +44,18 @@
                 {{title}}
             </div>
         </transition>
-        <img src="../assets/pics/simple_tile/top-left.png"  v-show="nwBorder" />
-        <img src="../assets/pics/simple_tile/top-right.png" v-show="neBorder" />
-        <img src="../assets/pics/simple_tile/bot-left.png"  v-show="swBorder" />
-        <img src="../assets/pics/simple_tile/bot-right.png" v-show="seBorder" />
+        <img src="../assets/pics/simple_tile/top-left.png"  class="mapborder" v-show="nwBorder" />
+        <img src="../assets/pics/simple_tile/top-right.png" class="mapborder" v-show="neBorder" />
+        <img src="../assets/pics/simple_tile/bot-left.png"  class="mapborder" v-show="swBorder" />
+        <img src="../assets/pics/simple_tile/bot-right.png" class="mapborder" v-show="seBorder" />
     </div>
 </template>
 
 <script>
 
 import {mapGetters} from 'vuex'
-import {NEW_HOVERED, NEW_SELECTED} from '../state/mutations'
-import {HOVERING_GETTER, TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
+import {NEW_SELECTED} from '../state/mutations'
+import {TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
     CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES,
      TILE_IS_CLASH} from '../state/getters'
 
@@ -66,7 +65,8 @@ export default {
     name: 'MapTile',
     data(){
         return{
-            publicPath: process.env.BASE_URL
+            publicPath: process.env.BASE_URL,
+            hovering: false,
         }
     },
     computed:{
@@ -77,7 +77,7 @@ export default {
             }
         },
         isHovered: function(){
-            return this.hoveredTile === this.title
+            return this.hovering
         },
         bastionOwned: function(){
             return this.tileOwner(this.title) === "bastion"
@@ -167,7 +167,6 @@ export default {
             return this.curZoneId(this.title) !== this.curZoneId(other)
         },
         ...mapGetters({
-            hoveredTile: HOVERING_GETTER,
             tileOwner: TILE_OWNER,
             selected: SELECTING_GETTER,
             simple_mode: SIMPLE_MODE,
@@ -187,7 +186,10 @@ export default {
     },
     methods: {
         mousedOver(){
-            this.$store.commit(NEW_HOVERED, this.title)
+            this.hovering = true
+        },
+        mousedOut(){
+            this.hovering = false
         },
         selectingClick(){
             this.$store.commit(NEW_SELECTED, this.title)
@@ -203,13 +205,22 @@ export default {
 
 <style scoped>
 
+/*elements*/
+
 .gboverlay{
     width: 100%;
     left:-50%;
     top:50%;
-    transform: translate(50%, -80%);
-    z-index: 97;
+    transform: translate(50%, -60%);
+    z-index: 94;
     position: absolute;
+    pointer-events: none;
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .zone_title{
@@ -223,6 +234,7 @@ export default {
     width: 120%;
     font-size: 1.3em;
 
+    pointer-events: none;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -236,6 +248,15 @@ export default {
     z-index: 97;
     left: 50%;
     transform: translate(-50%, -80%);
+    top: 0%;
+    position: absolute;
+    pointer-events: none;
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .mapTile{
@@ -248,6 +269,17 @@ export default {
     overflow: visible;
 }
 
+.simple{
+    transform: translateY(-10%);
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 90;
+}
+
 .battleIndicator{
     width: 4.4em;
     margin-left: auto;
@@ -255,50 +287,28 @@ export default {
     left: 50%;
     transform: translate(-40%,-50%);
     z-index: 98;
-}
-
-.mapTile:hover{
-    transform: translateY(-.4em);
-}
-
-img{
-    width: 100%;
-    height: auto;
-    pointer-events: none;
-    transform: translateY(-40%);
-    position:absolute;
-    left: 0%;
-    top: 0%;
-    z-index: 90;
+    top:0%;
+    position: absolute;
 
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-}
-
-/* .bastionOwned{
-} */
-
-.pyreOwned{
-    filter: hue-rotate(129deg);
-}
-
-.unOwned{
-    filter: grayscale();
-}
-
-.simple.unOwned{
-    filter: grayscale() brightness(1.8);
-}
-
-.simple{
-    transform: translateY(-10%);
+    pointer-events: none;
 }
 
 .terrainTile{
+    transition: all .3s ease-in;
+
     transform: translateY(-40%);
+    width: 100%;
+    pointer-events: none;
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: 90;
+    user-select: none;
 }
 
 .label{
@@ -309,7 +319,6 @@ img{
     font-size: .9em;
     width: 70%;
     z-index: 99;
-    /* opacity: 1; */
 
     background-color: whitesmoke;
     border: solid black;
@@ -325,9 +334,53 @@ img{
 
 }
 
+.mapborder{
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    transform: translateY(-15%);
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 90;
+}
+
+/*modifiers*/
+
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.bastionOwned{
+    filter:hue-rotate(0deg);
+}
+
+.pyreOwned{
+    filter: hue-rotate(129deg);
+}
+
+.unOwned{
+    filter: grayscale();
+}
+
+.simple.unOwned{
+    filter: grayscale() brightness(1.8);
+}
+
+/*animations*/
+
+img.terrainTileHover{
+    transform: translateY(-50%);
+}
+
 .stab-enter-active, .stab-leave-active {
   transition: all .3s ease-in;
 }
+
 .stab-enter /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translate(-50%, -300%);
@@ -341,6 +394,7 @@ img{
 .fade-enter-active, .fade-leave-active {
   transition: all .5s ease;
 }
+
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translate(-50%, -200%);
@@ -353,6 +407,7 @@ img{
   transition: all var(--fall-time) ease-out;
   position:absolute;
 }
+
 .fall-enter /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translatey(-20vh);
@@ -368,13 +423,12 @@ img{
   transition: opacity .3s ease-out, width .9s ease-in-out;
 
 }
-.ghost-enter /* .fade-leave-active below version 2.1.8 */ {
+
+.ghost-enter {
   opacity: 0;
   width: 0;
-
-  /* top: 500%; */
-
 }
+
 .ghost-leave-to{
   opacity: 0;
   width: 0;

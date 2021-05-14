@@ -1,5 +1,4 @@
 const getters = {
-    hovering: state => state.curHovered,
     selecting: state => state.curSelected,
     round: state => state.curRound,
     simple_mode: state => state.simpleMode,
@@ -97,7 +96,6 @@ const getters = {
 
 export default getters;
 
-const HOVERING_GETTER = 'hovering'
 const SELECTING_GETTER = 'selecting'
 const FIGHTER_GETTER = 'fighter'
 const CURRENT_ROUND = 'round'
@@ -122,6 +120,6 @@ const FIGHTER_BACKSTORY = 'fighterBackstory'
 
 const HAS_READ_COMIC = 'hasReadFightersComic'
 
-export {HOVERING_GETTER, SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
+export {SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
     CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS
     ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH, HAS_READ_COMIC, FIGHTER_BACKSTORY}

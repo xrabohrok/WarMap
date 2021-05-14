@@ -1,15 +1,21 @@
 # The War For Rayuba War Archive
 
+[The blood of war stains history.](https://xrabohrok.github.io/WarMap)
+
 ## Are you a War For Rayuba Combatant Artist?
 
 I need your help!  There are currently 265 combatants to track, and I am only one person! When you have a moment, please fill out a survey about you and your character so it is recorded correctly!
 
 Please note: While I go on a screed about Discord handles later in this README, I do ask for your Discord handle.  I will not be publishing or otherwise publicly post your Discord handle on the website, but I do need it so I can cross-reference info and DM you for clarification (it would be a DM from Westin).  
 
-Links here when I have one.
-Character and Artist registry
+If you are an artist that has contributed to WFR, the following surveys will allow you to affect how your character is displayed on the map (and let you take credit!).
+If you know how it works, you can also detail your changes in a GitHub issue.  
 
-Profile Pic registry
+Character and Artist registry:
+https://forms.gle/zSyjAVn6BK3MWz2j8
+
+Character Picture Upload:
+https://forms.gle/DrMrw8korwJiWRTt8
 
 Correction Request
 
@@ -39,6 +45,8 @@ This archive is not endorsed by Abaddon, KSBD, or the OCT team.
 Due to the fact that the tournament is run for humans, by humans, means some peculiarities are not captured here.  If items or special rules are invoked, those will be mentioned.  However, some events, such as defaults, expulsions, or special judgements are not recorded.  If infractions or events force an outcome on the board, the outcome alone is recorded (though with defaults, you might figure out what happened due to lack of links).  If the events don't affect the board, they are not recorded at all.
 
 Some characters have been merged to preserve narrative flow, despite becoming very different characters later.  For example, Prisoner Tallshark is listed under Razzberry Tallshark.  
+
+I cannot track cameos.  It would break me.
 
 ## Making changes
 

@@ -13,6 +13,12 @@ const mutations = {
     setCurrentRound(state, newVal){
         state.curRound = newVal
     },
+    setLabelVisibility(state, newVal){
+        state.showLabels = newVal
+    },
+    setItemVisibility(state, newVal){
+        state.showItems = newVal
+    },
     revealSpoiler(state)
     {
         var index = state.revealed[state.curRound].findIndex(r => r === state.curSelected)
@@ -70,4 +76,8 @@ const LS_AVAILABLE = 'localStorageAvailable'
 const MARK_READ = 'markAsRead'
 const MARK_UNREAD = 'unmarkAsRead'
 
-export { NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD}
+const OPT_SET_ZONE_VISIBILITY = 'setLabelVisibility'
+const OPT_SET_ITEM_VISIBILITY = 'setItemVisibility'
+
+export { NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD,
+    OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY}

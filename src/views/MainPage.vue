@@ -20,8 +20,12 @@
           </template>
         </vue-slider>
       </div>
-      <ToggleButton :value="false" :labels="{checked:'Simple', unchecked:'Detail'}" 
-        @change="setSimpleMode($event)" :width="120" :height="40" :font-size="20"/>
+      <ToggleButton :value="false" :labels="{checked:'  Simple', unchecked:'Detail  '}" 
+        @change="setSimpleMode($event)" :width="80" :height="30" :font-size="17"/>
+      <ToggleButton :value="true" :labels="{checked:'  Zones', unchecked:'Zones  '}" 
+        @change="setZoneLabelVisibility($event)" :width="80" :height="30" :font-size="17"/>
+      <ToggleButton :value="false" :labels="{checked:'  Items', unchecked:'Items  '}" 
+        @change="setItemVisibility($event)" :width="80" :height="30" :font-size="17"/>
     </div>
     <MainMap/>
     <!-- <transition name="slideup"> -->
@@ -58,7 +62,7 @@ import 'vue-slider-component/theme/default.css'
 
 import {storageAvailable} from '../common/localStorage'
 
-import {SET_SIMPLE_MODE, CHANGE_ROUND, LS_INIT, LS_AVAILABLE} from '../state/mutations'
+import {SET_SIMPLE_MODE, CHANGE_ROUND, LS_INIT, LS_AVAILABLE, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS} from '../state/getters'
 import { mapGetters } from 'vuex'
 
@@ -139,6 +143,12 @@ export default {
     },
     setRound: function(value){
       this.$store.commit(CHANGE_ROUND, value)
+    },
+    setZoneLabelVisibility: function({value}){
+      this.$store.commit(OPT_SET_ZONE_VISIBILITY, value)
+    },
+    setItemVisibility: function({value}){
+      this.$store.commit(OPT_SET_ITEM_VISIBILITY, value)
     },
   }
 }

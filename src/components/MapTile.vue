@@ -60,7 +60,7 @@ import {mapGetters} from 'vuex'
 import {NEW_SELECTED} from '../state/mutations'
 import {TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
     CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES,
-     TILE_IS_CLASH, CURRENT_ZONE_ITEMS} from '../state/getters'
+     TILE_IS_CLASH, CURRENT_ZONE_ITEMS, OPT_SHOW_ITEMS, OPT_SHOW_LABELS} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -114,10 +114,10 @@ export default {
             return this.currZoneTitle(this.title)
         },
         shouldShowZone: function(){
-            return this.showZoneTitle(this.title)
+            return this.showZoneTitle(this.title) && this.zoneFilter
         },
         shouldShowItems: function(){
-            return this.items(this.title).length > 0
+            return this.items(this.title).length > 0 && this.itemFilter
         },
         itemPicture: function(){
             return `items/${this.items(this.title)[0]}.png`
@@ -188,6 +188,9 @@ export default {
             zoneAttacker: CUR_ZONE_ATTACKER,
             grandBattles: ROUND_GRANDBATTLES,
             items: CURRENT_ZONE_ITEMS,
+
+            itemFilter: OPT_SHOW_ITEMS, 
+            zoneFilter: OPT_SHOW_LABELS,
         })
 
     },

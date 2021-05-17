@@ -17,6 +17,8 @@ const defaultState = {
     localStorageAvailable: null,
     readingList:{},
     backstories: allBackstories,
+    showLabels: true,
+    showItems: false,
 }
 
 export default defaultState;

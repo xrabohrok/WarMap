@@ -36,6 +36,8 @@ Discord keeps links to uploaded pictures as long as they aren't "orphaned" (i.e.
 
 **This is not your source for up-to-date WFR information**. Think of this more like an interactive history book tool. The source for what is happening currently in the OCT is still the discord channel itself and the enthusiastic members of the community who create, maintain, and publish tracking spreadsheets.  Information on this War Map lags behind round results by about a week, and some information is still not included yet.
 
+**This is not a replacement for the experience of being in the OCT or the Discord** What's up with Peepys?  Why do we all love MOd?  Did someone say "Magical Girl AU?  You had to have been there.
+
 Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the 265 fighters (_so far_), this suits me just fine.
 
 This archive is not endorsed by Abaddon, KSBD, or the OCT team.  

@@ -20,30 +20,32 @@
           </template>
         </vue-slider>
       </div>
-      <ToggleButton :value="false" :labels="{checked:'  Simple', unchecked:'Detail  '}" 
-        @change="setSimpleMode($event)" :width="80" :height="30" :font-size="17"/>
-      <ToggleButton :value="true" :labels="{checked:'  Zones', unchecked:'Zones  '}" 
-        @change="setZoneLabelVisibility($event)" :width="80" :height="30" :font-size="17"/>
-      <ToggleButton :value="false" :labels="{checked:'  Items', unchecked:'Items  '}" 
-        @change="setItemVisibility($event)" :width="80" :height="30" :font-size="17"/>
+      <div class="control_group">
+        <ToggleButton :value="false" :labels="{checked:'    Simple', unchecked:'Detail    '}" 
+          @change="setSimpleMode($event)" :width="80" :height="30" :font-size="17"/>
+        <ToggleButton :value="true" :labels="{checked:'    Zones', unchecked:'Zones    '}" 
+          @change="setZoneLabelVisibility($event)" :width="80" :height="30" :font-size="17"/>
+        <ToggleButton :value="false" :labels="{checked:'    Items', unchecked:'Items    '}" 
+          @change="setItemVisibility($event)" :width="80" :height="30" :font-size="17"/>
+      </div>
     </div>
     <MainMap/>
     <!-- <transition name="slideup"> -->
       <!-- <DetailPaneMobile v-show="isSelected"/> -->
     <!-- </transition> -->
     <!-- Desktop details are broken into multiple parts -->
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
-      </transition>
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
-      </transition>
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
-      </transition>
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="showFight" v-show="isSelectedFight"/>
-      </transition>
+    <transition name="slideup">
+      <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
+    </transition>
+    <transition name="slideup">
+      <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
+    </transition>
+    <transition name="slideup">
+      <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
+    </transition>
+    <transition name="slideup">
+      <DetailPaneDesktop :mode="showFight" v-show="isSelectedFight"/>
+    </transition>
 
   </div>
 </template>
@@ -158,12 +160,21 @@ export default {
 
 
 <style scoped>
+
+
 .control_bar{
   display: flex;
   flex-direction: row;
   padding-top:.3em;
   padding-bottom: .5em;
   justify-content: center;
+  
+  position: absolute;
+  left:50%;
+  top:14vh;
+  width:33vw;
+  transform: translateX(-50%);
+
 }
 
 .map_page{

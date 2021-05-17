@@ -642,7 +642,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "events":[1]
   },
   "c6": {
     "location": "c6",
@@ -824,7 +825,8 @@
     "outcome": {
       "pyre": "",
       "bastion": ""
-    }
+    },
+    "events":[2]
   },
   "d10": {
     "location": "d10",
@@ -921,7 +923,8 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "events":[1]
   },
   "d5": {
     "location": "d5",
@@ -1874,7 +1877,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "events":[1]
   },
   "h10": {
     "location": "h10",
@@ -2030,7 +2034,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "events":[1]
   },
   "h2": {
     "location": "h2",
@@ -2157,7 +2162,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "events":[1]
   },
   "i9": {
     "location": "i9",
@@ -2496,7 +2502,9 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "note":"J6 is taken by the winner due to Deathmatch rules. The loser died.",
+    "events":[2]
   },
   "j4": {
     "location": "j4",
@@ -2984,7 +2992,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "events":[1]
   },
   "l6": {
     "location": "l6",

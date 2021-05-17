@@ -187,7 +187,8 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
             outcome: {
                 pyre: "",
                 bastion: ""
-            }
+            },
+            events:[]
        }
     })
     // console.log(map_round)

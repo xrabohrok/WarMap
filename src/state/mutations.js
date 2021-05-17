@@ -1,9 +1,6 @@
 import { getKey, initializeKey, setKey} from '../common/localStorage'
 
 const mutations = {
-    newHovered(state, target){
-        state.curHovered = target
-    },
     newSelected(state, target){
         state.curSelected = target
     },
@@ -63,7 +60,6 @@ const mutations = {
 
 export default mutations;
 
-const NEW_HOVERED = 'newHovered'
 const NEW_SELECTED = 'newSelected'
 const SET_SIMPLE_MODE = 'setSimpleMode'
 const DESELECT = 'deSelect'
@@ -74,4 +70,4 @@ const LS_AVAILABLE = 'localStorageAvailable'
 const MARK_READ = 'markAsRead'
 const MARK_UNREAD = 'unmarkAsRead'
 
-export {NEW_HOVERED, NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD}
+export { NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD}

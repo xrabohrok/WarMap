@@ -20,13 +20,13 @@
     "4":{
         "name": "Spiked Shackle",
         "description": "Smells like blood, cigarettes, and cheap beer.  Seems to have been used as a bracelet, a belt, or a choker. \r\nFound in the garbage.  Soaked with an aura of inconceivable violence.  Merely touching this is likely to attract the attention of its owner.",
-        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
+        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge (in this case, Abaddon) will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
         "starting_round": 4
     },
     "5":{
         "name": "Antiquated Camera",
         "description": "35mm photo camera.  Slightly damaged, likely nonfunctional.  Has the initials A/A written on the case.  They, uh, probably want it back.",
-        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
+        "rules":"JUDGE SUMMON: You can use this item by declaring you are using it at the start of any battle.  When you do, you get to summon a judge character to join your battle.  The summoned judge (in this case,  will draw at least one page representing that summon.  You may coordinate with them, but the contents are ultimately up to the judge.\r\n\r\nThe summoned judge will be exempt from judging that match.  Judges can't be summoned in Clashes.  Summons can be lent out, but only used once. Judge characters are immune to items and special tile effects.",
         "starting_round": 4
     },
     "6":{

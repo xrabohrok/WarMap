@@ -43,6 +43,11 @@ const getters = {
         if(tileName === "NA") return false
         return state.roundData[state.curRound][tileName].grandBattle
     },
+    curZoneItems:(state) => (tileName) => {
+        if(tileName === "NA") return []
+        if(!('items' in state.roundData[state.curRound][tileName])) return []
+        return state.roundData[state.curRound][tileName].items
+    },
     massBattleFighters: (state) => ( faction) => {
         if(state.curSelected === "NA") return []
         var allFighters = state.roundData[state.curRound][state.curSelected].fighters[faction]
@@ -106,6 +111,7 @@ const CURRENT_ZONE_DESC = 'curZoneDesc'
 const CURRENT_ZONE_CONTESTED = 'curZoneContested'
 const CURRENT_ZONE_GRANDBATTLE= 'curZoneGrandBattle'
 const CURRENT_ZONE_FIGHT = 'curZoneFight'
+const CURRENT_ZONE_ITEMS = 'curZoneItems'
 const CUR_FIGHTER_LINK = 'duelistComicCurrent'
 const CUR_SPOILER_REVEALED = 'currentSpoilerRevealed'
 const CUR_ZONE_ID = 'curZoneId'
@@ -122,4 +128,4 @@ const HAS_READ_COMIC = 'hasReadFightersComic'
 
 export {SELECTING_GETTER, CURRENT_ROUND, TILE_OWNER, SIMPLE_MODE, CURRENT_ZONE_NAME, CURRENT_ZONE_DESC, CURRENT_ZONE_CONTESTED, 
     CURRENT_ZONE_GRANDBATTLE, CURRENT_ZONE_FIGHT, FIGHTER_GETTER, CUR_FIGHTER_LINK, CUR_SPOILER_REVEALED, CUR_ZONE_ID, SHOW_ZONE_LABEL, NUMBER_OF_ROUNDS
-    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH, HAS_READ_COMIC, FIGHTER_BACKSTORY}
+    ,CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES, MASSBATTLE_FIGHTERS, CURZONE_IS_CLASH, TILE_IS_CLASH, HAS_READ_COMIC, FIGHTER_BACKSTORY, CURRENT_ZONE_ITEMS}

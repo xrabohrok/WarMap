@@ -31,6 +31,9 @@
         <transition name="ghost">
             <img src='../assets/pics/gb-conflicted-marker.png' id="conflictedgrand" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
         </transition>
+        <transition name="ghost">
+            <img :src="itemPicture" id="items" class="fieldItem" v-if="shouldShowItems" draggable="false"/>
+        </transition>
         <transition name="fall">
             <img :src="mapTilePath" v-if="!simple_mode"
                 v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned, terrainTileHover:isHovered}" class="terrainTile" :style="fallTimeStyle" draggable="false">
@@ -57,7 +60,7 @@ import {mapGetters} from 'vuex'
 import {NEW_SELECTED} from '../state/mutations'
 import {TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
     CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES,
-     TILE_IS_CLASH} from '../state/getters'
+     TILE_IS_CLASH, CURRENT_ZONE_ITEMS} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -112,6 +115,12 @@ export default {
         },
         shouldShowZone: function(){
             return this.showZoneTitle(this.title)
+        },
+        shouldShowItems: function(){
+            return this.items(this.title).length > 0
+        },
+        itemPicture: function(){
+            return `items/${this.items(this.title)[0]}.png`
         },
         pyreAttacking: function(){
             return this.tileContested && this.zoneAttacker(this.title) === "pyre"
@@ -178,6 +187,7 @@ export default {
             currZoneTitle: CURRENT_ZONE_NAME,
             zoneAttacker: CUR_ZONE_ATTACKER,
             grandBattles: ROUND_GRANDBATTLES,
+            items: CURRENT_ZONE_ITEMS,
         })
 
     },
@@ -331,6 +341,24 @@ export default {
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+
+}
+
+.fieldItem{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    position: absolute;
+    left:50%;
+    top:-70%;
+    transform: translate(-50%, -20%);
+    width: 90%;
+    height: auto;
+
+    z-index: 140;
 
 }
 

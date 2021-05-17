@@ -171,7 +171,7 @@ export default {
   
   position: absolute;
   left:50%;
-  top:14vh;
+  top:18vh;
   width:33vw;
   transform: translateX(-50%);
 

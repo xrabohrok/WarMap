@@ -1,6 +1,6 @@
 # The War For Rayuba War Archive
 
-[The blood of war stains history.](https://xrabohrok.github.io/WarMap)
+[THE BLOOD OF WAR STAINS HISTORY](https://xrabohrok.github.io/WarMap)
 
 ## Are you a War For Rayuba Combatant Artist?
 
@@ -21,7 +21,7 @@ Correction Request
 
 ## What is this?
 
-In January 2021, Tom Parkinson-Morgan/Abaddon of Kill Six Billion Demons (KSBD) fame announced he would run a second Original Character Tournament, [The War For Rayuba](https://killsixbilliondemons.com/war-for-rayuba-is-now-live/) .  Instead of being a tournament bracket format, this OCT would instead have a wargame setup with a map and environments that must be accounted for.  However, the additonal complexity of this setup makes following along somewhat difficult.  
+In January 2021, Tom Parkinson-Morgan/Abaddon of Kill Six Billion Demons (KSBD) fame announced he would run a second Original Character Tournament, [The War For Rayuba](https://killsixbilliondemons.com/war-for-rayuba-is-now-live/) along with some people he knows.  Instead of being a tournament bracket format, this OCT would instead have a wargame setup with a map and environments that must be accounted for.  However, the additonal complexity of this setup makes following along somewhat difficult.  
 
 This project has three goals:
 

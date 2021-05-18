@@ -776,18 +776,22 @@
     "name": "'Long-Arms' Ten Anong",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "link": [
       "https://imgur.com/a/60rtFca",
-      "https://imgur.com/a/XnESFH9"
+      "https://imgur.com/gallery/UoouFk8",
+      "https://imgur.com/gallery/6j86YQg"
     ],
     "id": 33,
     "context": [
       "duel",
+      "duel",
       "duel"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
@@ -4123,10 +4127,9 @@
       {
         "name": "Mr. Black",
         "role": "Creator",
-        "contacts": 
-          {
-            "twitter": "http://twitter.com/BregerW"
-          }
+        "contacts": {
+          "twitter": "http://twitter.com/BregerW"
+        }
       }
     ],
     "backstory": "",
@@ -5454,25 +5457,6 @@
     ],
     "faction": [
       "pyre"
-    ],
-    "artists": [],
-    "backstory": "",
-    "verified": false
-  },
-  "356": {
-    "id": 356,
-    "name": "Long Arms Ten Anong",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/gallery/6j86YQg"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "bastion"
     ],
     "artists": [],
     "backstory": "",

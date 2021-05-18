@@ -5,48 +5,51 @@
         @mouseout="mousedOut()"
         @mouseup="selectingClick()"
         >
-        <transition name="stab">
-            <img src="../assets/pics/chooser-knife.png"
-                v-if="isSelected" class="selector" draggable="false"
-            >
-        </transition>
+
         <div class="zone_title" v-if="shouldShowZone">
             {{zoneTitle}}
         </div>
-        <transition name="ghost">
-            <img src='../assets/pics/grand-battle-overlay.png' id="battlezone" class="gboverlay" v-if="markAsGrandBattle" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img src='../assets/pics/pyre-attack.png' id="conflictedpyre" class="battleIndicator" v-if="pyreAttacking" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img src='../assets/pics/bastion-attack.png' id="conflictedbastion" class="battleIndicator" v-if="bastionAttacking" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img src='../assets/pics/clash-pyre.png' id="clashbastion" class="battleIndicator" v-if="bastionAttackingClash" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img src='../assets/pics/clash-bastion.png' id="clashpyre" class="battleIndicator" v-if="pyreAttackingClash" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img src='../assets/pics/gb-conflicted-marker.png' id="conflictedgrand" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
-        </transition>
-        <transition name="ghost">
-            <img :src="itemPicture" id="items" class="fieldItem" v-if="shouldShowItems" draggable="false"/>
-        </transition>
-        <transition name="fall">
-            <img :src="mapTilePath" v-if="!simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned, terrainTileHover:isHovered}" class="terrainTile" :style="fallTimeStyle" draggable="false">
-        </transition>
-        <transition name="fall">
-            <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
-                v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle" draggable="false">
-        </transition>
-        <transition name="fade">
+        <div class="terrainGroup" :class="{terrainGroupHovered:isHovered}">
+            <transition name="stab">
+                <img src="../assets/pics/chooser-knife.png"
+                    v-if="isSelected" class="selector" draggable="false"
+                >
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/grand-battle-overlay.png' id="battlezone" class="gboverlay" v-if="markAsGrandBattle" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/pyre-attack.png' id="conflictedpyre" class="battleIndicator" v-if="pyreAttacking" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/bastion-attack.png' id="conflictedbastion" class="battleIndicator" v-if="bastionAttacking" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/clash-pyre.png' id="clashbastion" class="battleIndicator" v-if="bastionAttackingClash" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/clash-bastion.png' id="clashpyre" class="battleIndicator" v-if="pyreAttackingClash" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img src='../assets/pics/gb-conflicted-marker.png' id="conflictedgrand" class="battleIndicator" v-if="tileGrandBattle" draggable="false"/>
+            </transition>
+            <transition name="ghost">
+                <img :src="itemPicture" id="items" class="fieldItem" v-if="shouldShowItems" draggable="false"/>
+            </transition>
+            <transition name="fall">
+                <img :src="mapTilePath" v-if="!simple_mode"
+                    v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="terrainTile" :style="fallTimeStyle" draggable="false">
+            </transition>
+            <transition name="fall">
+                <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
+                    v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle" draggable="false">
+            </transition>
+        </div>
+        <!-- <transition name="fade">
             <div class="label" v-if="isHovered">
                 {{title}}
             </div>
-        </transition>
+        </transition> -->
         <img src="../assets/pics/simple_tile/top-left.png"  class="mapborder" v-show="nwBorder" />
         <img src="../assets/pics/simple_tile/top-right.png" class="mapborder" v-show="neBorder" />
         <img src="../assets/pics/simple_tile/bot-left.png"  class="mapborder" v-show="swBorder" />
@@ -294,7 +297,7 @@ export default {
 }
 
 .battleIndicator{
-    width: 4.4em;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     left: 50%;
@@ -311,8 +314,18 @@ export default {
     pointer-events: none;
 }
 
-.terrainTile{
+.terrainGroup{
+    display: inline-block;
     transition: all .3s ease-in;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.terrainTile{
 
     transform: translateY(-40%);
     width: 100%;
@@ -374,6 +387,13 @@ export default {
     left: 0%;
     top: 0%;
     z-index: 90;
+
+    pointer-events: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 /*modifiers*/
@@ -404,7 +424,7 @@ img{
 
 /*animations*/
 
-img.terrainTileHover{
+div.terrainGroupHovered{
     transform: translateY(-50%);
 }
 

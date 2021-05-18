@@ -11,27 +11,6 @@
 
 //then require in that file, and this one, pass in the new round file into this adapt_fighters
 
-// "h6": {
-//     "location": "h6",
-//     "contest": true,
-//     "owner": "bastion",
-//     "attacker": "pyre",
-//     "fighters": {
-//       "pyre": [
-//         26
-//       ],
-//       "bastion": [
-//         27
-//       ]
-//     },
-//     "grandBattle": false,
-//     "outcome": {
-//       "bastion": "win",
-//       "pyre": "lose"
-//     },
-//     "items": []
-//   },
-
 //bastion_fighter
 //bastion_comic_link
 //pyre_fighter

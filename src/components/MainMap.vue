@@ -42,7 +42,7 @@ export default {
     width: 80vw;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top:12vh;
+    margin-top:19vh;
     margin-bottom: 14vh;
 }
 

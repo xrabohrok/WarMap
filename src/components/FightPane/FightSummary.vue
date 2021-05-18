@@ -103,7 +103,7 @@ export default {
     methods:{
    
         getComicLink: function(attacker){
-            var facs = (this.bastionAttacking && attacker) ? "bastion" : "pyre"
+            var facs = (this.bastionAttacking && attacker) || (!this.bastionAttacking && !attacker) ? "bastion" : "pyre"
             return this.comicLink(facs)
         },
         linkLabel:linkLabel,

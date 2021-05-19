@@ -1246,7 +1246,7 @@
     "link": [
       "https://imgur.com/a/myuUNV9",
       "https://imgur.com/a/WBkwRJw",
-      "https://imgur.com/a/PzdBnLT"
+      "https://imgur.com/a/zCcOiTi"
     ],
     "id": 55,
     "context": [
@@ -2035,19 +2035,23 @@
     "name": "Kay Guinto-Quintana",
     "rounds": [
       1,
-      2
+      2,
+      3
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion"
     ],
     "link": [
       "https://imgur.com/a/SWpv8GT",
-      "https://imgur.com/a/6TV5fbm"
+      "https://imgur.com/a/6TV5fbm",
+      "https://imgur.com/a/PzdBnLT"
     ],
     "context": [
       "gbn",
-      "duel"
+      "duel",
+      "gbn"
     ],
     "id": 88,
     "artists": {},
@@ -2860,7 +2864,7 @@
     "backstory": ""
   },
   "125": {
-    "name": "Nipih",
+    "name": "Nipih-mar-Immunsu",
     "rounds": [
       1,
       2
@@ -3257,20 +3261,25 @@
   "142": {
     "name": "Elena Hellfire",
     "rounds": [
-      1
+      1,
+      2
     ],
     "faction": [
+      "pyre",
       "pyre"
     ],
     "link": [
-      "https://imgur.com/a/ATnmU3U"
+      "https://imgur.com/a/ATnmU3U",
+      "https://imgur.com/a/LgrQt3F"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "duel"
     ],
     "id": 142,
     "artists": {},
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "143": {
     "name": "Thunder Bravo",
@@ -4543,25 +4552,6 @@
     "backstory": "",
     "verified": false
   },
-  "245": {
-    "id": 245,
-    "name": "Elena",
-    "rounds": [
-      2
-    ],
-    "link": [
-      "https://imgur.com/a/LgrQt3F"
-    ],
-    "context": [
-      "duel"
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
   "246": {
     "id": 246,
     "name": "Pitty",
@@ -5704,25 +5694,6 @@
     ],
     "faction": [
       "pyre"
-    ],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "379": {
-    "id": 379,
-    "name": "Kay",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/zCcOiTi"
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "bastion"
     ],
     "artists": {},
     "backstory": "",

@@ -2889,20 +2889,29 @@
   "126": {
     "name": "The Red Hand of Ruin",
     "rounds": [
-      1
+      1,
+      2,
+      3
     ],
     "faction": [
+      "pyre",
+      "pyre",
       "pyre"
     ],
     "link": [
-      "https://imgur.com/a/1iPQAoO"
+      "https://imgur.com/a/1iPQAoO",
+      "https://imgur.com/a/t5mwjzk",
+      "https://imgur.com/a/VJX4YDt"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "duel",
+      "duel"
     ],
     "id": 126,
     "artists": {},
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "127": {
     "name": "Stylops Peldo",
@@ -2934,20 +2943,29 @@
   "128": {
     "name": "The Sour Fruit of Kebby-ya",
     "rounds": [
-      1
+      1,
+      2,
+      3
     ],
     "faction": [
+      "pyre",
+      "pyre",
       "pyre"
     ],
     "link": [
-      "https://wolkemesser.tumblr.com/post/643216359271137280"
+      "https://wolkemesser.tumblr.com/post/643216359271137280",
+      "https://imgur.com/gallery/aFuNXlP",
+      "https://imgur.com/gallery/2hRvsDW"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "duel",
+      "gbn"
     ],
     "id": 128,
     "artists": {},
-    "backstory": ""
+    "backstory": "",
+    "verified": true
   },
   "129": {
     "name": "Brazen Pun",
@@ -4388,29 +4406,6 @@
     "backstory": "",
     "verified": true
   },
-  "225": {
-    "id": 225,
-    "name": "Red Hand of Ruin",
-    "rounds": [
-      2,
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/t5mwjzk",
-      "https://imgur.com/a/VJX4YDt"
-    ],
-    "context": [
-      "duel",
-      "duel"
-    ],
-    "faction": [
-      "pyre",
-      "pyre"
-    ],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
   "227": {
     "id": 227,
     "name": "Trismegistus",
@@ -4741,29 +4736,6 @@
     "context": [
       "duel",
       "duel"
-    ],
-    "faction": [
-      "pyre",
-      "pyre"
-    ],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "267": {
-    "id": 267,
-    "name": "Sour Fruit of Kebby-Ya",
-    "rounds": [
-      2,
-      3
-    ],
-    "link": [
-      "https://imgur.com/gallery/aFuNXlP",
-      "https://imgur.com/gallery/2hRvsDW"
-    ],
-    "context": [
-      "duel",
-      "gbn"
     ],
     "faction": [
       "pyre",

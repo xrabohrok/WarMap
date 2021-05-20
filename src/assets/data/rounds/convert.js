@@ -46,13 +46,16 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
     }
 
     //var curFighter = fighter_map.find(f => f.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase())
+    var link = checkForNonSubmission(match[`${faction}_comic_link`])
+    link = derive_cubari_link(link)
+
     var fighterId = curFighter != null ? curFighter.id : -1
     if(fighterId === -1){
         fighter_map.set(lastId+1, {
             id: lastId + 1,
             name: match[`${faction}_fighter`],
             rounds: [round_num],
-            link: [checkForNonSubmission(match[`${faction}_comic_link`])],
+            link: [link],
             context: [context],
             faction: [faction],
             artists: {},
@@ -70,6 +73,17 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
     console.log(`fighter id : ${fighter.id}`)
     return fighter.id
     
+}
+
+const derive_cubari_link = function(link){
+    //https://cubari.moe/read/imgur/2t0kUUs/1/1/
+
+    const cubariLinkFormat = /^https:\/\/cubari\.moe\/read\/imgur\/......./i
+    if(!cubariLinkFormat.test(link))
+        return link
+    const imgurId = /\/\w\w\w\w\w\w\w/i
+    var index = link.match(imgurId).splice(1)
+    return `https://imgur.com/a/${index}`
 }
 
 const determine_tile_owner = function(tile){

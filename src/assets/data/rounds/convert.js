@@ -40,7 +40,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
     for (const value of fighter_map.values()) {
         if(value.name.trim().toLowerCase() === match[`${faction}_fighter`].trim().toLowerCase()){
             curFighter = value
-            console.log(`adding to ${value.name} 's entry`)
+            // console.log(`adding to ${value.name} 's entry`)
             break
         }
     }
@@ -62,6 +62,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
             backstory: "",
             verified: false  //new fighters need to be audited
         })
+        console.log(`New Fighter ${fighter_map.get(lastId+1).name} fighter id : ${lastId+1}`)
         return lastId + 1
     }
 
@@ -69,8 +70,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
     fighter.rounds.push(round_num)
     fighter.context.push(context)
     fighter.faction.push(faction)
-    fighter.link.push(checkForNonSubmission(match[`${faction}_comic_link`]))
-    console.log(`fighter id : ${fighter.id}`)
+    fighter.link.push(link)
     return fighter.id
     
 }
@@ -82,7 +82,7 @@ const derive_cubari_link = function(link){
     if(!cubariLinkFormat.test(link))
         return link
     const imgurId = /\/\w\w\w\w\w\w\w/i
-    var index = link.match(imgurId).splice(1)
+    var index = link.match(imgurId)[0].slice(1)
     return `https://imgur.com/a/${index}`
 }
 
@@ -213,7 +213,7 @@ exports.consume_survey = async function(survey_data){
 
 }
 
-exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
+exports.adapt_fighters = function(round_num, round_data, pyre_attacking, gb_zone_array){
     var map_round = {}
     var lastId = 0
 
@@ -248,6 +248,9 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
             events:[]
        }
     })
+
+    map_round['grandbattle'] = {zones:gb_zone_array}
+
     // console.log(map_round)
 
     round_data.forEach((match,i) => {
@@ -271,10 +274,10 @@ exports.adapt_fighters = function(round_num, round_data, pyre_attacking){
         assert(winnerId !== -1, `Could not find the winner of match for ${match.tile}, could not find ${match.winner}`)
 
         //do the round def
-        console.log(`|${match.tile.toLowerCase()}|`)
+        // console.log(`|${match.tile.toLowerCase()}|`)
         var tile = map_round[match.tile.toLowerCase()]
         tile.contest = true
-        tile.attacker = pyre_attacking && i < round_data.length/2 ? 'pyre' : 'bastion'
+        tile.attacker = (pyre_attacking && i < round_data.length/2) || (!pyre_attacking && i > round_data.length/2) ? 'pyre' : 'bastion'
         tile.fighters.bastion = [bastionfighterId]
         tile.fighters.pyre = [pyrefighterId]
         tile.outcome.bastion = winnerId === bastionfighterId ? "win" : "lose"

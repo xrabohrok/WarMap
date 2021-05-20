@@ -264,7 +264,7 @@
   "b11": {
     "location": "b11",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -508,7 +508,7 @@
   "c10": {
     "location": "c10",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -528,7 +528,7 @@
   "c9": {
     "location": "c9",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -710,7 +710,7 @@
   "d14": {
     "location": "d14",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -730,7 +730,7 @@
   "d13": {
     "location": "d13",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -750,7 +750,7 @@
   "d12": {
     "location": "d12",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -786,7 +786,7 @@
   "d10": {
     "location": "d10",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -806,7 +806,7 @@
   "d9": {
     "location": "d9",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -826,7 +826,7 @@
   "d8": {
     "location": "d8",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -994,7 +994,7 @@
   "e12": {
     "location": "e12",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1014,7 +1014,7 @@
   "e11": {
     "location": "e11",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1034,7 +1034,7 @@
   "e10": {
     "location": "e10",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1054,7 +1054,7 @@
   "e9": {
     "location": "e9",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1074,7 +1074,7 @@
   "e8": {
     "location": "e8",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1094,7 +1094,7 @@
   "e7": {
     "location": "e7",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1210,7 +1210,7 @@
   "f14": {
     "location": "f14",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1230,7 +1230,7 @@
   "f13": {
     "location": "f13",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": true,
     "items": [],
@@ -1281,7 +1281,7 @@
   "f12": {
     "location": "f12",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1301,7 +1301,7 @@
   "f11": {
     "location": "f11",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1321,7 +1321,7 @@
   "f10": {
     "location": "f10",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1357,7 +1357,7 @@
   "f8": {
     "location": "f8",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1377,7 +1377,7 @@
   "f7": {
     "location": "f7",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1557,7 +1557,7 @@
   "g10": {
     "location": "g10",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1577,7 +1577,7 @@
   "g9": {
     "location": "g9",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1789,7 +1789,7 @@
   "h10": {
     "location": "h10",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -1809,7 +1809,7 @@
   "h9": {
     "location": "h9",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1861,7 +1861,7 @@
   "h6": {
     "location": "h6",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1881,7 +1881,7 @@
   "h5": {
     "location": "h5",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -1901,7 +1901,7 @@
   "h4": {
     "location": "h4",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2033,7 +2033,7 @@
   "i10": {
     "location": "i10",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2053,7 +2053,7 @@
   "i9": {
     "location": "i9",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2073,7 +2073,7 @@
   "i8": {
     "location": "i8",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2093,7 +2093,7 @@
   "i7": {
     "location": "i7",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2113,7 +2113,7 @@
   "i6": {
     "location": "i6",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2133,7 +2133,7 @@
   "i5": {
     "location": "i5",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2153,7 +2153,7 @@
   "i4": {
     "location": "i4",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2301,7 +2301,7 @@
   "j9": {
     "location": "j9",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2321,7 +2321,7 @@
   "j8": {
     "location": "j8",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2341,7 +2341,7 @@
   "j7": {
     "location": "j7",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2377,7 +2377,7 @@
   "j5": {
     "location": "j5",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2397,7 +2397,7 @@
   "j4": {
     "location": "j4",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2593,7 +2593,7 @@
   "k6": {
     "location": "k6",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2629,7 +2629,7 @@
   "k4": {
     "location": "k4",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2649,7 +2649,7 @@
   "k3": {
     "location": "k3",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2669,7 +2669,7 @@
   "k2": {
     "location": "k2",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -2849,7 +2849,7 @@
   "l5": {
     "location": "l5",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -2885,7 +2885,7 @@
   "l3": {
     "location": "l3",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],
@@ -3113,7 +3113,7 @@
   "m3": {
     "location": "m3",
     "contest": true,
-    "attacker": "bastion",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
     "items": [],
@@ -3133,7 +3133,7 @@
   "m2": {
     "location": "m2",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "items": [],

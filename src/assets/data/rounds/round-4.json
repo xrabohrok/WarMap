@@ -3356,7 +3356,7 @@
   "m5": {
     "location": "m5",
     "contest": true,
-    "attacker": "pyre",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,

@@ -19,6 +19,7 @@
 
 // import { assert } from 'console';
 const fs = require('fs')
+const axios = require('axios')
 const fighters = require('../allfighters.json')
 // const round = require('../empty-map-schema.js')
 
@@ -30,6 +31,7 @@ const checkForNonSubmission = function(url){
 console.log('Loaded, use adapt_fighters(round number, round_json, bool-pyre-attacking')
 console.log('or use the gb loader adapt_grand_battle(round_num, round_data, tile_location, context)')
 console.log(`Duels must be processed and accepted first! `)
+console.log('consume_survey(fighters) requires the local server is running')
 
 const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
     
@@ -53,7 +55,7 @@ const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, 
             link: [checkForNonSubmission(match[`${faction}_comic_link`])],
             context: [context],
             faction: [faction],
-            artists: [],
+            artists: {},
             backstory: "",
             verified: false  //new fighters need to be audited
         })
@@ -132,6 +134,68 @@ exports.adapt_grand_battle = function(round_num, round_data, tile_location, cont
 
     var round_data = JSON.stringify(map_round, null, 2)
     fs.writeFileSync(`./new_round-${round_num}.json`, round_data)
+
+}
+
+exports.consume_survey = async function(survey_data){
+    console.log(survey_data)
+    for (const fighter of survey_data) {
+        console.log(fighter)
+        if(isNaN(fighter.fighter_id)){
+            console.log(`skipped ${fighter.fighter_id} : ${fighter.combatant_name}`)
+            continue
+        }
+
+        //first, rename fighter
+        axios.post(`http://localhost:8080/server/fightername/${fighter.fighter_id}`, {
+            name: fighter.combatant_name
+        }).catch(err => {
+            console.error(`rename failed for ${fighter.fighter_id} : ${fighter.combatant_name} : ${err}`)
+        })
+
+        //insert backstory
+        axios.post(`http://localhost:8080/server/backstory/${fighter.fighter_id}`, {
+            backstory: fighter.background
+        }).catch(err => {
+            console.error(`background failed for ${fighter.fighter_id} : ${fighter.combatant_name} : ${err}`)
+        })
+
+        const regCreator = /^Both/
+        var artistRole = fighter.role
+        artistRole = regCreator.test(artistRole) ? "Creator" : artistRole
+
+        //insert artist
+        await axios.post(`http://localhost:8080/server/artist/${fighter.fighter_id}`, {
+            artistname: fighter.artist_name,
+            role:artistRole,
+            twitter:fighter.artist_twitter,
+            instagram:fighter.artist_instagram,
+            pw1:fighter.artist_pw1,
+            pw2:fighter.artist_pw2,
+
+        }).catch(err => {
+            console.error(`primary failed for ${fighter.fighter_id} : ${fighter.combatant_name} : ${err}`)
+        })
+
+        const regNocollab = /^I didn't have a collaborator/i
+
+        if(!regNocollab.test(fighter.collab_status))
+        {
+            //insert artist
+            await axios.post(`http://localhost:8080/server/artist/${fighter.fighter_id}`, {
+                artistname: fighter.collab_name,
+                role:fighter.collab_status,
+                twitter:fighter.collab_twitter,
+                instagram:fighter.collab_instagram,
+                pw1:fighter.collab_pw1,
+                pw2:fighter.collab_pw2,
+
+            }).catch(err => {
+                console.error(`collab failed for ${fighter.fighter_id} : ${fighter.combatant_name} : ${err}`)
+            })
+        }
+
+    }
 
 }
 

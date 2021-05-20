@@ -12,8 +12,8 @@
   <div class="button" @click="clear">Clear</div>
   <div class="button" @click="save">Merge Chars</div>
 
-  <div>{{selected}}</div>
-  <div>{{output}}</div>
+  <div class="editorText">{{selected}}</div>
+  <div class="editorText">{{output}}</div>
 
   <div><textarea class="backgrounds" v-model="curBackground"> </textarea></div>
   </div>
@@ -105,6 +105,11 @@ export default {
 </script>
 
 <style scoped>
+
+.editorText{
+  font-size: 5vw;
+  color:rgb(247, 233, 179)
+}
 
 .boxClass{
   color:black;

@@ -25,16 +25,25 @@ const syncFileLoc = async function(){
     }
 }
 
+var allstories = {}
+var allfighters = {}
+
+
+syncFileLoc().then(()=>{
+    allfighters = JSON.parse((fs.readFileSync('./changes/allfighters.json')))
+    allstories = JSON.parse(fs.readFileSync('./changes/backstories.json'))
+})
+
 module.exports = function (app) {
     app.use(Express.json());
     app.use(Express.text());
 
 
-    app.get('/server/allFighters', async function(req,res){
+    app.get('/server/allfighters', async function(req,res){
         try{
             await syncFileLoc()
 
-            res.send((fs.readFileSync('./changes/allfighters.json')).toString());
+            res.json(allfighters)
         }
         catch(err){
             console.log(err)
@@ -55,8 +64,6 @@ module.exports = function (app) {
 
     app.get('/server/data', async function (req, res) {
         try {
-            await syncFileLoc()
-
             if(!('round' in req.query)){
                 res.status(400).send("the round query is required for this request")
                 return
@@ -71,14 +78,10 @@ module.exports = function (app) {
 
     app.get('/server/backstory/:fighterId', async function(req,res){
         try{
-            await syncFileLoc()
-
             if(isNaN(req.params.fighterId)){
                 res.status(400).send("The fighter Id is a number")
                 return
             }
-
-            var allstories = JSON.parse(fs.readFileSync('./changes/backstories.json'))
 
             if(!(`${req.params.fighterId}` in allstories)){
                 res.status(404).send("The fighter Id is not in the set")
@@ -93,9 +96,96 @@ module.exports = function (app) {
         }
     })
 
+
+    app.post('/server/backstory/:fighterId', async function(req,res){
+        try{
+            if(isNaN(req.params.fighterId)){
+                res.status(400).send("The fighter Id is a number")
+                return
+            }
+
+            allstories[req.params.fighterId] = req.body.backstory
+
+            await fs.writeFileSync('./changes/backstories.json', JSON.stringify(allstories, null, 2))
+            res.status(200).send()
+        }
+        catch(err){
+            console.log(err)
+            res.status(500).send(err)
+        }
+    })
+
+    app.post('/server/artist/:fighterId', async function(req, res){
+        try{
+            if(isNaN(req.params.fighterId)){
+                res.status(400).send("The fighter Id is a number")
+                return
+            }
+
+            var fighterId = req.params.fighterId
+            var body = req.body
+
+            allfighters[fighterId].artists[body.artistname] ={
+                name:body.artistname,
+                role:body.role,
+                contacts: {}
+            }
+
+            if(body.twitter && !(body.twitter === "")){
+                allfighters[fighterId].artists[body.artistname].contacts["twitter"] = body.twitter
+            }
+
+            if(body.instagram && !(body.instagram === "")){
+                allfighters[fighterId].artists[body.artistname].contacts["instagram"] = body.instagram
+            }
+
+            if(body.pw1 && !(body.pw1 === "")){
+                allfighters[fighterId].artists[body.artistname].contacts["pw1"] = body.pw1
+            }
+
+            if(body.pw2 && !(body.pw2 === "")){
+                allfighters[fighterId].artists[body.artistname].contacts["pw2"] = body.pw2
+            }
+
+            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allfighters, null, 2))
+            res.status(200).send()
+
+        }
+        catch(err){
+            console.log(err)
+            res.status(500).send(err)
+        }
+    })
+
+    app.post('/server/fightername/:fighterId', async function(req, res){
+        try{
+            if(isNaN(req.params.fighterId)){
+                res.status(400).send("The fighter Id is a number")
+                return
+            }
+
+            if(!('name' in req.body)){
+                res.status(400).send("Need to specify a name!")
+                return
+            }
+
+            var fighterId = req.params.fighterId
+
+            allfighters[fighterId].name = req.body.name
+
+            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allfighters, null, 2))
+            res.status(200).send()
+
+        }
+        catch(err){
+            console.log(err)
+            res.status(500).send(err)
+        }
+    })
+
+
     app.post('/server/mergeFighters', async function(req, res){
         try{
-            await syncFileLoc()
             //two things need to happen if a fighter is deleted:
             //- delete the fighter entry (duh)
             //- (more difficult) remove any listing of that fighter on a tile
@@ -146,21 +236,20 @@ module.exports = function (app) {
 
             })
 
-            var allFighters = JSON.parse((await fsp.readFile('./changes/allfighters.json')).toString())
-            var targetFighter = allFighters[target]
+            var targetFighter = allfighters[target]
             //extract details from doomed and transfer to target
             doomed.forEach(d =>{
-                let curDoomed = allFighters[d]
+                let curDoomed = allfighters[d]
                 curDoomed.link.forEach(r => targetFighter.link.push(r))
                 curDoomed.context.forEach(r => targetFighter.context.push(r))
                 curDoomed.faction.forEach(r => targetFighter.faction.push(r))
                 curDoomed.rounds.forEach(r => targetFighter.rounds.push(r))
-                delete allFighters[d]
+                delete allfighters[d]
             })
 
             targetFighter.verified = true
 
-            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allFighters, null, 2))
+            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allfighters, null, 2))
             res.status(200).send()
 
         }

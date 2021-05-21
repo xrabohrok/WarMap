@@ -4,12 +4,12 @@
             <div class="detail_row"> <h3> {{this.faction.toUpperCase()}} </h3> </div>
             <div class="allArtists" v-for="artist in Object.values(this.fighter.artists)" :key="artist.name">
                 <div class="detail_row"><b>{{artist.role}}:</b> {{artist.name}}</div>
-                <div class="detail_row" v-for="contact in Object.keys(artist.contacts)" :key="contact">
-                    <b>Artist Contact:</b> 
+                <div class="detail_row" v-show="Object.keys(artist.contacts).length > 0"><b>Contacts:</b></div>
+                <div class="detail_row" v-for="contact in Object.keys(artist.contacts)" :key="contact">               
                     <div class="sub_row"> <a :href="artist.contacts[contact]"> {{contact}} </a></div>
                 </div>
             </div>
-            <div class="detail_row"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
+            <div class="detail_row backstory"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
         </div>
         <div class="main_deets">
             <img :class="{right: rightward}"  :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
@@ -98,6 +98,14 @@ export default {
     height: 100%;
     overflow-y: auto;
 
+}
+
+.backstory{
+    white-space: pre-wrap;
+    text-align: left;
+    margin-top: .7vh;
+    padding-left: .4vw;
+    margin-bottom: .3vh;
 }
 
 .deets{

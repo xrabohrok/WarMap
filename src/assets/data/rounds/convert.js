@@ -152,7 +152,7 @@ exports.adapt_grand_battle = function(round_num, round_data, tile_location, cont
 }
 
 exports.consume_survey = async function(survey_data){
-    console.log(survey_data)
+    // console.log(survey_data)
     for (const fighter of survey_data) {
         console.log(fighter)
         if(isNaN(fighter.fighter_id)){

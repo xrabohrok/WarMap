@@ -704,12 +704,26 @@
     "contest": false,
     "attacker": "na",
     "owner": "bastion",
-    "grandBattle": false,
+    "grandBattle": true,
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        46,
+        20,
+        399,
+        50
+      ],
+      "bastion": [
+        398,
+        367,
+        76,
+        119,
+        372,
+        148,
+        63,
+        125
+      ]
     },
     "outcome": {
       "pyre": "",
@@ -2712,12 +2726,28 @@
     "contest": false,
     "attacker": "na",
     "owner": "pyre",
-    "grandBattle": false,
+    "grandBattle": true,
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        400,
+        281,
+        340,
+        277,
+        149,
+        66,
+        64
+      ],
+      "bastion": [
+        343,
+        82,
+        401,
+        147,
+        19,
+        303,
+        103
+      ]
     },
     "outcome": {
       "pyre": "",

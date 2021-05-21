@@ -9,8 +9,7 @@
       "zone": "coast"
     },
     "a10": {
-      "zone": "crags",
-      "label": true
+      "zone": "crags"
     },
     "a9": {
       "zone": "crags"
@@ -53,7 +52,8 @@
       "zone": "crags"
     },
     "b10": {
-      "zone": "crags"
+      "zone": "crags",
+      "label": true
     },
     "b9": {
       "zone": "ardenweald"
@@ -252,8 +252,7 @@
       "zone": "titanfall"
     },
     "f2": {
-      "zone": "emerald",
-      "label": true
+      "zone": "emerald"
     },
     "f1": {
       "zone": "emerald"
@@ -277,8 +276,7 @@
       "zone": "lostcity"
     },
     "g8": {
-      "zone": "lostcity",
-      "label": true
+      "zone": "lostcity"
     },
     "g7": {
       "zone": "lostcity"
@@ -342,7 +340,8 @@
       "zone": "emerald"
     },
     "h1": {
-      "zone": "emerald"
+      "zone": "emerald",
+      "label": true
     },
     "i14": {
       "zone": "jungle"
@@ -367,7 +366,8 @@
       "zone": "lostcity"
     },
     "i7": {
-      "zone": "lostcity"
+      "zone": "lostcity",
+      "label": true
     },
     "i6": {
       "zone": "bs"

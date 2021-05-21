@@ -223,6 +223,7 @@ export default {
 
 /*elements*/
 
+
 .gboverlay{
     width: 100%;
     left:-50%;
@@ -248,7 +249,12 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 120%;
-    font-size: 1.3em;
+    font-size: .9vw;
+
+    font-family: 'Permanent Marker', cursive;
+
+    background-image: url('../assets/pics/header-bg.png');
+    background-size: 100% 100%;
 
     pointer-events: none;
     -khtml-user-select: none;

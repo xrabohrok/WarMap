@@ -7,6 +7,9 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 
+/*map labels*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 html{
   background-color: #3e112b;
 }

@@ -1,6 +1,7 @@
 //round 1: https://git.io/JOimE ; https://cubari.moe/read/gist/JOimE/
 //round 2: https://git.io/JOXfB ; https://cubari.moe/read/gist/JOXfB/
-//round 2: https://git.io/JOXUt ; https://cubari.moe/read/gist/JOXUt/
+//round 3: https://git.io/JOXUt ; https://cubari.moe/read/gist/JOXUt/
+//round 4: https://git.io/JsMjl ; https://cubari.moe/read/gist/JsMjl/
 
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes('round')).split('=')[1],10)

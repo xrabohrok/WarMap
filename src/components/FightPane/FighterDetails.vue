@@ -2,7 +2,7 @@
     <div class="toplevel" :class="{leftward: leftward, rightward: rightward}" v-if="isSelected">
         <div class="deets">
             <div class="detail_row"> <h3> {{this.faction.toUpperCase()}} </h3> </div>
-            <div class="allArtists" v-for="artist in fighter.artists" :key="artist.name">
+            <div class="allArtists" v-for="artist in Object.values(this.fighter.artists)" :key="artist.name">
                 <div class="detail_row"><b>{{artist.role}}:</b> {{artist.name}}</div>
                 <div class="detail_row" v-for="contact in Object.keys(artist.contacts)" :key="contact">
                     <b>Artist Contact:</b> 

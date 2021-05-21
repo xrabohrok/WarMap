@@ -729,16 +729,20 @@
   "29": {
     "name": "KINGDOM",
     "rounds": [
-      1
+      1,
+      4
     ],
     "link": [
-      "https://imgur.com/a/vDIfixO"
+      "https://imgur.com/a/vDIfixO",
+      "https://imgur.com/a/QKgmAUK"
     ],
     "id": 29,
     "context": [
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "artists": {},
@@ -842,20 +846,24 @@
     "rounds": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "link": [
       "https://imgur.com/a/60rtFca",
       "https://imgur.com/gallery/UoouFk8",
-      "https://imgur.com/gallery/6j86YQg"
+      "https://imgur.com/gallery/6j86YQg",
+      "https://imgur.com/a/QKgmAUK"
     ],
     "id": 33,
     "context": [
       "duel",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion"
@@ -1066,20 +1074,24 @@
     "rounds": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "link": [
       "https://imgur.com/a/7IA3i7W",
       "https://imgur.com/a/efcn2It",
-      "https://imgur.com/a/NKsG4tW"
+      "https://imgur.com/a/NKsG4tW",
+      "https://imgur.com/a/QKgmAUK"
     ],
     "id": 45,
     "context": [
       "duel",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion"
@@ -1845,9 +1857,11 @@
     "rounds": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre",
       "pyre"
@@ -1855,12 +1869,14 @@
     "link": [
       "https://imgur.com/a/UX2fA2T",
       "https://imgur.com/a/s31MUvH",
-      "https://imgur.com/a/2OPJRNy"
+      "https://imgur.com/a/2OPJRNy",
+      "https://imgur.com/a/Z4X9DwP"
     ],
     "context": [
       "gbn",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 77,
     "artists": {},
@@ -3148,9 +3164,11 @@
     "rounds": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre",
       "pyre"
@@ -3158,12 +3176,14 @@
     "link": [
       "https://imgur.com/a/w515ZtB",
       "https://imgur.com/a/0kld9Jb",
-      "https://imgur.com/a/DyvVwww"
+      "https://imgur.com/a/DyvVwww",
+      "https://imgur.com/a/Z4X9DwP"
     ],
     "context": [
       "gbs",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 129,
     "artists": {},
@@ -3814,9 +3834,11 @@
     "rounds": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre",
       "pyre"
@@ -3824,12 +3846,14 @@
     "link": [
       "https://imgur.com/a/HcnSEU7",
       "https://imgur.com/a/bFhEaGk",
-      "https://imgur.com/a/rMMY37l"
+      "https://imgur.com/a/rMMY37l",
+      "https://imgur.com/a/Z4X9DwP"
     ],
     "context": [
       "gbs",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 156,
     "artists": {},
@@ -4413,15 +4437,15 @@
       "duel"
     ],
     "id": 180,
-    "artists": [
-      {
+    "artists": {
+      "Mr. Black":{
         "name": "Mr. Black",
         "role": "Creator",
         "contacts": {
           "twitter": "http://twitter.com/BregerW"
         }
       }
-    ],
+    },
     "backstory": "",
     "verified": true
   },
@@ -4609,15 +4633,19 @@
     "id": 212,
     "name": "Enoch Nomes",
     "rounds": [
-      2
+      2,
+      4
     ],
     "link": [
-      "https://imgur.com/a/7GRczuQ"
+      "https://imgur.com/a/7GRczuQ",
+      "https://imgur.com/a/QKgmAUK"
     ],
     "context": [
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion"
     ],
     "artists": {},
@@ -6305,6 +6333,25 @@
     ],
     "faction": [
       "bastion"
+    ],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "397": {
+    "id": 397,
+    "name": "Hanz",
+    "rounds": [
+      4
+    ],
+    "link": [
+      "https://imgur.com/a/Z4X9DwP"
+    ],
+    "context": [
+      "clash"
+    ],
+    "faction": [
+      "pyre"
     ],
     "artists": {},
     "backstory": "",

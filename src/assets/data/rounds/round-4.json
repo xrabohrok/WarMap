@@ -1822,36 +1822,56 @@
   "g2": {
     "location": "g2",
     "contest": false,
-    "attacker": "na",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        77,
+        397,
+        156,
+        129
+      ],
+      "bastion": [
+        33,
+        45,
+        212,
+        29
+      ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },
   "g1": {
     "location": "g1",
     "contest": false,
-    "attacker": "na",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        77,
+        397,
+        156,
+        129
+      ],
+      "bastion": [
+        33,
+        45,
+        212,
+        29
+      ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },

@@ -24,4 +24,14 @@ const showCubari = function(link){
     return imgrTest.test(link)
 }
 
-export {showCubari, cubariLink, linkLabel}
+const buildTwitterLink = function(userHandle){
+    const cleanHandle = userHandle.replace('@', '')
+    return `https://www.twitter.com/${cleanHandle}`
+}
+
+const buildInstagramLink = function(userHandle){
+    const cleanHandle = userHandle.replace('@', '')
+    return `https://www.instagram.com/${cleanHandle}`
+}
+
+export {showCubari, cubariLink, linkLabel, buildTwitterLink, buildInstagramLink}

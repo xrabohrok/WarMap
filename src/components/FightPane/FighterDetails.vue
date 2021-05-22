@@ -6,7 +6,7 @@
                 <div class="detail_row"><b>{{artist.role}}:</b> {{artist.name}}</div>
                 <div class="detail_row" v-show="Object.keys(artist.contacts).length > 0"><b>Contacts:</b></div>
                 <div class="detail_row" v-for="contact in Object.keys(artist.contacts)" :key="contact">               
-                    <div class="sub_row"> <a :href="artist.contacts[contact]"> {{contact}} </a></div>
+                    <div class="sub_row"> <a :href="buildLink(contact, artist.contacts[contact])" target="_blank" rel="noopener noreferrer"> {{contact}} </a></div>
                 </div>
             </div>
             <div class="detail_row backstory"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
@@ -21,6 +21,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import {CURRENT_ZONE_FIGHT, SELECTING_GETTER, FIGHTER_GETTER, CURRENT_ZONE_CONTESTED, FIGHTER_BACKSTORY} from '../../state/getters'
+import {buildTwitterLink, buildInstagramLink} from '../../common/links'
 
 
 export default {
@@ -37,6 +38,11 @@ export default {
     methods:{
         altIcon(event){
             event.target.src = this.fighterBackupIcon
+        },
+        buildLink(key, value){
+            if(key.toLowerCase() === "twitter") return buildTwitterLink(value)
+            if(key.toLowerCase() === "instagram") return buildInstagramLink(value)
+            return value
         }
     },
     computed:{

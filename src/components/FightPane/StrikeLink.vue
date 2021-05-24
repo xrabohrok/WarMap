@@ -70,7 +70,7 @@ export default {
     height: 70%;
     left: -50%;
     transform: translateX(60%);
-    opacity: 70%;
+    opacity: 72%;
     top: 20%;
 
     pointer-events: none;

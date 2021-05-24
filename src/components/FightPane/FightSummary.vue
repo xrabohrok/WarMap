@@ -15,24 +15,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="cell linkset"> 
-                    <a :href="comicLink(bastionAttacking ? 'bastion' : 'pyre')" target="_blank" rel="noopener noreferrer">{{linkLabel(getComicLink(true))}}</a>
-                    <span v-show="showCubari(getComicLink(true))">
-                        <a :href="cubariLink(getComicLink(true))" target="_blank" rel="noopener noreferrer">
-                            <img src="../../assets/pics/cubari.svg" class="iconLink">
-                        </a>
-                    </span>
-                    <ReadMarker :fighterId="this.zoneFight.fighters[bastionAttacking ? 'bastion' : 'pyre'][0]" :round="round" class="linkset_checkbox"/>
-                </div>
-                <div class="cell linkset"> 
-                    <a :href="comicLink(bastionAttacking ? 'pyre' : 'bastion')" target="_blank" rel="noopener noreferrer">{{linkLabel(getComicLink(false))}}</a>
-                    <span v-show="showCubari(getComicLink(false))">
-                        <a :href="cubariLink(getComicLink(false))" target="_blank" rel="noopener noreferrer">
-                            <img src="../../assets/pics/cubari.svg" class="iconLink">
-                        </a>
-                    </span>
-                    <ReadMarker :fighterId="this.zoneFight.fighters[bastionAttacking ? 'pyre' : 'bastion'][0]" :round="round" class="linkset_checkbox" />
-                </div>
+                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'bastion' : 'pyre'][0]" :round="round" :labelLink="getDecomposedLinks(true)"/>
+                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'pyre' : 'bastion'][0]" :round="round" :labelLink="getDecomposedLinks(false)"/>
             </div>
             <div class="row">
                 <Spoiler :hiddenText="fightOutcome"/>
@@ -46,7 +30,7 @@
 import { mapGetters } from 'vuex'
 import {linkLabel, cubariLink, showCubari} from '../../common/links'
 import Spoiler from './Spoiler.vue'
-import ReadMarker from './ReadMarker.vue'
+import StrikeLink from './StrikeLink.vue'
 import { SELECTING_GETTER, CURRENT_ZONE_FIGHT, CUR_FIGHTER_LINK, CURRENT_ROUND, CURRENT_ZONE_NAME} from '../../state/getters'
 
 import {FIGHT} from '../DetailPaneDesktop'
@@ -57,7 +41,7 @@ export default {
     },
     components:{
         Spoiler,
-        ReadMarker
+        StrikeLink
     },
     computed:{
         renderFight: function(){
@@ -105,6 +89,13 @@ export default {
         getComicLink: function(attacker){
             var facs = (this.bastionAttacking && attacker) || (!this.bastionAttacking && !attacker) ? "bastion" : "pyre"
             return this.comicLink(facs)
+        },
+        getDecomposedLinks: function(attacker){
+            var linkSet = {}
+            var primaryLink = this.getComicLink(attacker)
+            linkSet[linkLabel(primaryLink)] = primaryLink
+            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
+            return linkSet
         },
         linkLabel:linkLabel,
         showCubari: showCubari,

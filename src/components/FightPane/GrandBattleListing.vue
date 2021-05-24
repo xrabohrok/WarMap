@@ -6,11 +6,8 @@
     <div class="fightername">
         {{fighterName}}
     </div>
-    <div class="gbcomic fightername">
-        <a :href="fighterComic" target="_blank" rel="noopener noreferrer"> link</a>
-    </div>
-    <div class="fightername">
-        <ReadMarker :fighterId="fighterId" :round="round"/>
+    <div class="fightername" v-show="!hideLink">
+        <StrikeLink class="linkStyle" :fighterId="fighterId" :round="round" :labelLink="getDecomposedLinks()"/>
     </div>
     
 </div>
@@ -20,21 +17,20 @@
 <script>
 import {mapGetters} from 'vuex'
 import {FIGHTER_GETTER} from '../../state/getters'
+import {linkLabel, cubariLink, showCubari} from '../../common/links'
 
-import ReadMarker from './ReadMarker.vue'
+
+import StrikeLink from './StrikeLink.vue'
+
 
 export default {
     props:{
         fighterId: Number,
-        round: Number
+        round: Number,
+        hideLink: Boolean,
     },
     components:{
-        ReadMarker
-    },
-        methods:{
-        altIcon(event){
-            event.target.src = this.fighterBackupIcon
-        }
+        StrikeLink
     },
     computed:{
         fighterComic: function(){
@@ -60,6 +56,21 @@ export default {
         ...mapGetters({
             fighter: FIGHTER_GETTER,
         })
+    },
+    methods:{
+        altIcon(event){
+            event.target.src = this.fighterBackupIcon
+        },
+        getDecomposedLinks: function(){
+            var linkSet = {}
+            var primaryLink = this.fighterComic
+            linkSet[linkLabel(primaryLink)] = primaryLink
+            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
+            return linkSet
+        },
+        linkLabel:linkLabel,
+        showCubari: showCubari,
+        cubariLink: cubariLink,
     },
     name: "GrandBattleListing"
 }
@@ -95,6 +106,10 @@ img::before{
     width: 4.7em;
     height: 4.7em;
     margin: .1em;
+}
+
+.linkStyle{
+    font-size: 1.5vw;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="grandbattle">
-        <grand-battle-listing v-for="id in fighters" :key="id" :fighterId="id" :round="round" :faction="faction" />
+        <grand-battle-listing v-for="id in fighters" :key="id" :fighterId="id" :round="round" :hideLink="hideLinks" />
     </div>
 </template>
 
@@ -15,6 +15,7 @@ export default {
     },
     props:{
         faction: String,
+        hideLinks: Boolean
     },
     computed:{
         fighters: function() {

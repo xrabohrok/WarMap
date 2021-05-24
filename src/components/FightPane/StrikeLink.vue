@@ -1,6 +1,6 @@
 <template>
     <div class="linkContainer" >
-        <img src="../../assets/pics/strike.png" class="strikeImage"  v-show="checked"/>
+        <img src="../../assets/pics/strike.png" class="strikeImage"  v-show="checked" :style="wobbleStyle"/>
         <div class="aLink" v-for="entry in decomposedLinks" v-bind:key="entry.label">
             <a :href="entry.value" target="_blank" rel="noopener noreferrer" @click="markVisited">{{entry.label}}</a>
         </div>
@@ -25,11 +25,15 @@ export default {
     },
     data: function() {
         return {
-            checked: false
+            checked: false,
+            wobbleX: 0,
+            wobbleY: 0,
+            wobbleR: 0
         }
     },
     mounted: function(){
         this.checked = this.shouldBeChecked(this.fighterId, this.round)
+        this.computeWobble()
     },
     methods: {
         markVisited: function(){
@@ -39,11 +43,19 @@ export default {
         unvisit: function(){
             this.checked = false
             this.$store.commit(MARK_UNREAD, {fighterId:this.fighterId, round:this.round})
+        },
+        computeWobble: function(){
+            this.wobbleX = Math.random() * 6 - 3
+            this.wobbleY = Math.random() * 6 - 3
+            this.wobbleR = Math.random() * 10 - 5
         }
     },
     computed:{
         decomposedLinks: function(){
             return Object.keys(this.labelLink).map(k => {return {label: k, value: this.labelLink[k]}})
+        },
+        wobbleStyle: function(){
+            return {transform: `translate(${60 + this.wobbleX}%, ${this.wobbleY}%) rotate(${this.wobbleR}deg)`}
         },
         ...mapGetters({
             shouldBeChecked: HAS_READ_COMIC
@@ -52,9 +64,11 @@ export default {
     watch: {
         fighterId: function(val){
             this.checked = this.shouldBeChecked(val, this.round)
+            this.computeWobble()
         },
         round: function(val){
             this.checked = this.shouldBeChecked(this.fighterId, val)
+            this.computeWobble()
         },
     },
     name:"StrikeLink"
@@ -72,6 +86,7 @@ export default {
     transform: translateX(60%);
     opacity: .7;
     top: 20%;
+    overflow: visible;
 
     pointer-events: none;
     -khtml-user-select: none;
@@ -85,6 +100,7 @@ export default {
     display: flex;
     flex-direction: row;
     position: relative;
+    width:fit-content;
 }
 
 .aLink{

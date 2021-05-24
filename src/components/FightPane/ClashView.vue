@@ -2,13 +2,10 @@
     <div class="clashView">
         <div class="links">
             <div class=linkrow  v-for="link in fighters" :key="link">
-                <a class="link" :href="link">{{linkLabel(link)}}</a>
-                <a class="link" v-if="showCubari(link)" :href="cubariLink(link)">
-                    <img src="../../assets/pics/cubari.svg" class="iconLink"/>
-                </a>
+                <StrikeLink class="link" :fighterId="gbfighters(faction)[0]" :round="round" :labelLink="getDecomposedLinks()" />
             </div>
         </div>
-        <GrandBattleView :faction="faction" class="fighterList"/>
+        <GrandBattleView :faction="faction" class="fighterList" :hideLinks="true"/>
     </div>
 </template>
 
@@ -18,13 +15,16 @@ import GrandBattleView from './GrandBattleView'
 import {MASSBATTLE_FIGHTERS, CURRENT_ROUND, FIGHTER_GETTER} from '../../state/getters'
 import {linkLabel, cubariLink, showCubari} from '../../common/links'
 
+import StrikeLink from './StrikeLink.vue'
+
 
 export default {
     props:{
         faction: String,
     },
     components:{
-        GrandBattleView
+        GrandBattleView,
+        StrikeLink
     },
     computed:{
         fighters: function() {
@@ -44,6 +44,13 @@ export default {
         })
     },
     methods:{
+        getDecomposedLinks: function(){
+            var linkSet = {}
+            var primaryLink = this.fighters[0]
+            linkSet[linkLabel(primaryLink)] = primaryLink
+            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
+            return linkSet
+        },
         linkLabel: linkLabel,
         cubariLink: cubariLink,
         showCubari: showCubari,
@@ -58,13 +65,15 @@ export default {
     color: yellow;
     font-size: 2.7em;
     vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a:visited{
+a.linkrow:visited{
     color: rgb(185, 185, 19);
 }
 
-a:hover{
+a.linkrow:hover{
     color: rgb(126, 98, 23)
 }
 

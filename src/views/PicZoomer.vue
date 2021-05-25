@@ -2,22 +2,19 @@
   <div class="about">
     <h1>Character auditor</h1>
 
-
     <v-multiselect-listbox :options="allFighters"
     :reduce-display-property="(option) => option.name"
     :reduce-value-property="(option) => option.id"
     v-model="selected"
-    @change="getBackground"
      class="boxClass"/>
   <div class="button" @click="clear">Clear</div>
-  <div class="button" @click="save">Merge Chars</div>
+  <div class="button" @click="send">Change Pic Center</div>
 
   <div class="editorText">{{selected}}</div>
-  <div class="editorText">{{output}}</div>
 
-  <div><textarea class="backgrounds" v-model="curBackground"> </textarea></div>
-
-  <ProfilePic :imgUrl="'/fighterimages/397.png'" :isEditable="true" class="profPic"/>
+  <ProfilePic :imgUrl="'/fighterimages/397.png'" :isEditable="true" class="profPic" :startPos="curPositioning" :lazyUpdate="updatePos"/>
+  
+  <div class="editorText"> {{curPositioning}} </div>
   </div>
 
 </template>
@@ -48,8 +45,7 @@ export default {
     return {
       selected:[],
       curFighters: [],
-      curBackground:"",
-      output: "",
+      curPositioning: { zoom:1, left:0, top:0}
     }
   },
   computed:{
@@ -63,41 +59,28 @@ export default {
       console.log(this.selected)
       this.selected = []
     },
-    async save(){
-      axios
-      .post('/server/mergeFighters', {target:this.selected[0], doomed:this.selected.slice(1)})
-      .then(()=>{
-        // console.log("merge done")
-        // console.log(response.data)
-        axios
-          .get('/server/allFighters')
-          .then(response2 => {
-            this.curFighters = response2.data
-            this.selected = []
-            })
-          .catch(r2 => console.log(r2))
-        })
-      .catch(r => console.log(r))
+    changeFighter: function(){
+      var curr = this.selected[0]
+      if (curr === undefined) return
+
+      if('minview' in curr){
+        this.curPositioning = curr.minview
+      }
+      else{
+        this.curPositioning = {
+            zoom:1,
+            left: 0,
+            top: 0,
+        }
+      }
+    },
+    send: function(){},
+    updatePos: function(zoom, left, top){
+      this.curPositioning['zoom'] = zoom
+      this.curPositioning['left'] = left
+      this.curPositioning['top'] = top
 
     },
-    async getBackground(){
-      if(this.selected[0] === undefined) 
-      {
-        this.curBackground = ""
-        return
-      }
-      axios.get(
-        `/server/backstory/${this.selected[0]}`
-      ).then(response => this.curBackground = response.data)
-      .catch(r=>{
-        if(r.response.status === 404) {
-          console.log("no bg for " + this.selected[0]) 
-          this.curBackground = ""
-          return
-        }
-        console.log(r)
-      })
-    }
   },
   mounted:function(){
       axios
@@ -105,7 +88,7 @@ export default {
       .then(response => this.curFighters = response.data)
       .catch(r => console.log(r))
   },
-  name: "CharacterEditor"
+  name: "PicZoomer"
 }
 </script>
 

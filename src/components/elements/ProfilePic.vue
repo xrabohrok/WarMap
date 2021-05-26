@@ -5,7 +5,7 @@
         @mouseleave="imageClipDragStop"
         @mousemove="imageClipDragMove" 
         class="container">
-        <img :src="imgUrl" :style="smallStyle" draggable="false" />
+        <img :src="imgUrl"  @error="altIcon"  :style="smallStyle" draggable="false" />
     </div>
 </template>
 
@@ -25,10 +25,10 @@ export default {
         return {
             positioning:{
                 zoom:1,
-                left: 0,
-                top: 0,
-                leftp: 0,
-                topp: 0
+                left: 50,
+                top: 50,
+                leftp: defaultImageWidth/2,
+                topp: defaultImageHeight/2
             },
             dragging: false,
             dragX: 0,
@@ -40,7 +40,7 @@ export default {
             return {
                 position: 'absolute',
                 width: 'auto',
-                height: `${defaultImageHeight * this.positioning.zoom}%`,
+                height: `${100 * this.positioning.zoom}%`,
                 left: `${this.positioning.left * this.positioning.zoom}%`,
                 top: `${this.positioning.top * this.positioning.zoom}%`
             }
@@ -51,12 +51,17 @@ export default {
             var sub_e = window.event || e; // old IE support
             var delta = Math.max(-1, Math.min(1, (sub_e.wheelDelta || -sub_e.detail)))
             if(delta > 0)
-                this.positioning.zoom += .5
+                this.positioning.zoom += .25
             else{
-                this.positioning.zoom -= .5
+                this.positioning.zoom -= .25
+            }
+            if(this.lazyUpdate !== undefined){
+                this.lazyUpdate(this.positioning.zoom, this.positioning.left, this.positioning.top)
             }
         },
-
+        altIcon(event){
+            event.target.src = 'fighterimages/error.png'
+        },
         imageClipDragStart(e) {
             if (e.button === 0) {
                 this.dragging = true;
@@ -102,7 +107,7 @@ export default {
         },
     },
     watch:{
-        imgUrl: function(){
+        startPos: function(){
             if(this.startPos !== null && this.startPos !== undefined){
                 this.positioning = {
                     zoom: this.startPos.zoom,
@@ -114,10 +119,10 @@ export default {
             } else{
                 this.positioning = {
                     zoom:1,
-                    left: 0,
-                    top: 0,
-                    leftp: 0,
-                    topp: 0
+                    left: 50,
+                    top: 50,
+                    leftp: defaultImageWidth/2,
+                    topp: defaultImageHeight/2
                 }
             }
         }

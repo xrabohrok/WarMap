@@ -6,13 +6,17 @@
     :reduce-display-property="(option) => option.name"
     :reduce-value-property="(option) => option.id"
     v-model="selected"
+    @change="changeFighter"
      class="boxClass"/>
-  <div class="button" @click="clear">Clear</div>
-  <div class="button" @click="send">Change Pic Center</div>
+  <div class="row">
+    <div class="button" @click="clear">Clear</div>
+    <div class="button" @click="send">Change Pic Center</div>
+  </div>
 
   <div class="editorText">{{selected}}</div>
-
-  <ProfilePic :imgUrl="'/fighterimages/397.png'" :isEditable="true" class="profPic" :startPos="curPositioning" :lazyUpdate="updatePos"/>
+  <div class = "row">
+    <ProfilePic :imgUrl="`/fighterimages/${curFighterPic}.png`" class="profPic" :startPos="curPositioning" :lazyUpdate="updatePos"/>
+  </div>
   
   <div class="editorText"> {{curPositioning}} </div>
   </div>
@@ -45,12 +49,16 @@ export default {
     return {
       selected:[],
       curFighters: [],
-      curPositioning: { zoom:1, left:0, top:0}
+      curPositioning: { zoom:1, left:50, top:50}
     }
   },
   computed:{
     allFighters: function(){
       return Object.keys(this.curFighters).map(k => this.curFighters[k]).sort(alpahbeticalSort)
+    },
+    curFighterPic: function(){
+      if(this.selected.length === 0) return "no-pic"
+      return this.selected[0]
     }
   },
   methods:{
@@ -63,23 +71,38 @@ export default {
       var curr = this.selected[0]
       if (curr === undefined) return
 
-      if('minview' in curr){
-        this.curPositioning = curr.minview
+      var fighter = this.allFighters.find(f => f.id === curr)
+      if('profilePic' in fighter){
+        this.curPositioning = fighter.profilePic
       }
       else{
         this.curPositioning = {
             zoom:1,
-            left: 0,
-            top: 0,
+            left: 50,
+            top: 50,
         }
       }
     },
-    send: function(){},
+    send: function(){
+
+      axios
+      .post(`/server/picture/${this.selected[0]}`, {zoom:this.curPositioning.zoom.toFixed(2), left:this.curPositioning.left.toFixed(2), top:this.curPositioning.top.toFixed(2)})
+      .then(()=>{
+        axios
+          .get('/server/allFighters')
+          .then(response2 => {
+            this.curFighters = response2.data
+            this.selected = []
+            })
+          .catch(r2 => console.log(r2))
+        })
+      .catch(r => console.log(r))
+    },
+
     updatePos: function(zoom, left, top){
       this.curPositioning['zoom'] = zoom
       this.curPositioning['left'] = left
       this.curPositioning['top'] = top
-
     },
   },
   mounted:function(){
@@ -134,6 +157,14 @@ export default {
 .button:active{
   background-color: rgb(194, 25, 25);
   color: rgb(185, 185, 185);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 </style>

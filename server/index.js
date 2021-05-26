@@ -115,6 +115,24 @@ module.exports = function (app) {
         }
     })
 
+    app.post('/server/picture/:fighterId', async function(req,res){
+        try{
+            if(isNaN(req.params.fighterId)){
+                res.status(400).send("The fighter Id is a number")
+                return
+            }
+
+            allfighters[req.params.fighterId]['profilePic'] = req.body
+
+            await fs.writeFileSync('./changes/allfighters.json', JSON.stringify(allfighters, null, 2))
+            res.status(200).send()
+        }
+        catch(err){
+            console.log(err)
+            res.status(500).send(err)
+        }
+    })
+
     app.post('/server/artist/:fighterId', async function(req, res){
         try{
             if(isNaN(req.params.fighterId)){

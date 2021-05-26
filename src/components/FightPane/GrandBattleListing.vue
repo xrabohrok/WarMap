@@ -1,7 +1,7 @@
 <template>
 <div class="onefighter">
     <div class="imghere">
-        <img :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
+        <ProfilePic :imgUrl="fighterIcon" :faction="faction" :startPos="pictureShift"  class="fighterIcon"/>
     </div>
     <div class="fightername">
         {{fighterName}}
@@ -18,6 +18,8 @@
 import {mapGetters} from 'vuex'
 import {FIGHTER_GETTER} from '../../state/getters'
 import {linkLabel, cubariLink, showCubari} from '../../common/links'
+import ProfilePic from '../elements/ProfilePic.vue'
+
 
 
 import StrikeLink from './StrikeLink.vue'
@@ -30,7 +32,8 @@ export default {
         hideLink: Boolean,
     },
     components:{
-        StrikeLink
+        StrikeLink,
+        ProfilePic
     },
     computed:{
         fighterComic: function(){
@@ -52,6 +55,9 @@ export default {
             var fighterEntry =this.fighter(this.fighterId)
             var roundIndex = fighterEntry.rounds.findIndex(r => r === this.round)
             return roundIndex >= 0 ? fighterEntry.faction[roundIndex] : "na"
+        },
+        pictureShift: function(){
+            return this.fighter(this.fighterId).profilePic
         },
         ...mapGetters({
             fighter: FIGHTER_GETTER,

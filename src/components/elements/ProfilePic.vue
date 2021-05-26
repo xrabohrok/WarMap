@@ -10,57 +10,58 @@ export default {
     name:"ProfilePic",
     props:{
         imgUrl: String,
-        startPos: Object,
+        startPos: {
+            zoom: 1,
+            left: 50,
+            top: 50,
+        },
         faction: String
     },
     data:function(){
         return {
-            positioning:{
-                zoom:1,
-                left: 50,
-                top: 50,
-            }
         }
     },
     computed:{
         smallStyle: function(){
+
+            if(this.startPos === null || this.startPos === undefined){
+                return {
+                    position: 'absolute',
+                    width: 'auto',
+                    height: `100%`,
+                    left: `50%`,
+                    top: `50%`
+                }
+            }
+
             return {
                 position: 'absolute',
                 width: 'auto',
-                height: `${100 * this.positioning.zoom}%`,
-                left: `${this.positioning.left * this.positioning.zoom}%`,
-                top: `${this.positioning.top * this.positioning.zoom}%`
+                height: `${100 * this.startPos.zoom}%`,
+                left: `${this.startPos.left * this.startPos.zoom}%`,
+                top: `${this.startPos.top * this.startPos.zoom}%`
             }
         }
     },
     methods:{
         altIcon(event){
-            if (this.faction === 'pyre') return require('../../assets/pics/pyre-standin.png') 
-            if (this.faction === 'bastion') return require('../../assets/pics/bastion-standin.png') 
+            if (this.faction === 'pyre') 
+            {
+                event.target.src = require('../../assets/pics/pyre-standin.png')
+                return
+            }
+            if (this.faction === 'bastion') 
+            {
+                event.target.src = require('../../assets/pics/bastion-standin.png')
+                return
+            }
             event.target.src = 'fighterimages/error.png'
         },
         updateView(){
-            this.positioning = {
+            this.startPos = {
                 zoom: this.startPos.zoom,
                 left: this.startPos.left,
                 top: this.startPos.top,
-            }
-        }
-    },
-    watch:{
-        startPos: function(){
-            if(this.startPos !== null && this.startPos !== undefined){
-                this.positioning = {
-                    zoom: this.startPos.zoom,
-                    left: this.startPos.left,
-                    top: this.startPos.top,
-                }
-            } else{
-                this.positioning = {
-                    zoom:1,
-                    left: 50,
-                    top: 50,
-                }
             }
         }
     }

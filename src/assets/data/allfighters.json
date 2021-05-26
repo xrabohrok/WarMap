@@ -4658,7 +4658,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "16.88",
+      "top": "35.93"
+    }
   },
   "181": {
     "name": "Bei-Qi, Speaker of Truth",
@@ -6658,7 +6663,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "11.29",
+      "top": "48.26"
+    }
   },
   "398": {
     "id": 398,

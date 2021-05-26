@@ -12,7 +12,7 @@
             <div class="detail_row backstory"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
         </div>
         <div class="main_deets">
-            <img :class="{right: rightward}"  :src="fighterIcon" @error="altIcon"  class="fighterIcon"/>
+            <ProfilePic :class="{right: rightward}"  :imgUrl="fighterIcon" :faction="faction" :startPos="fighter.profilePic" class="fighterIcon"/>
             <div class="detail_row"> <h2> {{this.fighterName}} </h2></div>
         </div>
     </div>
@@ -22,13 +22,16 @@
 import { mapGetters } from 'vuex'
 import {CURRENT_ZONE_FIGHT, SELECTING_GETTER, FIGHTER_GETTER, CURRENT_ZONE_CONTESTED, FIGHTER_BACKSTORY} from '../../state/getters'
 import {buildTwitterLink, buildInstagramLink} from '../../common/links'
-
+import ProfilePic from '../elements/ProfilePic.vue'
 
 export default {
     props:{
         isLeft:Boolean,
         isRight:Boolean,
         faction:String
+    },
+    components:{
+        ProfilePic
     },
     data: function(){
         return {

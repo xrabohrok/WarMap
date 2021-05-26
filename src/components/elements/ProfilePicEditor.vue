@@ -61,6 +61,16 @@ export default {
             }
         },
         altIcon(event){
+            if (this.faction === 'pyre') 
+            {
+                event.target.src = require('../../assets/pics/pyre-standin.png')
+                return
+            }
+            if (this.faction === 'bastion') 
+            {
+                event.target.src = require('../../assets/pics/bastion-standin.png')
+                return
+            }
             event.target.src = 'fighterimages/error.png'
         },
         imageClipDragStart(e) {

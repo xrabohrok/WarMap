@@ -85,7 +85,11 @@ export default {
 
       var fighter = this.allFighters.find(f => f.id === curr)
       if('profilePic' in fighter){
-        this.curPositioning = fighter.profilePic
+        this.curPositioning = {
+          zoom: Number(fighter.profilePic.zoom),
+          left: Number(fighter.profilePic.left),
+          top: Number(fighter.profilePic.top)
+        }
       }
       else{
         this.curPositioning = {

@@ -112,7 +112,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "13.45",
+      "top": "52.32"
+    }
   },
   "4": {
     "name": "Akeldama",
@@ -537,7 +542,12 @@
     ],
     "artists": {},
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "40.50",
+      "top": "42.33"
+    }
   },
   "21": {
     "name": "Benezra the Archivist",
@@ -591,7 +601,12 @@
     ],
     "artists": {},
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "7.58",
+      "top": "44.79"
+    }
   },
   "23": {
     "name": "12 Quiet Steps Ever Hunt Suspicious Deeds",
@@ -912,7 +927,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.75",
+      "left": "35.36",
+      "top": "57.21"
+    }
   },
   "34": {
     "name": "Prince Leopold",
@@ -942,7 +962,12 @@
         }
       }
     },
-    "backstory": ""
+    "backstory": "",
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "12.52",
+      "top": "48.29"
+    }
   },
   "35": {
     "name": "Cupid",
@@ -1582,7 +1607,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "18.55",
+      "top": "46.77"
+    }
   },
   "63": {
     "name": "Sabi",
@@ -1650,7 +1680,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "38.02",
+      "top": "48.65"
+    }
   },
   "65": {
     "name": "Lady Allegro di Mauricio",
@@ -2002,7 +2037,12 @@
     "id": 78,
     "artists": {},
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "42.94",
+      "top": "20.00"
+    }
   },
   "79": {
     "name": "Beshker & Harken",
@@ -2176,7 +2216,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "1.97",
+      "top": "49.25"
+    }
   },
   "85": {
     "name": "Mori",
@@ -2314,7 +2359,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.25",
+      "left": "39.43",
+      "top": "49.10"
+    }
   },
   "89": {
     "name": "Thülanquoris Hesh",
@@ -2533,7 +2583,12 @@
     ],
     "id": 98,
     "artists": {},
-    "backstory": ""
+    "backstory": "",
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "8.02",
+      "top": "52.84"
+    }
   },
   "99": {
     "name": "Mataw Ady",
@@ -3008,7 +3063,12 @@
         }
       }
     },
-    "backstory": ""
+    "backstory": "",
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "13.24",
+      "top": "51.83"
+    }
   },
   "118": {
     "name": "Koma",
@@ -3311,7 +3371,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.75",
+      "left": "30.69",
+      "top": "49.93"
+    }
   },
   "129": {
     "name": "Brazen Pun",
@@ -3472,7 +3537,12 @@
     "id": 134,
     "artists": {},
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "38.94",
+      "top": "41.83"
+    }
   },
   "135": {
     "name": "Fu",
@@ -3578,7 +3648,12 @@
     ],
     "id": 138,
     "artists": {},
-    "backstory": ""
+    "backstory": "",
+    "profilePic": {
+      "zoom": "1.25",
+      "left": "38.37",
+      "top": "39.90"
+    }
   },
   "139": {
     "name": "Lucille Evalume",
@@ -3689,7 +3764,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.25",
+      "left": "45.30",
+      "top": "38.30"
+    }
   },
   "143": {
     "name": "Thunder Bravo",
@@ -3865,7 +3945,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "9.06",
+      "top": "47.92"
+    }
   },
   "150": {
     "name": "Orion",
@@ -4071,7 +4156,12 @@
     "id": 157,
     "artists": {},
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "21.90",
+      "top": "27.08"
+    }
   },
   "158": {
     "name": "Red Helmet",
@@ -4202,7 +4292,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.75",
+      "left": "28.84",
+      "top": "17.59"
+    }
   },
   "162": {
     "name": "Udre Peru",
@@ -4901,7 +4996,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "35.61",
+      "top": "41.40"
+    }
   },
   "222": {
     "id": 222,
@@ -5578,7 +5678,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "24.60",
+      "top": "45.75"
+    }
   },
   "303": {
     "id": 303,
@@ -5618,7 +5723,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.50",
+      "left": "36.28",
+      "top": "47.67"
+    }
   },
   "305": {
     "id": 305,
@@ -5715,7 +5825,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "28.20",
+      "top": "2.61"
+    }
   },
   "332": {
     "id": 332,
@@ -6465,7 +6580,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "36.41",
+      "top": "37.23"
+    }
   },
   "388": {
     "id": 388,

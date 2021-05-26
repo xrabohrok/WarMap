@@ -1,25 +1,17 @@
 <template>
-    <div @mousewheel="mouseWheelZoom"
-        @mousedown="imageClipDragStart"
-        @mouseup="imageClipDragStop"
-        @mouseleave="imageClipDragStop"
-        @mousemove="imageClipDragMove" 
-        class="container">
+    <div class="container">
         <img :src="imgUrl"  @error="altIcon"  :style="smallStyle" draggable="false" />
     </div>
 </template>
 
 <script>
 
-const defaultImageHeight = 400
-const defaultImageWidth = 300
-
 export default {
     name:"ProfilePic",
     props:{
         imgUrl: String,
-        lazyUpdate: Function,
-        startPos: Object
+        startPos: Object,
+        faction: String
     },
     data:function(){
         return {
@@ -27,12 +19,7 @@ export default {
                 zoom:1,
                 left: 50,
                 top: 50,
-                leftp: defaultImageWidth/2,
-                topp: defaultImageHeight/2
-            },
-            dragging: false,
-            dragX: 0,
-            dragY: 0,
+            }
         }
     },
     computed:{
@@ -47,64 +34,18 @@ export default {
         }
     },
     methods:{
-        mouseWheelZoom: function(e){
-            var sub_e = window.event || e; // old IE support
-            var delta = Math.max(-1, Math.min(1, (sub_e.wheelDelta || -sub_e.detail)))
-            if(delta > 0)
-                this.positioning.zoom += .25
-            else{
-                this.positioning.zoom -= .25
-            }
-            if(this.lazyUpdate !== undefined){
-                this.lazyUpdate(this.positioning.zoom, this.positioning.left, this.positioning.top)
-            }
-        },
         altIcon(event){
+            if (this.faction === 'pyre') return require('../../assets/pics/pyre-standin.png') 
+            if (this.faction === 'bastion') return require('../../assets/pics/bastion-standin.png') 
             event.target.src = 'fighterimages/error.png'
         },
-        imageClipDragStart(e) {
-            if (e.button === 0) {
-                this.dragging = true;
-                this.dragX = e.clientX;
-                this.dragY = e.clientY;
+        updateView(){
+            this.positioning = {
+                zoom: this.startPos.zoom,
+                left: this.startPos.left,
+                top: this.startPos.top,
             }
-        },
-        imageClipDragStop() {
-            this.dragging = false;
-            if(this.lazyUpdate !== undefined){
-                this.lazyUpdate(this.positioning.zoom, this.positioning.left, this.positioning.top)
-            }
-        },
-        imageClipDragMove(e) {
-            if (!this.dragging) {
-                return;
-            }
-
-            const x0 = this.dragX;
-            const y0 = this.dragY;
-            const x1 = e.clientX;
-            const y1 = e.clientY;
-
-            this.dragX = x1;
-            this.dragY = y1;
-
-            const dx = x1 - x0;
-            const dy = y1 - y0;
-
-            let left = 0;
-            let top = 0;
-            left += dx / (this.positioning.zoom / 100);
-            this.positioning.leftp += left
-            // left = Math.max(0, Math.min(this.imageWidth - this.clipSize, left));
-            top += dy / (this.positioning.zoom / 100);
-            this.positioning.topp += top
-            // top = Math.max(0, Math.min(this.imageHeight - this.clipSize, top));
-
-            this.positioning.left = this.positioning.leftp / defaultImageWidth
-            this.positioning.top = this.positioning.topp / defaultImageHeight
-            // this.$emit('update:clipLeft', left);
-            // this.$emit('update:clipTop', top);
-        },
+        }
     },
     watch:{
         startPos: function(){
@@ -113,16 +54,12 @@ export default {
                     zoom: this.startPos.zoom,
                     left: this.startPos.left,
                     top: this.startPos.top,
-                    leftp: this.startPos.left /100 * defaultImageWidth,
-                    topp: this.startPos.top /100 * defaultImageHeight,
                 }
             } else{
                 this.positioning = {
                     zoom:1,
                     left: 50,
                     top: 50,
-                    leftp: defaultImageWidth/2,
-                    topp: defaultImageHeight/2
                 }
             }
         }

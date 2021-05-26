@@ -8,17 +8,20 @@
     v-model="selected"
     @change="changeFighter"
      class="boxClass"/>
-  <div class="row">
-    <div class="button" @click="clear">Clear</div>
-    <div class="button" @click="send">Change Pic Center</div>
-  </div>
+    <div class="row">
+      <div class="button" @click="clear">Clear</div>
+      <div class="button" @click="reset">Reset Position</div>
+      <div class="button" @click="send">Change Pic Center</div>
+    </div>
 
-  <div class="editorText">{{selected}}</div>
-  <div class = "row">
-    <ProfilePic :imgUrl="`/fighterimages/${curFighterPic}.png`" class="profPic" :startPos="curPositioning" :lazyUpdate="updatePos"/>
-  </div>
-  
-  <div class="editorText"> {{curPositioning}} </div>
+    <div class="editorText">{{selected}}</div>
+    <div class = "row">
+      <ProfilePicEditor :imgUrl="`/fighterimages/${curFighterPic}.png`" class="profPic" :startPos="curPositioning" :lazyUpdate="updatePos"/>
+      <ProfilePic       :imgUrl="`/fighterimages/${curFighterPic}.png`" class="smallPic" :startPos="curPositioning" ref="smallView"/>
+      <ProfilePic       :imgUrl="`/fighterimages/${curFighterPic}.png`" class="gbPic" :startPos="curPositioning" ref="tinyView"/>
+    </div>
+    
+    <div class="editorText"> {{curPositioning}} </div>
   </div>
 
 </template>
@@ -27,6 +30,7 @@
 
 import vMultiselectListbox from 'vue-multiselect-listbox'
 import 'vue-multiselect-listbox/dist/vue-multi-select-listbox.css'
+import ProfilePicEditor from '../components/elements/ProfilePicEditor.vue'
 import ProfilePic from '../components/elements/ProfilePic.vue'
 
 
@@ -43,7 +47,8 @@ const alpahbeticalSort = function(a, b) {
 export default {
   components: {
     vMultiselectListbox,
-    ProfilePic
+    ProfilePicEditor,
+    ProfilePic,
   },
   data(){
     return {
@@ -66,6 +71,13 @@ export default {
       console.log("cleared!")
       console.log(this.selected)
       this.selected = []
+    },
+    reset: function(){
+      this.curPositioning = {
+            zoom:1,
+            left: 50,
+            top: 50,
+        }
     },
     changeFighter: function(){
       var curr = this.selected[0]
@@ -92,7 +104,8 @@ export default {
           .get('/server/allFighters')
           .then(response2 => {
             this.curFighters = response2.data
-            this.selected = []
+            this.$refs.smallView.updateView()
+            this.$refs.tinyView.updateView()
             })
           .catch(r2 => console.log(r2))
         })
@@ -122,8 +135,22 @@ export default {
   width: 30vh;
   border-style: solid;
   border-color: black;
-  margin-left: auto;
-  margin-right: auto;
+
+}
+
+.smallPic{
+  height: 15vh;
+  width: 15vh;
+  border-style: solid;
+  border-color: yellow;
+
+}
+
+.gbPic{
+  height: 7.5vh;
+  width: 7.5vh;
+  border-style: solid;
+  border-color: purple;
 }
 
 .editorText{

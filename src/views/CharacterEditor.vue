@@ -17,7 +17,7 @@
 
   <div><textarea class="backgrounds" v-model="curBackground"> </textarea></div>
 
-  <ProfilePic :imgUrl="'/fighterimages/397.png'" :isEditable="true" class="profPic"/>
+  <ProfilePicEditor :imgUrl="'/fighterimages/397.png'" :isEditable="true" class="profPic"/>
   </div>
 
 </template>
@@ -26,7 +26,7 @@
 
 import vMultiselectListbox from 'vue-multiselect-listbox'
 import 'vue-multiselect-listbox/dist/vue-multi-select-listbox.css'
-import ProfilePic from '../components/elements/ProfilePic.vue'
+import ProfilePicEditor from '../components/elements/ProfilePicEditor.vue'
 
 
 const axios = require('axios').default
@@ -42,7 +42,7 @@ const alpahbeticalSort = function(a, b) {
 export default {
   components: {
     vMultiselectListbox,
-    ProfilePic
+    ProfilePicEditor
   },
   data(){
     return {

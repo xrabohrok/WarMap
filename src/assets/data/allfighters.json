@@ -6490,7 +6490,12 @@
     ],
     "artists": {},
     "backstory": "",
-    "verified": false
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "16.01",
+      "top": "50.38"
+    }
   },
   "384": {
     "id": 384,

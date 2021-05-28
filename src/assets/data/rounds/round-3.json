@@ -1492,6 +1492,7 @@
     "attacker": "na",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "Titanfall",
     "clash": false,
     "items": [],
     "fighters": {
@@ -2644,6 +2645,7 @@
     "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": true,
+    "gbZone": "Illridge Swamp",
     "clash": false,
     "items": [],
     "fighters": {

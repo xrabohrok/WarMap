@@ -2,7 +2,7 @@
     <div class="clashView">
         <div class="links">
             <div class=linkrow  v-for="link in fighters" :key="link">
-                <StrikeLink class="link" :fighterId="gbfighters(faction)[0]" :round="round" :labelLink="getDecomposedLinks()" />
+                <StrikeLink class="link" :fighterId="gbfighters(faction)[0]" :round="round" :inputURL="fighters[0]" />
             </div>
         </div>
         <GrandBattleView :faction="faction" class="fighterList" :hideLinks="true"/>
@@ -13,9 +13,8 @@
 import { mapGetters } from 'vuex'
 import GrandBattleView from './GrandBattleView'
 import {MASSBATTLE_FIGHTERS, CURRENT_ROUND, FIGHTER_GETTER} from '../../state/getters'
-import {linkLabel, cubariLink, showCubari} from '../../common/links'
 
-import StrikeLink from './StrikeLink.vue'
+import StrikeLink from '../elements/StrikeLink.vue'
 
 
 export default {
@@ -43,18 +42,6 @@ export default {
             fighter: FIGHTER_GETTER,
         })
     },
-    methods:{
-        getDecomposedLinks: function(){
-            var linkSet = {}
-            var primaryLink = this.fighters[0]
-            linkSet[linkLabel(primaryLink)] = primaryLink
-            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
-            return linkSet
-        },
-        linkLabel: linkLabel,
-        cubariLink: cubariLink,
-        showCubari: showCubari,
-    },
     name:"ClashView"
 }
 </script>
@@ -63,8 +50,11 @@ export default {
 
 .link {
     color: yellow;
-    font-size: 2.7em;
+    font-size: 1.3vw;
     vertical-align: middle;
+}
+
+.links {
     margin-left: auto;
     margin-right: auto;
 }

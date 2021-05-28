@@ -705,6 +705,7 @@
     "attacker": "na",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "Aru Village",
     "clash": false,
     "items": [],
     "fighters": {
@@ -2727,6 +2728,7 @@
     "attacker": "na",
     "owner": "pyre",
     "grandBattle": true,
+    "gbZone": "The Heap",
     "clash": false,
     "items": [],
     "fighters": {

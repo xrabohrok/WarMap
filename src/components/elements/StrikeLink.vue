@@ -1,10 +1,15 @@
 <template>
     <div class="linkContainer" >
-        <img src="../../assets/pics/strike.png" class="strikeImage"  v-show="checked" :style="wobbleStyle"/>
-        <div class="aLink" v-for="entry in decomposedLinks" v-bind:key="entry.label">
-            <a :href="entry.value" target="_blank" rel="noopener noreferrer" @click="markVisited">{{entry.label}}</a>
+        <div class="validLinks" v-show="isValidLink">
+            <img src="../../assets/pics/strike.png" class="strikeImage"  v-show="checked" :style="wobbleStyle"/>
+            <div class="aLink" v-for="entry in decomposedLinks" v-bind:key="entry.label">
+                <a :href="entry.value" target="_blank" rel="noopener noreferrer" @click="markVisited">{{entry.label}}</a>
+            </div>
+            <img src="../../assets/pics/restart.svg" @click="unvisit">
         </div>
-        <img src="../../assets/pics/restart.svg" @click="unvisit">
+        <div class="nonSubmission" v-show="!isValidLink">
+             No Submission
+        </div>
     </div>
 </template>
 
@@ -13,6 +18,8 @@
 
 import {HAS_READ_COMIC} from '../../state/getters'
 import {MARK_READ, MARK_UNREAD} from '../../state/mutations'
+import {linkLabel, cubariLink, showCubari, isNotALink} from '../../common/links'
+
 
 import { mapGetters } from 'vuex'
 
@@ -20,15 +27,14 @@ export default {
     props: {
         fighterId: Number,
         round: Number,
-        //needs to be V-bound
-        labelLink: Object
+        inputURL: String,
     },
     data: function() {
         return {
             checked: false,
             wobbleX: 0,
             wobbleY: 0,
-            wobbleR: 0
+            wobbleR: 0,
         }
     },
     mounted: function(){
@@ -48,14 +54,29 @@ export default {
             this.wobbleX = Math.random() * 6 - 3
             this.wobbleY = Math.random() * 6 - 3
             this.wobbleR = Math.random() * 10 - 5
-        }
+        },
+        getDecomposedLinks: function(){
+            var linkSet = {}
+            var primaryLink = this.inputURL
+            linkSet[linkLabel(primaryLink)] = primaryLink
+            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
+            return linkSet
+        },
+        linkLabel:linkLabel,
+        showCubari: showCubari,
+        cubariLink: cubariLink,
+        isNotLink: isNotALink,
     },
     computed:{
         decomposedLinks: function(){
-            return Object.keys(this.labelLink).map(k => {return {label: k, value: this.labelLink[k]}})
+            var labelLink = this.getDecomposedLinks()
+            return Object.keys(labelLink).map(k => {return {label: k, value: labelLink[k]}})
         },
         wobbleStyle: function(){
             return {transform: `translate(${60 + this.wobbleX}%, ${this.wobbleY}%) rotate(${this.wobbleR}deg)`}
+        },
+        isValidLink: function(){
+            return !this.isNotLink(this.inputURL)
         },
         ...mapGetters({
             shouldBeChecked: HAS_READ_COMIC
@@ -78,6 +99,12 @@ export default {
 
 <style scoped>
 
+.nonSubmission{
+    color:gray;
+    margin-left: .3vw;
+    margin-right: .3vw;
+}
+
 .strikeImage{
     position: absolute;
     width: 90%;
@@ -96,16 +123,17 @@ export default {
     user-select: none;
 }
 
-.linkContainer{
+.validLinks{
     display: flex;
     flex-direction: row;
     position: relative;
     width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aLink{
     color:cyan;
-    font-size: 1.1vw;
     margin-left: .3vw;
     margin-right: .3vw;
 }

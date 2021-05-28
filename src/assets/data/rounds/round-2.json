@@ -567,6 +567,7 @@
     "attacker": "na",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "Ardenweald Forest",
     "items": [],
     "fighters": {
       "pyre": [
@@ -1233,6 +1234,7 @@
     "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": true,
+    "gbZone": "Factories",
     "items": [],
     "fighters": {
       "pyre": [

@@ -1003,6 +1003,7 @@
       ]
     },
     "grandBattle": true,
+    "gbZone": "North Battlefield",
     "outcome": {
       "bastion": "lose",
       "pyre": "win"
@@ -2143,6 +2144,7 @@
       ]
     },
     "grandBattle": true,
+    "gbZone": "South Battlefield",
     "outcome": {
       "bastion": "lose",
       "pyre": "win"

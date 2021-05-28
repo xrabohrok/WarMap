@@ -14,9 +14,9 @@
                     {{bastionAttacking ?  "pyre" : "bastion"}}
                 </div>
             </div>
-            <div class="row">
-                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'bastion' : 'pyre'][0]" :round="round" :labelLink="getDecomposedLinks(true)"/>
-                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'pyre' : 'bastion'][0]" :round="round" :labelLink="getDecomposedLinks(false)"/>
+            <div class="row duelLinks" v-show="isDuel" >
+                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'bastion' : 'pyre'][0]" :round="round" :inputURL="getComicLink(true)"/>
+                <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'pyre' : 'bastion'][0]" :round="round" :inputURL="getComicLink(false)"/>
             </div>
             <div class="row">
                 <Spoiler :hiddenText="fightOutcome"/>
@@ -30,7 +30,7 @@
 import { mapGetters } from 'vuex'
 import {linkLabel, cubariLink, showCubari} from '../../common/links'
 import Spoiler from './Spoiler.vue'
-import StrikeLink from './StrikeLink.vue'
+import StrikeLink from '../elements/StrikeLink.vue'
 import { SELECTING_GETTER, CURRENT_ZONE_FIGHT, CUR_FIGHTER_LINK, CURRENT_ROUND, CURRENT_ZONE_NAME} from '../../state/getters'
 
 import {FIGHT} from '../DetailPaneDesktop'
@@ -54,16 +54,22 @@ export default {
         isSelecting: function(){
             return this.selected !== "NA"
         },
+        isDuel: function(){
+            return this.zoneFight.contest
+        },
         zoneName: function(){
             return this.currZone(this.selected)
         },
         fightTitle: function(){
             var fightType = ""
-            if(this.zoneFight.contest){
+            if(this.zoneFight.contest && this.zoneFight.grandBattle){
+                return `Duel at ${this.zoneName}, but the Grand Battle at ${this.zoneFight.gbZone} reversed the outcome`
+            }
+            else if(this.zoneFight.contest){
                 fightType = "Duel at "
             }
             else if(this.zoneFight.grandBattle){
-                fightType = "Grand Battle for"
+                return `Grand Battle at ${this.zoneFight.gbZone} took this area at ${this.zoneName}`
             }
             else if(this.zoneFight.clash){
                 fightType = "Clash at"
@@ -89,13 +95,6 @@ export default {
         getComicLink: function(attacker){
             var facs = (this.bastionAttacking && attacker) || (!this.bastionAttacking && !attacker) ? "bastion" : "pyre"
             return this.comicLink(facs)
-        },
-        getDecomposedLinks: function(attacker){
-            var linkSet = {}
-            var primaryLink = this.getComicLink(attacker)
-            linkSet[linkLabel(primaryLink)] = primaryLink
-            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
-            return linkSet
         },
         linkLabel:linkLabel,
         showCubari: showCubari,
@@ -126,6 +125,10 @@ export default {
 .bastion{
     color: rgb(69, 123, 221);
     font-weight: bold;
+}
+
+.duelLinks{
+    font-size: 1.4vw;
 }
 
 .pyre{

@@ -1,35 +1,36 @@
 <template>
-<div class="onefighter">
-    <div class="imghere">
-        <ProfilePic :imgUrl="fighterIcon" :faction="faction" :startPos="pictureShift"  class="fighterIcon"/>
+<div class="onefighter" :class="{duelist:isDuelist}">
+    <div class="title" v-show="isDuelist">
+        Duelist
     </div>
-    <div class="fightername">
-        {{fighterName}}
+    <div class="details">
+        <div class="imghere">
+            <ProfilePic :imgUrl="fighterIcon" :faction="faction" :startPos="pictureShift"  class="fighterIcon"/>
+        </div>
+        <div class="fightername">
+            {{fighterName}}
+        </div>
+        <div class="fightername" v-show="!hideLink">
+            <StrikeLink class="linkStyle" :fighterId="fighterId" :round="round" :inputURL="fighterComic"/>
+        </div>
+        
     </div>
-    <div class="fightername" v-show="!hideLink">
-        <StrikeLink class="linkStyle" :fighterId="fighterId" :round="round" :labelLink="getDecomposedLinks()"/>
-    </div>
-    
 </div>
-    
 </template>
 
 <script>
 import {mapGetters} from 'vuex'
 import {FIGHTER_GETTER} from '../../state/getters'
-import {linkLabel, cubariLink, showCubari} from '../../common/links'
 import ProfilePic from '../elements/ProfilePic.vue'
 
-
-
-import StrikeLink from './StrikeLink.vue'
-
+import StrikeLink from '../elements/StrikeLink.vue'
 
 export default {
     props:{
         fighterId: Number,
         round: Number,
         hideLink: Boolean,
+        isDuelist: Boolean,
     },
     components:{
         StrikeLink,
@@ -67,16 +68,7 @@ export default {
         altIcon(event){
             event.target.src = this.fighterBackupIcon
         },
-        getDecomposedLinks: function(){
-            var linkSet = {}
-            var primaryLink = this.fighterComic
-            linkSet[linkLabel(primaryLink)] = primaryLink
-            if(showCubari(primaryLink)) linkSet['Cubari'] = cubariLink(primaryLink)
-            return linkSet
-        },
-        linkLabel:linkLabel,
-        showCubari: showCubari,
-        cubariLink: cubariLink,
+
     },
     name: "GrandBattleListing"
 }
@@ -84,12 +76,29 @@ export default {
 
 <style scoped>
 .onefighter{
-    display: flex;
-    flex-direction: row;
     height: 5em;
     padding: .3em;
     width: 95%;
     border-bottom: brown solid;
+}
+
+.onefighter.duelist{
+    height: fit-content;
+    background-color: rgb(165, 62, 62);
+    color: gold;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    color: rgb(70, 30, 17);
+    font-size: 1.3vw;
+    font-family: 'Permanent Marker', cursive;
+    margin-left:30%;
+    margin-right: 60%;
 }
 
 .fightername{

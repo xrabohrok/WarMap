@@ -1,6 +1,6 @@
 const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/mi
 const twitterTest = /^(https:\/\/)twitter\.com/mi
-const tumblrTest = /^(https:\/\/).*mrlemur\.tumblr\.com\/post\//mi
+const tumblrTest = /^(https:\/\/).*\.tumblr\.com\/post\//mi
 
 const linkLabel = function(link){
 
@@ -20,6 +20,10 @@ const cubariLink = function(link){
     return `https://cubari.moe/read/imgur/${id}/`
 }
 
+const isNotALink = function(link){
+    return link.toLowerCase().includes("[no submission]") || link.trim() === "na"
+}
+
 const showCubari = function(link){
     return imgrTest.test(link)
 }
@@ -34,4 +38,4 @@ const buildInstagramLink = function(userHandle){
     return `https://www.instagram.com/${cleanHandle}`
 }
 
-export {showCubari, cubariLink, linkLabel, buildTwitterLink, buildInstagramLink}
+export {showCubari, cubariLink, linkLabel, buildTwitterLink, buildInstagramLink, isNotALink}

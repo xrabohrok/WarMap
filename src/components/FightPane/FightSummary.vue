@@ -80,7 +80,7 @@ export default {
         },
         fightOutcome: function(){
             if(!(this.zoneFight.contest || this.zoneFight.grandBattle)) return "Not Available"
-            return `Bastion: ${this.zoneFight.outcome.bastion} , Pyre: ${this.zoneFight.outcome.pyre} \n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+            return `Bastion: ${this.zoneFight.outcome.bastion} , Pyre: ${this.zoneFight.outcome.pyre} \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
         },
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,    

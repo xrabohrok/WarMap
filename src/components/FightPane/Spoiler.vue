@@ -44,6 +44,8 @@ export default {
     width: 90%;
     padding-top: .4em;
     padding-bottom: .5em;
+    white-space: pre;
+    
 
 }
 

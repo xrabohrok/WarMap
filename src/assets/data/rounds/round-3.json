@@ -604,7 +604,8 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "note": "Ku is slain!"
   },
   "c8": {
     "location": "c8",
@@ -642,7 +643,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Xanthe is scarred!"
   },
   "c6": {
     "location": "c6",
@@ -921,7 +923,8 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "note": "Svala is scarred!"
   },
   "d5": {
     "location": "d5",
@@ -1875,7 +1878,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Solis is scarred!"
   },
   "h10": {
     "location": "h10",
@@ -2031,7 +2035,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    }, 
+    "note": "Mozz is scarred!"
   },
   "h2": {
     "location": "h2",
@@ -2158,7 +2163,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Fog of Graves is scarred!"
   },
   "i9": {
     "location": "i9",
@@ -2497,7 +2503,8 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "note": "Senki Dala Mozgalom is slain!"
   },
   "j4": {
     "location": "j4",
@@ -2985,7 +2992,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Harrison Merrystide is scarred!"
   },
   "l6": {
     "location": "l6",

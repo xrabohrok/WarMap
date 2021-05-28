@@ -822,7 +822,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Suki obtains the Hollowthorn!"
   },
   "d8": {
     "location": "d8",
@@ -1826,7 +1827,8 @@
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
-    }
+    },
+    "note": "Tor obtains the Landwaster!"
   },
   "h8": {
     "location": "h8",
@@ -2902,7 +2904,8 @@
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
-    }
+    },
+    "note": "Grandmother Silence obtains the Coiled Snake Sword!"
   },
   "l2": {
     "location": "l2",

@@ -941,7 +941,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [5],
     "fighters": {
       "pyre": [
         392
@@ -1653,7 +1653,7 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [
         10
@@ -2479,7 +2479,7 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [4,3],
     "fighters": {
       "pyre": [
         241
@@ -3412,7 +3412,7 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [6],
     "fighters": {
       "pyre": [
         237

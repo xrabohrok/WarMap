@@ -65,8 +65,10 @@ import 'vue-slider-component/theme/default.css'
 import {storageAvailable} from '../common/localStorage'
 
 import {SET_SIMPLE_MODE, CHANGE_ROUND, LS_INIT, LS_AVAILABLE, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
-import {SELECTING_GETTER, CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS} from '../state/getters'
+import {SELECTING_GETTER, CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS, CURRENT_ROUND} from '../state/getters'
 import { mapGetters } from 'vuex'
+
+import {extractAndProcessParams} from '../common/queryRoute.js'
 
 
 export default {
@@ -112,6 +114,7 @@ export default {
         selecting: SELECTING_GETTER,
         fight: CURRENT_ZONE_FIGHT,
         maxRounds: NUMBER_OF_ROUNDS,
+        curRound: CURRENT_ROUND,
       }
     )
   },
@@ -129,7 +132,7 @@ export default {
     else{
       Vue.$toast.open({
         message: 'Reading-list loaded!',
-        duration: 10000,
+        duration: 3000,
         type: 'success',
         position: 'top-right'
       })
@@ -137,6 +140,10 @@ export default {
 
     this.$store.commit(LS_AVAILABLE, available)
     this.$store.commit(LS_INIT)
+
+    //if a special route was used, ingest it now
+    extractAndProcessParams(this)
+    this.slider_round = this.curRound
 
   },
   methods:{

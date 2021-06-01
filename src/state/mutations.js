@@ -11,7 +11,19 @@ const mutations = {
         state.simpleMode = newVal
     },
     setCurrentRound(state, newVal){
-        state.curRound = newVal
+        if(isNaN(newVal)) {
+            state.curRound = 0
+            return
+        }
+
+        var input = parseInt(newVal)
+        if(input > state.roundData.length-1){
+            state.curRound = state.roundData.length-1
+            return
+        }else if(input < 0){
+            state.curRound = 0
+        }
+        state.curRound = input
     },
     setLabelVisibility(state, newVal){
         state.showLabels = newVal

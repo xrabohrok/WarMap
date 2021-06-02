@@ -43,6 +43,7 @@ export default {
     top: 16vh;
     transform: translateX(-50%);
     left: 50vw;
+    margin-top: 8vh;
 }
 
 .row {

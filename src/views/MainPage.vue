@@ -8,29 +8,30 @@
     <!-- Desktop details are broken into multiple parts -->
 
     <div class="desktopHeader">
-      <div class="rowCell">
-        <transition name="slideup">
-          <DetailPaneDesktop :mode="showDetails" v-show="isSelected"/>
-        </transition>
-      </div>
+      <transition name="slideup">
+        <div class="rowCell" v-show="isSelected">
+            <DetailPaneDesktop :mode="showDetails" />
+        </div>
+      </transition>
       <MapHeader class="centerControls"/>
-      <div class="rowCell">
-        <transition name="slideup">
-          <DetailPaneDesktop :mode="showFight" v-show="isSelectedFight"/>
-        </transition>
-      </div>
+      <transition name="slideup">
+        <div class="rowCell" v-show="isSelectedFight">
+            <DetailPaneDesktop :mode="showFight" />
+        </div>
+      </transition>
     </div>
 
-    <div class="desktopFooter">
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
-      </transition>
-    </div>
-    <div class="desktopFooter right">
-      <transition name="slideup">
-        <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
-      </transition>
-    </div>
+    <transition name="slideup">
+      <div class="desktopFooter" v-show="isSelectedFight">
+          <DetailPaneDesktop :mode="onLeft"  :faction="'bastion'"/>
+      </div>
+    </transition>
+    <transition name="slideup">
+      <div class="desktopFooter right" v-show="isSelectedFight">
+          <DetailPaneDesktop :mode="onRight" :faction="'pyre'"/>
+      </div>
+    </transition>
+
 
   </div>
 </template>

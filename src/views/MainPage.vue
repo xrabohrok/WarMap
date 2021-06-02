@@ -182,6 +182,7 @@ h1{
   font-size: 6em;
   margin-bottom: .3em;
 }
+
 a {
   color: #42b983;
 }

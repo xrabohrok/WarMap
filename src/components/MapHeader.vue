@@ -94,6 +94,7 @@ export default {
 
 h1{
     font-family: 'Suez One', serif;
+    font-size: 2.5vw;
 }
 
 .header{

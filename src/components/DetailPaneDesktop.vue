@@ -1,5 +1,5 @@
 <template>
-    <div id=majorPaneDesktop :class="{left:renderOnLeft, right: renderOnRight, top: renderOnTop, fight: renderFight}" class="secondary">
+    <div id=majorPaneDesktop  class="secondary">
 
         <FighterDetails :faction="faction" :isLeft="renderOnLeft" :isRight="renderOnRight" v-if="shouldShowFighter" />
 
@@ -85,35 +85,9 @@ export default {
 <style scoped>
 
 #majorPaneDesktop{
-
-    width: 31%;
-    height: 22vh;
-    z-index: 120;
-    padding-bottom: .4em;
-    padding-left: .4em;
+    height: inherit;
 }
 
-.fight{
-    right: 0%;
-}
-
-.left{
-    position: absolute;
-    left: 0%;
-    bottom: -12vw;
-}
-
-
-.right{
-    position: absolute;
-    right: 0%;
-    bottom: -12vw;
-}
-
-.top{
-    position: absolute;
-    top: 20vh;
-}
 
 @media all and (orientation: portrait) {
     #majorPaneDesktop{

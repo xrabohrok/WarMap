@@ -23,6 +23,10 @@ const extractAndProcessParams = function(component){
     rules.forEach(r => r(params, component))
 }
 
+// const getUrlToRoundAndTile = function(round, tile){
+//     return `${window.location.origin}${window.location.pathname}#/?round=${round}&tile=${tile}`
+// }
+
 
 
 export {extractAndProcessParams}

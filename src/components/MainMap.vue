@@ -36,14 +36,13 @@ export default {
 </script>
 
 <style scoped>
-#mainMap{
-    position: relative;
-    height: 40vw;
-    width: 80vw;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top:17vh;
-    margin-bottom: 14vh;
+#mainMap[data-v-da07ad3a] {
+    position: absolute;
+    height: 44vw;
+    width: 88vw;
+    top: 16vh;
+    transform: translateX(-50%);
+    left: 50vw;
 }
 
 .row {

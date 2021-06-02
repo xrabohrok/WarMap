@@ -13,7 +13,7 @@
         </div>
         <div class="main_deets">
             <ProfilePic :class="{right: rightward}"  :imgUrl="fighterIcon" :faction="faction" :startPos="fighter.profilePic" class="fighterIcon"/>
-            <div class="detail_row"> <h2> {{this.fighterName}} </h2></div>
+            <div class="detail_row fighterName"> <h2> {{this.fighterName}} </h2></div>
         </div>
     </div>
 </template>
@@ -96,8 +96,12 @@ export default {
 .fighterIcon {
     width: 12vh;
     height: 12vh;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: .3em;
+    border-radius: .3em;
+    padding: 0;
 }
 
 .toplevel{
@@ -105,7 +109,6 @@ export default {
     flex-direction: column;
     font-size: 1.2em;
     height: 100%;
-    overflow-y: auto;
 
 }
 
@@ -114,11 +117,18 @@ export default {
     text-align: left;
     margin-top: .7vh;
     padding-left: .4vw;
+    padding-bottom: .4vh;
     margin-bottom: .3vh;
+}
+
+.fighterName{
+    width:90%;
+    margin: 0 auto 0 auto ;
 }
 
 .deets{
     width: 70%;
+    overflow-y: auto;
 }
 
 .main_deets{
@@ -139,6 +149,7 @@ img{
     border-color: #9c031f;
     border-radius: .2em;
     border-style: solid;
+    padding: 0;
 }
 
 img.right{

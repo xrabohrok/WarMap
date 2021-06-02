@@ -10,6 +10,9 @@
 /*map labels*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+/*title*/
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
 html{
   background-color: #3e112b;
 }

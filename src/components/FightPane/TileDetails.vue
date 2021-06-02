@@ -45,19 +45,17 @@ export default {
 }
 
 
-.details{
-    margin-top: .4em;
+.details {
+    margin-top: .3vh;
     margin-left: auto;
     margin-right: auto;
     order: 2;
     min-width: 20vw;
-    width: 90%;
-    height: 20vh;
+    width: 98%;
+    height: 100%;
     font-size: .6em;
     overflow-y: auto;
     left: 0%;
-    font-size: 1.1em;
-
-
+    font-size: .9vw;
 }
 </style>

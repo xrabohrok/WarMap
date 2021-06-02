@@ -58,5 +58,6 @@ export default {
 }
 .spoilerSubtext {
     margin-top: 0;
+    white-space: pre-wrap;
 }
 </style>

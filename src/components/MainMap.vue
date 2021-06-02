@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped>
-#mainMap[data-v-da07ad3a] {
+#mainMap {
     position: absolute;
     height: 44vw;
     width: 88vw;

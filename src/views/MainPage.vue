@@ -22,16 +22,14 @@
     </div>
 
     <div class="desktopFooter">
-      <div class="rowCell">
-        <transition name="slideup">
-          <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
-        </transition>
-      </div>
-      <div class="rowCell right">
-        <transition name="slideup">
-          <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
-        </transition>
-      </div>
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="onLeft" v-show="isSelectedFight" :faction="'bastion'"/>
+      </transition>
+    </div>
+    <div class="desktopFooter right">
+      <transition name="slideup">
+        <DetailPaneDesktop :mode="onRight" v-show="isSelectedFight" :faction="'pyre'"/>
+      </transition>
     </div>
 
   </div>
@@ -150,16 +148,20 @@ export default {
 
 .desktopFooter{
   position: fixed;
-  width: 100%;
+  width: 33vw;
   height: 25vh;
-  display: flex;
-  flex-direction: row;
+
   bottom:0%;
   left: 0%;
   z-index: 300;
 
   margin-bottom: .2vh;
 
+}
+
+.desktopFooter.right{
+  left:auto;
+  right: 0%;
 }
 
 .rowCell{

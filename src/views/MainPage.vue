@@ -1,39 +1,37 @@
 <template>
   <div class="map_page main">
 
-    <MainMap/>
-    <!-- <transition name="slideup"> -->
-      <!-- <DetailPaneMobile v-show="isSelected"/> -->
-    <!-- </transition> -->
-    <!-- Desktop details are broken into multiple parts -->
-
-    <div class="desktopHeader">
+    <div v-if="!mobile">
+      <MainMap/>
+      <!-- <transition name="slideup"> -->
+        <!-- <DetailPaneMobile v-show="isSelected"/> -->
+      <!-- </transition> -->
+      <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
-        <div class="rowCell" v-show="isSelected">
+        <div class=" desktopHeader left" v-show="isSelected">
             <DetailPaneDesktop :mode="showDetails" />
         </div>
       </transition>
-      <MapHeader class="centerControls"/>
+      <MapHeader class="centerControls desktopHeader"/>
       <transition name="slideup">
-        <div class="rowCell" v-show="isSelectedFight">
+        <div class=" desktopHeader right" v-show="isSelectedFight">
             <DetailPaneDesktop :mode="showFight" />
         </div>
       </transition>
+
+      <transition name="slideup">
+        <div class="desktopFooter" v-show="isSelectedFight">
+            <DetailPaneDesktop :mode="onLeft"  :faction="'bastion'"/>
+        </div>
+      </transition>
+      <transition name="slideup">
+        <div class="desktopFooter right" v-show="isSelectedFight">
+            <DetailPaneDesktop :mode="onRight" :faction="'pyre'"/>
+        </div>
+      </transition>
     </div>
-
-    <transition name="slideup">
-      <div class="desktopFooter" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onLeft"  :faction="'bastion'"/>
-      </div>
-    </transition>
-    <transition name="slideup">
-      <div class="desktopFooter right" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onRight" :faction="'pyre'"/>
-      </div>
-    </transition>
-
-
   </div>
+
 </template>
 
 <script>
@@ -54,7 +52,9 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'MainPage',
   data(){
-    return {}
+    return {
+      mobile:window.innerWidth <= 840,
+    }
   }, 
   components: {
     MainMap,
@@ -117,6 +117,9 @@ export default {
     this.$store.commit(LS_INIT)
 
   },
+  created: function(){
+    window.addEventListener('resize', ()=> {this.mobile = innerWidth <= 840})
+  },
   methods:{
 
   }
@@ -135,16 +138,29 @@ export default {
 
 .desktopHeader{
   position: fixed;
-  width: 100%;
+  width: 32vw;
   height: 25vh;
-  display: flex;
-  flex-direction: row;
+
   top:0%;
-  left: 0%;
   z-index: 300;
 
   margin-top: .2vh;
 
+}
+
+.centerControls{
+  height: 25vh;
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 0 .9vw 0 .9vw;
+}
+
+.right.desktopHeader{
+  right: 0%;
+}
+
+.left.desktopHeader{
+  left: 0%;
 }
 
 .desktopFooter{
@@ -165,20 +181,6 @@ export default {
   right: 0%;
 }
 
-.rowCell{
-  height: 100%;
-  width: 33%;
-}
-
-.right.rowCell{
-  position: absolute;
-  right: 0%;
-}
-
-.centerControls{
-  width: 33%;
-  height: 100%;
-}
 
 h1{
   font-family: 'Saira', sans-serif;

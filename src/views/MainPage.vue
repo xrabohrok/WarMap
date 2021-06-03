@@ -30,6 +30,12 @@
         </div>
       </transition>
     </div>
+
+    <div v-if="mobile">
+      <div id="mobileMap">
+        <MainMap />
+      </div>
+    </div>
   </div>
 
 </template>
@@ -48,6 +54,8 @@ import {storageAvailable} from '../common/localStorage'
 import { LS_INIT, LS_AVAILABLE} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
 import { mapGetters } from 'vuex'
+
+import panzoom from 'panzoom'
 
 export default {
   name: 'MainPage',
@@ -119,6 +127,9 @@ export default {
   },
   created: function(){
     window.addEventListener('resize', ()=> {this.mobile = innerWidth <= 840})
+    var mapelem = document.querySelector('#mobileMap')
+    panzoom(mapelem, {transformOrigin: {x:.5, y:.5}})
+
   },
   methods:{
 

@@ -212,7 +212,7 @@ a:active {
     cursor: pointer;
 }
 .providerIcon {
-    width: 25px;
+    width: 40px;
     border: 3px solid transparent;
     border-radius: 6px;
     transition: 0.3s;

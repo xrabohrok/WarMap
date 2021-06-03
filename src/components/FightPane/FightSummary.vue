@@ -25,6 +25,11 @@
                         class="attackIcon"
                         draggable="false"
                     />
+                    <img
+                        src="../../assets/pics/splatter.png"
+                        class="bloodSplatter"
+                        draggable="false"
+                    />
                     <h3 class="position">Attacker</h3>
                     <h2 class="side">
                         {{ bastionAttacking ? 'bastion' : 'pyre' }}
@@ -54,6 +59,11 @@
                     <img
                         src="../../assets/pics/shield.png"
                         class="defendIcon"
+                        draggable="false"
+                    />
+                    <img
+                        src="../../assets/pics/splatter.png"
+                        class="bloodSplatter"
                         draggable="false"
                     />
                     <h3 class="position">Defender</h3>
@@ -287,14 +297,38 @@ export default {
     width: 25%;
     overflow: hidden;
     transition: 0.6s;
-    min-height: 6.7em;
+    min-height: 7.5em;
 }
 
 .victory {
     background: #31ac61;
 }
+
+.bloodSplatter {
+    visibility: hidden;
+    position: absolute;
+    width: 270px;
+    left: 30px;
+    top: 20px;
+    filter: opacity(0.3);
+}
+.defeat .bloodSplatter {
+    visibility: visible;
+    animation: bloodSplatAnim 0.1s;
+}
+@keyframes bloodSplatAnim {
+    0% {
+        transform: skewX(-10deg) translateX(20px) translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: skewX(0deg) translateX(0px) translateY(0px);
+        opacity: 1;
+    }
+}
+
 .defeat {
-    background: #d75054;
+    background: #5a5a5a;
 }
 .position {
     color: black;

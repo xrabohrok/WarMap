@@ -31,11 +31,11 @@
       </transition>
     </div>
 
-    <div v-if="mobile">
-      <div id="mobileMap">
-        <MainMap />
-      </div>
+
+    <div id="mobileMap" v-if="mobile">
+      <MainMap :mobileMode="true" />
     </div>
+
   </div>
 
 </template>
@@ -55,13 +55,14 @@ import { LS_INIT, LS_AVAILABLE} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
 import { mapGetters } from 'vuex'
 
-import panzoom from 'panzoom'
+
 
 export default {
   name: 'MainPage',
   data(){
     return {
-      mobile:window.innerWidth <= 840,
+      mobile: window.innerWidth <= 840,
+      zoomer: null,
     }
   }, 
   components: {
@@ -127,8 +128,8 @@ export default {
   },
   created: function(){
     window.addEventListener('resize', ()=> {this.mobile = innerWidth <= 840})
-    var mapelem = document.querySelector('#mobileMap')
-    panzoom(mapelem, {transformOrigin: {x:.5, y:.5}})
+  },
+  watch:{
 
   },
   methods:{
@@ -140,6 +141,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
+
+#mobileMap{
+  /*portrait*/
+  height: 50vh;
+  width: 100vw;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  left: 50vw;
+  top: 25vh;
+}
 
 .map_page{
   height: 99vh;

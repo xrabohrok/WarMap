@@ -3,7 +3,7 @@
         @mouseenter="mousedOver()"
         @mouseleave="mousedOut()"
         @mouseout="mousedOut()"
-        @mouseup="selectingClick()"
+        v-touch="selectingClick"
         >
 
         <div class="zone_title" v-if="shouldShowZone">

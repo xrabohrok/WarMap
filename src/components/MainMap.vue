@@ -1,21 +1,29 @@
 <template>
-    <div id="mainMap">
+  <div id="zoomMap" ref="zoomMap">
+    <div id="mainMap" ref="mainMap">
         <div class="row" v-for="row in mapSource" v-bind:key="row.id" :style="rowPosition(row.id, mapSource.length)">
             <!-- {{row.id}} :  -->
             <MapTile v-for="item in row.set" :key="item" :title="item"/>
         </div> 
     </div>
+  </div>
 </template>
 
 <script>
 import {mapLayout} from '../assets/data/map.js'
 import MapTile from './MapTile.vue'
 
+import panzoom from 'panzoom'
+
 export default {
+    props:{
+      mobileMode: Boolean
+    },
     data(){
         return{
             placeholder: "blah",
-            mapSource: mapLayout
+            mapSource: mapLayout,
+            zoomer: null
         }
     },
     components:{
@@ -30,12 +38,48 @@ export default {
                 "z-index": `${rowId}`
             };
         },
+        linkUpZoomer: function(){
+          var mapelem = this.$refs["zoomMap"]
+          if(mapelem !== undefined && mapelem !== null && this.zoomer === null){
+            this.zoomer = panzoom(mapelem, {
+              transformOrigin: {x:.5, y:.25},
+              initialZoom : 2.5,
+              minZoom:1,
+              maxZoom:5,
+              bounds: true,
+              boundsPadding: .2,
+            })
+          }
+        this.zoomer.zoomAbs(-mapelem.clientWidth/2, -mapelem.clientHeight/2, 2.5)
+      }
+    },
+    watch:{
+    },
+    mounted: function(){
+      this.$nextTick(this.linkUpZoomer)
+        if(this.zoomer != null){
+          this.zoomer.resume()
+        }
+        else{
+          this.linkUpZoomer()
+        }
+    },
+    beforeDestroy: function(){
+      if(this.zoomer != null){
+        this.zoomer.pause()
+      }
     },
     name: 'MainMap'
 }
 </script>
 
 <style scoped>
+
+#zoomMap{
+  height: inherit;
+  width: inherit;
+}
+
 #mainMap {
     position: absolute;
     height: 44vw;

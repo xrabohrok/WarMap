@@ -7,8 +7,8 @@ const mutations = {
     deSelect(state){
         state.curSelected = 'NA'
     },
-    setSimpleMode(state, newVal){
-        state.simpleMode = newVal
+    setGraphicVisibility(state, newVal){
+        state.showGraphics = newVal
     },
     setCurrentRound(state, newVal){
         if(isNaN(newVal)) {
@@ -79,7 +79,6 @@ const mutations = {
 export default mutations;
 
 const NEW_SELECTED = 'newSelected'
-const SET_SIMPLE_MODE = 'setSimpleMode'
 const DESELECT = 'deSelect'
 const CHANGE_ROUND = 'setCurrentRound'
 const REVEAL_SPOILER = 'revealSpoiler'
@@ -88,8 +87,9 @@ const LS_AVAILABLE = 'localStorageAvailable'
 const MARK_READ = 'markAsRead'
 const MARK_UNREAD = 'unmarkAsRead'
 
+const OPT_SET_GRAPHIC_VISIBILITY = 'setGraphicVisibility'
 const OPT_SET_ZONE_VISIBILITY = 'setLabelVisibility'
 const OPT_SET_ITEM_VISIBILITY = 'setItemVisibility'
 
-export { NEW_SELECTED, SET_SIMPLE_MODE, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD,
-    OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY}
+export { NEW_SELECTED, DESELECT, CHANGE_ROUND, REVEAL_SPOILER, LS_INIT, LS_AVAILABLE, MARK_READ, MARK_UNREAD,
+    OPT_SET_GRAPHIC_VISIBILITY, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY}

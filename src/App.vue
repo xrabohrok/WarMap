@@ -20,6 +20,8 @@ html{
 .main{
     color: #e37e30;
   border-color: #9c031f;
+  overflow: clip;
+  font-size: 1.2vw;
 }
 
 .secondary{

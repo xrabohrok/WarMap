@@ -32,8 +32,13 @@
     </div>
 
 
-    <div id="mobileMap" v-if="mobile">
-      <MainMap :mobileMode="true" />
+    <div class="screenContainer" v-if="mobile">
+      <div id="mobileMap" >
+        <MobileMapZoom/>
+      </div>
+      <div class="mobileContent">
+        HERE IS SOME CONTENT I DONT REALLY CARE RIGHT NOW BUT HECK YEAH ITS CONTENT
+      </div>
     </div>
 
   </div>
@@ -47,6 +52,7 @@ import MainMap from '../components/MainMap.vue'
 
 import DetailPaneDesktop from '../components/DetailPaneDesktop.vue'
 import MapHeader from '../components/MapHeader.vue'
+import MobileMapZoom from '../components/MobileMapZoom.vue'
 import {LEFT, RIGHT, DETAILS, FIGHT} from '../components/DetailPaneDesktop.vue'
 
 import {storageAvailable} from '../common/localStorage'
@@ -70,6 +76,7 @@ export default {
     // DetailPaneMobile,
     DetailPaneDesktop,
     MapHeader,
+    MobileMapZoom,
   },
   computed:{
     isSelected: function(){
@@ -146,10 +153,19 @@ export default {
   /*portrait*/
   height: 50vh;
   width: 100vw;
-  position: fixed;
-  transform: translate(-50%,-50%);
-  left: 50vw;
-  top: 25vh;
+
+}
+
+.screenContainer{
+  display:flexbox;
+}
+
+.mobileContent{
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: pink;
+  margin: 0%;
 }
 
 .map_page{

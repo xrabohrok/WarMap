@@ -13,61 +13,27 @@
 import {mapLayout} from '../assets/data/map.js'
 import MapTile from './MapTile.vue'
 
-import panzoom from 'panzoom'
-
 export default {
     props:{
       mobileMode: Boolean
     },
     data(){
         return{
-            placeholder: "blah",
             mapSource: mapLayout,
-            zoomer: null
         }
     },
     components:{
         MapTile
     },
     methods: {
-        rowPosition: function(rowId, maxRow){
-            var horizontalPos = ((rowId-1) / (maxRow + 1) * 100).toFixed(2);
-            // console.log(`${rowId} : against ${maxRow}, ${horizontalPos}`)
-            return {
-                "top": `${horizontalPos}%`,
-                "z-index": `${rowId}`
-            };
-        },
-        linkUpZoomer: function(){
-          var mapelem = this.$refs["zoomMap"]
-          if(mapelem !== undefined && mapelem !== null && this.zoomer === null){
-            this.zoomer = panzoom(mapelem, {
-              transformOrigin: {x:.5, y:.25},
-              initialZoom : 2.5,
-              minZoom:1,
-              maxZoom:5,
-              bounds: true,
-              boundsPadding: .2,
-            })
-          }
-        this.zoomer.zoomAbs(-mapelem.clientWidth/2, -mapelem.clientHeight/2, 2.5)
-      }
-    },
-    watch:{
-    },
-    mounted: function(){
-      this.$nextTick(this.linkUpZoomer)
-        if(this.zoomer != null){
-          this.zoomer.resume()
-        }
-        else{
-          this.linkUpZoomer()
-        }
-    },
-    beforeDestroy: function(){
-      if(this.zoomer != null){
-        this.zoomer.pause()
-      }
+      rowPosition: function(rowId, maxRow){
+          var horizontalPos = ((rowId-1) / (maxRow + 1) * 100).toFixed(2);
+          // console.log(`${rowId} : against ${maxRow}, ${horizontalPos}`)
+          return {
+              "top": `${horizontalPos}%`,
+              "z-index": `${rowId}`
+          };
+      },
     },
     name: 'MainMap'
 }
@@ -76,8 +42,11 @@ export default {
 <style scoped>
 
 #zoomMap{
-  height: inherit;
-  width: inherit;
+  height: 50vh;
+  width: 100vw;
+  transform-origin: top left;
+  position: relative;
+  touch-action: pinch-zoom pan-x pan-y;
 }
 
 #mainMap {

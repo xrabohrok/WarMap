@@ -265,11 +265,11 @@ export default {
 }
 
 .selector{
-    height: 9em;
+    height: 6vh;
     width: auto;
     z-index: 97;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -75%);
     top: 0%;
     position: absolute;
     pointer-events: none;

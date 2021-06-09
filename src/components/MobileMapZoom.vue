@@ -48,7 +48,9 @@
 
 import MainMap from './MainMap.vue'
 import VueSlider from 'vue-slider-component'
-import 'vue-slider-component/theme/default.css'
+// import 'vue-slider-component/theme/default.css'
+import './elements/customerSlider.css'
+
 
 export default {
     name:"MobileMapZoomer",

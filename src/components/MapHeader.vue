@@ -8,7 +8,6 @@
             v-model="slider_round"
             :max="maxRounds-1"
             :min="0"
-            :width="400"
             :marks="true"
             :adsorb="true"
             :lazy="true"
@@ -37,7 +36,8 @@
 import { mapGetters } from 'vuex'
 
 import VueSlider from 'vue-slider-component'
-import 'vue-slider-component/theme/default.css'
+// import 'vue-slider-component/theme/default.css'
+import './elements/customerSlider.css'
 
 import {ToggleButton} from 'vue-js-toggle-button'
 

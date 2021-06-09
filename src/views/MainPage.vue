@@ -37,7 +37,10 @@
         <MobileMapZoom/>
       </div>
       <div class="mobileContent">
-        HERE IS SOME CONTENT I DONT REALLY CARE RIGHT NOW BUT HECK YEAH ITS CONTENT
+        <DetailPaneDesktop :mode="showDetails" />
+        <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" />
+        <DetailPaneDesktop :mode="onLeft"   v-show="isSelectedFight" :faction="'bastion'"/>
+        <DetailPaneDesktop :mode="onRight"  v-show="isSelectedFight" :faction="'pyre'"/>
       </div>
     </div>
 
@@ -61,6 +64,7 @@ import { LS_INIT, LS_AVAILABLE} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
 import { mapGetters } from 'vuex'
 
+import {extractAndProcessParams} from '../common/queryRoute.js'
 
 
 export default {
@@ -132,6 +136,10 @@ export default {
     this.$store.commit(LS_AVAILABLE, available)
     this.$store.commit(LS_INIT)
 
+    //if a special route was used, ingest it now
+    extractAndProcessParams(this)
+    this.slider_round = this.curRound
+
   },
   created: function(){
     window.addEventListener('resize', ()=> {this.mobile = innerWidth <= 840})
@@ -153,7 +161,6 @@ export default {
   /*portrait*/
   height: 50vh;
   width: 100vw;
-
 }
 
 .screenContainer{
@@ -166,6 +173,7 @@ export default {
   width: 100vw;
   background-color: pink;
   margin: 0%;
+  overflow: auto;
 }
 
 .map_page{

@@ -17,11 +17,21 @@ html{
   background-color: #3e112b;
 }
 
+body{
+  margin: 0px;
+}
+
 .main{
-    color: #e37e30;
+  color: #e37e30;
   border-color: #9c031f;
   overflow: clip;
   font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 840px) {
+  .main {
+      font-size: 4.2vw;
+  }
 }
 
 .secondary{

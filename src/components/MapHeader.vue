@@ -41,8 +41,6 @@ import './elements/customerSlider.css'
 
 import {ToggleButton} from 'vue-js-toggle-button'
 
-import {extractAndProcessParams} from '../common/queryRoute.js'
-
 import {CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS, CURRENT_ROUND} from '../state/getters'
 import {SET_SIMPLE_MODE, CHANGE_ROUND, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
 
@@ -83,9 +81,7 @@ export default {
         )
     },
     mounted(){
-        //if a special route was used, ingest it now
-        extractAndProcessParams(this)
-        this.slider_round = this.curRound
+
     }
 }
 </script>

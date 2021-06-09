@@ -40,7 +40,6 @@ export default {
 }
 
 .blockText{
-    font-size: 1.3em;
     margin-bottom: .9em;
 }
 
@@ -53,9 +52,7 @@ export default {
     min-width: 20vw;
     width: 98%;
     height: 100%;
-    font-size: .6em;
     overflow-y: auto;
     left: 0%;
-    font-size: .9vw;
 }
 </style>

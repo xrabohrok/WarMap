@@ -14,7 +14,7 @@
                     {{bastionAttacking ?  "pyre" : "bastion"}}
                 </div>
             </div>
-            <div class="row duelLinks" v-show="isDuel" >
+            <div class="row" v-show="isDuel" >
                 <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'bastion' : 'pyre'][0]" :round="round" :inputURL="getComicLink(true)"/>
                 <StrikeLink class="cell" :fighterId="this.zoneFight.fighters[bastionAttacking ? 'pyre' : 'bastion'][0]" :round="round" :inputURL="getComicLink(false)"/>
             </div>
@@ -108,7 +108,6 @@ export default {
 <style scoped>
 
 .fight{
-    margin-top: .4em;
     margin-left: auto;
     margin-right: auto;
     order: 2;
@@ -125,10 +124,6 @@ export default {
 .bastion{
     color: rgb(69, 123, 221);
     font-weight: bold;
-}
-
-.duelLinks{
-    font-size: 1.4vw;
 }
 
 .pyre{

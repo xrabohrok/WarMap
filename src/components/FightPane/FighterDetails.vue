@@ -93,6 +93,12 @@ export default {
 
 <style scoped>
 
+@media only screen and (max-width: 840px) {
+    .toplevel{
+        font-size: inherit;
+    }
+}
+
 .fighterIcon {
     width: 12vh;
     height: 12vh;
@@ -107,7 +113,6 @@ export default {
 .toplevel{
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
     height: 100%;
 
 }
@@ -138,7 +143,6 @@ export default {
 
 h2{
     font-family: 'Saira', sans-serif;
-    font-size: 1.7em;
     margin-top: .1em;
     margin-bottom: .1em;
 }
@@ -173,10 +177,7 @@ img.right{
 }
 
 
-@media all and (orientation: portrait) {
-    .toplevel{
-        height: auto;
-    }
-}
+@media only screen and (max-width: 820px) {
 
+}
 </style>

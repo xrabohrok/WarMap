@@ -181,6 +181,20 @@ export default {
   overflow: auto;
 }
 
+.map_page{
+  height: 99vh;
+  position: absolute;
+  top: 0%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width:840px) {
+  .map_page{
+    overflow: hidden;
+  }
+}
+
 @media only screen and (orientation: landscape) and (max-width:840px) {
   #mobileMap{
     height: 100vh;
@@ -195,12 +209,6 @@ export default {
   .screenContainer{
     flex-direction: row;
   }
-}
-
-.map_page{
-  height: 99vh;
-  position: absolute;
-  top: 0%;
 }
 
 .desktopHeader{

@@ -19,6 +19,7 @@ html{
 
 body{
   margin: 0px;
+  overflow: hidden;
 }
 
 .main{
@@ -31,6 +32,7 @@ body{
 @media only screen and (max-width: 840px) {
   .main {
       font-size: 4.2vw;
+      overflow: hidden;
   }
 }
 

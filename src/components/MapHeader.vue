@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>The Rayuba Archive</h1>
+        <h1 class="desktop">The Rayuba Archive</h1>
         <div class="control_bar">
         <div class="control_group" style="margin-bottom:7%;">
             <div class="control_label">Rounds: </div>
@@ -92,6 +92,12 @@ h1{
     font-family: 'Suez One', serif;
     font-size: 2.5vw;
     margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 840px) {
+    .desktop{
+        display: none;
+    }
 }
 
 .header{

@@ -2,7 +2,7 @@
     <div class="header">
         <h1>The Rayuba Archive</h1>
         <div class="control_bar">
-        <div class="control_group">
+        <div class="control_group" style="margin-bottom:7%;">
             <div class="control_label">Rounds: </div>
             <vue-slider 
             v-model="slider_round"
@@ -91,6 +91,7 @@ export default {
 h1{
     font-family: 'Suez One', serif;
     font-size: 2.5vw;
+    margin-bottom: 2%;
 }
 
 .header{
@@ -99,6 +100,7 @@ h1{
 
 .control_bar{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding-top:.3em;
   padding-bottom: .5em;
@@ -109,6 +111,7 @@ h1{
 .control_bar > div {
   margin-right: 1.4em;
   margin-left: 1em;
+  width: 60%;
 }
 
 .control_bar_label{

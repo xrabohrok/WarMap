@@ -10,7 +10,6 @@
                 :adsorb="false"
                 :lazy="false"
                 :direction="'ttb'"
-
             />
         </div>
         <div class="botBar">
@@ -34,7 +33,6 @@
                 :adsorb="false"
                 :lazy="false"
                 :direction="'ttb'"
-
             />
         </div>
         <div :style="zoomStyle">

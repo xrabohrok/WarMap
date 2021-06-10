@@ -49,6 +49,14 @@ export default {
   touch-action: pinch-zoom pan-x pan-y;
 }
 
+@media only screen and (orientation: landscape) and (max-width:840px) {
+  #zoomMap{
+    height: 100vh;
+    width: 50vw;
+    transform: translateX(-50%);
+  }
+}
+
 #mainMap {
     position: absolute;
     height: 44vw;

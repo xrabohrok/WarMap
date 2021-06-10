@@ -1,8 +1,12 @@
 <template>
     <div class="details">
         <div class="row">
-            <div class="blockText areaDescription">
-                <p><b>Zone:</b> {{zoneName}}</p>
+            <div class="blockText areaDescription">   
+                <p>
+                    <h2 class="zoneTitle">
+                    {{zoneName}}
+                    </h2>
+
                 {{zoneDesc}}
             </div>
         </div>
@@ -41,6 +45,10 @@ export default {
 
 .blockText{
     margin-bottom: .9em;
+}
+
+.zoneTitle{
+    font-family: 'Permanent Marker', cursive;
 }
 
 

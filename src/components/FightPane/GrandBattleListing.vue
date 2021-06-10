@@ -11,7 +11,7 @@
             {{fighterName}}
         </div>
         <div class="fightername" v-show="!hideLink">
-            <StrikeLink class="linkStyle" :fighterId="fighterId" :round="round" :inputURL="fighterComic"/>
+            <StrikeLink :fighterId="fighterId" :round="round" :inputURL="fighterComic"/>
         </div>
         
     </div>
@@ -95,7 +95,7 @@ export default {
 
 .title{
     color: rgb(70, 30, 17);
-    font-size: 1.3vw;
+    font-size: 2.6vw;
     font-family: 'Permanent Marker', cursive;
     margin-left:30%;
     margin-right: 60%;
@@ -107,7 +107,7 @@ export default {
     width: 50%;
     padding: .2em;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 4.3vw;
 }
 
 img::before{
@@ -121,10 +121,6 @@ img::before{
     width: 4.7em;
     height: 4.7em;
     margin: .1em;
-}
-
-.linkStyle{
-    font-size: 1.5vw;
 }
 
 </style>

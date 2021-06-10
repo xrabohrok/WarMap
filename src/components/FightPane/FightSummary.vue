@@ -121,6 +121,14 @@ export default {
     flex-direction: column;
     flex-grow: 1;
 }
+
+@media only screen and (max-width: 840px) {
+    div.fight{
+        height: auto;
+        overflow-y:clip;
+    }
+}
+
 .bastion{
     color: rgb(69, 123, 221);
     font-weight: bold;

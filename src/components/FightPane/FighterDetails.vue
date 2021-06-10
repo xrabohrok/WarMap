@@ -1,6 +1,7 @@
 <template>
     <div class="toplevel" :class="{leftward: leftward, rightward: rightward}" v-if="isSelected">
         <div class="deets">
+            <div class="detail_row fighterName mobile"> <h2> {{this.fighterName}} </h2></div>
             <div class="detail_row"> <h3> {{this.faction.toUpperCase()}} </h3> </div>
             <div class="allArtists" v-for="artist in Object.values(this.fighter.artists)" :key="artist.name">
                 <div class="detail_row"><b>{{artist.role}}:</b> {{artist.name}}</div>
@@ -9,9 +10,13 @@
                     <div class="sub_row"> <a :href="buildLink(contact, artist.contacts[contact])" target="_blank" rel="noopener noreferrer"> {{contact}} </a></div>
                 </div>
             </div>
-            <div class="detail_row backstory"><b>Backstory:</b> {{backstory(fighter.id)}}</div>
+            <div class="detail_row backstory">
+                <ProfilePic :imgUrl="fighterIcon" :faction="faction" :startPos="fighter.profilePic" class="fighterIcon mobile"/>
+
+                  {{backstory(fighter.id)}}
+            </div>
         </div>
-        <div class="main_deets">
+        <div class="main_deets desktop">
             <ProfilePic :class="{right: rightward}"  :imgUrl="fighterIcon" :faction="faction" :startPos="fighter.profilePic" class="fighterIcon"/>
             <div class="detail_row fighterName"> <h2> {{this.fighterName}} </h2></div>
         </div>
@@ -93,12 +98,6 @@ export default {
 
 <style scoped>
 
-@media only screen and (max-width: 840px) {
-    .toplevel{
-        font-size: inherit;
-    }
-}
-
 .fighterIcon {
     width: 12vh;
     height: 12vh;
@@ -108,6 +107,60 @@ export default {
     border-width: .3em;
     border-radius: .3em;
     padding: 0;
+}
+
+.deets{
+    width: 70%;
+    overflow-y: auto;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 840px) {
+    .toplevel{
+        font-size: inherit;
+    }
+
+    .fighterIcon{
+        /* position: absolute; */
+        float: right;
+        padding-left: 1vw;
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .deets{
+        width: 98%;
+        padding-right: 1vw;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .leftward>.deets{
+        margin-right:1.2em;
+    }
+
+    .rightward{
+        margin-right: 0;
+        margin-left: 1.2em;
+        /* padding-left: ; */
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+    .fighterIcon{
+        width: 33vh;
+        height: 33vh;
+        margin-right: 1vw;
+    }
 }
 
 .toplevel{
@@ -131,10 +184,7 @@ export default {
     margin: 0 auto 0 auto ;
 }
 
-.deets{
-    width: 70%;
-    overflow-y: auto;
-}
+
 
 .main_deets{
     margin-bottom: 1.4em;

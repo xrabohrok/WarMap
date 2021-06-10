@@ -36,11 +36,13 @@
       <div id="mobileMap" >
         <MobileMapZoom/>
       </div>
-      <div class="mobileContent">
-        <DetailPaneDesktop :mode="showDetails" />
-        <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" />
-        <DetailPaneDesktop :mode="onLeft"   v-show="isSelectedFight" :faction="'bastion'"/>
-        <DetailPaneDesktop :mode="onRight"  v-show="isSelectedFight" :faction="'pyre'"/>
+      <div class="mobileContent" tag="div">
+        <transition-group name="grow">
+          <DetailPaneDesktop :mode="showDetails" :key="'tiledeets'"/>
+          <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" :key="'fightdeets'" />
+          <DetailPaneDesktop :mode="onLeft"   v-show="isSelectedFight" :faction="'bastion'" :key="'leftfighter'"/>
+          <DetailPaneDesktop :mode="onRight"  v-show="isSelectedFight" :faction="'pyre'" :key="'rightfighter'"/>
+        </transition-group>
       </div>
     </div>
 
@@ -71,7 +73,7 @@ export default {
   name: 'MainPage',
   data(){
     return {
-      mobile: window.innerWidth <= 840,
+      mobile: window.outerWidth <= 840,
       zoomer: null,
     }
   }, 
@@ -142,7 +144,9 @@ export default {
 
   },
   created: function(){
-    window.addEventListener('resize', ()=> {this.mobile = innerWidth <= 840})
+    window.addEventListener('resize', ()=> {
+      this.mobile = window.outerWidth <= 840
+      })
   },
   watch:{
 
@@ -164,16 +168,33 @@ export default {
 }
 
 .screenContainer{
-  display:flexbox;
+  display:flex;
+  flex-direction: column;
 }
 
 .mobileContent{
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: pink;
+  background-color: rgb(48, 7, 26);
   margin: 0%;
   overflow: auto;
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+  #mobileMap{
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .mobileContent{
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .screenContainer{
+    flex-direction: row;
+  }
 }
 
 .map_page{
@@ -238,6 +259,24 @@ a {
   color: #42b983;
 }
 
+.grow-enter-active, .grow-leave-active {
+  transition: flex-grow .9s opacity .5s ;
+}
+.grow-enter{
+  opacity: 0;
+  flex-grow: .01;
+  /* top: 500%; */
+  /* height: 0; */
+}
+.grow-leave-to{
+  opacity: 0;
+  flex-grow: .01;
+  /* height: 0; */
+}
+/* .grow-move{
+  transition: transform 1s;
+} */
+
 .slideup-enter-active, .slideup-leave-active {
   transition: all .9s;
 }
@@ -252,13 +291,5 @@ a {
   transform: translatey(-100%);
   /* height: 0; */
 }
-
-/* .map_page::after{
-  display: block;
-  content: "";
-  height: 26vh;
-  width: 100vw;
-  background-color: blue;
-} */
 
 </style>

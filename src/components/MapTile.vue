@@ -323,7 +323,7 @@ export default {
 .terrainGroup{
     display: inline-block;
     transition: all .3s ease-in;
-    position: relative;
+    position: absolute;
     left: 0%;
     top: 0%;
     width: 100%;
@@ -402,6 +402,19 @@ export default {
     user-select: none;
 }
 
+@media only screen and (max-width:840px) {
+    .battleIndicator{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+    .battleIndicator{
+        width: 60%;
+    }
+}
+
 /*modifiers*/
 
 img{
@@ -478,7 +491,6 @@ div.terrainGroupHovered{
 
 .ghost-enter-active, .ghost-leave-active {
   transition: opacity .3s ease-out, width .9s ease-in-out;
-
 }
 
 .ghost-enter {

@@ -101,7 +101,7 @@ export default {
         position: absolute;
         right: 5%;
         width: 75%;
-        width: 80vw;
+        width: 65%;
         bottom: 6%;
         z-index: 10;
         left:50%;

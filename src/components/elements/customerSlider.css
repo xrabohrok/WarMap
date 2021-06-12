@@ -38,6 +38,19 @@
     font-size: 1.1vw;
     white-space: nowrap;
   }
+
+  @media only screen and (max-width:840px) {
+    .vue-slider-mark-label{
+      font-size: 2.8vw;
+    }
+  }
+  
+  @media only screen and (orientation: landscape) and (max-width:840px) {
+    .vue-slider-mark-label{
+      font-size: 1.8vw;
+    }
+  }
+
   /* dot style */
   .vue-slider-dot-handle {
     cursor: pointer;

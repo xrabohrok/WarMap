@@ -37,6 +37,7 @@
         <MobileMapZoom/>
       </div>
       <div class="mobileContent" tag="div">
+        <MapHeader />
         <transition-group name="grow">
           <DetailPaneDesktop :mode="showDetails" :key="'tiledeets'"/>
           <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" :key="'fightdeets'" />
@@ -208,6 +209,7 @@ export default {
 
   .screenContainer{
     flex-direction: row;
+    overflow: hidden;
   }
 }
 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="159mm"
+   height="149mm"
+   viewBox="0 0 159 149"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Rayuba Favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="350"
+     inkscape:cy="228"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="209mm" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect2327"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.264583"
+       d="M 1.0633667,72.462757 71.035417,1.1541667 l 8,8 V 139.15417 l -8,8 z"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       id="rect2327-1"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.264583"
+       d="m 157.00747,75.845577 -69.972053,71.308593 -8,-8 V 9.1541657 l 8,-8 z"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#ffdd55;stroke:#ffffff;stroke-width:0.275735"
+       id="rect5095"
+       width="59.724266"
+       height="49.724266"
+       x="49.173283"
+       y="47.601036" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:11.8325;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path5524"
+       sodipodi:cx="6"
+       sodipodi:cy="731"
+       sodipodi:expansion="1"
+       sodipodi:revolution="2.3131044"
+       sodipodi:radius="66.777977"
+       sodipodi:argument="-19.395916"
+       sodipodi:t0="0.11283407"
+       d="m 9.461129,737.69285 c -3.6507423,6.00912 -12.3208826,4.38046 -16.5648325,0.0836 -7.4925865,-7.58603 -4.6808025,-20.02632 3.0119827,-26.29098 11.2264993,-9.14234 27.8430898,-5.02352 36.0171278,6.10754 10.86067,14.78961 5.386563,35.70158 -9.203094,45.74328 -18.32285,12.61116 -43.580515,5.76057 -55.469423,-12.29865 -14.379017,-21.84169 -6.141038,-51.47112 15.394206,-65.19557 25.352549,-16.15723 59.369027,-6.52558 74.921717,18.48976 17.942102,28.85853 6.912841,67.27183 -21.585317,84.64786 -6.169392,3.76164 -12.960434,6.48332 -20.013334,8.04983"
+       transform="matrix(0.31013125,8.1677037e-4,0.02198788,-0.28206549,58.89154,279.65238)" />
+  </g>
+</svg>

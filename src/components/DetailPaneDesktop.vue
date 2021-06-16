@@ -7,7 +7,7 @@
         
         <ClashView :faction="faction" v-if="renderClashView" />
 
-        <FightSummary :mode="mode" />
+        <FightSummary :mode="mode"/>
 
         <TileDetails v-if="renderDetails"/>
 
@@ -85,14 +85,37 @@ export default {
 <style scoped>
 
 #majorPaneDesktop{
+    width: 100%;
     height: inherit;
+    font-size: 1.4vw;
 }
 
+h2{
+    font-size: 1.9em;
+}
 
-@media all and (orientation: portrait) {
+@media only screen and (max-width: 840px) {
     #majorPaneDesktop{
-        visibility: hidden;
-        display: none;
+        height: auto;
+        font-size: 4vw;
+        padding-bottom: 4%;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(73, 11, 49);
+        border-bottom-width: 2px;
+    }
+
+    h2{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+    #majorPaneDesktop{
+        font-size: 2vw;
+    }
+
+    h2{
+        font-size: 2.2vw;
     }
 }
 

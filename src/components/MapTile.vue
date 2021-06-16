@@ -3,7 +3,7 @@
         @mouseenter="mousedOver()"
         @mouseleave="mousedOut()"
         @mouseout="mousedOut()"
-        @mouseup="selectingClick()"
+        v-touch="selectingClick"
         >
 
         <div class="zone_title" v-if="shouldShowZone">
@@ -265,11 +265,11 @@ export default {
 }
 
 .selector{
-    height: 9em;
+    height: 6vh;
     width: auto;
     z-index: 97;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -75%);
     top: 0%;
     position: absolute;
     pointer-events: none;
@@ -323,7 +323,7 @@ export default {
 .terrainGroup{
     display: inline-block;
     transition: all .3s ease-in;
-    position: relative;
+    position: absolute;
     left: 0%;
     top: 0%;
     width: 100%;
@@ -402,6 +402,25 @@ export default {
     user-select: none;
 }
 
+@media only screen and (max-width:840px) {
+    .battleIndicator{
+        width: 70%;
+    }
+    .selector{
+        height: 6vh;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+    .battleIndicator{
+        width: 60%;
+    }
+    .selector{
+        height: 14vh;
+    }
+}
+
 /*modifiers*/
 
 img{
@@ -478,7 +497,6 @@ div.terrainGroupHovered{
 
 .ghost-enter-active, .ghost-leave-active {
   transition: opacity .3s ease-out, width .9s ease-in-out;
-
 }
 
 .ghost-enter {

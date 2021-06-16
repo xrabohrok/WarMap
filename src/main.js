@@ -10,11 +10,14 @@ import router from './router'
 import VueToast from 'vue-toast-notification'
 import 'vue-toast-notification/dist/theme-sugar.css';
 
+import Vue2TouchEvents from 'vue2-touch-events'
+
 
 Vue.config.productionTip = false
 
 Vue.use(Vuex)
 Vue.use(VueToast)
+Vue.use(Vue2TouchEvents)
 
 const store = new Vuex.Store({
   state: defaultState,

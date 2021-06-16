@@ -5,12 +5,12 @@ module.exports = {
       ? '/WarMap/'
       : '/',
 
-      configureWebpack: {
-        devServer: {
-           watchOptions: {
-              poll: true
-           },
-           before: server
-        }
-     }
-  }
+   configureWebpack: {
+      devServer: {
+         watchOptions: {
+            poll: true
+         },
+         before: server
+      }
+   }
+}

@@ -1,39 +1,57 @@
 <template>
   <div class="map_page main">
 
-    <MainMap/>
-    <!-- <transition name="slideup"> -->
-      <!-- <DetailPaneMobile v-show="isSelected"/> -->
-    <!-- </transition> -->
-    <!-- Desktop details are broken into multiple parts -->
-
-    <div class="desktopHeader">
+    <div v-if="!mobile">
+      <MainMap/>
+      <!-- <transition name="slideup"> -->
+        <!-- <DetailPaneMobile v-show="isSelected"/> -->
+      <!-- </transition> -->
+      <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
-        <div class="rowCell" v-show="isSelected">
+        <div class=" desktopHeader left" v-show="isSelected">
             <DetailPaneDesktop :mode="showDetails" />
         </div>
       </transition>
-      <MapHeader class="centerControls"/>
+      <MapHeader class="centerControls desktopHeader"/>
       <transition name="slideup">
-        <div class="rowCell" v-show="isSelectedFight">
+        <div class=" desktopHeader right" v-show="isSelectedFight">
             <DetailPaneDesktop :mode="showFight" />
+        </div>
+      </transition>
+
+      <transition name="slideup">
+        <div class="desktopFooter" v-show="isSelectedFight">
+            <DetailPaneDesktop :mode="onLeft"  :faction="'bastion'"/>
+        </div>
+      </transition>
+      <transition name="slideup">
+        <div class="desktopFooter right" v-show="isSelectedFight">
+            <DetailPaneDesktop :mode="onRight" :faction="'pyre'"/>
         </div>
       </transition>
     </div>
 
-    <transition name="slideup">
-      <div class="desktopFooter" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onLeft"  :faction="'bastion'"/>
-      </div>
-    </transition>
-    <transition name="slideup">
-      <div class="desktopFooter right" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onRight" :faction="'pyre'"/>
-      </div>
-    </transition>
 
+    <div class="screenContainer" v-if="mobile">
+      <div id="mobileMap" >
+        <MobileMapZoom/>
+      </div>
+      <div class="mobileContent" tag="div">
+        <MapHeader />
+        <transition-group name="grow">
+          <DetailPaneDesktop :mode="showDetails" :key="'tiledeets'"/>
+          <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" :key="'fightdeets'" />
+          <DetailPaneDesktop :mode="onLeft"   v-show="isSelectedFight" :faction="'bastion'" :key="'leftfighter'"/>
+          <DetailPaneDesktop :mode="onRight"  v-show="isSelectedFight" :faction="'pyre'" :key="'rightfighter'"/>
+          <div v-if="!isSelected" class="prompt" :key="'prompt'">
+            Tap a Tile to see information about it
+          </div>
+        </transition-group>
+      </div>
+    </div>
 
   </div>
+
 </template>
 
 <script>
@@ -43,6 +61,7 @@ import MainMap from '../components/MainMap.vue'
 
 import DetailPaneDesktop from '../components/DetailPaneDesktop.vue'
 import MapHeader from '../components/MapHeader.vue'
+import MobileMapZoom from '../components/MobileMapZoom.vue'
 import {LEFT, RIGHT, DETAILS, FIGHT} from '../components/DetailPaneDesktop.vue'
 
 import {storageAvailable} from '../common/localStorage'
@@ -51,16 +70,23 @@ import { LS_INIT, LS_AVAILABLE} from '../state/mutations'
 import {SELECTING_GETTER, CURRENT_ZONE_FIGHT} from '../state/getters'
 import { mapGetters } from 'vuex'
 
+import {extractAndProcessParams} from '../common/queryRoute.js'
+
+
 export default {
   name: 'MainPage',
   data(){
-    return {}
+    return {
+      mobile: window.outerWidth <= 840,
+      zoomer: null,
+    }
   }, 
   components: {
     MainMap,
     // DetailPaneMobile,
     DetailPaneDesktop,
     MapHeader,
+    MobileMapZoom,
   },
   computed:{
     isSelected: function(){
@@ -116,6 +142,18 @@ export default {
     this.$store.commit(LS_AVAILABLE, available)
     this.$store.commit(LS_INIT)
 
+    //if a special route was used, ingest it now
+    extractAndProcessParams(this)
+    this.slider_round = this.curRound
+
+  },
+  created: function(){
+    window.addEventListener('resize', ()=> {
+      this.mobile = window.outerWidth <= 840
+      })
+  },
+  watch:{
+
   },
   methods:{
 
@@ -127,24 +165,90 @@ export default {
 
 <style scoped>
 
+#mobileMap{
+  /*portrait*/
+  height: 50vh;
+  width: 100vw;
+}
+
+.prompt{
+    font-family: 'Suez One', serif;
+    width: 100%;
+    height: 50%;
+    background-color: #631042;
+    padding-top: 1em;
+}
+
+.screenContainer{
+  display:flex;
+  flex-direction: column;
+}
+
+.mobileContent{
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(48, 7, 26);
+  margin: 0%;
+  overflow: auto;
+}
+
 .map_page{
   height: 99vh;
   position: absolute;
   top: 0%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width:840px) {
+  .map_page{
+    overflow: hidden;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width:840px) {
+  #mobileMap{
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .mobileContent{
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .screenContainer{
+    flex-direction: row;
+    overflow: hidden;
+  }
 }
 
 .desktopHeader{
   position: fixed;
-  width: 100%;
+  width: 32vw;
   height: 25vh;
-  display: flex;
-  flex-direction: row;
+
   top:0%;
-  left: 0%;
   z-index: 300;
 
   margin-top: .2vh;
 
+}
+
+.centerControls{
+  height: 25vh;
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 0 .9vw 0 .9vw;
+}
+
+.right.desktopHeader{
+  right: 0%;
+}
+
+.left.desktopHeader{
+  left: 0%;
 }
 
 .desktopFooter{
@@ -165,20 +269,6 @@ export default {
   right: 0%;
 }
 
-.rowCell{
-  height: 100%;
-  width: 33%;
-}
-
-.right.rowCell{
-  position: absolute;
-  right: 0%;
-}
-
-.centerControls{
-  width: 33%;
-  height: 100%;
-}
 
 h1{
   font-family: 'Saira', sans-serif;
@@ -189,6 +279,24 @@ h1{
 a {
   color: #42b983;
 }
+
+.grow-enter-active, .grow-leave-active {
+  transition: flex-grow .9s opacity .5s ;
+}
+.grow-enter{
+  opacity: 0;
+  flex-grow: .01;
+  /* top: 500%; */
+  /* height: 0; */
+}
+.grow-leave-to{
+  opacity: 0;
+  flex-grow: .01;
+  /* height: 0; */
+}
+/* .grow-move{
+  transition: transform 1s;
+} */
 
 .slideup-enter-active, .slideup-leave-active {
   transition: all .9s;
@@ -204,13 +312,5 @@ a {
   transform: translatey(-100%);
   /* height: 0; */
 }
-
-/* .map_page::after{
-  display: block;
-  content: "";
-  height: 26vh;
-  width: 100vw;
-  background-color: blue;
-} */
 
 </style>

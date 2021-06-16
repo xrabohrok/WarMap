@@ -50,7 +50,6 @@ export default {
 
 .link {
     color: yellow;
-    font-size: 1.3vw;
     vertical-align: middle;
 }
 
@@ -70,6 +69,13 @@ a.linkrow:hover{
 .fighterList{
     overflow-y: auto;
     height: 17vh;
+}
+
+@media only screen and (max-width: 840px) {
+    .fighterList{
+        height: auto;
+        overflow-y: auto;
+    }
 }
 
 .iconLink{

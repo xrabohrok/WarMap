@@ -1,17 +1,17 @@
 <template>
     <div class="header">
-        <h1>The Rayuba Archive</h1>
+        <h1 class="desktop">The Rayuba Archive</h1>
         <div class="control_bar">
-        <div class="control_group">
+        <div class="control_group" style="margin-bottom:7%;">
             <div class="control_label">Rounds: </div>
             <vue-slider 
             v-model="slider_round"
             :max="maxRounds-1"
             :min="0"
-            :width="400"
             :marks="true"
             :adsorb="true"
             :lazy="true"
+            :tooltip="'none'"
             :maxRange="1"
             @change="setRound" 
             >
@@ -37,11 +37,10 @@
 import { mapGetters } from 'vuex'
 
 import VueSlider from 'vue-slider-component'
-import 'vue-slider-component/theme/default.css'
+// import 'vue-slider-component/theme/default.css'
+import './elements/customerSlider.css'
 
 import {ToggleButton} from 'vue-js-toggle-button'
-
-import {extractAndProcessParams} from '../common/queryRoute.js'
 
 import {CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS, CURRENT_ROUND} from '../state/getters'
 import {SET_SIMPLE_MODE, CHANGE_ROUND, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
@@ -83,9 +82,7 @@ export default {
         )
     },
     mounted(){
-        //if a special route was used, ingest it now
-        extractAndProcessParams(this)
-        this.slider_round = this.curRound
+
     }
 }
 </script>
@@ -95,6 +92,13 @@ export default {
 h1{
     font-family: 'Suez One', serif;
     font-size: 2.5vw;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 840px) {
+    .desktop{
+        display: none;
+    }
 }
 
 .header{
@@ -103,6 +107,7 @@ h1{
 
 .control_bar{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding-top:.3em;
   padding-bottom: .5em;
@@ -113,6 +118,7 @@ h1{
 .control_bar > div {
   margin-right: 1.4em;
   margin-left: 1em;
+  width: 60%;
 }
 
 .control_bar_label{

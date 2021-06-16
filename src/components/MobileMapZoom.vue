@@ -1,7 +1,7 @@
 <template>
     <div class="map">   
         <div class="leftBar">
-            <div class="label">Zoom</div>
+            <div class="label left-text">Zoom</div>
             <VueSlider
                 v-model="zoomLevel"
                 :max="5"
@@ -75,6 +75,21 @@ export default {
 
 <style scoped>
 
+    .left-text{
+        transform: rotate(180deg);
+    }
+
+    .label{
+        background-image: url(/img/header-bg.f7d10ea2.png);
+        background-size: 100% 100%;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        filter: hue-rotate(332deg);
+        overflow: visible;
+        padding: 1%;
+    }
+
     .leftBar{
         position: absolute;
         left: 2%;
@@ -112,5 +127,6 @@ export default {
     .map{
         position: relative;
         z-index: 0;
+        font-size: .7em;
     }
 </style>

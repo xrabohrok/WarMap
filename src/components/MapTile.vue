@@ -406,12 +406,18 @@ export default {
     .battleIndicator{
         width: 70%;
     }
+    .selector{
+        height: 6vh;
+    }
 
 }
 
 @media only screen and (orientation: landscape) and (max-width:840px) {
     .battleIndicator{
         width: 60%;
+    }
+    .selector{
+        height: 14vh;
     }
 }
 

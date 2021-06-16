@@ -43,6 +43,9 @@
           <DetailPaneDesktop :mode="showFight"  v-show="isSelectedFight" :key="'fightdeets'" />
           <DetailPaneDesktop :mode="onLeft"   v-show="isSelectedFight" :faction="'bastion'" :key="'leftfighter'"/>
           <DetailPaneDesktop :mode="onRight"  v-show="isSelectedFight" :faction="'pyre'" :key="'rightfighter'"/>
+          <div v-if="!isSelected" class="prompt" :key="'prompt'">
+            Tap a Tile to see information about it
+          </div>
         </transition-group>
       </div>
     </div>
@@ -166,6 +169,14 @@ export default {
   /*portrait*/
   height: 50vh;
   width: 100vw;
+}
+
+.prompt{
+    font-family: 'Suez One', serif;
+    width: 100%;
+    height: 50%;
+    background-color: #631042;
+    padding-top: 1em;
 }
 
 .screenContainer{

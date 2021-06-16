@@ -6,7 +6,6 @@
                     <h2 class="zoneTitle">
                     {{zoneName}}
                     </h2>
-
                 {{zoneDesc}}
             </div>
         </div>

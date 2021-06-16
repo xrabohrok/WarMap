@@ -9,6 +9,7 @@
                 :marks="false"
                 :adsorb="false"
                 :lazy="false"
+                :tooltip="'none'"
                 :direction="'ttb'"
             />
         </div>
@@ -19,6 +20,7 @@
                 :max="50"
                 :min="-50"
                 :marks="false"
+                :tooltip="'none'"
                 :adsorb="false"
                 :lazy="false"
             />
@@ -30,6 +32,7 @@
                 :max="22"
                 :min="-50"
                 :marks="false"
+                :tooltip="'none'"
                 :adsorb="false"
                 :lazy="false"
                 :direction="'ttb'"

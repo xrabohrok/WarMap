@@ -11,6 +11,7 @@
             :marks="true"
             :adsorb="true"
             :lazy="true"
+            :tooltip="'none'"
             :maxRange="1"
             @change="setRound" 
             >

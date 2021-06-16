@@ -4,7 +4,7 @@ node_modules
 *.plan_bak_*
 screenshots/
 changes/
-.package-lock.json
+package-lock.json
 
 # local env files
 .env.local

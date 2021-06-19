@@ -107,7 +107,7 @@ export default {
     width: 50%;
     padding: .2em;
     text-align: center;
-    font-size: 4.3vw;
+    font-size: 1.9vw;
 }
 
 img::before{

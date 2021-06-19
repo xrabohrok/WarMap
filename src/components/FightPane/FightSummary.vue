@@ -153,7 +153,7 @@ export default {
             } else if (this.zoneFight.contest) {
                 fightType = 'Duel at ';
             } else if (this.zoneFight.grandBattle) {
-                return `Grand Battle at ${this.zoneFight.gbZone} took this area at ${this.zoneName}`;
+                return `The Grand Battle at ${this.zoneFight.gbZone} took this tile at ${this.zoneName}`;
             } else if (this.zoneFight.clash) {
                 fightType = 'Clash at';
             }
@@ -295,7 +295,7 @@ export default {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 2.5vh;
 }
 
 .positionCard {
@@ -373,7 +373,8 @@ export default {
 }
 .fightTitle {
     color: white;
-    height: 2em;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 .versus {
     color: white;

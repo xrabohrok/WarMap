@@ -80,7 +80,22 @@ export default {
         },
         fightOutcome: function(){
             if(!(this.zoneFight.contest || this.zoneFight.grandBattle)) return "Not Available"
-            return `Bastion: ${this.zoneFight.outcome.bastion}, Pyre: ${this.zoneFight.outcome.pyre} \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+            if (this.zoneFight.outcome.bastion === "win"){
+                if (this.zoneFight.attacker === "bastion"){
+                    return `Bastion Conquers! \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+                }
+                else{
+                    return `Bastion Defends! \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+                }
+            }
+            else{
+                if (this.zoneFight.attacker === "bastion"){
+                    return `Pyre Defends! \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+                }
+                else{
+                    return `Pyre Conquers! \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+                }
+            }
         },
         ...mapGetters({
             currZone: CURRENT_ZONE_NAME,

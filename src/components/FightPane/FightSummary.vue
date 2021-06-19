@@ -204,8 +204,8 @@ export default {
 <style scoped>
 .fight{
     margin-left: auto;
-    height: 25vh;
-    padding: 0em 4em;
+    height: 22vh;
+    padding: 5% 6% 10%;
     margin-top: -10px;
     margin-right: -10px;
 }
@@ -300,13 +300,13 @@ export default {
 
 .positionCard {
     background: #d3d3d363;
-    padding: 0.3em 3em 0.6em;
+    padding: 0.1em 1em 0.6em;
     box-shadow: black 7px 7px 0px 0px;
     position: relative;
     width: 25%;
     overflow: hidden;
     transition: 0.6s;
-    min-height: 7.5em;
+    min-height: 2..5em;
 }
 
 .victory {
@@ -341,7 +341,7 @@ export default {
 }
 .position {
     color: black;
-    font-size: 1.3em;
+    font-size: .9em;
     font-weight: bold;
     opacity: 0.1;
     text-transform: uppercase;
@@ -355,6 +355,7 @@ export default {
     letter-spacing: 0.06em;
     margin-bottom: 0.4em;
     margin-top: 0em;
+    font-size: 1.1em;
 }
 .attackIcon {
     position: absolute;
@@ -377,9 +378,9 @@ export default {
 .versus {
     color: white;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 2.5em;
     text-shadow: 6px 6px black;
-    padding: 0 0.5em;
+    padding: 0 0.2vw;
     margin: 0;
 }
 .zebra {

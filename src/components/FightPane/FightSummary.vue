@@ -80,10 +80,10 @@ export default {
         },
         fightOutcome: function(){
             if(!(this.zoneFight.contest || this.zoneFight.grandBattle)) return "Not Available"
-            return `Bastion: ${this.zoneFight.outcome.bastion} , Pyre: ${this.zoneFight.outcome.pyre} \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
+            return `Bastion: ${this.zoneFight.outcome.bastion}, Pyre: ${this.zoneFight.outcome.pyre} \r\n ${'note' in this.zoneFight ? this.zoneFight.note : ''}`
         },
         ...mapGetters({
-            currZone: CURRENT_ZONE_NAME,    
+            currZone: CURRENT_ZONE_NAME,
             selected: SELECTING_GETTER,
             zoneFight: CURRENT_ZONE_FIGHT,
             comicLink: CUR_FIGHTER_LINK,
@@ -91,7 +91,7 @@ export default {
         })
     },
     methods:{
-   
+
         getComicLink: function(attacker){
             var facs = (this.bastionAttacking && attacker) || (!this.bastionAttacking && !attacker) ? "bastion" : "pyre"
             return this.comicLink(facs)

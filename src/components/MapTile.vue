@@ -265,7 +265,7 @@ export default {
 }
 
 .selector{
-    height: 6vh;
+    height: 8vw;
     width: auto;
     z-index: 97;
     left: 50%;

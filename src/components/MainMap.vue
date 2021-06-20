@@ -61,7 +61,7 @@ export default {
     position: absolute;
     height: 44vw;
     width: 88vw;
-    top: 16vh;
+    top: 20vh;
     transform: translateX(-50%);
     left: 50vw;
     margin-top: 8vh;

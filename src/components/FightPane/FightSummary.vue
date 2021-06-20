@@ -31,7 +31,7 @@
                         draggable="false"
                     />
                     <h3 class="position">Attacker</h3>
-                    <h2 class="side">
+                    <h2 class="faction">
                         {{ bastionAttacking ? 'bastion' : 'pyre' }}
                     </h2>
 
@@ -67,7 +67,7 @@
                         draggable="false"
                     />
                     <h3 class="position">Defender</h3>
-                    <h2 class="side">
+                    <h2 class="faction">
                         {{ bastionAttacking ? 'pyre' : 'bastion' }}
                     </h2>
 
@@ -85,9 +85,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="resultTile">
                 <Spoiler :fightOutcome="fightOutcome" />
-                <div class="zebra" />
             </div>
         </div>
     </div>
@@ -205,9 +204,10 @@ export default {
 .fight{
     margin-left: auto;
     height: 22vh;
-    padding: 5% 6% 10%;
+    padding: 2% 6% 10%;
     margin-top: -10px;
     margin-right: -10px;
+    
 }
 
 @media only screen and (max-width: 840px) {
@@ -227,6 +227,15 @@ export default {
 }
 .pyreGradient {
     background: linear-gradient(118deg, #c07e85 50%, #5174a2 50%);
+}
+
+.resultTile{
+    position:relative;
+    bottom: 5%;
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .duelLinks {
@@ -316,9 +325,9 @@ export default {
 .bloodSplatter {
     visibility: hidden;
     position: absolute;
-    width: 270px;
-    left: 30px;
-    top: 20px;
+    width: 110%;
+    right: -30%;
+    bottom: -20%;
     filter: opacity(0.3);
 }
 .defeat .bloodSplatter {
@@ -341,34 +350,36 @@ export default {
 }
 .position {
     color: black;
-    font-size: .9em;
+    font-size: .7em;
     font-weight: bold;
     opacity: 0.1;
     text-transform: uppercase;
-    margin-left: -5em;
-    margin-top: 0.2em;
-    margin-bottom: 0.4em;
+    position: absolute;
+    left: 6%;
+    margin-top: 5%;
 }
-.side {
+.faction {
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    margin-bottom: 0.4em;
-    margin-top: 0em;
-    font-size: 1.1em;
+    margin-bottom: 10%;
+    margin-top: 27%;
+    font-size: 1.0em;
+    position: relative;
+    left: 5%;
 }
 .attackIcon {
     position: absolute;
-    width: 100px;
-    left: 140px;
-    top: 20px;
+    width: 60%;
+    top: 30%;
+    right: -10%;
     filter: opacity(0.1);
 }
 .defendIcon {
     position: absolute;
-    width: 100px;
-    top: 18px;
-    left: 145px;
+    width: 60%;
+    top: 30%;
+    right: -10%;
     filter: opacity(0.1);
 }
 .fightTitle {
@@ -384,16 +395,5 @@ export default {
     padding: 0 0.2vw;
     margin: 0;
 }
-.zebra {
-    background-image: repeating-linear-gradient(
-        -45deg,
-        transparent,
-        transparent 20px,
-        black 20px,
-        black 40px
-    );
-    height: 1em;
-    width: 94%;
-    margin-top: -20px;
-}
+
 </style>

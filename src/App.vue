@@ -29,6 +29,13 @@ body{
   font-size: 1.2vw;
 }
 
+/*vertical screens like ipads or sideways monitors*/
+@media only screen and (max-width: 1000px){
+  .main{
+    font-size: .95em;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .main {
       font-size: 4.2vw;

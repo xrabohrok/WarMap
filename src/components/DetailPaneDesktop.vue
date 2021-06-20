@@ -88,6 +88,9 @@ export default {
     width: 100%;
     height: inherit;
     font-size: 1.4vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(107, 20, 71);
 }
 
 h2{

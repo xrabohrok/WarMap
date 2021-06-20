@@ -1255,7 +1255,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "-0.68",
+      "top": "43.82"
+    }
   },
   "48": {
     "name": "Ratasha the Rat Princess",
@@ -2892,29 +2897,6 @@
       "gbs"
     ],
     "id": 108,
-    "artists": {},
-    "backstory": "",
-    "verified": true
-  },
-  "109": {
-    "name": "Vessel & Living Dream",
-    "rounds": [
-      1,
-      2
-    ],
-    "faction": [
-      "bastion",
-      "bastion"
-    ],
-    "link": [
-      "https://cdn.discordapp.com/attachments/805931663946940477/813264450516811806/the-vessel-and-the-living-dream_0_On-the-way-to-the-grand-battle_flat.jpg",
-      "https://imgur.com/a/mvWMVdu"
-    ],
-    "context": [
-      "gbn",
-      "duel"
-    ],
-    "id": 109,
     "artists": {},
     "backstory": "",
     "verified": true
@@ -6598,7 +6580,12 @@
     ],
     "artists": {},
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "27.27",
+      "top": "39.87"
+    }
   },
   "383": {
     "id": 383,
@@ -6818,15 +6805,23 @@
     "id": 393,
     "name": "The Vessel And The Living Dream",
     "rounds": [
-      4
+      4,
+      1,
+      2
     ],
     "link": [
-      "https://drive.google.com/file/d/1bibPskWTjbzB9UxJ2Wn3UIalr7uHoMnK/view?usp=sharing"
+      "https://drive.google.com/file/d/1bibPskWTjbzB9UxJ2Wn3UIalr7uHoMnK/view?usp=sharing",
+      "https://cdn.discordapp.com/attachments/805931663946940477/813264450516811806/the-vessel-and-the-living-dream_0_On-the-way-to-the-grand-battle_flat.jpg",
+      "https://imgur.com/a/mvWMVdu"
     ],
     "context": [
+      "duel",
+      "gbn",
       "duel"
     ],
     "faction": [
+      "bastion",
+      "bastion",
       "bastion"
     ],
     "artists": {
@@ -6844,7 +6839,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "1.36",
+      "top": "39.80"
+    }
   },
   "394": {
     "id": 394,

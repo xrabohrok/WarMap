@@ -74,6 +74,17 @@ h2.spoilerText {
     font-size: 1.6vw;
 }
 
+/*vertical screens like ipads or sideways monitors*/
+@media only screen and (max-width: 1000px){
+    h2.spoilerTitle{
+        font-size: .95em;
+    }
+
+    h2.spoilerText{
+        font-size: .95em;
+    }
+}
+
 .spoilerTitle {
     cursor: pointer;
     margin: 0;

@@ -1,0 +1,41 @@
+{
+    "title": "Round 5 Pyre Submission: Clash at Red Onyx Temple",
+    "description": "Hello my great and lovely friends! Fashionably late and here to win, we're absolutely thrilled to bring you our clash comic, A Gift of Flame. \r\nThe comic is split into 4 separate comics, with the second and third - As Above and So Below - being interchangeable! Choose whose adventures you want to follow first before reading the other one, and then watch them all come together in the final comic! ",
+    "artist": "Goatwright, Dracula & Hisagi, Matt, Maria/Hawthorn",
+    "author": "Goatwright, Dracula & Hisagi, Matt, Maria/Hawthorn",
+    "cover": "https://i.imgur.com/Mjg1QpV.png",
+    "chapters": {
+      "1": {
+        "title": "Chp 1: A Gift of Flame",
+        "volume": "1",
+        "groups": {
+          "primary": "/proxy/api/imgur/chapter/x7snsVt/"
+        },
+        "last_updated": "1624129654"
+      },
+      "2": {
+        "title": "Chp 2a: As Above/So Below",
+        "volume": "1",
+        "groups": {
+          "primary": "/proxy/api/imgur/chapter/hQbAnGg/"
+        },
+        "last_updated": "1624129654"
+      },
+      "3": {
+        "title": "Chp 2b: So Below/As Above",
+        "volume": "1",
+        "groups": {
+          "primary": "/proxy/api/imgur/chapter/uyO2jIM/"
+        },
+        "last_updated": "1624129654"
+      },
+      "4": {
+        "title": "Chp 3: Dreambreaker/Oathkeeper",
+        "volume": "1",
+        "groups": {
+          "primary": "/proxy/api/imgur/chapter/u4fJulT/"
+        },
+        "last_updated": "1624129654"
+      }
+    }
+}

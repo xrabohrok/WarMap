@@ -70,7 +70,6 @@ export default {
     },
     methods: {
         getImgUrl: function (provider) {
-            console.log(provider);
             try {
                 var images = require.context(
                     '../../assets/pics/',

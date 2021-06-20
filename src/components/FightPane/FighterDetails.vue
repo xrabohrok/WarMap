@@ -109,6 +109,16 @@ export default {
     padding: 0;
 }
 
+.backstory{
+    white-space: pre-wrap;
+    text-align: left;
+    margin-top: .7vh;
+    padding-left: .4vw;
+    padding-bottom: .4vh;
+    margin-bottom: .3vh;
+    font-size: .7em;
+}
+
 .deets{
     width: 70%;
     overflow-y: auto;
@@ -148,6 +158,11 @@ export default {
         margin-right:1.2em;
     }
 
+    .backstory{
+        font-size: 1.1em;
+        line-height: 101%;
+    }
+
     .rightward{
         margin-right: 0;
         margin-left: 1.2em;
@@ -170,25 +185,17 @@ export default {
 
 }
 
-.backstory{
-    white-space: pre-wrap;
-    text-align: left;
-    margin-top: .7vh;
-    padding-left: .4vw;
-    padding-bottom: .4vh;
-    margin-bottom: .3vh;
-}
+
 
 .fighterName{
     width:90%;
     margin: 0 auto 0 auto ;
+    line-height: 97%;
 }
 
-
-
 .main_deets{
-    margin-bottom: 1.4em;
-    margin-top: 1.2em;
+    margin: .6em .4em 1.4em .4em;
+    width:45%;
 }
 
 h2{

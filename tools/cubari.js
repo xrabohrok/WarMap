@@ -3,6 +3,8 @@
 //round 3: https://git.io/JOXUt ; https://cubari.moe/read/gist/JOXUt/
 //round 4: https://git.io/JsMjl ; https://cubari.moe/read/gist/JsMjl/
 
+//pyre clash r5: https://git.io/Jnaek ; https://cubari.moe/read/gist/Jnaek/
+
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes('round')).split('=')[1],10)
 

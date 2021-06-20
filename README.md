@@ -17,7 +17,6 @@ https://forms.gle/zSyjAVn6BK3MWz2j8
 Character Picture Upload:
 https://forms.gle/DrMrw8korwJiWRTt8
 
-Correction Request
 
 ## What is this?
 
@@ -40,7 +39,7 @@ Discord keeps links to uploaded pictures as long as they aren't "orphaned" (i.e.
 
 Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the 265 fighters (_so far_), this suits me just fine.
 
-This archive is not endorsed by Abaddon, KSBD, or the OCT team.  
+~~This archive is not endorsed by Abaddon, KSBD, or the OCT team.~~ At this point the map has been endorsed several ways to Sunday, but it is important to point out that this effor and the OCT are different efforts by different people, and are not affiliated with each other.   
 
 ## A Note on Record Keeping
 
@@ -71,8 +70,8 @@ The website requires no external access beyond the original npm download, all th
 - [x] Reading list tracking
 - [ ] Rule lookup
 - [ ] Round reading list
-- [ ] Battle item tracking
-- [ ] Mobile support
+- [x] Battle item tracking
+- [x] Mobile support
 
 ## Other Things
 

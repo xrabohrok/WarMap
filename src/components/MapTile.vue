@@ -37,11 +37,11 @@
                 <img :src="itemPicture" id="items" class="fieldItem" v-if="shouldShowItems" draggable="false"/>
             </transition>
             <transition name="fall">
-                <img :src="mapTilePath" v-if="!simple_mode"
+                <img :src="mapTilePath" v-if="graphicsFilter"
                     v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="terrainTile" :style="fallTimeStyle" draggable="false">
             </transition>
             <transition name="fall">
-                <img src="../assets/pics/simple_tile/simple_tile.png" v-if="simple_mode"
+                <img src="../assets/pics/simple_tile/simple_tile.png" v-if="!graphicsFilter"
                     v-bind:class="{pyreOwned: pyreOwned, unOwned: unowned}" class="simple" :style="fallTimeStyle" draggable="false">
             </transition>
         </div>
@@ -61,9 +61,9 @@
 
 import {mapGetters} from 'vuex'
 import {NEW_SELECTED} from '../state/mutations'
-import {TILE_OWNER, SELECTING_GETTER, SIMPLE_MODE, 
+import {TILE_OWNER, SELECTING_GETTER,
     CURRENT_ZONE_CONTESTED, CURRENT_ZONE_GRANDBATTLE, CUR_ZONE_ID, SHOW_ZONE_LABEL, CURRENT_ZONE_NAME, CUR_ZONE_ATTACKER, ROUND_GRANDBATTLES,
-     TILE_IS_CLASH, CURRENT_ZONE_ITEMS, OPT_SHOW_ITEMS, OPT_SHOW_LABELS} from '../state/getters'
+     TILE_IS_CLASH, CURRENT_ZONE_ITEMS, OPT_SHOW_GRAPHICS, OPT_SHOW_ITEMS, OPT_SHOW_LABELS} from '../state/getters'
 
 const letters = [' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n']
 
@@ -141,7 +141,7 @@ export default {
             return this.grandBattles.includes(this.curZoneId(this.title))
         },
         neBorder: function(){
-            if(!this.simple_mode) return false
+            if(this.graphicsFilter) return false
             var num = parseInt(this.title.slice(1))
             var letter = this.title[0]
             if(num + 1 > 14) return true
@@ -150,7 +150,7 @@ export default {
             return this.curZoneId(this.title) !== this.curZoneId(other)
         },
         swBorder: function(){
-            if(!this.simple_mode) return false
+            if(this.graphicsFilter) return false
             var num = parseInt( this.title.slice(1))
             var letter = this.title[0]
             if(num - 1 < 1) return true
@@ -159,7 +159,7 @@ export default {
             return this.curZoneId(this.title) !== this.curZoneId(other)
         },
         nwBorder: function(){
-            if(!this.simple_mode) return false
+            if(this.graphicsFilter) return false
             var num = parseInt(this.title.slice(1))
             var letter = this.title[0]
             var iletter = letters.findIndex(l => l === letter)
@@ -169,7 +169,7 @@ export default {
             return this.curZoneId(this.title) !== this.curZoneId(other)
         },
         seBorder: function(){
-            if(!this.simple_mode) return false
+            if(this.graphicsFilter) return false
             var num = parseInt(this.title.slice(1))
             var letter = this.title[0]
             var iletter = letters.findIndex(l => l === letter)
@@ -181,7 +181,6 @@ export default {
         ...mapGetters({
             tileOwner: TILE_OWNER,
             selected: SELECTING_GETTER,
-            simple_mode: SIMPLE_MODE,
             isContested: CURRENT_ZONE_CONTESTED,
             isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
             isClash: TILE_IS_CLASH,
@@ -192,7 +191,8 @@ export default {
             grandBattles: ROUND_GRANDBATTLES,
             items: CURRENT_ZONE_ITEMS,
 
-            itemFilter: OPT_SHOW_ITEMS, 
+            graphicsFilter: OPT_SHOW_GRAPHICS,
+            itemFilter: OPT_SHOW_ITEMS,
             zoneFilter: OPT_SHOW_LABELS,
         })
 
@@ -211,7 +211,7 @@ export default {
             this.$store.commit(NEW_SELECTED, this.title)
             //need to let the dom claim the space before scrolling
             // setTimeout(function(){
-            //     window.scrollTo({top: window.innerHeight *.8, behavior: 'smooth'}) 
+            //     window.scrollTo({top: window.innerHeight *.8, behavior: 'smooth'})
             // },200)
         }
     }

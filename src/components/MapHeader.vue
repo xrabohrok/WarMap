@@ -4,7 +4,7 @@
         <div class="control_bar">
         <div class="control_group" style="margin-bottom:7%;">
             <div class="control_label">Rounds: </div>
-            <vue-slider 
+            <vue-slider
             v-model="slider_round"
             :max="maxRounds-1"
             :min="0"
@@ -13,7 +13,7 @@
             :lazy="true"
             :tooltip="'none'"
             :maxRange="1"
-            @change="setRound" 
+            @change="setRound"
             >
             <template v-slot:step="{active}">
                 <div :class="['custom-step', {active}]"></div>
@@ -21,12 +21,30 @@
             </vue-slider>
         </div>
         <div class="control_group">
-            <ToggleButton :value="false" :labels="{checked:'    Simple', unchecked:'Detail    '}" 
-            @change="setSimpleMode($event)" :width="80" :height="30" :font-size="17"/>
-            <ToggleButton :value="true" :labels="{checked:'    Zones', unchecked:'Zones    '}" 
-            @change="setZoneLabelVisibility($event)" :width="80" :height="30" :font-size="17"/>
-            <ToggleButton :value="false" :labels="{checked:'    Items', unchecked:'Items    '}" 
-            @change="setItemVisibility($event)" :width="80" :height="30" :font-size="17"/>
+            <ToggleButton
+              :value="true"
+              :labels="{checked:'Graphics', unchecked:'Graphics'}"
+              :width="115"
+              :height="30"
+              :font-size="17"
+              @change="setGraphicVisibility($event)"
+            />
+            <ToggleButton
+              :value="true"
+              :labels="{checked:'Zones', unchecked:'Zones'}"
+              :width="115"
+              :height="30"
+              :font-size="17"
+              @change="setZoneLabelVisibility($event)"
+            />
+            <ToggleButton
+              :value="true"
+              :labels="{checked:'Items', unchecked:'Items'}"
+              :width="115"
+              :height="30"
+              :font-size="17"
+              @change="setItemVisibility($event)"
+            />
         </div>
         </div>
     </div>
@@ -43,7 +61,7 @@ import './elements/customerSlider.css'
 import {ToggleButton} from 'vue-js-toggle-button'
 
 import {CURRENT_ZONE_FIGHT, NUMBER_OF_ROUNDS, CURRENT_ROUND} from '../state/getters'
-import {SET_SIMPLE_MODE, CHANGE_ROUND, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
+import {CHANGE_ROUND, OPT_SET_GRAPHIC_VISIBILITY, OPT_SET_ZONE_VISIBILITY, OPT_SET_ITEM_VISIBILITY} from '../state/mutations'
 
 
 export default {
@@ -58,11 +76,11 @@ export default {
         VueSlider
     },
     methods:{
-        setSimpleMode: function({value}){
-            this.$store.commit(SET_SIMPLE_MODE, value)
-        },
         setRound: function(value){
             this.$store.commit(CHANGE_ROUND, value)
+        },
+        setGraphicVisibility: function({value}){
+            this.$store.commit(OPT_SET_GRAPHIC_VISIBILITY, value)
         },
         setZoneLabelVisibility: function({value}){
             this.$store.commit(OPT_SET_ZONE_VISIBILITY, value)
@@ -112,7 +130,7 @@ h1{
   padding-top:.3em;
   padding-bottom: .5em;
   justify-content: center;
-  
+
 }
 
 .control_bar > div {

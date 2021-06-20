@@ -5,11 +5,10 @@ import allBackstories from '../assets/data/backstories.json'
 import fighters from './fighter-loader'
 
 const defaultState = {
-    
+
     curSelected: "NA",
     curRound:0,
     roundData: allRounds,
-    simpleMode: false,
     metaMap: mapMeta,
     zoneDesc: zoneInfo,
     allFighters: fighters,
@@ -17,8 +16,9 @@ const defaultState = {
     localStorageAvailable: null,
     readingList:{},
     backstories: allBackstories,
-    showLabels: true,
-    showItems: false,
+    showGraphics: true,
+    showItems: true,
+    showLabels: true
 }
 
 export default defaultState;

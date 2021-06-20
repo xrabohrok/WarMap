@@ -31,7 +31,7 @@ const checkForNonSubmission = function(url){
 console.log('Loaded, use adapt_fighters(round number, round_json, bool-pyre-attacking')
 console.log('or use the gb loader adapt_grand_battle(round_num, round_data, tile_location, context)')
 console.log(`Duels must be processed and accepted first! `)
-console.log('consume_survey(fighters) requires the local server is running')
+console.log('consume_survey(survey_data) requires the local server is running')
 
 const upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
     
@@ -154,7 +154,7 @@ exports.adapt_grand_battle = function(round_num, round_data, tile_location, cont
 exports.consume_survey = async function(survey_data){
     // console.log(survey_data)
     for (const fighter of survey_data) {
-        console.log(fighter)
+        //console.log(fighter)
         if(isNaN(fighter.fighter_id)){
             console.log(`skipped ${fighter.fighter_id} : ${fighter.combatant_name}`)
             continue

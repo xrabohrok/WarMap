@@ -207,7 +207,7 @@ export default {
     padding: 2% 6% 10%;
     margin-top: -10px;
     margin-right: -10px;
-    
+
 }
 
 @media only screen and (max-width: 840px) {
@@ -373,14 +373,14 @@ export default {
     width: 60%;
     top: 30%;
     right: -10%;
-    filter: opacity(0.1);
+    filter: opacity(0.2);
 }
 .defendIcon {
     position: absolute;
     width: 60%;
     top: 30%;
     right: -10%;
-    filter: opacity(0.1);
+    filter: opacity(0.2);
 }
 .fightTitle {
     color: white;

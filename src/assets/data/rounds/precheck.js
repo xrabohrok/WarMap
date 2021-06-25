@@ -12,3 +12,6 @@ inputfile.forEach(rd => {
         console.log(`Something is up with ${rd.tile}`)
     }
 })
+
+console.log('done!')
+

@@ -2,7 +2,7 @@ const fs = require('fs')
 
 var args = process.argv.slice(2)
 
-if(args.find(a => a.includes("-h"))){
+if(args.find(a => a.includes("help"))){
     console.log('the grandBattle import script requires the following:'+
     '\n\tround argument: which round this should be marked to (1-9)'+
     '\n\tdata argument: path to a .json formatted file that includes the outcomes of the rounds'+
@@ -64,6 +64,6 @@ fighter_map.forEach((v,k) => flatmap[`${k}`] = v)
 var fighter_data = JSON.stringify(flatmap, null, 2)
 fs.writeFileSync('./new_allfighters.json', fighter_data)
 
-var round_data = JSON.stringify(map_round, null, 2)
-fs.writeFileSync(`./new_round-${round_num}.json`, round_data)
+var round_out = JSON.stringify(map_round, null, 2)
+fs.writeFileSync(`./new_round-${round_num}.json`, round_out)
 

@@ -1,4 +1,5 @@
 const fs = require('fs')
+const assert = require('assert')
 var args = process.argv.slice(2)
 
 if(args.find(a => a.includes("help"))){
@@ -6,7 +7,7 @@ if(args.find(a => a.includes("help"))){
     '\n\tround argument: which round this should be marked to (1-9)'+
     '\n\tdata argument: path to a .json formatted file that includes the outcomes of the rounds'+
     '\n\tpyre_attacking: true if pyre is attacking first this round, false if bastion'+
-    '\n\tgrandBattle_zones: comma delimited zones of the two grandbattle arenas')
+    '\n\tgrandbattle_zones: comma delimited zones of the two grandbattle arenas')
 
     return 0
 }
@@ -22,8 +23,9 @@ const round_data = require(filename)
 var context = args.find(a => a.includes('context'))
 var context = context == undefined ? "gb" : context.split('=')[1]
 
-var fighters = require('../src/assets/data/allfighters.json')
+var gb_zone_array = args.find(a => a.includes('grandbattle_zones')).split('=')[1].split(',')
 
+var fighters = require('../allfighters.json')
 var convert = require('./convert.js')
 
 const determine_tile_owner = function(tile){

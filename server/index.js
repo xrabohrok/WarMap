@@ -5,7 +5,7 @@ const fsp = require('fs').promises;
 const fs = require('fs');
 
 const readAvailableRounds = async function(){
-    let roundtype = /.*round\-\d\.json$/
+    let roundtype = /^round\-\d\.json$/
     let files = await fsp.readdir('./src/assets/data/rounds')
     return files.filter(f => roundtype.test(f))
 }

@@ -581,28 +581,43 @@
       1,
       2,
       4,
-      5
+      5,
+      3
     ],
     "link": [
       "https://imgur.com/a/ClKJyOH",
       "https://imgur.com/a/r4rmFPm",
       "https://imgur.com/a/6PqNr4f",
-      "https://imgur.com/a/oBsxaOj"
+      "https://imgur.com/a/oBsxaOj",
+      "https://imgur.com/a/fFwtWbS"
     ],
     "id": 21,
     "context": [
       "duel",
       "duel",
       "duel",
-      "duel"
+      "duel",
+      "gbn"
     ],
     "faction": [
       "bastion",
       "bastion",
       "bastion",
+      "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {      
+      "Andy (Derogatory)#6091 and PumpkinLeif#6045": {
+        "name": "Andy (Derogatory)#6091 and PumpkinLeif#6045",
+        "role": "Writer",
+        "contacts": {}
+      },
+      "Andy and Leif": {
+        "name": "Andy and Leif",
+        "role": "Artist",
+        "contacts": {}
+      }
+    },
     "backstory": "",
     "verified": true
   },
@@ -6825,36 +6840,6 @@
       "pyre"
     ],
     "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "376": {
-    "id": 376,
-    "name": "Benezra the Archivist",
-    "rounds": [
-      3
-    ],
-    "link": [
-      "https://imgur.com/a/fFwtWbS"
-    ],
-    "context": [
-      "gbn"
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "artists": {
-      "Andy (Derogatory)#6091 and PumpkinLeif#6045": {
-        "name": "Andy (Derogatory)#6091 and PumpkinLeif#6045",
-        "role": "Writer",
-        "contacts": {}
-      },
-      "Andy and Leif": {
-        "name": "Andy and Leif",
-        "role": "Artist",
-        "contacts": {}
-      }
-    },
     "backstory": "",
     "verified": false
   },

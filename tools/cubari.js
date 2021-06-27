@@ -2,6 +2,7 @@
 //round 2: https://git.io/JOXfB ; https://cubari.moe/read/gist/JOXfB/
 //round 3: https://git.io/JOXUt ; https://cubari.moe/read/gist/JOXUt/
 //round 4: https://git.io/JsMjl ; https://cubari.moe/read/gist/JsMjl/
+//round 5: https://git.io/JcJJF ; https://cubari.moe/read/gist/JcJJF/
 
 //pyre clash r5: https://git.io/Jnaek ; https://cubari.moe/read/gist/Jnaek/
 

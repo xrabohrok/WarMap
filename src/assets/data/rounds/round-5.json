@@ -1751,6 +1751,7 @@
     "attacker": "na",
     "owner": "na",
     "grandBattle": true,
+    "gbZone": "Beast Jungle",
     "clash": false,
     "items": [],
     "fighters": {
@@ -1777,6 +1778,7 @@
         423
       ]
     },
+    "note": "The flip tile is shown as the Lost City since it has not been chosen yet!",
     "outcome": {
       "pyre": "",
       "bastion": ""
@@ -2005,6 +2007,8 @@
     "attacker": "na",
     "owner": "na",
     "grandBattle": true,
+    "gbZone": "Emerald Hills",
+    "note": "The flip tile is shown as the Lost City since it has not been chosen yet!",
     "clash": false,
     "items": [],
     "fighters": {

@@ -1,0 +1,2 @@
+ node grandBattle.js round=5 data=../unprocessed/gb-r5-bj.json tile_location=g7
+ node grandBattle.js round=5 data=../unprocessed/gb-r5-eh.json tile_location=h8

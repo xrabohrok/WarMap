@@ -21,7 +21,7 @@ const round_data = require(filename)
 var context = args.find(a => a.includes('context'))
 var context = context == undefined ? "gb" : context.split('=')[1]
 
-var fighters = require('../src/assets/data/allfighters.json')
+var fighters = require('../allfighters.json')
 
 var convert = require('./convert.js')
 

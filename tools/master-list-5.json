@@ -6,12 +6,12 @@
   "cover": "https://i.imgur.com/PEzE8KZ.jpg",
   "chapters": {
     "1": {
-      "title": "The King's Players",
+      "title": "The King's Players, and The Marquis",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/DEKNqUu/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "2": {
       "title": "Rem",
@@ -19,7 +19,7 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/oYKsxMp/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "3": {
       "title": "Greenhorn",
@@ -27,7 +27,7 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/Qn697JR/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "4": {
       "title": "Benezra the Archivist",
@@ -35,7 +35,7 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/oBsxaOj/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "5": {
       "title": "12 Quiet Steps Ever Hunt Suspicious Deeds",
@@ -43,7 +43,7 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/XVdzaSZ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "6": {
       "title": "THE CAT",
@@ -51,7 +51,7 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/ozCh9bg/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "7": {
       "title": "Bronwyn",
@@ -59,935 +59,887 @@
       "groups": {
         "primary": "/proxy/api/imgur/chapter/wQY4KjN/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
     "8": {
-      "title": "The Marquis",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/DEKNqUu/"
-      },
-      "last_updated": "1624773306"
-    },
-    "9": {
       "title": "The MANY HANDS",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/2VORtYH/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "10": {
+    "9": {
       "title": "\"Long-Arms\" Ten Anong",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/0vIpYNv/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "11": {
+    "10": {
       "title": "Prince Leopold",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/WQ1qgZc/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "12": {
+    "11": {
       "title": "Cupid",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/SephVkn/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "13": {
+    "12": {
       "title": "20 Cresting Magma",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/SC3tKjp/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "14": {
+    "13": {
       "title": "Temurin",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/j3EZa5d/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "15": {
+    "14": {
       "title": "Keenblade",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/xxpgcMi/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "16": {
+    "15": {
       "title": "The Buried King",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/jQNmNag/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "17": {
+    "16": {
       "title": "Queen Paguroidea",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/BnYGZdn/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "18": {
+    "17": {
       "title": "Aubrey Chamberlain IV",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/DI52LWb/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "19": {
+    "18": {
       "title": "Zan",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/V2awpyt/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "20": {
+    "19": {
       "title": "Sabi",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/d8lhCzY/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "21": {
+    "20": {
       "title": "Mauveline",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/mZ6F7jA/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "22": {
+    "21": {
       "title": "Jude",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/CwfJNZm/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "23": {
+    "22": {
       "title": "Locher",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/DYzBkI6/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "24": {
+    "23": {
       "title": "Clearbell",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/egaE3Ol/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "25": {
+    "24": {
       "title": "Blanket Wizard",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/lrBuAuZ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "26": {
+    "25": {
       "title": "Jin Jin",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/AopRQcb/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "27": {
+    "26": {
       "title": "Leslie",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/tJaLykn/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "28": {
+    "27": {
       "title": "Mnem",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/LtSVkVx/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "29": {
+    "28": {
       "title": "Disassembly",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/zkhHQyq/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "30": {
+    "29": {
       "title": "Elsa Bee",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/CCddGNU/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "31": {
+    "30": {
       "title": "Mozz",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/4f2v6K6/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "32": {
+    "31": {
       "title": "Mori",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/jSwzqUM/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "33": {
+    "32": {
       "title": "Vesna & Jarilo",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/CByypFw/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "34": {
+    "33": {
       "title": "Scoria",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/MAYYbin/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "35": {
+    "34": {
       "title": "Kay Guinto-Quintana",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/Ddyb3K3/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "36": {
+    "35": {
       "title": "Netta",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/DODGsid/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "37": {
+    "36": {
       "title": "Fisher of Men",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/KKemodK/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "38": {
+    "37": {
       "title": "Kerry",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/lsOIkTJ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "39": {
-      "title": "Kloe Canular",
+    "38": {
+      "title": "Kloe Canular, 14 Windswept Meadows, and Milo",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/nFw8kaX/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "40": {
+    "39": {
       "title": "Razzberry Tallshark",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/sZHoPWC/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "41": {
-      "title": "Am-Sha-Ka Bedlam",
+    "40": {
+      "title": "Am-Sha-Ka Bedlam, and Triple-Seven Jackpot",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/nJvvoBn/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "42": {
+    "41": {
       "title": "56 Broken Spear",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/bgaKHuH/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "43": {
+    "42": {
       "title": "Lezaford",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/hjQk081/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "44": {
+    "43": {
       "title": "Fireonica",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/4juEp8U/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "45": {
+    "44": {
       "title": "Eliza & Wheels",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/4HrJbyq/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "46": {
+    "45": {
       "title": "Koma",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/dQnN4f5/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "47": {
+    "46": {
       "title": "A.M.O.R.",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/kdvjNrz/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "48": {
+    "47": {
       "title": "Solis",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/MhdHusU/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "49": {
+    "48": {
       "title": "Stylops Peldo",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/l1jrEp4/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "50": {
+    "49": {
       "title": "The Sour Fruit of Kebby-Ya",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/ZQwNz9U/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "51": {
+    "50": {
       "title": "Brazen Pun",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/dEcmsH0/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "52": {
+    "51": {
       "title": "Murder Cube",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/gI9utc4/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "53": {
+    "52": {
       "title": "Lutha-YY-Sur",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/GBPdkel/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "54": {
+    "53": {
       "title": "Pretzel Man",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/CnPB6CJ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "55": {
+    "54": {
       "title": "Lucille Evalume",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/ruFKZis/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "56": {
+    "55": {
       "title": "The Last Litany",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/P6yuyFM/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "57": {
+    "56": {
       "title": "Elena Hellfire",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/rZsH8fe/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "58": {
+    "57": {
       "title": "Galvar the Stubborn",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/wzGCxgO/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "59": {
+    "58": {
       "title": "IBFARSHAN",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/zYeSBqF/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "60": {
+    "59": {
       "title": "They of Many Names",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/vh96aej/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "61": {
+    "60": {
       "title": "GRAIL",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/qqyOnlT/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "62": {
+    "61": {
       "title": "Ink",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/TC4gAx2/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "63": {
+    "62": {
       "title": "28 Quicksilver",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/a7jQna9/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "64": {
+    "63": {
       "title": "Fog of Graves",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/kXikhrM/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "65": {
+    "64": {
       "title": "Udre Peru",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/vhUajB9/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "66": {
+    "65": {
       "title": "Xiton",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/MucHQOY/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "67": {
-      "title": "Vale & Sylvia",
+    "66": {
+      "title": "Vale & Sylvia, Sheba, and Agamir",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/rYmtTyB/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "68": {
+    "67": {
       "title": "Jaagup",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/mSP2Jw7/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "69": {
+    "68": {
       "title": "Mr. Scratch",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/QuHPWUP/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "70": {
+    "69": {
       "title": "Bei-Qi, Speaker of Truth",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/xMZAQxY/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "71": {
+    "70": {
       "title": "Cea & Yinda",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/WD1cDea/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "72": {
+    "71": {
       "title": "Arms Dealer",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/e8SfRUW/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "73": {
+    "72": {
       "title": "Scarlett & Venus",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/vGnGmMB/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "74": {
+    "73": {
       "title": "NIM",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/GL2pIqz/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "75": {
+    "74": {
       "title": "BESHKER",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/f7YTdMk/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "76": {
+    "75": {
       "title": "Cassia",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/GvDE5d1/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "77": {
+    "76": {
       "title": "Prophet Bilious",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/5uqR16z/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "78": {
+    "77": {
       "title": "Starla & The Bodyguard",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/P3D2NRQ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "79": {
+    "78": {
       "title": "Va'ashura",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/rqANoY3/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "80": {
+    "79": {
       "title": "Izra'Kis",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/rqANoY4/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "81": {
+    "80": {
       "title": "Kakal",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/jgKuZiG/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "82": {
+    "81": {
       "title": "Basil & Jeeves",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/G57tHeL/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "83": {
+    "82": {
       "title": "Svala",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/t4hCqaD/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "84": {
+    "83": {
       "title": "Oblivia Nyx",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/DkQqWRq/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "85": {
-      "title": "14 Windswept Meadows",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/nFw8kaX/"
-      },
-      "last_updated": "1624773306"
-    },
-    "86": {
+    "84": {
       "title": "Lassius & Ed",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/7iCjRfI/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "87": {
+    "85": {
       "title": "Last Wish",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/qWPokzM/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "88": {
+    "86": {
       "title": "Tammuz",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/hOal1Bf/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "89": {
+    "87": {
       "title": "Hess the Little",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/ksAaS36/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "90": {
+    "88": {
       "title": "Alessandra",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/yyOZp2y/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "91": {
+    "89": {
       "title": "The Prisoner",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/QWFJuwC/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "92": {
+    "90": {
       "title": "Zee",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/n3jR6Rt/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "93": {
+    "91": {
       "title": "Osso",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/ghiLxmx/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "94": {
+    "92": {
       "title": "Dregliege",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/fwfQfsc/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "95": {
-      "title": "Milo",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/nFw8kaX/"
-      },
-      "last_updated": "1624773306"
-    },
-    "96": {
+    "93": {
       "title": "Frogstar Inc",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/c5ZAWiK/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "97": {
+    "94": {
       "title": "The Old Man",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/XGVQ5Gr/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "98": {
+    "95": {
       "title": "Hoonzel & Grendel",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/UCRaak6/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "99": {
+    "96": {
       "title": "Headless Hunter",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/F8nDyPw/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "100": {
+    "97": {
       "title": "Harmony Pissblood",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/8U2LQQ7/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "101": {
+    "98": {
       "title": "Volik",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/6dgwB4O/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "102": {
+    "99": {
       "title": "Felix, Doomed",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/PTstffs/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "103": {
+    "100": {
       "title": "Marzu",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/v0FCcZX/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "104": {
+    "101": {
       "title": "Amelie Fyber",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/X0qngTl/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "105": {
+    "102": {
       "title": "The Scorched King",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/XDjFq59/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "106": {
+    "103": {
       "title": "Primrose",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/d7DcBPZ/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "107": {
+    "104": {
       "title": "Balthazar",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/7DJRDBO/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "108": {
+    "105": {
       "title": "Jared",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/JGtu2xz/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "109": {
+    "106": {
       "title": "4 Colossus Purged The Stain From Their Soul",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/Ob9oatY/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "110": {
+    "107": {
       "title": "Semnal Lux",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/3BIfFkV/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "111": {
+    "108": {
       "title": "Luka Dominé",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/kckKsoW/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "112": {
+    "109": {
       "title": "Baha & Levi",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/RbcFddf/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "113": {
+    "110": {
       "title": "O.M.B.F.",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/BE9o10o/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "114": {
+    "111": {
       "title": "Mosskeeper",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/BYCBSNX/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "115": {
-      "title": "Triple-Seven Jackpot",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/nJvvoBn/"
-      },
-      "last_updated": "1624773306"
-    },
-    "116": {
+    "112": {
       "title": "Wormwood",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/eAOqnp7/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "117": {
+    "113": {
       "title": "Kinra",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/F0YsyA7/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "118": {
+    "114": {
       "title": "Headhunter",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/liyBVO6/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "119": {
+    "115": {
       "title": "LaPlace",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/a5J6J71/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "120": {
+    "116": {
       "title": "Kerubiel",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/tEHZTRc/"
       },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     },
-    "121": {
+    "117": {
       "title": "Devilskin Legion",
       "volume": "5",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/83rK1NB/"
       },
-      "last_updated": "1624773306"
-    },
-    "122": {
-      "title": "Sheba",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/rYmtTyB/"
-      },
-      "last_updated": "1624773306"
-    },
-    "123": {
-      "title": "Agamir",
-      "volume": "5",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/rYmtTyB/"
-      },
-      "last_updated": "1624773306"
+      "last_updated": "1624829028"
     }
   }
 }

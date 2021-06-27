@@ -35,6 +35,7 @@ const newChapter = function(title, roundnum, link){
 }
 
 var excluded = []
+var linkMap = new Map()
 
 var chapterNum = 1
 for(const key of Object.keys(fighters)){
@@ -49,10 +50,35 @@ for(const key of Object.keys(fighters)){
         continue
     }
 
-    var id = matches[0].split('/')[2]
-    roundData.chapters[chapterNum] = newChapter(fighter.name, round, id)
-    chapterNum += 1
+    var imgurid = matches[0].split('/')[2]
+
+    //sort comics by imgurids to detect and group collabs
+    if(!linkMap.has(imgurid)){
+        linkMap.set(imgurid, [fighter.name])
+    }else{
+        var temp = linkMap.get(imgurid)
+        temp.push(fighter.name)
+        linkMap.set(imgurid, temp)
+    }
 }
+
+linkMap.forEach((value, key) => {
+
+    var chapterTitle = ""
+    if(value.length > 1){
+        chapterTitle = value.reduce((accumulator, currentVal, curIndex, source) =>{
+            if(curIndex == source.length-1){
+                return `${accumulator}, and ${currentVal}`
+            }
+            return `${accumulator}, ${currentVal}`
+        })
+    }else{
+        chapterTitle = value[0]
+    }
+
+    roundData.chapters[chapterNum] = newChapter(chapterTitle, round, key)
+    chapterNum += 1
+})
 
 if(excluded.length > 0){
     var excludedString = ""

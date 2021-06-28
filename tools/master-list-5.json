@@ -1,6 +1,6 @@
 {
   "title": "War For Rayuba Round 5",
-  "description": "=== DRAFT, NOT FINAL, PLEASE WAIT TO SHARE ===\r\n DOES NOT INCLUDE CLASHES, THE BIG PYRE COLLAB GB\r\n\r\nA War for Rayuba master set of comics for round 5.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!\r\n\r\n The following characters are not represented here:\r\n Erasmus, Princess Xanthe Magellan, Te-Shou Haath, Cecil & Mr. Green, Qala, Cherry Bomb, SEEKER, and Pandemonium,",
+  "description": "A War for Rayuba aggregate set of comics for round 5.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!\r\n\r\n The following characters are not represented here:\r\n Erasmus, Princess Xanthe Magellan, Te-Shou Haath, Cecil & Mr. Green, Qala, Cherry Bomb, SEEKER, and Pandemonium,",
   "artist": "Various artists on the WFR Discord (check each comic)",
   "author": "Various artists on the WFR Discord (check each comic)",
   "cover": "https://i.imgur.com/PEzE8KZ.jpg",
@@ -940,6 +940,54 @@
         "primary": "/proxy/api/imgur/chapter/83rK1NB/"
       },
       "last_updated": "1624829028"
+    },
+    "118": {
+      "title": "Ruin didn't agree to this.",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/FoVsxQj/"
+      },
+      "last_updated": "1624915624"
+    },
+    "119": {
+      "title": "Pyre Clash Submission - Chp 1: A Gift of Flame",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/x7snsVt/"
+      },
+      "last_updated": "1624915624"
+    },
+    "120": {
+      "title": "Pyre Clash Submission - Chp 2a: As Above/So Below",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/hQbAnGg/"
+      },
+      "last_updated": "1624915624"
+    },
+    "121": {
+      "title": "Pyre Clash Submission - Chp 2b: So Below/As Above",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/uyO2jIM/"
+      },
+      "last_updated": "1624915624"
+    },
+    "122": {
+      "title": "Pyre Clash Submission - Chp 3: Dreambreaker/Oathkeeper",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/u4fJulT/"
+      },
+      "last_updated": "1624915624"
+    },
+    "123": {
+      "title": "Bastion Clash Submission - Red Onyx Temple",
+      "volume": "1",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/PVDl6Ao/"
+      },
+      "last_updated": "1624915624"
     }
   }
 }

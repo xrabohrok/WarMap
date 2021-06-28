@@ -190,7 +190,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [
         64
@@ -199,6 +199,7 @@
         170
       ]
     },
+    "note": "Mauvelin Dies, Bastion obtains the Coiled Snake Sword.",
     "outcome": {
       "pyre": "lose",
       "bastion": "win"
@@ -481,7 +482,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "note": "Leopold Rex swaps to Bastion",
+    "events": [3]
   },
   "b2": {
     "location": "b2",
@@ -575,7 +577,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "note": "Marzu is slain!",
+    "events": [2]
   },
   "c11": {
     "location": "c11",
@@ -597,7 +600,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Hoonzel & Grendel are slain!",
+    "events": [2]
   },
   "c10": {
     "location": "c10",
@@ -615,7 +619,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c9": {
     "location": "c9",
@@ -715,7 +719,7 @@
     "location": "c4",
     "contest": true,
     "attacker": "bastion",
-    "owner": "bastion",
+    "owner": "pyre",
     "grandBattle": false,
     "clash": false,
     "items": [],
@@ -731,7 +735,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Blanket Wizard defects to Pyre",
+    "events": [3]
   },
   "c3": {
     "location": "c3",
@@ -847,7 +852,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Headless Hunter is Slain!",
+    "events": [2]
   },
   "d11": {
     "location": "d11",
@@ -869,7 +875,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "note": "Frogstar Inc. is Slain!",
+    "events": [2]
   },
   "d10": {
     "location": "d10",
@@ -887,7 +894,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d9": {
     "location": "d9",
@@ -1047,7 +1054,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Princess Xanthe Defects to Pyre",
+    "events": [3]
   },
   "d1": {
     "location": "d1",
@@ -1131,7 +1139,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "note": "Locher is Slain!",
+    "events": [2]
   },
   "e11": {
     "location": "e11",
@@ -1149,7 +1158,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e10": {
     "location": "e10",
@@ -1167,7 +1176,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e9": {
     "location": "e9",
@@ -1780,8 +1789,8 @@
     },
     "note": "The flip tile is shown as the Lost City since it has not been chosen yet!",
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "win",
+      "bastion": "lose"
     },
     "events": []
   },
@@ -1896,36 +1905,56 @@
   "h14": {
     "location": "h14",
     "contest": false,
-    "attacker": "na",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        30,
+        277,
+        12,
+        400
+      ],
+      "bastion": [
+        3,
+        78,
+        27,
+        159
+      ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "win",
+      "bastion": "lose"
     },
     "events": []
   },
   "h13": {
     "location": "h13",
     "contest": false,
-    "attacker": "na",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [
+        30,
+        277,
+        12,
+        400
+      ],
+      "bastion": [
+        3,
+        78,
+        27,
+        159
+      ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "win",
+      "bastion": "lose"
     },
     "events": []
   },
@@ -2039,8 +2068,8 @@
       ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },
@@ -3000,7 +3029,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Grail defects to Pyre",
+    "events": [3]
   },
   "l12": {
     "location": "l12",
@@ -3044,7 +3074,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Oblivia Syx Defects to Pyre",
+    "events": [3]
   },
   "l10": {
     "location": "l10",
@@ -3286,7 +3317,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "note": "Cupid defects to Pyre",
+    "events": [3]
   },
   "m11": {
     "location": "m11",

@@ -81,22 +81,26 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
     "link": [
       "https://imgur.com/gallery/RXHolnd",
       "https://photos.app.goo.gl/WGZ3K16tKKD2S1kZ9",
       "https://imgur.com/a/dhgFRUZ",
-      "https://imgur.com/a/7aQ9Yob"
+      "https://imgur.com/a/7aQ9Yob",
+      "https://imgur.com/a/PVDl6Ao"
     ],
     "id": 3,
     "context": [
       "duel",
       "gbs",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion",
@@ -324,18 +328,22 @@
     "name": "A Gorilla",
     "rounds": [
       1,
-      2
+      2,
+      5
     ],
     "link": [
       "https://imgur.com/a/MFlhvhe",
-      "https://imgur.com/a/M8nmZuZ"
+      "https://imgur.com/a/M8nmZuZ",
+      "https://cubari.moe/read/gist/Jnaek/"
     ],
     "id": 12,
     "context": [
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre"
     ],
@@ -606,7 +614,7 @@
       "bastion",
       "bastion"
     ],
-    "artists": {      
+    "artists": {
       "Andy (Derogatory)#6091 and PumpkinLeif#6045": {
         "name": "Andy (Derogatory)#6091 and PumpkinLeif#6045",
         "role": "Writer",
@@ -781,22 +789,26 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
     "link": [
       "https://imgur.com/a/sYfIwwD",
       "https://imgur.com/a/NJssAQg",
       "https://imgur.com/a/7KinDwU",
-      "https://imgur.com/a/sJbCdvK"
+      "https://imgur.com/a/sJbCdvK",
+      "https://imgur.com/a/PVDl6Ao"
     ],
     "id": 27,
     "context": [
       "duel",
       "gbs",
       "duel",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion",
@@ -860,22 +872,26 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
     "link": [
       "https://imgur.com/a/TybnZco",
       "https://imgur.com/a/3ZHxStc",
       "https://imgur.com/a/j0wF5D3",
-      "https://imgur.com/a/ibPgiEi"
+      "https://imgur.com/a/ibPgiEi",
+      "https://cubari.moe/read/gist/Jnaek/"
     ],
     "id": 30,
     "context": [
       "duel",
       "duel",
       "gbn",
-      "duel"
+      "duel",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre",
       "pyre",
@@ -2178,9 +2194,11 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion",
@@ -2190,13 +2208,15 @@
       "https://imgur.com/a/8z4Z31W",
       "https://imgur.com/a/7sIZSbk",
       "https://imgur.com/a/kMcF5SN",
-      "https://imgur.com/a/S5n7TK9"
+      "https://imgur.com/a/S5n7TK9",
+      "https://imgur.com/a/PVDl6Ao"
     ],
     "context": [
       "gbn",
       "duel",
       "gbs",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 78,
     "artists": {
@@ -4544,9 +4564,11 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
     "faction": [
+      "bastion",
       "bastion",
       "bastion",
       "bastion",
@@ -4556,13 +4578,15 @@
       "https://imgur.com/a/fl66TlQ",
       "https://imgur.com/a/a093hU8",
       "https://imgur.com/a/7IGc6iI",
-      "https://imgur.com/a/MTxcxZx"
+      "https://imgur.com/a/MTxcxZx",
+      "https://imgur.com/a/PVDl6Ao"
     ],
     "context": [
       "gbs",
       "duel",
       "gbn",
-      "duel"
+      "duel",
+      "clash"
     ],
     "id": 159,
     "artists": {},
@@ -5960,19 +5984,23 @@
     "rounds": [
       2,
       3,
-      4
+      4,
+      5
     ],
     "link": [
       "https://imgur.com/a/ecjX20Z",
       "https://imgur.com/a/E5tylFQ",
-      "https://imgur.com/a/aoy6z9d"
+      "https://imgur.com/a/aoy6z9d",
+      "https://cubari.moe/read/gist/Jnaek/"
     ],
     "context": [
       "duel",
       "duel",
-      "gbs"
+      "gbs",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre",
       "pyre",
       "pyre"
@@ -7374,15 +7402,19 @@
     "id": 400,
     "name": "Luu Waya",
     "rounds": [
-      4
+      4,
+      5
     ],
     "link": [
-      "https://imgur.com/a/gVlTP8X"
+      "https://imgur.com/a/gVlTP8X",
+      "https://cubari.moe/read/gist/Jnaek/"
     ],
     "context": [
-      "gbs"
+      "gbs",
+      "clash"
     ],
     "faction": [
+      "pyre",
       "pyre"
     ],
     "artists": {},

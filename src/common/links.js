@@ -1,4 +1,5 @@
 const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/mi
+const directCubariTest = /^(https:\/\/)?cubari\.moe\/.*/mi
 const twitterTest = /^(https:\/\/)twitter\.com/mi
 const tumblrTest = /^(https:\/\/).*\.tumblr\.com\/post\//mi
 
@@ -7,6 +8,7 @@ const linkLabel = function(link){
     if (imgrTest.test(link)) return "Imgur"
     if (twitterTest.test(link)) return "Twitter"
     if (tumblrTest.test(link)) return "Tumblr"
+    if (directCubariTest.test(link)) return "Cubari"
     return "Link"
 }
 
@@ -15,7 +17,13 @@ const cubariLink = function(link){
     const imgurIDPart = /\/(a|gallery)\/.......$/i
     var parts = link.match(imgurIDPart)
     
-    if(parts === null) return ""
+    if(parts === null){ 
+        //could be a cubari agragation link, weirder but possible
+        var sparts = link.match(directCubariTest)
+        if(sparts === null) return ""
+        return link
+    }
+    
     var id = parts[0].split('/')[2]
     return `https://cubari.moe/read/imgur/${id}/`
 }

@@ -6,5 +6,9 @@
     "2":{
         "name":"Duel to the Death",
         "rule":"Any match undertaken here will be forced into a deathmatch. The Loser dies and stays dead.  Winning a match here also allows the claiming of an additional tile adjacent to the match tile."
+    },
+    "3":{
+        "name":"Swap Tile",
+        "rule": "A fighter who loses while on this tile becomes permanently swapped to the opposite team.  The fighter and artist will now fight for the other faction, and their discord presence will be retooled to reflect that."
     }
 }

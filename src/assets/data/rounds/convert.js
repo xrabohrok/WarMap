@@ -16,75 +16,76 @@
 //pyre_fighter
 //pyre_comic_link
 
-
 // import { assert } from 'console';
-const fs = require('fs')
-const axios = require('axios')
-const fighters = require('../allfighters.json')
+const fs = require("fs")
+const axios = require("axios")
+const fighters = require("../allfighters.json")
 // const round = require('../empty-map-schema.js')
 
-const checkForNonSubmission = function(url){
-    if(url === "[no submission]") return "na"
-    return url
+const checkForNonSubmission = function(url) {
+  if (url === "[no submission]") return "na"
+  return url
 }
 
-exports.upsert_fighter = function(match, fighter_map, faction, lastId, round_num, context = 'duel'){
-    
-    let curFighter = null
+exports.upsert_fighter = function(
+  match,
+  fighter_map,
+  faction,
+  lastId,
+  round_num,
+  context = "duel"
+) {
+  let curFighter = null
 
-    for (const value of fighter_map.values()) {
-        if(value.name.trim().toLowerCase() === match[`${faction}_fighter`].trim().toLowerCase()){
-            curFighter = value
-            // console.log(`adding to ${value.name} 's entry`)
-            break
-        }
+  for (const value of fighter_map.values()) {
+    if (
+      value.name.trim().toLowerCase() ===
+      match[`${faction}_fighter`].trim().toLowerCase()
+    ) {
+      curFighter = value
+      // console.log(`adding to ${value.name} 's entry`)
+      break
     }
+  }
 
-    //var curFighter = fighter_map.find(f => f.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase())
-    var link = checkForNonSubmission(match[`${faction}_comic_link`])
-    link = derive_cubari_link(link)
+  //var curFighter = fighter_map.find(f => f.name.toLowerCase() === match[`${faction}_fighter`].toLowerCase())
+  var link = checkForNonSubmission(match[`${faction}_comic_link`])
+  link = derive_cubari_link(link)
 
-    var fighterId = curFighter != null ? curFighter.id : -1
-    if(fighterId === -1){
-        fighter_map.set(lastId+1, {
-            id: lastId + 1,
-            name: match[`${faction}_fighter`],
-            rounds: [round_num],
-            link: [link],
-            context: [context],
-            faction: [faction],
-            artists: {},
-            backstory: "",
-            verified: false  //new fighters need to be audited
-        })
-        console.log(`New Fighter ${fighter_map.get(lastId+1).name} fighter id : ${lastId+1}`)
-        return lastId + 1
-    }
+  var fighterId = curFighter != null ? curFighter.id : -1
+  if (fighterId === -1) {
+    fighter_map.set(lastId + 1, {
+      id: lastId + 1,
+      name: match[`${faction}_fighter`],
+      rounds: [round_num],
+      link: [link],
+      context: [context],
+      faction: [faction],
+      artists: {},
+      backstory: "",
+      verified: false //new fighters need to be audited
+    })
+    console.log(
+      `New Fighter ${fighter_map.get(lastId + 1).name} fighter id : ${lastId +
+        1}`
+    )
+    return lastId + 1
+  }
 
-    var fighter = fighter_map.get(fighterId)
-    fighter.rounds.push(round_num)
-    fighter.context.push(context)
-    fighter.faction.push(faction)
-    fighter.link.push(link)
-    return fighter.id
-    
+  var fighter = fighter_map.get(fighterId)
+  fighter.rounds.push(round_num)
+  fighter.context.push(context)
+  fighter.faction.push(faction)
+  fighter.link.push(link)
+  return fighter.id
 }
 
-const derive_cubari_link = function(link){
-    //https://cubari.moe/read/imgur/2t0kUUs/1/1/
+const derive_cubari_link = function(link) {
+  //https://cubari.moe/read/imgur/2t0kUUs/1/1/
 
-    const cubariLinkFormat = /^https:\/\/cubari\.moe\/read\/imgur\/......./i
-    if(!cubariLinkFormat.test(link))
-        return link
-    const imgurId = /\/\w\w\w\w\w\w\w/i
-    var index = link.match(imgurId)[0].slice(1)
-    return `https://imgur.com/a/${index}`
+  const cubariLinkFormat = /^https:\/\/cubari\.moe\/read\/imgur\/......./i
+  if (!cubariLinkFormat.test(link)) return link
+  const imgurId = /\/\w\w\w\w\w\w\w/i
+  var index = link.match(imgurId)[0].slice(1)
+  return `https://imgur.com/a/${index}`
 }
-
-
-
-
-
-
-
-

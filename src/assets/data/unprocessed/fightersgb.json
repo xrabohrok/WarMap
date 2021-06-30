@@ -1,1698 +1,860 @@
 [
   {
     "name": "Jin Jin",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/wdHzEfK"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/wdHzEfK"],
+    "context": ["gbn"],
     "id": 76
   },
   {
     "name": "Leslie",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/UX2fA2T"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/UX2fA2T"],
+    "context": ["gbn"],
     "id": 77
   },
   {
     "name": "Shoota",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/8z4Z31W"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/8z4Z31W"],
+    "context": ["gbn"],
     "id": 78
   },
   {
     "name": "Beshker & Harken",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/c14eDPV"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/c14eDPV"],
+    "context": ["gbn"],
     "id": 79
   },
   {
     "name": "Marian & Mugon",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Ws3QrWA"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Ws3QrWA"],
+    "context": ["gbn"],
     "id": 80
   },
   {
     "name": "Mnem",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/hVlgnHg"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/hVlgnHg"],
+    "context": ["gbn"],
     "id": 81
   },
   {
     "name": "Disassembly",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/PxUyDKF"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/PxUyDKF"],
+    "context": ["gbn"],
     "id": 82
   },
   {
     "name": "Elsa Bee",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/IFmBOyW"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/IFmBOyW"],
+    "context": ["gbn"],
     "id": 83
   },
   {
     "name": "Mozz",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/rNK32eC"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/rNK32eC"],
+    "context": ["gbn"],
     "id": 84
   },
   {
     "name": "Mori",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/gallery/aeVMvuz"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/gallery/aeVMvuz"],
+    "context": ["gbn"],
     "id": 85
   },
   {
     "name": "Vesna & Jarilo",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/jCyqeRU"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/jCyqeRU"],
+    "context": ["gbn"],
     "id": 86
   },
   {
     "name": "Scoria",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
     "link": [
       "https://drive.google.com/file/d/1Igz2Q8t93xC5ec5sYVPYt11MYMo2HIWz/view?usp=sharing"
     ],
-    "context": [
-      "gbn"
-    ],
+    "context": ["gbn"],
     "id": 87
   },
   {
     "name": "Kay Guinto-Quintana",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/SWpv8GT"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/SWpv8GT"],
+    "context": ["gbn"],
     "id": 88
   },
   {
     "name": "Thülanquoris Hesh",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/WhPMqej"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/WhPMqej"],
+    "context": ["gbn"],
     "id": 89
   },
   {
     "name": "Netta",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/GdnMIRT"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/GdnMIRT"],
+    "context": ["gbn"],
     "id": 90
   },
   {
     "name": "Fisher of Men",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/3p1wSGj"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/3p1wSGj"],
+    "context": ["gbn"],
     "id": 91
   },
   {
     "name": "Grace the Huntress",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/eO0vw0n"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/eO0vw0n"],
+    "context": ["gbn"],
     "id": 92
   },
   {
     "name": "Lassius",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/ho82CKQ"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/ho82CKQ"],
+    "context": ["gbn"],
     "id": 93
   },
   {
     "name": "The Aylwald",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Xnmoy4h"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Xnmoy4h"],
+    "context": ["gbn"],
     "id": 94
   },
   {
     "name": "Kinnip",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/EXDpZX5"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/EXDpZX5"],
+    "context": ["gbn"],
     "id": 95
   },
   {
     "name": "Kerry",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/VCg82Vb"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/VCg82Vb"],
+    "context": ["gbn"],
     "id": 96
   },
   {
     "name": "Kwaaiwese",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/xhUfHIR"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/xhUfHIR"],
+    "context": ["gbn"],
     "id": 97
   },
   {
     "name": "Kloe Canular",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/GfCS1ec"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/GfCS1ec"],
+    "context": ["gbn"],
     "id": 98
   },
   {
     "name": "Mataw Ady",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/wYZxwLZ"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/wYZxwLZ"],
+    "context": ["gbn"],
     "id": 99
   },
   {
     "name": "Gene Fauntleroy",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/NDGqWxv"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/NDGqWxv"],
+    "context": ["gbn"],
     "id": 100
   },
   {
     "name": "Saysandir",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/LAebo5j"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/LAebo5j"],
+    "context": ["gbn"],
     "id": 101
   },
   {
     "name": "Captain Marcus",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/bHX8RJo"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/bHX8RJo"],
+    "context": ["gbn"],
     "id": 102
   },
   {
     "name": "Razzberry Tallshark",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/CYx7xAX"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/CYx7xAX"],
+    "context": ["gbn"],
     "id": 103
   },
   {
     "name": "Am-Sha-Ka Bedlam",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Msvmndm"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Msvmndm"],
+    "context": ["gbn"],
     "id": 104
   },
   {
     "name": "Remiel Andronicus",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "[late submission, not scored]"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["[late submission, not scored]"],
+    "context": ["gbn"],
     "id": 105
   },
   {
     "name": "56 Broken Spear",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/zPc6pn9"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/zPc6pn9"],
+    "context": ["gbn"],
     "id": 106
   },
   {
     "name": "Thyme",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/QmmpUIG"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/QmmpUIG"],
+    "context": ["gbn"],
     "id": 107
   },
   {
     "name": "Orlan-MT",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/DRlcx0g"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/DRlcx0g"],
+    "context": ["gbn"],
     "id": 108
   },
   {
     "name": "Vessel & Living Dream",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
     "link": [
       "https://cdn.discordapp.com/attachments/805931663946940477/813264450516811806/the-vessel-and-the-living-dream_0_On-the-way-to-the-grand-battle_flat.jpg"
     ],
-    "context": [
-      "gbn"
-    ],
+    "context": ["gbn"],
     "id": 109
   },
   {
     "name": "Mekonnen vs. Yinda & Cea",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/MWbwEh0"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/MWbwEh0"],
+    "context": ["gbn"],
     "id": 110
   },
   {
     "name": "Izer Naam",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
     "link": [
       "https://drive.google.com/drive/folders/1L3nSIJGTw5U2nX-OS13RJaNHnEdMM2hY?usp=sharing"
     ],
-    "context": [
-      "gbn"
-    ],
+    "context": ["gbn"],
     "id": 111
   },
   {
     "name": "Lezaford",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/dQriUm9"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/dQriUm9"],
+    "context": ["gbn"],
     "id": 112
   },
   {
     "name": "Fireonica",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/esTJ2TW"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/esTJ2TW"],
+    "context": ["gbn"],
     "id": 113
   },
   {
     "name": "Scarlett Reed",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/HEPZN9Z"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/HEPZN9Z"],
+    "context": ["gbn"],
     "id": 114
   },
   {
     "name": "El Gran Diablo - Pyre Team",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/qg9RcfY"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/qg9RcfY"],
+    "context": ["gbn"],
     "id": 115
   },
   {
     "name": "El Gran Diablo - Elseways",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
     "link": [
       "https://sometimesihaveideas.tumblr.com/post/643778970837532672/elseways-and-bortagg-in-drinks-and-f-iendly"
     ],
-    "context": [
-      "gbn"
-    ],
+    "context": ["gbn"],
     "id": 116
   },
   {
     "name": "El Gran Diablo - Eliza&Wheels",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/rr4mnSw"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/rr4mnSw"],
+    "context": ["gbn"],
     "id": 117
   },
   {
     "name": "Koma",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/3ptslYv"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/3ptslYv"],
+    "context": ["gbn"],
     "id": 118
   },
   {
     "name": "Pacha Manka",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/2BrOMWT"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/2BrOMWT"],
+    "context": ["gbn"],
     "id": 119
   },
   {
     "name": "A.M.O.R",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/gallery/ZakmKEn"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/gallery/ZakmKEn"],
+    "context": ["gbn"],
     "id": 120
   },
   {
     "name": "Solis",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "[late submission, not scored]"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["[late submission, not scored]"],
+    "context": ["gbn"],
     "id": 121
   },
   {
     "name": "Corone",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/2e5pFve"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/2e5pFve"],
+    "context": ["gbn"],
     "id": 122
   },
   {
     "name": "Darcy",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/dEYtbLF"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/dEYtbLF"],
+    "context": ["gbn"],
     "id": 123
   },
   {
     "name": "Sekhmet & Apostle",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/1Rx9j8x"
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/1Rx9j8x"],
+    "context": ["gbn"],
     "id": 124
   },
   {
     "name": "Nipih",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Cvq6tlU  "
-    ],
-    "context": [
-      "gbn"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Cvq6tlU  "],
+    "context": ["gbn"],
     "id": 125
   },
   {
     "name": "The Red Hand of Ruin",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/1iPQAoO"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/1iPQAoO"],
+    "context": ["gbs"],
     "id": 126
   },
   {
     "name": "Stylops Peldo",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/pId7Urg"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/pId7Urg"],
+    "context": ["gbs"],
     "id": 127
   },
   {
     "name": "The Sour Fruit of Kebby-ya",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://wolkemesser.tumblr.com/post/643216359271137280"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://wolkemesser.tumblr.com/post/643216359271137280"],
+    "context": ["gbs"],
     "id": 128
   },
   {
     "name": "Brazen Pun",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/w515ZtB"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/w515ZtB"],
+    "context": ["gbs"],
     "id": 129
   },
   {
     "name": "Eris",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/xolN8eX"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/xolN8eX"],
+    "context": ["gbs"],
     "id": 130
   },
   {
     "name": "ACRIFOTG",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/Y1VppM9"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/Y1VppM9"],
+    "context": ["gbs"],
     "id": 131
   },
   {
     "name": "Murder Cube",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/3jRkscj"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/3jRkscj"],
+    "context": ["gbs"],
     "id": 132
   },
   {
     "name": "Scrumbis",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/f0cH89T"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/f0cH89T"],
+    "context": ["gbs"],
     "id": 133
   },
   {
     "name": "Lutha-YY-Sur",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "tumblr"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["tumblr"],
+    "context": ["gbs"],
     "id": 134
   },
   {
     "name": "Fu",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/OXhiEnP"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/OXhiEnP"],
+    "context": ["gbs"],
     "id": 135
   },
   {
     "name": "Pretzel Man",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/E6NXtPJ"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/E6NXtPJ"],
+    "context": ["gbs"],
     "id": 136
   },
   {
     "name": "Nalk Nuori",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "http://imgur.com/a/uqWmxjm"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["http://imgur.com/a/uqWmxjm"],
+    "context": ["gbs"],
     "id": 137
   },
   {
     "name": "Senki Dala Mozgalom",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/aHRcO6V"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/aHRcO6V"],
+    "context": ["gbs"],
     "id": 138
   },
   {
     "name": "Lucille Evalume",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/wVqLgl8"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/wVqLgl8"],
+    "context": ["gbs"],
     "id": 139
   },
   {
     "name": "The Last Litany",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/saHVIq1"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/saHVIq1"],
+    "context": ["gbs"],
     "id": 140
   },
   {
     "name": "Te-Shou Haath",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/5KMmr52#IpXtzjQ"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/5KMmr52#IpXtzjQ"],
+    "context": ["gbs"],
     "id": 141
   },
   {
     "name": "Elena Hellfire",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/ATnmU3U"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/ATnmU3U"],
+    "context": ["gbs"],
     "id": 142
   },
   {
     "name": "Thunder Bravo",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/naQOEqb"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/naQOEqb"],
+    "context": ["gbs"],
     "id": 143
   },
   {
     "name": "Exalted Raiment",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/XhYQdc6"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/XhYQdc6"],
+    "context": ["gbs"],
     "id": 144
   },
   {
     "name": "Al Kas Tur",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/K3FOBBB"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/K3FOBBB"],
+    "context": ["gbs"],
     "id": 145
   },
   {
     "name": "Turibas",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Gy1nKPp"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Gy1nKPp"],
+    "context": ["gbs"],
     "id": 146
   },
   {
     "name": "Galvar the Stubborn",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/5HUkz5b"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/5HUkz5b"],
+    "context": ["gbs"],
     "id": 147
   },
   {
     "name": "Venus & Scarlett",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/eV5w0fc"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/eV5w0fc"],
+    "context": ["gbs"],
     "id": 148
   },
   {
     "name": "IBFARSHAN",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/5zBXkHK"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/5zBXkHK"],
+    "context": ["gbs"],
     "id": 149
   },
   {
     "name": "Orion",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://twitter.com/silvertealeaf1/status/1363641302269775875"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://twitter.com/silvertealeaf1/status/1363641302269775875"],
+    "context": ["gbs"],
     "id": 150
   },
   {
     "name": "Technique of Relief",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/IxQwrR5"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/IxQwrR5"],
+    "context": ["gbs"],
     "id": 151
   },
   {
     "name": "They of Many Names",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/wttEYhq"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/wttEYhq"],
+    "context": ["gbs"],
     "id": 152
   },
   {
     "name": "Coffee Coffee Cake",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/jJWoJBC"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/jJWoJBC"],
+    "context": ["gbs"],
     "id": 153
   },
   {
     "name": "Rudy Pembrook",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/61XagiC"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/61XagiC"],
+    "context": ["gbs"],
     "id": 154
   },
   {
     "name": "GRAIL",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/nJmjkxp"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/nJmjkxp"],
+    "context": ["gbs"],
     "id": 155
   },
   {
     "name": "Ink",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/HcnSEU7"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/HcnSEU7"],
+    "context": ["gbs"],
     "id": 156
   },
   {
     "name": "MOd",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/B6Nm8s9"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/B6Nm8s9"],
+    "context": ["gbs"],
     "id": 157
   },
   {
     "name": "Red Helmet",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/xbGGvw8"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/xbGGvw8"],
+    "context": ["gbs"],
     "id": 158
   },
   {
     "name": "Victorious Flame",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/fl66TlQ"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/fl66TlQ"],
+    "context": ["gbs"],
     "id": 159
   },
   {
     "name": "28 Quicksilver",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/JSE0eCn"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/JSE0eCn"],
+    "context": ["gbs"],
     "id": 160
   },
   {
     "name": "Fog of Graves",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/Xzfmbqa"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/Xzfmbqa"],
+    "context": ["gbs"],
     "id": 161
   },
   {
     "name": "Udre Peru",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/Mne3Q5N"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/Mne3Q5N"],
+    "context": ["gbs"],
     "id": 162
   },
   {
     "name": "Xiton",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/n0J49uK"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/n0J49uK"],
+    "context": ["gbs"],
     "id": 163
   },
   {
     "name": "Saturos Cratosaturius",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/8P5hIKw"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/8P5hIKw"],
+    "context": ["gbs"],
     "id": 164
   },
   {
     "name": "Vale & Sylvia",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/xqt3Cgq"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/xqt3Cgq"],
+    "context": ["gbs"],
     "id": 165
   },
   {
     "name": "Impo",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/b3Vvwfl"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/b3Vvwfl"],
+    "context": ["gbs"],
     "id": 166
   },
   {
     "name": "Enorog",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/VNhzocy"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/VNhzocy"],
+    "context": ["gbs"],
     "id": 167
   },
   {
     "name": "Inami",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/gallery/d3bfaAB"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/gallery/d3bfaAB"],
+    "context": ["gbs"],
     "id": 168
   },
   {
     "name": "Marissa Oran",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/fSW3wiC"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/fSW3wiC"],
+    "context": ["gbs"],
     "id": 169
   },
   {
     "name": "Jaagup",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://www.kitkat.cafe/jaagup/grand-nap"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://www.kitkat.cafe/jaagup/grand-nap"],
+    "context": ["gbs"],
     "id": 170
   },
   {
     "name": "Grace Thoruson",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/0oxzaxE"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/0oxzaxE"],
+    "context": ["gbs"],
     "id": 171
   },
   {
     "name": "Koji Ten Hekati",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/aNvrRKp"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/aNvrRKp"],
+    "context": ["gbs"],
     "id": 172
   },
   {
     "name": "Cecil & Mr. Green",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/aT91Fhs"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/aT91Fhs"],
+    "context": ["gbs"],
     "id": 173
   },
   {
     "name": "G.O.R.E.",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/gallery/0thWGWU"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/gallery/0thWGWU"],
+    "context": ["gbs"],
     "id": 174
   },
   {
     "name": "Mamuthon & Marcus",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/SWJtVgp"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/SWJtVgp"],
+    "context": ["gbs"],
     "id": 175
   },
   {
     "name": "Starla & the Bodyguard",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/dhFJmw5"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/dhFJmw5"],
+    "context": ["gbs"],
     "id": 176
   },
   {
     "name": "Murien Azur-Or",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/ivNuTwn"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/ivNuTwn"],
+    "context": ["gbs"],
     "id": 177
   },
   {
     "name": "Agyp Aghta",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
     "link": [
       "https://www.deviantart.com/kadanungra/gallery/77251768/agyp-vs-murien-war-for-rayuba"
     ],
-    "context": [
-      "gbs"
-    ],
+    "context": ["gbs"],
     "id": 178
   },
   {
     "name": "Vangheist",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/5EbOE3F"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/5EbOE3F"],
+    "context": ["gbs"],
     "id": 179
   },
   {
     "name": "Mr. Scratch",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "bastion"
-    ],
-    "link": [
-      "https://imgur.com/a/KNeP2XU"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["bastion"],
+    "link": ["https://imgur.com/a/KNeP2XU"],
+    "context": ["gbs"],
     "id": 180
   },
   {
     "name": "Bei-Qi",
-    "rounds": [
-      1
-    ],
-    "faction": [
-      "pyre"
-    ],
-    "link": [
-      "https://imgur.com/a/iMBozjr"
-    ],
-    "context": [
-      "gbs"
-    ],
+    "rounds": [1],
+    "faction": ["pyre"],
+    "link": ["https://imgur.com/a/iMBozjr"],
+    "context": ["gbs"],
     "id": 181
   }
 ]

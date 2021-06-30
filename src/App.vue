@@ -1,28 +1,28 @@
 <template>
   <div id="app" class="main">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
 
 /*map labels*/
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 /*title*/
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 
-html{
+html {
   background-color: #3e112b;
 }
 
-body{
+body {
   margin: 0px;
   overflow: hidden;
 }
 
-.main{
+.main {
   color: #e37e30;
   border-color: #9c031f;
   overflow: clip;
@@ -30,20 +30,20 @@ body{
 }
 
 /*vertical screens like ipads or sideways monitors*/
-@media only screen and (max-width: 1000px){
-  .main{
-    font-size: .95em;
+@media only screen and (max-width: 1000px) {
+  .main {
+    font-size: 0.95em;
   }
 }
 
 @media only screen and (max-width: 840px) {
   .main {
-      font-size: 4.2vw;
-      overflow: hidden;
+    font-size: 4.2vw;
+    overflow: hidden;
   }
 }
 
-.secondary{
+.secondary {
   background-color: #631042;
   color: #f2a91d;
   border-color: #9c031f;

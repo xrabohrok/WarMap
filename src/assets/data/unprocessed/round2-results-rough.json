@@ -1,402 +1,402 @@
 [
-	{
-		"tile": "D10",
-		"bastion_fighter": "Fireonica",
-		"bastion_comic_link": "https://imgur.com/a/n66zIYa",
-		"pyre_fighter": "Enorog",
-		"pyre_comic_link": "https://imgur.com/a/APSVQXI",
-		"winner": "Enorog"
-	},
-	{
-		"tile": "D13",
-		"bastion_fighter": "Vessel and Living Dream",
-		"bastion_comic_link": "https://imgur.com/a/mvWMVdu",
-		"pyre_fighter": "Last Litany",
-		"pyre_comic_link": "https://imgur.com/a/fhwzgTA",
-		"winner": "Vessel and Living Dream"
-	},
-	{
-		"tile": "E9",
-		"bastion_fighter": "Vesna and Jarilo",
-		"bastion_comic_link": "https://imgur.com/a/KFpLDZ5",
-		"pyre_fighter": "Cea & Yinda",
-		"pyre_comic_link": "https://imgur.com/a/kT7WXAV",
-		"winner": "Vesna and Jarilo"
-	},
-	{
-		"tile": "E11",
-		"bastion_fighter": "Koji Ten Hekati",
-		"bastion_comic_link": "https://imgur.com/a/MEPXHLe",
-		"pyre_fighter": "Saysandir",
-		"pyre_comic_link": "https://imgur.com/a/VbV1vKg",
-		"winner": "Saysandir"
-	},
-	{
-		"tile": "E12",
-		"bastion_fighter": "Lucille Evalume",
-		"bastion_comic_link": "https://imgur.com/a/MCSMSTn",
-		"pyre_fighter": "Bei-Qi",
-		"pyre_comic_link": "https://imgur.com/a/euvVSdi",
-		"winner": "Bei-Qi"
-	},
-	{
-		"tile": "F8",
-		"bastion_fighter": "Victorious Flame",
-		"bastion_comic_link": "https://imgur.com/a/a093hU8",
-		"pyre_fighter": "IBFARSHAN",
-		"pyre_comic_link": "https://imgur.com/a/e048thq",
-		"winner": "Victorious Flame"
-	},
-	{
-		"tile": "F10",
-		"bastion_fighter": "Orion",
-		"bastion_comic_link": "https://twitter.com/archth3y/status/1373438539464118274",
-		"pyre_fighter": "Prayer of the Refugee",
-		"pyre_comic_link": "[no submission]",
-		"winner": "Orion"
-	},
-	{
-		"tile": "F11",
-		"bastion_fighter": "Netta",
-		"bastion_comic_link": "https://imgur.com/a/9RNLvXL",
-		"pyre_fighter": "Ogira-Sor",
-		"pyre_comic_link": "https://imgur.com/a/XA7eoP7",
-		"winner": "Ogira-Sor"
-	},
-	{
-		"tile": "F12",
-		"bastion_fighter": "Count Log",
-		"bastion_comic_link": "google // pdf",
-		"pyre_fighter": "A Gorilla",
-		"pyre_comic_link": "https://imgur.com/a/M8nmZuZ",
-		"winner": "A Gorilla"
-	},
-	{
-		"tile": "F13",
-		"bastion_fighter": "Prisoner Tallshark",
-		"bastion_comic_link": "https://imgur.com/gallery/IsFeuxg",
-		"pyre_fighter": "Ink",
-		"pyre_comic_link": "https://imgur.com/a/bFhEaGk",
-		"winner": "Prisoner Tallshark"
-	},
-	{
-		"tile": "F14",
-		"bastion_fighter": "Nipih mar Immunsu",
-		"bastion_comic_link": "[late submission]",
-		"pyre_fighter": "Kimobe",
-		"pyre_comic_link": "https://imgur.com/a/3asmfSn",
-		"winner": "Kimobe"
-	},
-	{
-		"tile": "G10",
-		"bastion_fighter": "GRAIL",
-		"bastion_comic_link": "https://imgur.com/gallery/wKRpuD4",
-		"pyre_fighter": "Smohg",
-		"pyre_comic_link": "https://imgur.com/a/R2fdm44",
-		"winner": "GRAIL"
-	},
-	{
-		"tile": "H10",
-		"bastion_fighter": "Kloe Canular & Alex",
-		"bastion_comic_link": "https://imgur.com/a/XR4wDpW",
-		"pyre_fighter": "Inami",
-		"pyre_comic_link": "https://imgur.com/gallery/SQUEtYR",
-		"winner": "Kloe Canular & Alex"
-	},
-	{
-		"tile": "I5",
-		"bastion_fighter": "Keenblade",
-		"bastion_comic_link": "https://imgur.com/a/efcn2It",
-		"pyre_fighter": "Arms Dealer",
-		"pyre_comic_link": "https://imgur.com/gallery/QWxqmxp",
-		"winner": "Keenblade"
-	},
-	{
-		"tile": "I7",
-		"bastion_fighter": "Long-Arms Ten Anong",
-		"bastion_comic_link": "https://imgur.com/a/XnESFH9",
-		"pyre_fighter": "Purity",
-		"pyre_comic_link": "https://imgur.com/a/McFOwa4",
-		"winner": "Purity"
-	},
-	{
-		"tile": "I9",
-		"bastion_fighter": "Enoch Nomes",
-		"bastion_comic_link": "https://imgur.com/a/7GRczuQ",
-		"pyre_fighter": "Ku",
-		"pyre_comic_link": "twitter // pdf",
-		"winner": "Ku"
-	},
-	{
-		"tile": "I10",
-		"bastion_fighter": "Temurin",
-		"bastion_comic_link": "https://imgur.com/a/XYfKV0l",
-		"pyre_fighter": "Leslie",
-		"pyre_comic_link": "https://imgur.com/a/s31MUvH",
-		"winner": "Leslie"
-	},
-	{
-		"tile": "J7",
-		"bastion_fighter": "Mr. Scratch",
-		"bastion_comic_link": "https://imgur.com/gallery/1JGMv4l",
-		"pyre_fighter": "Tetem & The Rat",
-		"pyre_comic_link": "https://imgur.com/a/ICGLXnD",
-		"winner": "Tetem & The Rat"
-	},
-	{
-		"tile": "J8",
-		"bastion_fighter": "The Marquis",
-		"bastion_comic_link": "https://imgur.com/gallery/bDax5gs",
-		"pyre_fighter": "Mori",
-		"pyre_comic_link": "https://imgur.com/a/cpxWRJP",
-		"winner": "The Marquis"
-	},
-	{
-		"tile": "J9",
-		"bastion_fighter": "LUTHA-YY-SUR",
-		"bastion_comic_link": "https://imgur.com/gallery/AF7tXOX",
-		"pyre_fighter": "Al Railcatcher",
-		"pyre_comic_link": "https://imgur.com/a/3ZHxStc",
-		"winner": "LUTHA-YY-SUR"
-	},
-	{
-		"tile": "K6",
-		"bastion_fighter": "0 REPENTANT KILLSTAR SHATTERS RUIN",
-		"bastion_comic_link": "https://twitter.com/KingOfSeagulls/status/1373366654827073537",
-		"pyre_fighter": "Udre Peru",
-		"pyre_comic_link": "https://imgur.com/a/tisnmhG",
-		"winner": "0 REPENTANT KILLSTAR SHATTERS RUIN"
-	},
-	{
-		"tile": "L3",
-		"bastion_fighter": "Grandmother Silence",
-		"bastion_comic_link": "https://imgur.com/gallery/mdCcXIl",
-		"pyre_fighter": "Red Hand of Ruin",
-		"pyre_comic_link": "https://imgur.com/a/t5mwjzk",
-		"winner": "Grandmother Silence"
-	},
-	{
-		"tile": "L5",
-		"bastion_fighter": "They of Many Names",
-		"bastion_comic_link": "https://imgur.com/a/ow4rdLI",
-		"pyre_fighter": "Trismegistus",
-		"pyre_comic_link": "https://imgur.com/a/0wx1vnC",
-		"winner": "They of Many Names"
-	},
-	{
-		"tile": "M2",
-		"bastion_fighter": "The Emerald Mote",
-		"bastion_comic_link": "https://imgur.com/a/xNO8kx3",
-		"pyre_fighter": "Thulanquoris",
-		"pyre_comic_link": "https://imgur.com/a/TOfTXBA",
-		"winner": "The Emerald Mote"
-	},
-	{
-		"tile": "D14",
-		"bastion_fighter": "Murder Cube",
-		"bastion_comic_link": "https://imgur.com/a/HRZGfWq",
-		"pyre_fighter": "Red Helmet",
-		"pyre_comic_link": "https://imgur.com/a/CaVIDKR",
-		"winner": "Murder Cube"
-	},
-	{
-		"tile": "B11",
-		"bastion_fighter": "Stylops Peldo",
-		"bastion_comic_link": "https://imgur.com/a/QerpHJJ",
-		"pyre_fighter": "(I want to be) Bride of Jagganoth",
-		"pyre_comic_link": "https://imgur.com/a/mZgyOA7",
-		"winner": "Stylops Peldo"
-	},
-	{
-		"tile": "C9",
-		"bastion_fighter": "Darcy",
-		"bastion_comic_link": "[late submission]",
-		"pyre_fighter": "Elsa Bee",
-		"pyre_comic_link": "https://imgur.com/a/WMea8th",
-		"winner": "Elsa Bee"
-	},
-	{
-		"tile": "C10",
-		"bastion_fighter": "Mozz",
-		"bastion_comic_link": "https://imgur.com/a/Aoiqti3",
-		"pyre_fighter": "Remiel",
-		"pyre_comic_link": "https://photos.google.com/share/AF1QipMu3H8uFa_qZ0-6FIYR0-sQrQaLZh9DiKd6lfP00e-uC5_1Ab3goUtyAcCkYkmROw?key=a0cwbWN6TUhpRzBmZHhSTkJ2SWtwMDdhQksyaVNn",
-		"winner": "Remiel"
-	},
-	{
-		"tile": "D8",
-		"bastion_fighter": "Benezra The Archivist",
-		"bastion_comic_link": "https://imgur.com/a/r4rmFPm",
-		"pyre_fighter": "Death Dealer",
-		"pyre_comic_link": "https://imgur.com/gallery/X7WQmvw",
-		"winner": "Death Dealer"
-	},
-	{
-		"tile": "D9",
-		"bastion_fighter": "Scarlett & Venus",
-		"bastion_comic_link": "https://imgur.com/a/EJ2K2FJ",
-		"pyre_fighter": "SUKI",
-		"pyre_comic_link": "https://imgur.com/gallery/b1pK8fG",
-		"winner": "SUKI"
-	},
-	{
-		"tile": "D12",
-		"bastion_fighter": "Thyme",
-		"bastion_comic_link": "https://imgur.com/a/u7Xtvsb",
-		"pyre_fighter": "NIM",
-		"pyre_comic_link": "https://imgur.com/gallery/db0hqAu",
-		"winner": "Nim"
-	},
-	{
-		"tile": "E7",
-		"bastion_fighter": "Shoota",
-		"bastion_comic_link": "https://imgur.com/a/7sIZSbk",
-		"pyre_fighter": "Elena",
-		"pyre_comic_link": "https://imgur.com/a/LgrQt3F",
-		"winner": "Shoota"
-	},
-	{
-		"tile": "E8",
-		"bastion_fighter": "Pitty",
-		"bastion_comic_link": "https://imgur.com/a/B1Zeslq",
-		"pyre_fighter": "ACRIFOTG",
-		"pyre_comic_link": "https://imgur.com/a/2km4eiO",
-		"winner": "ACRIFOTG"
-	},
-	{
-		"tile": "E10",
-		"bastion_fighter": "The Cat",
-		"bastion_comic_link": "https://imgur.com/a/0m7jzGD",
-		"pyre_fighter": "Bortagg",
-		"pyre_comic_link": "https://imgur.com/a/03vYNDq",
-		"winner": "The Cat"
-	},
-	{
-		"tile": "E13",
-		"bastion_fighter": "Jaagup",
-		"bastion_comic_link": "https://www.kitkat.cafe/portfolio/jaagup/torpors-end",
-		"pyre_fighter": "Lord 20",
-		"pyre_comic_link": "[late submission]",
-		"winner": "Jaagup"
-	},
-	{
-		"tile": "F7",
-		"bastion_fighter": "Tomyris",
-		"bastion_comic_link": "https://i.imgur.com/Cv9K9umh.jpg",
-		"pyre_fighter": "Saturos",
-		"pyre_comic_link": "https://imgur.com/a/KXU4FEM",
-		"winner": "Saturos"
-	},
-	{
-		"tile": "G9",
-		"bastion_fighter": "Fog of Graves",
-		"bastion_comic_link": "google // imgur",
-		"pyre_fighter": "Murien Azur-Or",
-		"pyre_comic_link": "https://imgur.com/a/iXuJPuf",
-		"winner": "Fog of Graves"
-	},
-	{
-		"tile": "H4",
-		"bastion_fighter": "Akuhoshi",
-		"bastion_comic_link": "https://imgur.com/a/EJL6Y9L",
-		"pyre_fighter": "Brazen Pun",
-		"pyre_comic_link": "https://imgur.com/a/0kld9Jb",
-		"winner": "Brazen Pun"
-	},
-	{
-		"tile": "H5",
-		"bastion_fighter": "The Children of Arutan",
-		"bastion_comic_link": "[late submission]",
-		"pyre_fighter": "AMOR",
-		"pyre_comic_link": "https://imgur.com/gallery/HWFu57U",
-		"winner": "AMOR"
-	},
-	{
-		"tile": "H6",
-		"bastion_fighter": "Lassius",
-		"bastion_comic_link": "https://imgur.com/gallery/fTLsnWB",
-		"pyre_fighter": "CORONE",
-		"pyre_comic_link": "https://imgur.com/a/xQglkzf",
-		"winner": "Lassius"
-	},
-	{
-		"tile": "H9",
-		"bastion_fighter": "Thunder Bravo",
-		"bastion_comic_link": "https://imgur.com/gallery/MT3Ih86",
-		"pyre_fighter": "TOR",
-		"pyre_comic_link": "https://imgur.com/a/Kt62yrX",
-		"winner": "TOR"
-	},
-	{
-		"tile": "I4",
-		"bastion_fighter": "Kay Guinto-Quintana",
-		"bastion_comic_link": "https://imgur.com/a/6TV5fbm",
-		"pyre_fighter": "BESHKER",
-		"pyre_comic_link": "https://imgur.com/a/daa1SaY",
-		"winner": "Kay Guinto-Quintana"
-	},
-	{
-		"tile": "I6",
-		"bastion_fighter": "Page Turner",
-		"bastion_comic_link": "https://imgur.com/a/WBkwRJw",
-		"pyre_fighter": "Sour Fruit of Kebby-Ya",
-		"pyre_comic_link": "https://imgur.com/gallery/aFuNXlP",
-		"winner": "Page Turner"
-	},
-	{
-		"tile": "I8",
-		"bastion_fighter": "Irdunbrih",
-		"bastion_comic_link": "drive // imgur // google site",
-		"pyre_fighter": "Troll Queen",
-		"pyre_comic_link": "https://imgur.com/a/PAJJrhD",
-		"winner": "Irdunbrih"
-	},
-	{
-		"tile": "J4",
-		"bastion_fighter": "Scarlett Reed",
-		"bastion_comic_link": "discord // imgur",
-		"pyre_fighter": "Gilebren",
-		"pyre_comic_link": "https://imgur.com/a/VpDCM25",
-		"winner": "Gilebren"
-	},
-	{
-		"tile": "J5",
-		"bastion_fighter": "Mikan",
-		"bastion_comic_link": "https://imgur.com/a/SMcwQpB",
-		"pyre_fighter": "Gene Fauntleroy",
-		"pyre_comic_link": "https://imgur.com/a/6vOYXF3",
-		"winner": "Gene Fauntleroy"
-	},
-	{
-		"tile": "K2",
-		"bastion_fighter": "Cassia",
-		"bastion_comic_link": "https://imgur.com/a/lWv4VJL",
-		"pyre_fighter": "Korgranx",
-		"pyre_comic_link": "https://imgur.com/a/Mvf9gUo",
-		"winner": "Cassia"
-	},
-	{
-		"tile": "K3",
-		"bastion_fighter": "Turibas, The Bear King",
-		"bastion_comic_link": "https://imgur.com/a/tbeoqkh",
-		"pyre_fighter": "Mamuthon",
-		"pyre_comic_link": "https://imgur.com/a/ecjX20Z",
-		"winner": "Mamuthon"
-	},
-	{
-		"tile": "K4",
-		"bastion_fighter": "Am-Sha-Ka Bedlam",
-		"bastion_comic_link": "https://imgur.com/a/mlhuiO1",
-		"pyre_fighter": "Gandie Moore",
-		"pyre_comic_link": "https://imgur.com/a/BCzWsK2",
-		"winner": "Gandie Moore"
-	},
-	{
-		"tile": "M3",
-		"bastion_fighter": "Cecil and Mr.Green",
-		"bastion_comic_link": "https://imgur.com/gallery/kkqyWx2",
-		"pyre_fighter": "Saxum, The Lord of Lies",
-		"pyre_comic_link": "https://imgur.com/a/NBGS9E3",
-		"winner": "Cecil and Mr.Green"
-	}
+  {
+    "tile": "D10",
+    "bastion_fighter": "Fireonica",
+    "bastion_comic_link": "https://imgur.com/a/n66zIYa",
+    "pyre_fighter": "Enorog",
+    "pyre_comic_link": "https://imgur.com/a/APSVQXI",
+    "winner": "Enorog"
+  },
+  {
+    "tile": "D13",
+    "bastion_fighter": "Vessel and Living Dream",
+    "bastion_comic_link": "https://imgur.com/a/mvWMVdu",
+    "pyre_fighter": "Last Litany",
+    "pyre_comic_link": "https://imgur.com/a/fhwzgTA",
+    "winner": "Vessel and Living Dream"
+  },
+  {
+    "tile": "E9",
+    "bastion_fighter": "Vesna and Jarilo",
+    "bastion_comic_link": "https://imgur.com/a/KFpLDZ5",
+    "pyre_fighter": "Cea & Yinda",
+    "pyre_comic_link": "https://imgur.com/a/kT7WXAV",
+    "winner": "Vesna and Jarilo"
+  },
+  {
+    "tile": "E11",
+    "bastion_fighter": "Koji Ten Hekati",
+    "bastion_comic_link": "https://imgur.com/a/MEPXHLe",
+    "pyre_fighter": "Saysandir",
+    "pyre_comic_link": "https://imgur.com/a/VbV1vKg",
+    "winner": "Saysandir"
+  },
+  {
+    "tile": "E12",
+    "bastion_fighter": "Lucille Evalume",
+    "bastion_comic_link": "https://imgur.com/a/MCSMSTn",
+    "pyre_fighter": "Bei-Qi",
+    "pyre_comic_link": "https://imgur.com/a/euvVSdi",
+    "winner": "Bei-Qi"
+  },
+  {
+    "tile": "F8",
+    "bastion_fighter": "Victorious Flame",
+    "bastion_comic_link": "https://imgur.com/a/a093hU8",
+    "pyre_fighter": "IBFARSHAN",
+    "pyre_comic_link": "https://imgur.com/a/e048thq",
+    "winner": "Victorious Flame"
+  },
+  {
+    "tile": "F10",
+    "bastion_fighter": "Orion",
+    "bastion_comic_link": "https://twitter.com/archth3y/status/1373438539464118274",
+    "pyre_fighter": "Prayer of the Refugee",
+    "pyre_comic_link": "[no submission]",
+    "winner": "Orion"
+  },
+  {
+    "tile": "F11",
+    "bastion_fighter": "Netta",
+    "bastion_comic_link": "https://imgur.com/a/9RNLvXL",
+    "pyre_fighter": "Ogira-Sor",
+    "pyre_comic_link": "https://imgur.com/a/XA7eoP7",
+    "winner": "Ogira-Sor"
+  },
+  {
+    "tile": "F12",
+    "bastion_fighter": "Count Log",
+    "bastion_comic_link": "google // pdf",
+    "pyre_fighter": "A Gorilla",
+    "pyre_comic_link": "https://imgur.com/a/M8nmZuZ",
+    "winner": "A Gorilla"
+  },
+  {
+    "tile": "F13",
+    "bastion_fighter": "Prisoner Tallshark",
+    "bastion_comic_link": "https://imgur.com/gallery/IsFeuxg",
+    "pyre_fighter": "Ink",
+    "pyre_comic_link": "https://imgur.com/a/bFhEaGk",
+    "winner": "Prisoner Tallshark"
+  },
+  {
+    "tile": "F14",
+    "bastion_fighter": "Nipih mar Immunsu",
+    "bastion_comic_link": "[late submission]",
+    "pyre_fighter": "Kimobe",
+    "pyre_comic_link": "https://imgur.com/a/3asmfSn",
+    "winner": "Kimobe"
+  },
+  {
+    "tile": "G10",
+    "bastion_fighter": "GRAIL",
+    "bastion_comic_link": "https://imgur.com/gallery/wKRpuD4",
+    "pyre_fighter": "Smohg",
+    "pyre_comic_link": "https://imgur.com/a/R2fdm44",
+    "winner": "GRAIL"
+  },
+  {
+    "tile": "H10",
+    "bastion_fighter": "Kloe Canular & Alex",
+    "bastion_comic_link": "https://imgur.com/a/XR4wDpW",
+    "pyre_fighter": "Inami",
+    "pyre_comic_link": "https://imgur.com/gallery/SQUEtYR",
+    "winner": "Kloe Canular & Alex"
+  },
+  {
+    "tile": "I5",
+    "bastion_fighter": "Keenblade",
+    "bastion_comic_link": "https://imgur.com/a/efcn2It",
+    "pyre_fighter": "Arms Dealer",
+    "pyre_comic_link": "https://imgur.com/gallery/QWxqmxp",
+    "winner": "Keenblade"
+  },
+  {
+    "tile": "I7",
+    "bastion_fighter": "Long-Arms Ten Anong",
+    "bastion_comic_link": "https://imgur.com/a/XnESFH9",
+    "pyre_fighter": "Purity",
+    "pyre_comic_link": "https://imgur.com/a/McFOwa4",
+    "winner": "Purity"
+  },
+  {
+    "tile": "I9",
+    "bastion_fighter": "Enoch Nomes",
+    "bastion_comic_link": "https://imgur.com/a/7GRczuQ",
+    "pyre_fighter": "Ku",
+    "pyre_comic_link": "twitter // pdf",
+    "winner": "Ku"
+  },
+  {
+    "tile": "I10",
+    "bastion_fighter": "Temurin",
+    "bastion_comic_link": "https://imgur.com/a/XYfKV0l",
+    "pyre_fighter": "Leslie",
+    "pyre_comic_link": "https://imgur.com/a/s31MUvH",
+    "winner": "Leslie"
+  },
+  {
+    "tile": "J7",
+    "bastion_fighter": "Mr. Scratch",
+    "bastion_comic_link": "https://imgur.com/gallery/1JGMv4l",
+    "pyre_fighter": "Tetem & The Rat",
+    "pyre_comic_link": "https://imgur.com/a/ICGLXnD",
+    "winner": "Tetem & The Rat"
+  },
+  {
+    "tile": "J8",
+    "bastion_fighter": "The Marquis",
+    "bastion_comic_link": "https://imgur.com/gallery/bDax5gs",
+    "pyre_fighter": "Mori",
+    "pyre_comic_link": "https://imgur.com/a/cpxWRJP",
+    "winner": "The Marquis"
+  },
+  {
+    "tile": "J9",
+    "bastion_fighter": "LUTHA-YY-SUR",
+    "bastion_comic_link": "https://imgur.com/gallery/AF7tXOX",
+    "pyre_fighter": "Al Railcatcher",
+    "pyre_comic_link": "https://imgur.com/a/3ZHxStc",
+    "winner": "LUTHA-YY-SUR"
+  },
+  {
+    "tile": "K6",
+    "bastion_fighter": "0 REPENTANT KILLSTAR SHATTERS RUIN",
+    "bastion_comic_link": "https://twitter.com/KingOfSeagulls/status/1373366654827073537",
+    "pyre_fighter": "Udre Peru",
+    "pyre_comic_link": "https://imgur.com/a/tisnmhG",
+    "winner": "0 REPENTANT KILLSTAR SHATTERS RUIN"
+  },
+  {
+    "tile": "L3",
+    "bastion_fighter": "Grandmother Silence",
+    "bastion_comic_link": "https://imgur.com/gallery/mdCcXIl",
+    "pyre_fighter": "Red Hand of Ruin",
+    "pyre_comic_link": "https://imgur.com/a/t5mwjzk",
+    "winner": "Grandmother Silence"
+  },
+  {
+    "tile": "L5",
+    "bastion_fighter": "They of Many Names",
+    "bastion_comic_link": "https://imgur.com/a/ow4rdLI",
+    "pyre_fighter": "Trismegistus",
+    "pyre_comic_link": "https://imgur.com/a/0wx1vnC",
+    "winner": "They of Many Names"
+  },
+  {
+    "tile": "M2",
+    "bastion_fighter": "The Emerald Mote",
+    "bastion_comic_link": "https://imgur.com/a/xNO8kx3",
+    "pyre_fighter": "Thulanquoris",
+    "pyre_comic_link": "https://imgur.com/a/TOfTXBA",
+    "winner": "The Emerald Mote"
+  },
+  {
+    "tile": "D14",
+    "bastion_fighter": "Murder Cube",
+    "bastion_comic_link": "https://imgur.com/a/HRZGfWq",
+    "pyre_fighter": "Red Helmet",
+    "pyre_comic_link": "https://imgur.com/a/CaVIDKR",
+    "winner": "Murder Cube"
+  },
+  {
+    "tile": "B11",
+    "bastion_fighter": "Stylops Peldo",
+    "bastion_comic_link": "https://imgur.com/a/QerpHJJ",
+    "pyre_fighter": "(I want to be) Bride of Jagganoth",
+    "pyre_comic_link": "https://imgur.com/a/mZgyOA7",
+    "winner": "Stylops Peldo"
+  },
+  {
+    "tile": "C9",
+    "bastion_fighter": "Darcy",
+    "bastion_comic_link": "[late submission]",
+    "pyre_fighter": "Elsa Bee",
+    "pyre_comic_link": "https://imgur.com/a/WMea8th",
+    "winner": "Elsa Bee"
+  },
+  {
+    "tile": "C10",
+    "bastion_fighter": "Mozz",
+    "bastion_comic_link": "https://imgur.com/a/Aoiqti3",
+    "pyre_fighter": "Remiel",
+    "pyre_comic_link": "https://photos.google.com/share/AF1QipMu3H8uFa_qZ0-6FIYR0-sQrQaLZh9DiKd6lfP00e-uC5_1Ab3goUtyAcCkYkmROw?key=a0cwbWN6TUhpRzBmZHhSTkJ2SWtwMDdhQksyaVNn",
+    "winner": "Remiel"
+  },
+  {
+    "tile": "D8",
+    "bastion_fighter": "Benezra The Archivist",
+    "bastion_comic_link": "https://imgur.com/a/r4rmFPm",
+    "pyre_fighter": "Death Dealer",
+    "pyre_comic_link": "https://imgur.com/gallery/X7WQmvw",
+    "winner": "Death Dealer"
+  },
+  {
+    "tile": "D9",
+    "bastion_fighter": "Scarlett & Venus",
+    "bastion_comic_link": "https://imgur.com/a/EJ2K2FJ",
+    "pyre_fighter": "SUKI",
+    "pyre_comic_link": "https://imgur.com/gallery/b1pK8fG",
+    "winner": "SUKI"
+  },
+  {
+    "tile": "D12",
+    "bastion_fighter": "Thyme",
+    "bastion_comic_link": "https://imgur.com/a/u7Xtvsb",
+    "pyre_fighter": "NIM",
+    "pyre_comic_link": "https://imgur.com/gallery/db0hqAu",
+    "winner": "Nim"
+  },
+  {
+    "tile": "E7",
+    "bastion_fighter": "Shoota",
+    "bastion_comic_link": "https://imgur.com/a/7sIZSbk",
+    "pyre_fighter": "Elena",
+    "pyre_comic_link": "https://imgur.com/a/LgrQt3F",
+    "winner": "Shoota"
+  },
+  {
+    "tile": "E8",
+    "bastion_fighter": "Pitty",
+    "bastion_comic_link": "https://imgur.com/a/B1Zeslq",
+    "pyre_fighter": "ACRIFOTG",
+    "pyre_comic_link": "https://imgur.com/a/2km4eiO",
+    "winner": "ACRIFOTG"
+  },
+  {
+    "tile": "E10",
+    "bastion_fighter": "The Cat",
+    "bastion_comic_link": "https://imgur.com/a/0m7jzGD",
+    "pyre_fighter": "Bortagg",
+    "pyre_comic_link": "https://imgur.com/a/03vYNDq",
+    "winner": "The Cat"
+  },
+  {
+    "tile": "E13",
+    "bastion_fighter": "Jaagup",
+    "bastion_comic_link": "https://www.kitkat.cafe/portfolio/jaagup/torpors-end",
+    "pyre_fighter": "Lord 20",
+    "pyre_comic_link": "[late submission]",
+    "winner": "Jaagup"
+  },
+  {
+    "tile": "F7",
+    "bastion_fighter": "Tomyris",
+    "bastion_comic_link": "https://i.imgur.com/Cv9K9umh.jpg",
+    "pyre_fighter": "Saturos",
+    "pyre_comic_link": "https://imgur.com/a/KXU4FEM",
+    "winner": "Saturos"
+  },
+  {
+    "tile": "G9",
+    "bastion_fighter": "Fog of Graves",
+    "bastion_comic_link": "google // imgur",
+    "pyre_fighter": "Murien Azur-Or",
+    "pyre_comic_link": "https://imgur.com/a/iXuJPuf",
+    "winner": "Fog of Graves"
+  },
+  {
+    "tile": "H4",
+    "bastion_fighter": "Akuhoshi",
+    "bastion_comic_link": "https://imgur.com/a/EJL6Y9L",
+    "pyre_fighter": "Brazen Pun",
+    "pyre_comic_link": "https://imgur.com/a/0kld9Jb",
+    "winner": "Brazen Pun"
+  },
+  {
+    "tile": "H5",
+    "bastion_fighter": "The Children of Arutan",
+    "bastion_comic_link": "[late submission]",
+    "pyre_fighter": "AMOR",
+    "pyre_comic_link": "https://imgur.com/gallery/HWFu57U",
+    "winner": "AMOR"
+  },
+  {
+    "tile": "H6",
+    "bastion_fighter": "Lassius",
+    "bastion_comic_link": "https://imgur.com/gallery/fTLsnWB",
+    "pyre_fighter": "CORONE",
+    "pyre_comic_link": "https://imgur.com/a/xQglkzf",
+    "winner": "Lassius"
+  },
+  {
+    "tile": "H9",
+    "bastion_fighter": "Thunder Bravo",
+    "bastion_comic_link": "https://imgur.com/gallery/MT3Ih86",
+    "pyre_fighter": "TOR",
+    "pyre_comic_link": "https://imgur.com/a/Kt62yrX",
+    "winner": "TOR"
+  },
+  {
+    "tile": "I4",
+    "bastion_fighter": "Kay Guinto-Quintana",
+    "bastion_comic_link": "https://imgur.com/a/6TV5fbm",
+    "pyre_fighter": "BESHKER",
+    "pyre_comic_link": "https://imgur.com/a/daa1SaY",
+    "winner": "Kay Guinto-Quintana"
+  },
+  {
+    "tile": "I6",
+    "bastion_fighter": "Page Turner",
+    "bastion_comic_link": "https://imgur.com/a/WBkwRJw",
+    "pyre_fighter": "Sour Fruit of Kebby-Ya",
+    "pyre_comic_link": "https://imgur.com/gallery/aFuNXlP",
+    "winner": "Page Turner"
+  },
+  {
+    "tile": "I8",
+    "bastion_fighter": "Irdunbrih",
+    "bastion_comic_link": "drive // imgur // google site",
+    "pyre_fighter": "Troll Queen",
+    "pyre_comic_link": "https://imgur.com/a/PAJJrhD",
+    "winner": "Irdunbrih"
+  },
+  {
+    "tile": "J4",
+    "bastion_fighter": "Scarlett Reed",
+    "bastion_comic_link": "discord // imgur",
+    "pyre_fighter": "Gilebren",
+    "pyre_comic_link": "https://imgur.com/a/VpDCM25",
+    "winner": "Gilebren"
+  },
+  {
+    "tile": "J5",
+    "bastion_fighter": "Mikan",
+    "bastion_comic_link": "https://imgur.com/a/SMcwQpB",
+    "pyre_fighter": "Gene Fauntleroy",
+    "pyre_comic_link": "https://imgur.com/a/6vOYXF3",
+    "winner": "Gene Fauntleroy"
+  },
+  {
+    "tile": "K2",
+    "bastion_fighter": "Cassia",
+    "bastion_comic_link": "https://imgur.com/a/lWv4VJL",
+    "pyre_fighter": "Korgranx",
+    "pyre_comic_link": "https://imgur.com/a/Mvf9gUo",
+    "winner": "Cassia"
+  },
+  {
+    "tile": "K3",
+    "bastion_fighter": "Turibas, The Bear King",
+    "bastion_comic_link": "https://imgur.com/a/tbeoqkh",
+    "pyre_fighter": "Mamuthon",
+    "pyre_comic_link": "https://imgur.com/a/ecjX20Z",
+    "winner": "Mamuthon"
+  },
+  {
+    "tile": "K4",
+    "bastion_fighter": "Am-Sha-Ka Bedlam",
+    "bastion_comic_link": "https://imgur.com/a/mlhuiO1",
+    "pyre_fighter": "Gandie Moore",
+    "pyre_comic_link": "https://imgur.com/a/BCzWsK2",
+    "winner": "Gandie Moore"
+  },
+  {
+    "tile": "M3",
+    "bastion_fighter": "Cecil and Mr.Green",
+    "bastion_comic_link": "https://imgur.com/gallery/kkqyWx2",
+    "pyre_fighter": "Saxum, The Lord of Lies",
+    "pyre_comic_link": "https://imgur.com/a/NBGS9E3",
+    "winner": "Cecil and Mr.Green"
+  }
 ]

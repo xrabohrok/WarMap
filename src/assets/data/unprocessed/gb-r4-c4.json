@@ -1,50 +1,50 @@
 [
-	{
-		"pyre_fighter": "The Buried King",
-		"pyre_comic_link": "https://imgur.com/gallery/rhwjgvD",
-		"bastion_fighter": "Milo",
-		"bastion_comic_link": "https://imgur.com/a/f0YPXYQ"
-	},
-	{
-		"pyre_fighter": "Greenhorn",
-		"pyre_comic_link": "https://imgur.com/a/M5NOoxz",
-		"bastion_fighter": "14 Windswept Meadows",
-		"bastion_comic_link": "https://cubari.moe/read/imgur/xDrF3qN/1/1/"
-	},
-	{
-		"pyre_fighter": "Frogstar Inc",
-		"pyre_comic_link": "https://imgur.com/a/tPitphG",
-		"bastion_fighter": "Jin Jin",
-		"bastion_comic_link": "https://imgur.com/a/focjNC6"
-	},
-	{
-		"pyre_fighter": "Aubrey Chamberlain IV",
-		"pyre_comic_link": "https://imgur.com/a/ImUQbiR",
-		"bastion_fighter": "Pacha Manka",
-		"bastion_comic_link": "https://imgur.com/a/8PEat3b"
-	},
-	{
-		"pyre_fighter": "",
-		"pyre_comic_link": "",
-		"bastion_fighter": "Ordnance",
-		"bastion_comic_link": "https://imgur.com/a/FRraeG3"
-	},
-	{
-		"pyre_fighter": "",
-		"pyre_comic_link": "",
-		"bastion_fighter": "Venus & Scarlett",
-		"bastion_comic_link": "https://cubari.moe/read/imgur/p6bQG0M/1/1/"
-	},
-	{
-		"pyre_fighter": "",
-		"pyre_comic_link": "",
-		"bastion_fighter": "Sabi",
-		"bastion_comic_link": "https://cubari.moe/read/imgur/Wrp9VMu/1/1/"
-	},
-	{
-		"pyre_fighter": "",
-		"pyre_comic_link": "",
-		"bastion_fighter": "Nipih-mar-Immunsu",
-		"bastion_comic_link": "https://imgur.com/a/F0HxC5F"
-	}
+  {
+    "pyre_fighter": "The Buried King",
+    "pyre_comic_link": "https://imgur.com/gallery/rhwjgvD",
+    "bastion_fighter": "Milo",
+    "bastion_comic_link": "https://imgur.com/a/f0YPXYQ"
+  },
+  {
+    "pyre_fighter": "Greenhorn",
+    "pyre_comic_link": "https://imgur.com/a/M5NOoxz",
+    "bastion_fighter": "14 Windswept Meadows",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/xDrF3qN/1/1/"
+  },
+  {
+    "pyre_fighter": "Frogstar Inc",
+    "pyre_comic_link": "https://imgur.com/a/tPitphG",
+    "bastion_fighter": "Jin Jin",
+    "bastion_comic_link": "https://imgur.com/a/focjNC6"
+  },
+  {
+    "pyre_fighter": "Aubrey Chamberlain IV",
+    "pyre_comic_link": "https://imgur.com/a/ImUQbiR",
+    "bastion_fighter": "Pacha Manka",
+    "bastion_comic_link": "https://imgur.com/a/8PEat3b"
+  },
+  {
+    "pyre_fighter": "",
+    "pyre_comic_link": "",
+    "bastion_fighter": "Ordnance",
+    "bastion_comic_link": "https://imgur.com/a/FRraeG3"
+  },
+  {
+    "pyre_fighter": "",
+    "pyre_comic_link": "",
+    "bastion_fighter": "Venus & Scarlett",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/p6bQG0M/1/1/"
+  },
+  {
+    "pyre_fighter": "",
+    "pyre_comic_link": "",
+    "bastion_fighter": "Sabi",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Wrp9VMu/1/1/"
+  },
+  {
+    "pyre_fighter": "",
+    "pyre_comic_link": "",
+    "bastion_fighter": "Nipih-mar-Immunsu",
+    "bastion_comic_link": "https://imgur.com/a/F0HxC5F"
+  }
 ]

@@ -1,9 +1,6 @@
 {
   "grandbattle": {
-    "zones": [
-      "aru",
-      "heap"
-    ]
+    "zones": ["aru", "heap"]
   },
   "a13": {
     "location": "a13",
@@ -158,12 +155,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        128
-      ],
-      "bastion": [
-        91
-      ]
+      "pyre": [128],
+      "bastion": [91]
     },
     "outcome": {
       "pyre": "win",
@@ -396,12 +389,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        56
-      ],
-      "bastion": [
-        67
-      ]
+      "pyre": [56],
+      "bastion": [67]
     },
     "outcome": {
       "pyre": "lose",
@@ -418,12 +407,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        348
-      ],
-      "bastion": [
-        159
-      ]
+      "pyre": [348],
+      "bastion": [159]
     },
     "outcome": {
       "pyre": "lose",
@@ -566,12 +551,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        4
-      ],
-      "bastion": [
-        141
-      ]
+      "pyre": [4],
+      "bastion": [141]
     },
     "outcome": {
       "pyre": "lose",
@@ -642,12 +623,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        2
-      ],
-      "bastion": [
-        13
-      ]
+      "pyre": [2],
+      "bastion": [13]
     },
     "outcome": {
       "pyre": "win",
@@ -664,12 +641,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        377
-      ],
-      "bastion": [
-        107
-      ]
+      "pyre": [377],
+      "bastion": [107]
     },
     "outcome": {
       "pyre": "lose",
@@ -686,12 +659,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        81
-      ],
-      "bastion": [
-        391
-      ]
+      "pyre": [81],
+      "bastion": [391]
     },
     "outcome": {
       "pyre": "win",
@@ -709,22 +678,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        46,
-        20,
-        399,
-        50
-      ],
-      "bastion": [
-        398,
-        367,
-        76,
-        119,
-        372,
-        148,
-        63,
-        125
-      ]
+      "pyre": [46, 20, 399, 50],
+      "bastion": [398, 367, 76, 119, 372, 148, 63, 125]
     },
     "outcome": {
       "pyre": "",
@@ -831,12 +786,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        24
-      ],
-      "bastion": [
-        84
-      ]
+      "pyre": [24],
+      "bastion": [84]
     },
     "outcome": {
       "pyre": "lose",
@@ -943,12 +894,8 @@
     "clash": false,
     "items": [5],
     "fighters": {
-      "pyre": [
-        392
-      ],
-      "bastion": [
-        170
-      ]
+      "pyre": [392],
+      "bastion": [170]
     },
     "outcome": {
       "pyre": "win",
@@ -1073,12 +1020,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        294
-      ],
-      "bastion": [
-        137
-      ]
+      "pyre": [294],
+      "bastion": [137]
     },
     "outcome": {
       "pyre": "win",
@@ -1095,12 +1038,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        384
-      ],
-      "bastion": [
-        370
-      ]
+      "pyre": [384],
+      "bastion": [370]
     },
     "outcome": {
       "pyre": "win",
@@ -1135,12 +1074,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        394
-      ],
-      "bastion": [
-        172
-      ]
+      "pyre": [394],
+      "bastion": [172]
     },
     "outcome": {
       "pyre": "win",
@@ -1211,12 +1146,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        209
-      ],
-      "bastion": [
-        150
-      ]
+      "pyre": [209],
+      "bastion": [150]
     },
     "outcome": {
       "pyre": "win",
@@ -1233,12 +1164,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        181
-      ],
-      "bastion": [
-        169
-      ]
+      "pyre": [181],
+      "bastion": [169]
     },
     "outcome": {
       "pyre": "win",
@@ -1273,12 +1200,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        14
-      ],
-      "bastion": [
-        152
-      ]
+      "pyre": [14],
+      "bastion": [152]
     },
     "outcome": {
       "pyre": "win",
@@ -1295,12 +1218,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        243
-      ],
-      "bastion": [
-        393
-      ]
+      "pyre": [243],
+      "bastion": [393]
     },
     "outcome": {
       "pyre": "win",
@@ -1317,12 +1236,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        380
-      ],
-      "bastion": [
-        382
-      ]
+      "pyre": [380],
+      "bastion": [382]
     },
     "outcome": {
       "pyre": "win",
@@ -1501,12 +1416,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        111
-      ],
-      "bastion": [
-        27
-      ]
+      "pyre": [111],
+      "bastion": [27]
     },
     "outcome": {
       "pyre": "lose",
@@ -1523,12 +1434,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        314
-      ],
-      "bastion": [
-        106
-      ]
+      "pyre": [314],
+      "bastion": [106]
     },
     "outcome": {
       "pyre": "lose",
@@ -1545,12 +1452,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        395
-      ],
-      "bastion": [
-        139
-      ]
+      "pyre": [395],
+      "bastion": [139]
     },
     "outcome": {
       "pyre": "win",
@@ -1567,12 +1470,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        386
-      ],
-      "bastion": [
-        385
-      ]
+      "pyre": [386],
+      "bastion": [385]
     },
     "outcome": {
       "pyre": "win",
@@ -1589,12 +1488,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        165
-      ],
-      "bastion": [
-        161
-      ]
+      "pyre": [165],
+      "bastion": [161]
     },
     "outcome": {
       "pyre": "lose",
@@ -1611,12 +1506,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        342
-      ],
-      "bastion": [
-        59
-      ]
+      "pyre": [342],
+      "bastion": [59]
     },
     "outcome": {
       "pyre": "lose",
@@ -1633,12 +1524,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        387
-      ],
-      "bastion": [
-        134
-      ]
+      "pyre": [387],
+      "bastion": [134]
     },
     "outcome": {
       "pyre": "win",
@@ -1655,12 +1542,8 @@
     "clash": false,
     "items": [1],
     "fighters": {
-      "pyre": [
-        10
-      ],
-      "bastion": [
-        57
-      ]
+      "pyre": [10],
+      "bastion": [57]
     },
     "outcome": {
       "pyre": "win",
@@ -1822,12 +1705,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        101
-      ],
-      "bastion": [
-        132
-      ]
+      "pyre": [101],
+      "bastion": [132]
     },
     "outcome": {
       "pyre": "lose",
@@ -1844,18 +1723,8 @@
     "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [
-        77,
-        397,
-        156,
-        129
-      ],
-      "bastion": [
-        33,
-        45,
-        212,
-        29
-      ]
+      "pyre": [77, 397, 156, 129],
+      "bastion": [33, 45, 212, 29]
     },
     "outcome": {
       "pyre": "lose",
@@ -1872,18 +1741,8 @@
     "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [
-        77,
-        397,
-        156,
-        129
-      ],
-      "bastion": [
-        33,
-        45,
-        212,
-        29
-      ]
+      "pyre": [77, 397, 156, 129],
+      "bastion": [33, 45, 212, 29]
     },
     "outcome": {
       "pyre": "lose",
@@ -1936,12 +1795,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        388
-      ],
-      "bastion": [
-        90
-      ]
+      "pyre": [388],
+      "bastion": [90]
     },
     "outcome": {
       "pyre": "lose",
@@ -1958,12 +1813,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        122
-      ],
-      "bastion": [
-        180
-      ]
+      "pyre": [122],
+      "bastion": [180]
     },
     "outcome": {
       "pyre": "lose",
@@ -2052,12 +1903,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        85
-      ],
-      "bastion": [
-        121
-      ]
+      "pyre": [85],
+      "bastion": [121]
     },
     "outcome": {
       "pyre": "lose",
@@ -2200,12 +2047,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        269
-      ],
-      "bastion": [
-        88
-      ]
+      "pyre": [269],
+      "bastion": [88]
     },
     "outcome": {
       "pyre": "lose",
@@ -2222,12 +2065,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        158
-      ],
-      "bastion": [
-        396
-      ]
+      "pyre": [158],
+      "bastion": [396]
     },
     "outcome": {
       "pyre": "lose",
@@ -2460,12 +2299,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        32
-      ],
-      "bastion": [
-        104
-      ]
+      "pyre": [32],
+      "bastion": [104]
     },
     "outcome": {
       "pyre": "lose",
@@ -2480,14 +2315,10 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [4,3],
+    "items": [4, 3],
     "fighters": {
-      "pyre": [
-        241
-      ],
-      "bastion": [
-        31
-      ]
+      "pyre": [241],
+      "bastion": [31]
     },
     "outcome": {
       "pyre": "win",
@@ -2504,12 +2335,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        136
-      ],
-      "bastion": [
-        3
-      ]
+      "pyre": [136],
+      "bastion": [3]
     },
     "outcome": {
       "pyre": "lose",
@@ -2526,12 +2353,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        357
-      ],
-      "bastion": [
-        55
-      ]
+      "pyre": [357],
+      "bastion": [55]
     },
     "outcome": {
       "pyre": "lose",
@@ -2620,12 +2443,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        171
-      ],
-      "bastion": [
-        113
-      ]
+      "pyre": [171],
+      "bastion": [113]
     },
     "outcome": {
       "pyre": "win",
@@ -2733,24 +2552,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        400,
-        281,
-        340,
-        277,
-        149,
-        66,
-        64
-      ],
-      "bastion": [
-        343,
-        82,
-        401,
-        147,
-        19,
-        303,
-        103
-      ]
+      "pyre": [400, 281, 340, 277, 149, 66, 64],
+      "bastion": [343, 82, 401, 147, 19, 303, 103]
     },
     "outcome": {
       "pyre": "",
@@ -2767,12 +2570,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        87
-      ],
-      "bastion": [
-        73
-      ]
+      "pyre": [87],
+      "bastion": [73]
     },
     "outcome": {
       "pyre": "win",
@@ -2789,12 +2588,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        30
-      ],
-      "bastion": [
-        25
-      ]
+      "pyre": [30],
+      "bastion": [25]
     },
     "outcome": {
       "pyre": "lose",
@@ -2847,12 +2642,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        22
-      ],
-      "bastion": [
-        86
-      ]
+      "pyre": [22],
+      "bastion": [86]
     },
     "outcome": {
       "pyre": "lose",
@@ -2887,12 +2678,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        389
-      ],
-      "bastion": [
-        198
-      ]
+      "pyre": [389],
+      "bastion": [198]
     },
     "outcome": {
       "pyre": "lose",
@@ -3035,12 +2822,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        126
-      ],
-      "bastion": [
-        78
-      ]
+      "pyre": [126],
+      "bastion": [78]
     },
     "outcome": {
       "pyre": "lose",
@@ -3057,12 +2840,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        390
-      ],
-      "bastion": [
-        206
-      ]
+      "pyre": [390],
+      "bastion": [206]
     },
     "outcome": {
       "pyre": "win",
@@ -3079,12 +2858,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        142
-      ],
-      "bastion": [
-        11
-      ]
+      "pyre": [142],
+      "bastion": [11]
     },
     "outcome": {
       "pyre": "lose",
@@ -3101,12 +2876,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        99
-      ],
-      "bastion": [
-        96
-      ]
+      "pyre": [99],
+      "bastion": [96]
     },
     "outcome": {
       "pyre": "lose",
@@ -3123,12 +2894,8 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [
-        72
-      ],
-      "bastion": [
-        21
-      ]
+      "pyre": [72],
+      "bastion": [21]
     },
     "outcome": {
       "pyre": "lose",
@@ -3415,12 +3182,8 @@
     "clash": false,
     "items": [6],
     "fighters": {
-      "pyre": [
-        237
-      ],
-      "bastion": [
-        41
-      ]
+      "pyre": [237],
+      "bastion": [41]
     },
     "outcome": {
       "pyre": "lose",

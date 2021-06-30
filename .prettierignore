@@ -7,3 +7,5 @@ README.md
 .prettierignore
 .husky/pre-commit
 .gitignore
+
+*.png

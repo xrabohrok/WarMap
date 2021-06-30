@@ -40,7 +40,7 @@ for (const fighter of survey_data) {
   artistRole = regCreator.test(artistRole) ? "Creator" : artistRole
 
   //insert artist
-  await axios
+  axios
     .post(`http://localhost:8080/server/artist/${fighter.fighter_id}`, {
       artistname: fighter.artist_name,
       role: artistRole,
@@ -59,7 +59,7 @@ for (const fighter of survey_data) {
 
   if (!regNocollab.test(fighter.collab_status)) {
     //insert artist
-    await axios
+    axios
       .post(`http://localhost:8080/server/artist/${fighter.fighter_id}`, {
         artistname: fighter.collab_name,
         role: fighter.collab_status,

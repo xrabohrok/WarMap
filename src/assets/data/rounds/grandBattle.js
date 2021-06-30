@@ -11,7 +11,7 @@ if (args.find(a => a.includes("help"))) {
       "\n\tcontext(default: gb): switch context for this set, for example, 'clash'"
   )
 
-  return
+  process.exit(0)
 }
 
 const round_num = parseInt(
@@ -24,7 +24,7 @@ const filename = args.find(a => a.includes("data")).split("=")[1]
 const round_data = require(filename)
 
 var context = args.find(a => a.includes("context"))
-var context = context == undefined ? "gb" : context.split("=")[1]
+context = context == undefined ? "gb" : context.split("=")[1]
 
 var fighters = require("../allfighters.json")
 
@@ -45,7 +45,7 @@ for (const fighter of fighterIter) {
 var tile = map_round[tile_location.toLowerCase()]
 tile.grandBattle = true
 
-round_data.forEach((match, i) => {
+round_data.forEach(match => {
   //bastion
   if (match.bastion_fighter !== "") {
     var bastionfighterId = convert.upsert_fighter(

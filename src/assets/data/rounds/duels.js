@@ -11,10 +11,8 @@ if (args.find(a => a.includes("help"))) {
       "\n\tgrandbattle_zones: comma delimited zones of the two grandbattle arenas"
   )
 
-  return 0
+  process.exit(0)
 }
-
-var args = process.argv.slice(2)
 
 const round_num = parseInt(
   args.find(a => a.includes("round")).split("=")[1],
@@ -25,9 +23,6 @@ const pyre_attacking =
 
 const filename = args.find(a => a.includes("data")).split("=")[1]
 const round_data = require(filename)
-
-var context = args.find(a => a.includes("context"))
-var context = context == undefined ? "gb" : context.split("=")[1]
 
 var gb_zone_array = args
   .find(a => a.includes("grandbattle_zones"))

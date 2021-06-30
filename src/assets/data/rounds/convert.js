@@ -16,12 +16,6 @@
 //pyre_fighter
 //pyre_comic_link
 
-// import { assert } from 'console';
-const fs = require("fs")
-const axios = require("axios")
-const fighters = require("../allfighters.json")
-// const round = require('../empty-map-schema.js')
-
 const checkForNonSubmission = function(url) {
   if (url === "[no submission]") return "na"
   return url

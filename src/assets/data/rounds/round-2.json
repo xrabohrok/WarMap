@@ -589,7 +589,8 @@
         63,
         121,
         75,
-        119
+        119,
+        284
       ]
     },
     "outcome": {
@@ -718,7 +719,7 @@
     "items": [],
     "fighters": {
       "pyre": [185],
-      "bastion": [109]
+      "bastion": [393]
     },
     "outcome": {
       "pyre": "lose",

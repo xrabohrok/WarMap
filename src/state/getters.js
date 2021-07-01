@@ -111,6 +111,41 @@ const getters = {
   },
   showGraphics: state => {
     return state.showGraphics
+  },
+  getAllFightersThisRoundForFaction: (state, getters) => isBastion => {
+    var curRound = getters.round
+    var correctFaction = isBastion ? "bastion" : "pyre"
+    var currRound = Object.values(state.roundData[curRound]).filter(
+      t => !("zones" in t)
+    )
+
+    var totalArray = Object.values(state.allFighters)
+    return totalArray
+      .filter(f => {
+        var index = f.rounds.findIndex(r => r === curRound)
+        if (index == -1) {
+          return false
+        }
+
+        return f.faction[index] === correctFaction
+      })
+      .map(f => {
+        var index = f.rounds.findIndex(r => r === curRound)
+
+        var testIndex = currRound.findIndex(t =>
+          t.fighters[correctFaction].includes(f.id)
+        )
+        if (testIndex === -1) {
+          console.log(`Could not find place for ${f.id}, ${f.name}`)
+        }
+
+        return {
+          name: f.name,
+          id: f.id,
+          link: f.link[index],
+          tile: currRound[testIndex].location
+        }
+      })
   }
 }
 
@@ -137,6 +172,7 @@ const MASSBATTLE_FIGHTERS = "massBattleFighters"
 const CURZONE_IS_CLASH = "curZoneIsClash"
 const TILE_IS_CLASH = "tileIsClash"
 const FIGHTER_BACKSTORY = "fighterBackstory"
+const ALL_FIGHTERS_IN_ROUND = "getAllFightersThisRoundForFaction"
 
 const OPT_SHOW_GRAPHICS = "showGraphics"
 const OPT_SHOW_ITEMS = "showItems"
@@ -169,5 +205,6 @@ export {
   FIGHTER_BACKSTORY,
   CURRENT_ZONE_ITEMS,
   OPT_SHOW_ITEMS,
-  OPT_SHOW_LABELS
+  OPT_SHOW_LABELS,
+  ALL_FIGHTERS_IN_ROUND
 }

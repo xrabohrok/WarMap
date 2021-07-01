@@ -30,6 +30,8 @@
       </transition>
     </div>
 
+    <RoundSummary class="bastionRound" :isBastion="true" />
+
     <div class="screenContainer" v-if="mobile">
       <div id="mobileMap">
         <MobileMapZoom />
@@ -72,6 +74,7 @@ import MainMap from "../components/MainMap.vue"
 import DetailPaneDesktop from "../components/DetailPaneDesktop.vue"
 import MapHeader from "../components/MapHeader.vue"
 import MobileMapZoom from "../components/MobileMapZoom.vue"
+import RoundSummary from "../components/RoundSummary.vue"
 import {
   LEFT,
   RIGHT,
@@ -100,7 +103,8 @@ export default {
     // DetailPaneMobile,
     DetailPaneDesktop,
     MapHeader,
-    MobileMapZoom
+    MobileMapZoom,
+    RoundSummary
   },
   computed: {
     isSelected: function() {
@@ -155,6 +159,8 @@ export default {
     this.$store.commit(LS_INIT)
 
     //if a special route was used, ingest it now
+  },
+  beforeMount: function() {
     extractAndProcessParams(this)
     this.slider_round = this.curRound
   },

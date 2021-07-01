@@ -4,25 +4,39 @@
       {{ isBastion ? "Bastion" : "Pyre" }} Fighters - Round {{ curRound }}
     </div>
     <div class="scrollContainer">
-      <div class="entry" v-for="f in shownFighters" :key="f.id">
-        <div class="fighterName">
-          {{ f.name }}
-        </div>
-        <div class="TileLocation">
-          {{ f.tile }}
-        </div>
-      </div>
+      <table>
+        <tr class="entry" v-for="f in shownFighters" :key="f.id">
+          <td class="fighterName">
+            {{ f.name }}
+          </td>
+          <td class="TileLocation">
+            {{ f.tile.toUpperCase() }}
+          </td>
+          <td>
+            <StrikeLink
+              :fighterId="f.id"
+              :round="curRound"
+              :inputURL="f.link"
+            />
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 </template>
 
 <script>
+import StrikeLink from "./elements/StrikeLink.vue"
+
 import { mapGetters } from "vuex"
 import { ALL_FIGHTERS_IN_ROUND, CURRENT_ROUND } from "../state/getters"
 
 export default {
   data: function() {
     return {}
+  },
+  components: {
+    StrikeLink
   },
   beforeMount: function() {
     this.fighters = this.allFighters(this.isBastion)
@@ -42,3 +56,17 @@ export default {
   name: "RoundSummary"
 }
 </script>
+
+<style scoped>
+.topContainer {
+  background-color: rgb(48, 7, 17);
+  border-color: chocolate;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.scrollContainer {
+  overflow-y: auto;
+  height: 90%;
+}
+</style>

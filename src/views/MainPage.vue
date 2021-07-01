@@ -30,7 +30,8 @@
       </transition>
     </div>
 
-    <RoundSummary class="bastionRound" :isBastion="true" />
+    <RoundSummary class="bastion roundSummary" :isBastion="true" />
+    <RoundSummary class="pyre roundSummary" :isBastion="false" />
 
     <div class="screenContainer" v-if="mobile">
       <div id="mobileMap">
@@ -211,6 +212,20 @@ export default {
   top: 0%;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.roundSummary {
+  position: fixed;
+  top: 20vh;
+  height: 70vh;
+}
+
+.roundSummary.pyre {
+  right: 1vw;
+}
+
+.roundSummary.bastion {
+  left: 1vw;
 }
 
 @media only screen and (max-width: 840px) {

@@ -1,3 +1,10 @@
+const alpahbeticalSort = function(a, b) {
+  const theFinder = /the /i
+  var textA = a.name.toUpperCase().replace(theFinder, "")
+  var textB = b.name.toUpperCase().replace(theFinder, "")
+  return textA < textB ? -1 : textA > textB ? 1 : 0
+}
+
 const getters = {
   selecting: state => state.curSelected,
   round: state => state.curRound,
@@ -119,7 +126,9 @@ const getters = {
       t => !("zones" in t)
     )
 
-    var totalArray = Object.values(state.allFighters)
+    var totalArray = Object.values(state.allFighters).sort((f1, f2) =>
+      alpahbeticalSort(f1, f2)
+    )
     return totalArray
       .filter(f => {
         var index = f.rounds.findIndex(r => r === curRound)

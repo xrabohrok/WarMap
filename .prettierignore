@@ -9,3 +9,5 @@ README.md
 .gitignore
 
 *.png
+
+src/assets/data/map.js

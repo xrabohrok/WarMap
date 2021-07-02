@@ -9,6 +9,7 @@ const getters = {
   selecting: state => state.curSelected,
   round: state => state.curRound,
   curRoundBoard: state => state.roundData[state.curRound],
+  showingSummary: state => state.showSummary,
 
   tileState: state => tileName => {
     return state.roundData[state.curRound][tileName]

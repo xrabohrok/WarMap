@@ -17,7 +17,8 @@ const defaultState = {
   backstories: allBackstories,
   showGraphics: true,
   showItems: true,
-  showLabels: true
+  showLabels: true,
+  showSummary: false
 }
 
 export default defaultState

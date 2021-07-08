@@ -187,6 +187,7 @@ const ALL_FIGHTERS_IN_ROUND = "getAllFightersThisRoundForFaction"
 const OPT_SHOW_GRAPHICS = "showGraphics"
 const OPT_SHOW_ITEMS = "showItems"
 const OPT_SHOW_LABELS = "showLabels"
+const OPT_SHOW_SUMMARIES = "showingSummary"
 
 const HAS_READ_COMIC = "hasReadFightersComic"
 
@@ -216,5 +217,6 @@ export {
   CURRENT_ZONE_ITEMS,
   OPT_SHOW_ITEMS,
   OPT_SHOW_LABELS,
-  ALL_FIGHTERS_IN_ROUND
+  ALL_FIGHTERS_IN_ROUND,
+  OPT_SHOW_SUMMARIES
 }

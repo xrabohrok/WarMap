@@ -74,6 +74,9 @@ const mutations = {
       var index = state.readingList[input.fighterId].indexOf(input.round)
       if (index !== -1) state.readingList[input.fighterId].splice(index, 1)
     }
+  },
+  toggleSummaryPane(state) {
+    state.showSummary = !state.showSummary
   }
 }
 
@@ -91,6 +94,7 @@ const MARK_UNREAD = "unmarkAsRead"
 const OPT_SET_GRAPHIC_VISIBILITY = "setGraphicVisibility"
 const OPT_SET_ZONE_VISIBILITY = "setLabelVisibility"
 const OPT_SET_ITEM_VISIBILITY = "setItemVisibility"
+const OPT_SET_SUMMARY_SHOW = "toggleSummaryPane"
 
 export {
   NEW_SELECTED,
@@ -103,5 +107,6 @@ export {
   MARK_UNREAD,
   OPT_SET_GRAPHIC_VISIBILITY,
   OPT_SET_ZONE_VISIBILITY,
-  OPT_SET_ITEM_VISIBILITY
+  OPT_SET_ITEM_VISIBILITY,
+  OPT_SET_SUMMARY_SHOW
 }

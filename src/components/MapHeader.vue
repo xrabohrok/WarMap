@@ -46,6 +46,15 @@
           @change="setItemVisibility($event)"
         />
       </div>
+      <div class="control_group">
+        <div
+          class="wide_button"
+          @click="toggleSummary"
+          :class="{ disabled: !enableRosterButton }"
+        >
+          {{ showingSummaries ? "Hide" : "Show" }} Fighter Roster
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -54,7 +63,6 @@
 import { mapGetters } from "vuex"
 
 import VueSlider from "vue-slider-component"
-// import 'vue-slider-component/theme/default.css'
 import "./elements/customerSlider.css"
 
 import { ToggleButton } from "vue-js-toggle-button"
@@ -62,13 +70,15 @@ import { ToggleButton } from "vue-js-toggle-button"
 import {
   CURRENT_ZONE_FIGHT,
   NUMBER_OF_ROUNDS,
-  CURRENT_ROUND
+  CURRENT_ROUND,
+  OPT_SHOW_SUMMARIES
 } from "../state/getters"
 import {
   CHANGE_ROUND,
   OPT_SET_GRAPHIC_VISIBILITY,
   OPT_SET_ZONE_VISIBILITY,
-  OPT_SET_ITEM_VISIBILITY
+  OPT_SET_ITEM_VISIBILITY,
+  OPT_SET_SUMMARY_SHOW
 } from "../state/mutations"
 
 export default {
@@ -94,14 +104,23 @@ export default {
     },
     setItemVisibility: function({ value }) {
       this.$store.commit(OPT_SET_ITEM_VISIBILITY, value)
+    },
+    toggleSummary: function() {
+      if (this.enableRosterButton) {
+        this.$store.commit(OPT_SET_SUMMARY_SHOW)
+      }
     }
   },
   computed: {
     ...mapGetters({
       maxRounds: NUMBER_OF_ROUNDS,
       curRound: CURRENT_ROUND,
-      fight: CURRENT_ZONE_FIGHT
-    })
+      fight: CURRENT_ZONE_FIGHT,
+      showingSummaries: OPT_SHOW_SUMMARIES
+    }),
+    enableRosterButton: function() {
+      return this.curRound !== 0
+    }
   },
   mounted() {}
 }
@@ -122,6 +141,36 @@ h1 {
 
 .header {
   padding: 0 0.3vw 0 0.3vw;
+}
+
+.wide_button {
+  transition: border-color 1s, color 1s, background-color 1s;
+
+  width: 80%;
+  padding: 0.3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.3em;
+  background-color: rgb(97, 69, 17);
+
+  border-style: solid;
+  border-color: rgb(189, 136, 58);
+  border-radius: 0.15em;
+
+  font-size: 1em;
+
+  user-select: none;
+  -ms-user-select: none;
+
+  cursor: pointer;
+}
+
+.wide_button.disabled {
+  color: darkgoldenrod;
+  background-color: rgb(155, 125, 89);
+  border-color: rgb(126, 117, 107);
+
+  cursor: not-allowed;
 }
 
 .control_bar {

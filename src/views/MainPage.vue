@@ -2,10 +2,6 @@
   <div class="map_page main">
     <div v-if="!mobile">
       <MainMap />
-      <!-- <transition name="slideup"> -->
-      <!-- <DetailPaneMobile v-show="isSelected"/> -->
-      <!-- </transition> -->
-      <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
         <div class=" desktopHeader left" v-show="isSelected">
           <DetailPane :mode="showDetails" />
@@ -30,8 +26,20 @@
       </transition>
     </div>
 
-    <RoundSummary class="bastion roundSummary" :isBastion="true" />
-    <RoundSummary class="pyre roundSummary" :isBastion="false" />
+    <transition name="side-slide-left">
+      <RoundSummary
+        class="bastion roundSummary"
+        :isBastion="true"
+        v-if="rosterEnabled && showingRoster"
+      />
+    </transition>
+    <transition name="side-slide-right">
+      <RoundSummary
+        class="pyre roundSummary"
+        :isBastion="false"
+        v-if="rosterEnabled && showingRoster"
+      />
+    </transition>
 
     <div class="screenContainer" v-if="mobile">
       <div id="mobileMap">
@@ -81,7 +89,12 @@ import { LEFT, RIGHT, DETAILS, FIGHT } from "../components/DetailPane.vue"
 import { storageAvailable } from "../common/localStorage"
 
 import { LS_INIT, LS_AVAILABLE } from "../state/mutations"
-import { SELECTING_GETTER, CURRENT_ZONE_FIGHT } from "../state/getters"
+import {
+  SELECTING_GETTER,
+  CURRENT_ZONE_FIGHT,
+  CURRENT_ROUND,
+  OPT_SHOW_SUMMARIES
+} from "../state/getters"
 import { mapGetters } from "vuex"
 
 import { extractAndProcessParams } from "../common/queryRoute.js"
@@ -96,7 +109,6 @@ export default {
   },
   components: {
     MainMap,
-    // DetailPaneMobile,
     DetailPane,
     MapHeader,
     MobileMapZoom,
@@ -126,9 +138,14 @@ export default {
     showFight: function() {
       return FIGHT
     },
+    rosterEnabled: function() {
+      return this.curRound !== 0
+    },
     ...mapGetters({
       selecting: SELECTING_GETTER,
-      fight: CURRENT_ZONE_FIGHT
+      fight: CURRENT_ZONE_FIGHT,
+      curRound: CURRENT_ROUND,
+      showingRoster: OPT_SHOW_SUMMARIES
     })
   },
   mounted: function() {
@@ -332,5 +349,25 @@ a {
   opacity: 0;
   transform: translatey(-100%);
   /* height: 0; */
+}
+
+.side-slide-left-enter-active,
+.side-slide-right-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.side-slide-left-leave-active,
+.side-slide-right-leave-active {
+  transition: all 0.3s ease-in;
+}
+
+.side-slide-left-enter,
+.side-slide-left-leave-to {
+  transform: translateX(-100%);
+}
+
+.side-slide-right-enter,
+.side-slide-right-leave-to {
+  transform: translateX(100%);
 }
 </style>

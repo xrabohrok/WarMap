@@ -8,24 +8,24 @@
       <!-- Desktop details are broken into multiple parts -->
       <transition name="slideup">
         <div class=" desktopHeader left" v-show="isSelected">
-          <DetailPaneDesktop :mode="showDetails" />
+          <DetailPane :mode="showDetails" />
         </div>
       </transition>
       <MapHeader class="centerControls desktopHeader" />
       <transition name="slideup">
         <div class=" desktopHeader right" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="showFight" />
+          <DetailPane :mode="showFight" />
         </div>
       </transition>
 
       <transition name="slideup">
         <div class="desktopFooter" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onLeft" :faction="'bastion'" />
+          <DetailPane :mode="onLeft" :faction="'bastion'" />
         </div>
       </transition>
       <transition name="slideup">
         <div class="desktopFooter right" v-show="isSelectedFight">
-          <DetailPaneDesktop :mode="onRight" :faction="'pyre'" />
+          <DetailPane :mode="onRight" :faction="'pyre'" />
         </div>
       </transition>
     </div>
@@ -40,19 +40,19 @@
       <div class="mobileContent" tag="div">
         <MapHeader />
         <transition-group name="grow">
-          <DetailPaneDesktop :mode="showDetails" :key="'tiledeets'" />
-          <DetailPaneDesktop
+          <DetailPane :mode="showDetails" :key="'tiledeets'" />
+          <DetailPane
             :mode="showFight"
             v-show="isSelectedFight"
             :key="'fightdeets'"
           />
-          <DetailPaneDesktop
+          <DetailPane
             :mode="onLeft"
             v-show="isSelectedFight"
             :faction="'bastion'"
             :key="'leftfighter'"
           />
-          <DetailPaneDesktop
+          <DetailPane
             :mode="onRight"
             v-show="isSelectedFight"
             :faction="'pyre'"
@@ -72,16 +72,11 @@ import Vue from "vue"
 import MainMap from "../components/MainMap.vue"
 // import DetailPaneMobile from '../components/DetailPaneMobile.vue'
 
-import DetailPaneDesktop from "../components/DetailPaneDesktop.vue"
+import DetailPane from "../components/DetailPane.vue"
 import MapHeader from "../components/MapHeader.vue"
 import MobileMapZoom from "../components/MobileMapZoom.vue"
 import RoundSummary from "../components/RoundSummary.vue"
-import {
-  LEFT,
-  RIGHT,
-  DETAILS,
-  FIGHT
-} from "../components/DetailPaneDesktop.vue"
+import { LEFT, RIGHT, DETAILS, FIGHT } from "../components/DetailPane.vue"
 
 import { storageAvailable } from "../common/localStorage"
 
@@ -102,7 +97,7 @@ export default {
   components: {
     MainMap,
     // DetailPaneMobile,
-    DetailPaneDesktop,
+    DetailPane,
     MapHeader,
     MobileMapZoom,
     RoundSummary

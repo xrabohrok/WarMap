@@ -106,7 +106,7 @@ import {
   CUR_SPOILER_REVEALED
 } from "../../state/getters"
 
-import { FIGHT } from "../DetailPaneDesktop"
+import { FIGHT } from "../DetailPane"
 
 export default {
   props: {

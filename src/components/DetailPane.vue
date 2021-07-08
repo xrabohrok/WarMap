@@ -96,7 +96,7 @@ export default {
       round: CURRENT_ROUND
     })
   },
-  name: "DetailPaneDesktop"
+  name: "DetailPane"
 }
 </script>
 

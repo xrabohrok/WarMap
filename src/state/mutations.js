@@ -3,6 +3,7 @@ import { getKey, initializeKey, setKey } from "../common/localStorage"
 const mutations = {
   newSelected(state, target) {
     state.curSelected = target
+    state.showSummary = false
   },
   deSelect(state) {
     state.curSelected = "NA"
@@ -77,6 +78,8 @@ const mutations = {
   },
   toggleSummaryPane(state) {
     state.showSummary = !state.showSummary
+    //we want to hide everything to do with selecting if these pop out
+    state.curSelected = "NA"
   }
 }
 

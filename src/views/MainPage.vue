@@ -14,12 +14,12 @@
         </div>
       </transition>
 
-      <transition name="slideup">
+      <transition name="fighterslide">
         <div class="desktopFooter" v-show="isSelectedFight">
           <DetailPane :mode="onLeft" :faction="'bastion'" />
         </div>
       </transition>
-      <transition name="slideup">
+      <transition name="fighterslide">
         <div class="desktopFooter right" v-show="isSelectedFight">
           <DetailPane :mode="onRight" :faction="'pyre'" />
         </div>
@@ -103,8 +103,7 @@ export default {
   name: "MainPage",
   data() {
     return {
-      mobile: window.outerWidth <= 840,
-      zoomer: null
+      mobile: window.outerWidth <= 840
     }
   },
   components: {
@@ -337,7 +336,7 @@ a {
 
 .slideup-enter-active,
 .slideup-leave-active {
-  transition: all 0.9s;
+  transition: all 0.5s;
 }
 .slideup-enter {
   opacity: 0;
@@ -348,6 +347,22 @@ a {
 .slideup-leave-to {
   opacity: 0;
   transform: translatey(-100%);
+  /* height: 0; */
+}
+
+.fighterslide-enter-active,
+.fighterslide-leave-active {
+  transition: all 0.5s;
+}
+.fighterslide-enter {
+  opacity: 0;
+  transform: translatey(100%);
+  /* top: 500%; */
+  /* height: 0; */
+}
+.fighterslide-leave-to {
+  opacity: 0;
+  transform: translatey(100%);
   /* height: 0; */
 }
 

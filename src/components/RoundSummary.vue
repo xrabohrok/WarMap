@@ -1,6 +1,6 @@
 <template>
   <div class="topContainer">
-    <div class="title">
+    <div class="title desktop">
       {{ isBastion ? "Bastion" : "Pyre" }} Fighters - Round {{ curRound }}
     </div>
     <div class="scrollContainer">
@@ -58,15 +58,14 @@ export default {
 </script>
 
 <style scoped>
-.topContainer {
-  background-color: rgb(48, 7, 17);
-  border-color: chocolate;
-  border-style: solid;
-  border-radius: 1em;
-}
-
 .scrollContainer {
   overflow-y: auto;
   height: 90%;
+}
+
+@media only screen and (max-width: 840px) {
+  .desktop {
+    display: none;
+  }
 }
 </style>

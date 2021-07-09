@@ -1,4 +1,3 @@
-//to be run on node REPL
 //for converting the round on https://docs.google.com/spreadsheets/d/1qcOQ5XtHYM2DvT-_YClxSi5fx7Hbizox1czpGWm1aTA/edit#gid=30197188
 //convert the tsv of the match data into the following schema
 

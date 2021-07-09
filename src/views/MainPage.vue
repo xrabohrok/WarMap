@@ -24,22 +24,22 @@
           <DetailPane :mode="onRight" :faction="'pyre'" />
         </div>
       </transition>
-    </div>
 
-    <transition name="side-slide-left">
-      <RoundSummary
-        class="bastion roundSummary"
-        :isBastion="true"
-        v-if="rosterEnabled && showingRoster"
-      />
-    </transition>
-    <transition name="side-slide-right">
-      <RoundSummary
-        class="pyre roundSummary"
-        :isBastion="false"
-        v-if="rosterEnabled && showingRoster"
-      />
-    </transition>
+      <transition name="side-slide-left">
+        <RoundSummary
+          class="bastion roundSummary"
+          :isBastion="true"
+          v-if="rosterEnabled && showingRoster"
+        />
+      </transition>
+      <transition name="side-slide-right">
+        <RoundSummary
+          class="pyre roundSummary"
+          :isBastion="false"
+          v-if="rosterEnabled && showingRoster"
+        />
+      </transition>
+    </div>
 
     <div class="screenContainer" v-if="mobile">
       <div id="mobileMap">
@@ -48,6 +48,34 @@
       <div class="mobileContent" tag="div">
         <MapHeader />
         <transition-group name="grow">
+          <div
+            class="mobileSummaryContainer"
+            :key="'pyreFighters'"
+            v-if="rosterEnabled"
+          >
+            <div class="mobileSummaryButton" @click="pyreGroupClick">
+              Pyre Fighters
+            </div>
+            <RoundSummary
+              class="pyre mobileSummary"
+              :isBastion="false"
+              v-if="pyreRosterExpanded"
+            />
+          </div>
+          <div
+            class="mobileSummaryContainer"
+            :key="'pyreFighters'"
+            v-if="rosterEnabled"
+          >
+            <div class="mobileSummaryButton" @click="bastionGroupClick">
+              Bastion Fighters
+            </div>
+            <RoundSummary
+              class="bastion mobileSummary"
+              :isBastion="true"
+              v-if="bastionRosterExpanded"
+            />
+          </div>
           <DetailPane :mode="showDetails" :key="'tiledeets'" />
           <DetailPane
             :mode="showFight"
@@ -103,7 +131,9 @@ export default {
   name: "MainPage",
   data() {
     return {
-      mobile: window.outerWidth <= 840
+      mobile: window.outerWidth <= 840,
+      pyreRosterExpanded: false,
+      bastionRosterExpanded: false
     }
   },
   components: {
@@ -182,7 +212,14 @@ export default {
     })
   },
   watch: {},
-  methods: {}
+  methods: {
+    pyreGroupClick: function() {
+      this.pyreRosterExpanded = !this.pyreRosterExpanded
+    },
+    bastionGroupClick: function() {
+      this.bastionRosterExpanded = !this.bastionRosterExpanded
+    }
+  }
 }
 </script>
 
@@ -229,6 +266,33 @@ export default {
   position: fixed;
   top: 20vh;
   height: 70vh;
+
+  background-color: rgb(48, 7, 17);
+  border-color: chocolate;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.mobileSummaryButton {
+  font-size: 0.7em;
+  margin: 2vh auto 2vh auto;
+  width: 90%;
+
+  background-color: rgb(41, 105, 50);
+  padding: 0.3em 0 0.3em 0;
+}
+
+.mobileSummaryContainer {
+  width: 100%;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.mobileSummary {
+  height: 60vh;
+  width: 100%;
+
+  font-size: 0.6em;
 }
 
 .roundSummary.pyre {

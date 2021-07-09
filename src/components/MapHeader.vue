@@ -46,7 +46,7 @@
           @change="setItemVisibility($event)"
         />
       </div>
-      <div class="control_group">
+      <div class="control_group desktop">
         <div
           class="wide_button"
           @click="toggleSummary"
@@ -133,12 +133,6 @@ h1 {
   margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 840px) {
-  .desktop {
-    display: none;
-  }
-}
-
 .header {
   padding: 0 0.3vw 0 0.3vw;
 }
@@ -203,5 +197,15 @@ h1 {
 .custom-step.active {
   box-shadow: 0 0 0 3px #3498db;
   background-color: #3498db;
+}
+
+@media only screen and (max-width: 840px) {
+  .desktop {
+    display: none;
+  }
+
+  .wide_button {
+    font-size: 0.6em;
+  }
 }
 </style>

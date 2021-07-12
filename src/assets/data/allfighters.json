@@ -338,13 +338,13 @@
     "context": ["duel", "duel", "duel", "duel", "gbn"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {
-      "Andy (Derogatory)#6091 and PumpkinLeif#6045": {
-        "name": "Andy (Derogatory)#6091 and PumpkinLeif#6045",
+      "Tricia": {
+        "name": "Tricia",
         "role": "Writer",
         "contacts": {}
       },
-      "Andy and Leif": {
-        "name": "Andy and Leif",
+      "Andy and PumpkinLeif": {
+        "name": "Andy and PumpkinLeif",
         "role": "Artist",
         "contacts": {}
       }

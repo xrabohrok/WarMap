@@ -64,7 +64,7 @@
           </div>
           <div
             class="mobileSummaryContainer"
-            :key="'pyreFighters'"
+            :key="'bastionFighters'"
             v-if="rosterEnabled"
           >
             <div class="mobileSummaryButton" @click="bastionGroupClick">
@@ -264,13 +264,14 @@ export default {
 
 .roundSummary {
   position: fixed;
-  top: 20vh;
+  top: 24vh;
   height: 70vh;
 
   background-color: rgb(48, 7, 17);
   border-color: chocolate;
   border-style: solid;
   border-radius: 1em;
+  padding-left: 1%;
 }
 
 .mobileSummaryButton {

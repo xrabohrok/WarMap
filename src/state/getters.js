@@ -1,5 +1,5 @@
 const alpahbeticalSort = function(a, b) {
-  const theFinder = /the /i
+  const theFinder = /the |[",()]/i
   var textA = a.name.toUpperCase().replace(theFinder, "")
   var textB = b.name.toUpperCase().replace(theFinder, "")
   return textA < textB ? -1 : textA > textB ? 1 : 0

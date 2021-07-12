@@ -10,7 +10,9 @@
             {{ f.name }}
           </td>
           <td class="TileLocation">
-            {{ f.tile.toUpperCase() }}
+            <div class="warpLink" @click="selectTile(f.tile)">
+              {{ f.tile.toUpperCase() }}
+            </div>
           </td>
           <td>
             <StrikeLink
@@ -30,6 +32,7 @@ import StrikeLink from "./elements/StrikeLink.vue"
 
 import { mapGetters } from "vuex"
 import { ALL_FIGHTERS_IN_ROUND, CURRENT_ROUND } from "../state/getters"
+import { NEW_SELECTED } from "../state/mutations"
 
 export default {
   data: function() {
@@ -53,6 +56,11 @@ export default {
       curRound: CURRENT_ROUND
     })
   },
+  methods: {
+    selectTile(tile) {
+      this.$store.commit(NEW_SELECTED, tile)
+    }
+  },
   name: "RoundSummary"
 }
 </script>
@@ -61,6 +69,18 @@ export default {
 .scrollContainer {
   overflow-y: auto;
   height: 90%;
+}
+
+.title {
+  font-family: "Suez One", serif;
+  font-size: 1.8em;
+  margin-bottom: 2%;
+}
+
+.warpLink {
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(88, 161, 15);
 }
 
 @media only screen and (max-width: 840px) {

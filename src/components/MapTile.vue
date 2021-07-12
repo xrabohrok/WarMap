@@ -12,12 +12,10 @@
     </div>
     <div class="terrainGroup" :class="{ terrainGroupHovered: isHovered }">
       <transition name="stab">
-        <img
-          src="../assets/pics/chooser-knife.png"
-          v-if="isSelected"
-          class="selector"
-          draggable="false"
-        />
+        <div class="selector" v-if="isSelected">
+          <img src="../assets/pics/chooser-knife.png" draggable="false" />
+          <div class="tileLabel">{{ title }}</div>
+        </div>
       </transition>
       <transition name="ghost">
         <img
@@ -383,6 +381,22 @@ export default {
   user-select: none;
 }
 
+.selector img {
+  height: 8vw;
+  width: auto;
+}
+
+.selector div {
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(3 64 11);
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+}
+
 .mapTile {
   color: black;
   padding: 0;
@@ -506,6 +520,9 @@ export default {
   }
   .selector {
     height: 6vh;
+  }
+  .selector div {
+    font-size: 0.35em;
   }
 }
 

@@ -200,7 +200,7 @@
     "link": [
       "https://imgur.com/a/nI6tou1",
       "https://imgur.com/a/1UoXNIi",
-      "http://imgur.com/a/FpU89Sn",
+      "https://imgur.com/a/FpU89Sn",
       "https://imgur.com/gallery/rd9raR7"
     ],
     "id": 13,
@@ -758,7 +758,7 @@
   "48": {
     "name": "Ratasha the Rat Princess",
     "rounds": [1],
-    "link": ["http://imgur.com/a/ES8Ixng"],
+    "link": ["https://imgur.com/a/ES8Ixng"],
     "id": 48,
     "context": ["duel"],
     "faction": ["pyre"],
@@ -1141,7 +1141,7 @@
   "74": {
     "name": "MOLOSSUS MEGATON",
     "rounds": [1],
-    "link": ["http://imgur.com/a/p0VKGEP"],
+    "link": ["https://imgur.com/a/p0VKGEP"],
     "id": 74,
     "context": ["duel"],
     "faction": ["pyre"],
@@ -1942,7 +1942,7 @@
     "rounds": [1, 2, 4],
     "faction": ["bastion", "bastion", "bastion"],
     "link": [
-      "https://imgur.com/a/Cvq6tlU  ",
+      "https://imgur.com/a/Cvq6tlU",
       "https://imgur.com/a/W3xvIso",
       "https://imgur.com/a/F0HxC5F"
     ],
@@ -2163,7 +2163,7 @@
     "rounds": [1, 3, 4],
     "faction": ["bastion", "bastion", "bastion"],
     "link": [
-      "http://imgur.com/a/uqWmxjm",
+      "https://imgur.com/a/uqWmxjm",
       "https://imgur.com/a/egKHzeI",
       "https://imgur.com/a/bvtySGw"
     ],
@@ -2228,10 +2228,10 @@
     "rounds": [1, 2, 4, 5],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "link": [
-      "https://imgur.com/a/5KMmr52#IpXtzjQ",
-      "https://imgur.com/a/YD5UvS6#h8n2UJh",
+      "https://imgur.com/a/5KMmr52",
+      "https://imgur.com/a/YD5UvS6",
       "https://imgur.com/a/fuqqtGt",
-      "https://imgur.com/a/G7UAcKk#EXwmORV"
+      "https://imgur.com/a/G7UAcKk"
     ],
     "context": ["gbs", "gbn", "duel", "gb"],
     "id": 141,

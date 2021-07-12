@@ -1,4 +1,4 @@
-const imgrTest = /^(https:\/\/)?imgur\.com\/.*\/.......$/im
+const imgrTest = /^(https?:\/\/)?imgur\.com\/.*\/.......$/im
 const directCubariTest = /^(https:\/\/)?cubari\.moe\/.*/im
 const twitterTest = /^(https:\/\/)twitter\.com/im
 const tumblrTest = /^(https:\/\/).*\.tumblr\.com\/post\//im

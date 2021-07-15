@@ -450,7 +450,17 @@
     "id": 27,
     "context": ["duel", "gbs", "duel", "duel", "clash"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Mythee": {
+        "name": "Mythee",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "mytheeee",
+          "pw1": "https://www.artstation.com/evergeneforest",
+          "pw2": "punsmythee.tumblr.com"
+        }
+      }
+    },
     "backstory": "",
     "verified": true
   },
@@ -518,7 +528,16 @@
     "id": 31,
     "context": ["duel", "duel", "gbn", "duel", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "pyre"],
-    "artists": {},
+    "artists": {
+      "Danny/Katros": {
+        "name": "Danny/Katros",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@Katros1102",
+          "pw2": "https://dannyp.artstation.com/"
+        }
+      }
+    },
     "backstory": "",
     "verified": true
   },
@@ -890,7 +909,15 @@
     "id": 57,
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "E. M. Fields": {
+        "name": "E. M. Fields",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@EMFields_Art"
+        }
+      }
+    },
     "backstory": "",
     "verified": true
   },
@@ -1182,7 +1209,7 @@
     "verified": true
   },
   "77": {
-    "name": "Leslie",
+    "name": "Leslie Ten",
     "rounds": [1, 2, 3, 4, 5],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
@@ -1194,7 +1221,16 @@
     ],
     "context": ["gbn", "duel", "duel", "clash", "duel"],
     "id": 77,
-    "artists": {},
+    "artists": {
+      "skwid": {
+        "name": "skwid",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@PitofSquids",
+          "pw2": "https://pitofsquids.tumblr.com/"
+        }
+      }
+    },
     "backstory": "",
     "verified": true
   },
@@ -3938,7 +3974,16 @@
     "link": ["https://imgur.com/a/AvUeN2P", "https://imgur.com/a/yyOZp2y"],
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Sev Wildfang": {
+        "name": "Sev Wildfang",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@sev_wildfang",
+          "pw2": "https://sev-arts.tumblr.com"
+        }
+      }
+    },
     "backstory": "",
     "verified": false
   },
@@ -4307,7 +4352,15 @@
     "link": ["https://imgur.com/gallery/d7DcBPZ"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "E. M. Fields": {
+        "name": "E. M. Fields",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@EMFields_Art"
+        }
+      }
+    },
     "backstory": "",
     "verified": false
   },

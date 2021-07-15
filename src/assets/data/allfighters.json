@@ -462,7 +462,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "10.00",
+      "left": "-7.22",
+      "top": "49.49"
+    }
   },
   "28": {
     "name": "Bronwyn",
@@ -513,7 +518,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.75",
+      "left": "10.85",
+      "top": "50.38"
+    }
   },
   "31": {
     "name": "The Marquis",
@@ -919,7 +929,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "4.19",
+      "top": "37.17"
+    }
   },
   "58": {
     "name": "Erzabet",
@@ -1232,7 +1247,12 @@
       }
     },
     "backstory": "",
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "19.05",
+      "top": "45.53"
+    }
   },
   "78": {
     "name": "Shoota",
@@ -3985,7 +4005,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "1.00",
+      "left": "58.43",
+      "top": "52.95"
+    }
   },
   "387": {
     "id": 387,
@@ -4362,7 +4387,12 @@
       }
     },
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "-12.31",
+      "top": "24.19"
+    }
   },
   "414": {
     "id": 414,

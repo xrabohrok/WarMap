@@ -26,16 +26,17 @@
   },
   "2": {
     "name": "Vessel Corpse",
-    "rounds": [1, 2, 3, 4],
+    "rounds": [1, 2, 3, 4, 6],
     "link": [
       "https://twitter.com/desdemonical/status/1363393367422369793",
       "https://imgur.com/gallery/kOr3BCI",
       "https://imgur.com/a/yowKkQj",
-      "https://imgur.com/a/4ak1JbX"
+      "https://imgur.com/a/4ak1JbX",
+      "https://imgur.com/a/tybj6If"
     ],
     "id": 2,
-    "context": ["duel", "gbn", "duel", "duel"],
-    "faction": ["pyre", "pyre", "pyre", "pyre"],
+    "context": ["duel", "gbn", "duel", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -97,11 +98,15 @@
   },
   "6": {
     "name": "Vol. 23",
-    "rounds": [1, 3],
-    "link": ["https://imgur.com/a/Fjq2N8j", "https://imgur.com/a/HYSDtvR"],
+    "rounds": [1, 3, 6],
+    "link": [
+      "https://imgur.com/a/Fjq2N8j",
+      "https://imgur.com/a/HYSDtvR",
+      "https://imgur.com/a/Swr6oTe"
+    ],
     "id": 6,
-    "context": ["duel", "duel"],
-    "faction": ["pyre", "pyre"],
+    "context": ["duel", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -273,17 +278,25 @@
   },
   "19": {
     "name": "Rem",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/sfDU6cC",
       "https://imgur.com/a/pCeSrkd",
       "https://imgur.com/a/AfBiEgY",
       "https://imgur.com/a/oHDG8uU",
-      "https://imgur.com/a/oYKsxMp"
+      "https://imgur.com/a/oYKsxMp",
+      "https://imgur.com/a/8ALeXBu"
     ],
     "id": 19,
-    "context": ["duel", "gbn", "duel", "gbs", "gb"],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "context": ["duel", "gbn", "duel", "gbs", "gb", "duel"],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -471,15 +484,16 @@
   },
   "28": {
     "name": "Bronwyn",
-    "rounds": [1, 3, 5],
+    "rounds": [1, 3, 5, 6],
     "link": [
       "https://imgur.com/a/KsS0JXh",
       "https://imgur.com/a/T4Ga88M",
-      "https://imgur.com/a/wQY4KjN"
+      "https://imgur.com/a/wQY4KjN",
+      "https://imgur.com/a/itcEvU6"
     ],
     "id": 28,
-    "context": ["duel", "duel", "duel"],
-    "faction": ["pyre", "pyre", "pyre"],
+    "context": ["duel", "duel", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": ""
   },
@@ -570,17 +584,25 @@
   },
   "33": {
     "name": "\"Long-Arms\" Ten Anong",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/60rtFca",
       "https://imgur.com/gallery/UoouFk8",
       "https://imgur.com/gallery/6j86YQg",
       "https://imgur.com/a/QKgmAUK",
-      "https://imgur.com/a/0vIpYNv"
+      "https://imgur.com/a/0vIpYNv",
+      "https://imgur.com/a/7fK9c5Y"
     ],
     "id": 33,
-    "context": ["duel", "duel", "duel", "clash", "duel"],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "duel", "clash", "duel", "duel"],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "artists": {
       "tximista_rissole": {
         "name": "tximista_rissole",
@@ -665,11 +687,15 @@
   },
   "40": {
     "name": "Purity",
-    "rounds": [1, 2],
-    "link": ["https://imgur.com/a/vJi8O5p", "https://imgur.com/a/McFOwa4"],
+    "rounds": [1, 2, 6],
+    "link": [
+      "https://imgur.com/a/vJi8O5p",
+      "https://imgur.com/a/McFOwa4",
+      "https://imgur.com/a/xv9Exko"
+    ],
     "id": 40,
-    "context": ["duel", "duel"],
-    "faction": ["pyre", "pyre"],
+    "context": ["duel", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -741,17 +767,18 @@
   },
   "46": {
     "name": "The Buried King",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/gallery/wUdCY37",
       "https://imgur.com/gallery/vJ1bpdp",
       "https://imgur.com/a/WbLlehF",
       "https://imgur.com/gallery/rhwjgvD",
-      "https://imgur.com/a/jQNmNag"
+      "https://imgur.com/a/jQNmNag",
+      "https://imgur.com/a/kn1S3fJ"
     ],
     "id": 46,
-    "context": ["duel", "gbn", "clash", "gbn", "duel"],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "context": ["duel", "gbn", "clash", "gbn", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -796,15 +823,16 @@
   },
   "49": {
     "name": "Bugmann",
-    "rounds": [1, 2, 3],
+    "rounds": [1, 2, 3, 6],
     "link": [
       "https://imgur.com/a/ZiQiyxs",
       "https://cdn.discordapp.com/attachments/815948636856647690/823404273491771413/ok_this_is_all_i_got_im_sorry.png",
-      "https://imgur.com/a/VkusWWB"
+      "https://imgur.com/a/VkusWWB",
+      "https://imgur.com/a/uGqvBKC"
     ],
     "id": 49,
-    "context": ["duel", "gbs", "duel"],
-    "faction": ["bastion", "bastion", "bastion"],
+    "context": ["duel", "gbs", "duel", "duel"],
+    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -877,32 +905,34 @@
   },
   "55": {
     "name": "Page Turner",
-    "rounds": [1, 2, 3, 4],
+    "rounds": [1, 2, 3, 4, 6],
     "link": [
       "https://imgur.com/a/myuUNV9",
       "https://imgur.com/a/WBkwRJw",
       "https://imgur.com/a/zCcOiTi",
-      "https://imgur.com/a/0uCv22b"
+      "https://imgur.com/a/0uCv22b",
+      "https://imgur.com/a/uUOCCWU"
     ],
     "id": 55,
-    "context": ["duel", "duel", "gbn", "duel"],
-    "faction": ["bastion", "bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "gbn", "duel", "duel"],
+    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": true
   },
   "56": {
     "name": "Sishigeshiji Song",
-    "rounds": [1, 2, 3, 4],
+    "rounds": [1, 2, 3, 4, 6],
     "link": [
       "https://imgur.com/a/mgAMkc3",
       "https://imgur.com/a/rnMmMq8",
       "https://imgur.com/a/c3trKSm",
-      "https://imgur.com/a/Nrra0qH"
+      "https://imgur.com/a/Nrra0qH",
+      "https://imgur.com/a/3i6BDam"
     ],
     "id": 56,
-    "context": ["duel", "gbs", "duel", "duel"],
-    "faction": ["pyre", "pyre", "pyre", "pyre"],
+    "context": ["duel", "gbs", "duel", "duel", "duel"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -1695,16 +1725,24 @@
   },
   "104": {
     "name": "Am-Sha-Ka Bedlam",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "link": [
       "https://imgur.com/a/Msvmndm",
       "https://imgur.com/a/mlhuiO1",
       "https://imgur.com/a/Fn8ywLT",
       "https://imgur.com/a/3BG1xBg",
-      "https://imgur.com/a/nJvvoBn"
+      "https://imgur.com/a/nJvvoBn",
+      "https://imgur.com/a/N4ydCqH"
     ],
-    "context": ["gbn", "duel", "gbn", "duel", "gb"],
+    "context": ["gbn", "duel", "gbn", "duel", "gb", "duel"],
     "id": 104,
     "artists": {},
     "backstory": "",
@@ -1797,15 +1835,16 @@
   },
   "112": {
     "name": "Lezaford",
-    "rounds": [1, 2, 3, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 5, 6],
+    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "link": [
       "https://imgur.com/a/dQriUm9",
       "https://imgur.com/a/VszUFDx",
       "https://imgur.com/a/kSYuMZ2",
-      "https://imgur.com/a/hjQk081"
+      "https://imgur.com/a/hjQk081",
+      "https://imgur.com/a/fF46xzS"
     ],
-    "context": ["gbn", "gbn", "clash", "duel"],
+    "context": ["gbn", "gbn", "clash", "duel", "duel"],
     "id": 112,
     "artists": {},
     "backstory": "",
@@ -1894,14 +1933,15 @@
   },
   "118": {
     "name": "Koma",
-    "rounds": [1, 2, 5],
-    "faction": ["bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 5, 6],
+    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "link": [
       "https://imgur.com/a/3ptslYv",
       "https://imgur.com/a/g029Gyq",
-      "https://imgur.com/a/dQnN4f5"
+      "https://imgur.com/a/dQnN4f5",
+      "https://imgur.com/a/71ZsYLM"
     ],
-    "context": ["gbn", "gbs", "gb"],
+    "context": ["gbn", "gbs", "gb", "duel"],
     "id": 118,
     "artists": {},
     "backstory": "",
@@ -1925,29 +1965,38 @@
   },
   "120": {
     "name": "A.M.O.R.",
-    "rounds": [1, 5],
-    "faction": ["pyre", "pyre"],
+    "rounds": [1, 5, 6],
+    "faction": ["pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/gallery/ZakmKEn",
-      "https://imgur.com/a/kdvjNrz"
+      "https://imgur.com/a/kdvjNrz",
+      "https://imgur.com/a/PVlkiTd"
     ],
-    "context": ["gbn", "gb"],
+    "context": ["gbn", "gb", "duel"],
     "id": 120,
     "artists": {},
     "backstory": ""
   },
   "121": {
     "name": "Solis",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "link": [
       "https://imgur.com/a/zqp14NA",
       "https://imgur.com/a/EBjuwE4",
       "https://imgur.com/a/cYrEezY",
       "https://imgur.com/a/DRY21Qh",
-      "https://imgur.com/a/MhdHusU"
+      "https://imgur.com/a/MhdHusU",
+      "https://imgur.com/a/FVl0fDP"
     ],
-    "context": ["gbn", "gbn", "duel", "duel", "duel"],
+    "context": ["gbn", "gbn", "duel", "duel", "duel", "duel"],
     "id": 121,
     "artists": {},
     "backstory": "",
@@ -2032,15 +2081,16 @@
   },
   "127": {
     "name": "Stylops Peldo",
-    "rounds": [1, 2, 3, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 5, 6],
+    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "link": [
       "https://imgur.com/a/pId7Urg",
       "https://imgur.com/a/QerpHJJ",
       "https://imgur.com/a/kSYuMZ2",
-      "https://imgur.com/a/l1jrEp4"
+      "https://imgur.com/a/l1jrEp4",
+      "https://imgur.com/a/LE0QJFk"
     ],
-    "context": ["gbs", "duel", "clash", "duel"],
+    "context": ["gbs", "duel", "clash", "duel", "duel"],
     "id": 127,
     "artists": {},
     "backstory": "",
@@ -2048,16 +2098,17 @@
   },
   "128": {
     "name": "The Sour Fruit of Kebby-Ya",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://wolkemesser.tumblr.com/post/643216359271137280",
       "https://imgur.com/gallery/aFuNXlP",
       "https://imgur.com/gallery/2hRvsDW",
       "https://imgur.com/a/XR0gsNi",
-      "https://imgur.com/a/ZQwNz9U"
+      "https://imgur.com/a/ZQwNz9U",
+      "https://imgur.com/gallery/79526Vy"
     ],
-    "context": ["gbs", "duel", "gbn", "duel", "gb"],
+    "context": ["gbs", "duel", "gbn", "duel", "gb", "duel"],
     "id": 128,
     "artists": {
       "Wolkemesser": {
@@ -2076,16 +2127,17 @@
   },
   "129": {
     "name": "Brazen Pun",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/a/w515ZtB",
       "https://imgur.com/a/0kld9Jb",
       "https://imgur.com/a/DyvVwww",
       "https://imgur.com/a/Z4X9DwP",
-      "https://imgur.com/a/dEcmsH0"
+      "https://imgur.com/a/dEcmsH0",
+      "https://imgur.com/a/SWpOCOI"
     ],
-    "context": ["gbs", "duel", "duel", "clash", "duel"],
+    "context": ["gbs", "duel", "duel", "clash", "duel", "duel"],
     "id": 129,
     "artists": {},
     "backstory": "",
@@ -2199,16 +2251,17 @@
   },
   "136": {
     "name": "Pretzel Man",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/a/E6NXtPJ",
       "https://imgur.com/a/2GARXCG",
       "https://imgur.com/a/rZP75oY",
       "https://imgur.com/a/FHoh8U5",
-      "https://imgur.com/a/CnPB6CJ"
+      "https://imgur.com/a/CnPB6CJ",
+      "https://imgur.com/a/LmpPWBj"
     ],
-    "context": ["gbs", "gbs", "gbn", "duel", "gb"],
+    "context": ["gbs", "gbs", "gbn", "duel", "gb", "duel"],
     "id": 136,
     "artists": {},
     "backstory": "",
@@ -2513,16 +2566,17 @@
   },
   "156": {
     "name": "Ink",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/a/HcnSEU7",
       "https://imgur.com/a/bFhEaGk",
       "https://imgur.com/a/rMMY37l",
       "https://imgur.com/a/Z4X9DwP",
-      "https://imgur.com/a/TC4gAx2"
+      "https://imgur.com/a/TC4gAx2",
+      "https://imgur.com/a/pVHXNxH"
     ],
-    "context": ["gbs", "duel", "duel", "clash", "duel"],
+    "context": ["gbs", "duel", "duel", "clash", "duel", "duel"],
     "id": 156,
     "artists": {},
     "backstory": "",
@@ -2591,30 +2645,39 @@
   },
   "160": {
     "name": "28 Quicksilver",
-    "rounds": [1, 3, 5],
-    "faction": ["pyre", "pyre", "pyre"],
+    "rounds": [1, 3, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/a/JSE0eCn",
       "https://imgur.com/a/n4RzoVv",
-      "https://imgur.com/a/a7jQna9"
+      "https://imgur.com/a/a7jQna9",
+      "https://imgur.com/a/aVqxJbr"
     ],
-    "context": ["gbs", "gbs", "gb"],
+    "context": ["gbs", "gbs", "gb", "duel"],
     "id": 160,
     "artists": {},
     "backstory": ""
   },
   "161": {
     "name": "Fog of Graves",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "link": [
       "https://imgur.com/a/Xzfmbqa",
       "https://imgur.com/a/0IrTvKh",
       "https://imgur.com/a/B1ORPYl",
       "https://imgur.com/a/TU0j75u",
-      "https://imgur.com/a/kXikhrM"
+      "https://imgur.com/a/kXikhrM",
+      "https://imgur.com/a/NymkM1k"
     ],
-    "context": ["gbs", "duel", "duel", "duel", "duel"],
+    "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 161,
     "artists": {
       "Moosescribbles": {
@@ -2771,16 +2834,24 @@
   },
   "170": {
     "name": "Jaagup",
-    "rounds": [1, 2, 3, 4, 5],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "rounds": [1, 2, 3, 4, 5, 6],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "link": [
       "https://www.kitkat.cafe/jaagup/grand-nap",
       "https://www.kitkat.cafe/portfolio/jaagup/torpors-end",
       "https://www.kitkat.cafe/portfolio/jaagup/slumbersome-betrapment",
       "https://www.kitkat.cafe/portfolio/jaagup/sleepwalking",
-      "https://imgur.com/a/mSP2Jw7"
+      "https://imgur.com/a/mSP2Jw7",
+      "https://imgur.com/a/7F890eP"
     ],
-    "context": ["gbs", "duel", "duel", "duel", "duel"],
+    "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 170,
     "artists": {},
     "backstory": "",
@@ -3044,10 +3115,14 @@
   "212": {
     "id": 212,
     "name": "Enoch Nomes",
-    "rounds": [2, 4],
-    "link": ["https://imgur.com/a/7GRczuQ", "https://imgur.com/a/QKgmAUK"],
-    "context": ["duel", "clash"],
-    "faction": ["bastion", "bastion"],
+    "rounds": [2, 4, 6],
+    "link": [
+      "https://imgur.com/a/7GRczuQ",
+      "https://imgur.com/a/QKgmAUK",
+      "https://imgur.com/a/LVL5yeO"
+    ],
+    "context": ["duel", "clash", "duel"],
+    "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -3079,14 +3154,15 @@
   "222": {
     "id": 222,
     "name": "0 REPENTANT KILLSTAR SHATTERS RUIN",
-    "rounds": [2, 1, 3],
+    "rounds": [2, 1, 3, 6],
     "link": [
       "https://twitter.com/KingOfSeagulls/status/1373366654827073537",
       "https://imgur.com/a/AE7VVJ8",
-      "https://imgur.com/a/3VZ17Zs"
+      "https://imgur.com/a/3VZ17Zs",
+      "https://imgur.com/a/03PGgYx"
     ],
-    "context": ["duel", "duel", "duel"],
-    "faction": ["bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "duel", "duel"],
+    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -3142,10 +3218,14 @@
   "240": {
     "id": 240,
     "name": "Scarlett & Venus",
-    "rounds": [2, 5],
-    "link": ["https://imgur.com/a/EJ2K2FJ", "https://imgur.com/a/vGnGmMB"],
-    "context": ["duel", "duel"],
-    "faction": ["bastion", "bastion"],
+    "rounds": [2, 5, 6],
+    "link": [
+      "https://imgur.com/a/EJ2K2FJ",
+      "https://imgur.com/a/vGnGmMB",
+      "https://imgur.com/a/lZjGaZX"
+    ],
+    "context": ["duel", "duel", "duel"],
+    "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -3271,10 +3351,14 @@
   "263": {
     "id": 263,
     "name": "TOR",
-    "rounds": [2, 3],
-    "link": ["https://imgur.com/a/Kt62yrX", "https://imgur.com/a/WbLlehF"],
-    "context": ["duel", "clash"],
-    "faction": ["pyre", "pyre"],
+    "rounds": [2, 3, 6],
+    "link": [
+      "https://imgur.com/a/Kt62yrX",
+      "https://imgur.com/a/WbLlehF",
+      "https://imgur.com/a/nVlH9gp"
+    ],
+    "context": ["duel", "clash", "duel"],
+    "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -3819,14 +3903,15 @@
   "367": {
     "id": 367,
     "name": "14 Windswept Meadows",
-    "rounds": [3, 4, 5],
+    "rounds": [3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/t3Nu9h8",
       "https://imgur.com/a/xDrF3qN",
-      "https://imgur.com/a/nFw8kaX"
+      "https://imgur.com/a/nFw8kaX",
+      "https://imgur.com/a/JbT6kLn"
     ],
-    "context": ["duel", "gbn", "gb"],
-    "faction": ["bastion", "bastion", "bastion"],
+    "context": ["duel", "gbn", "gb", "duel"],
+    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4373,10 +4458,13 @@
   "413": {
     "id": 413,
     "name": "Primrose",
-    "rounds": [5],
-    "link": ["https://imgur.com/gallery/d7DcBPZ"],
-    "context": ["duel"],
-    "faction": ["bastion"],
+    "rounds": [5, 6],
+    "link": [
+      "https://imgur.com/gallery/d7DcBPZ",
+      "https://imgur.com/gallery/G3JrbaP"
+    ],
+    "context": ["duel", "duel"],
+    "faction": ["bastion", "bastion"],
     "artists": {
       "E. M. Fields": {
         "name": "E. M. Fields",
@@ -4419,10 +4507,10 @@
   "416": {
     "id": 416,
     "name": "4 Colossus Purged The Stain From Their Soul",
-    "rounds": [5],
-    "link": ["https://imgur.com/a/Ob9oatY"],
-    "context": ["duel"],
-    "faction": ["pyre"],
+    "rounds": [5, 6],
+    "link": ["https://imgur.com/a/Ob9oatY", "https://imgur.com/a/f1XVhQu"],
+    "context": ["duel", "duel"],
+    "faction": ["pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4487,10 +4575,13 @@
   "422": {
     "id": 422,
     "name": "Mosskeeper",
-    "rounds": [5],
-    "link": ["https://imgur.com/a/BYCBSNX"],
-    "context": ["gb"],
-    "faction": ["pyre"],
+    "rounds": [5, 6],
+    "link": [
+      "https://imgur.com/a/BYCBSNX",
+      "https://imgur.com/gallery/Hj7C50d"
+    ],
+    "context": ["gb", "duel"],
+    "faction": ["pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4498,10 +4589,10 @@
   "423": {
     "id": 423,
     "name": "Triple-Seven Jackpot",
-    "rounds": [5],
-    "link": ["https://imgur.com/a/nJvvoBn"],
-    "context": ["gb"],
-    "faction": ["bastion"],
+    "rounds": [5, 6],
+    "link": ["https://imgur.com/a/nJvvoBn", "https://imgur.com/a/zV1fs1l"],
+    "context": ["gb", "duel"],
+    "faction": ["bastion", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4542,10 +4633,10 @@
   "427": {
     "id": 427,
     "name": "LaPlace",
-    "rounds": [5],
-    "link": ["https://imgur.com/a/a5J6J71"],
-    "context": ["gb"],
-    "faction": ["pyre"],
+    "rounds": [5, 6],
+    "link": ["https://imgur.com/a/a5J6J71", "https://imgur.com/a/9n7KYsc"],
+    "context": ["gb", "duel"],
+    "faction": ["pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4564,10 +4655,10 @@
   "429": {
     "id": 429,
     "name": "Devilskin Legion",
-    "rounds": [5],
-    "link": ["https://imgur.com/a/83rK1NB"],
-    "context": ["gb"],
-    "faction": ["pyre"],
+    "rounds": [5, 6],
+    "link": ["https://imgur.com/a/83rK1NB", "https://imgur.com/a/gwvTKz3"],
+    "context": ["gb", "duel"],
+    "faction": ["pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false
@@ -4589,6 +4680,652 @@
     "rounds": [5],
     "link": ["https://imgur.com/a/rYmtTyB"],
     "context": ["gb"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "432": {
+    "id": 432,
+    "name": "Viscera",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/zSUgYu3"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "433": {
+    "id": 433,
+    "name": "Higan",
+    "rounds": [6],
+    "link": ["na"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "434": {
+    "id": 434,
+    "name": "Enzo di Bastille",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/BKqQ2ha"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "435": {
+    "id": 435,
+    "name": "Krisha the Meteor",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/QP5QlaB"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "436": {
+    "id": 436,
+    "name": "Nadia",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/7VpNLPA"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "437": {
+    "id": 437,
+    "name": "Loimos",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/OAT2g8t"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "438": {
+    "id": 438,
+    "name": "7 Grim Sage",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/tMdQAgr"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "439": {
+    "id": 439,
+    "name": "Forest of Jaq",
+    "rounds": [6],
+    "link": [
+      "https://drive.google.com/file/d/1PSZVSgeG5izbvU2IuG3gyrdMx7fKknO1/view"
+    ],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "440": {
+    "id": 440,
+    "name": "Aurus & Tahullah",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/qEk1dlE"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "441": {
+    "id": 441,
+    "name": "THE HESSIAN",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/ZRriIVV"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "442": {
+    "id": 442,
+    "name": "Fungal",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/OlI2F9Q"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "443": {
+    "id": 443,
+    "name": "Rose & Louie",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/5pUM3dl"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "444": {
+    "id": 444,
+    "name": "KillBot and Co.",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/0iZMp4l"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "445": {
+    "id": 445,
+    "name": "Jay Jr. and Jay Sr.",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/Sbqciup"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "446": {
+    "id": 446,
+    "name": "Bridesmaid",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/ZFiFE5g"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "447": {
+    "id": 447,
+    "name": "Scriplet the imp, and MECHAPOD",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/WtiiizE"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "448": {
+    "id": 448,
+    "name": "Ajiid",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/FXCAg00"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "449": {
+    "id": 449,
+    "name": "The Smith Answers the Broken Blade",
+    "rounds": [6],
+    "link": [
+      "https://discord.com/channels/613730018446671878/860878676941340672/866895713286619137"
+    ],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "450": {
+    "id": 450,
+    "name": "Forge Master",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/LSPCms4"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "451": {
+    "id": 451,
+    "name": "Tod The Death Agent",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/pnYJj1x"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "452": {
+    "id": 452,
+    "name": "Pa",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/Iut8RK8"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "453": {
+    "id": 453,
+    "name": "Joe",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/AAFz6GC"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "454": {
+    "id": 454,
+    "name": "Jack",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/YJpL2gF"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "455": {
+    "id": 455,
+    "name": "t & 37 rises",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/IufYIgE"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "456": {
+    "id": 456,
+    "name": "THE CHAMP",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/YrJvaEM"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "457": {
+    "id": 457,
+    "name": "Keeno & Kha'hin",
+    "rounds": [6],
+    "link": [
+      "https://drive.google.com/drive/folders/1gjRl3qECn87nSjuVJ5L8aNqYBfz8VbuU"
+    ],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "458": {
+    "id": 458,
+    "name": "T.E.A.",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/CuWrSvT"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "459": {
+    "id": 459,
+    "name": "Serenety",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/aAglScx"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "460": {
+    "id": 460,
+    "name": "The Decamountain",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/3OyfcAK"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "461": {
+    "id": 461,
+    "name": "Akiko & Akane",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/kZsRA2n"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "462": {
+    "id": 462,
+    "name": "Ashlynn",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/M87FsaN"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "463": {
+    "id": 463,
+    "name": "MIN",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/x2TVlPv"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "464": {
+    "id": 464,
+    "name": "The Hedge Mage",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/yKLWvO8"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "465": {
+    "id": 465,
+    "name": "Brickmancer",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/o4dHLj4"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "466": {
+    "id": 466,
+    "name": "Rhye & Rhone",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/5eyQilJ"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "467": {
+    "id": 467,
+    "name": "Iekika",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/nsfMpHS"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "468": {
+    "id": 468,
+    "name": "Vanta",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/Onx0gi5"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "469": {
+    "id": 469,
+    "name": "Waylen Elto",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/q4FBZjI"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "470": {
+    "id": 470,
+    "name": "Fugu",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/LnRneJY"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "471": {
+    "id": 471,
+    "name": "Alicante",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/XPbXCi6"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "472": {
+    "id": 472,
+    "name": "Venevist",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/T0J9nMm"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "473": {
+    "id": 473,
+    "name": "Chapters",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/9y4FXPG"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "474": {
+    "id": 474,
+    "name": "Rho",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/AjGFMPI"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "475": {
+    "id": 475,
+    "name": "Toreda V",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/hIdaYG9"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "476": {
+    "id": 476,
+    "name": "The Vulture",
+    "rounds": [6],
+    "link": [
+      "https://stevestanzani.squarespace.com/galleryart/comic-war-for-rayuba-entry"
+    ],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "477": {
+    "id": 477,
+    "name": "Carrion Queen",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/Rxxl3ny"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "478": {
+    "id": 478,
+    "name": "ARCHIMEDES",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/4AJyxOC"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "479": {
+    "id": 479,
+    "name": "The Ironclad",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/E6pe8yU"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "480": {
+    "id": 480,
+    "name": "Duman Al’Mudkhana",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/nLp3kGx"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "481": {
+    "id": 481,
+    "name": "General Morsu",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/0DIo5Ri"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "482": {
+    "id": 482,
+    "name": "The Blade Bound Band",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/ziWB8f0"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "483": {
+    "id": 483,
+    "name": "Ingvald [B.R.A]",
+    "rounds": [6],
+    "link": ["https://imgur.com/gallery/U7LEYSL"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "484": {
+    "id": 484,
+    "name": "Ian the Slippery",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/oGH5xfN"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "485": {
+    "id": 485,
+    "name": "Mikhail",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/lGUx6cZ"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "486": {
+    "id": 486,
+    "name": "Kiln",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/LMNsU8z"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "487": {
+    "id": 487,
+    "name": "Son of Ruin",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/mr8gkfb"],
+    "context": ["duel"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "488": {
+    "id": 488,
+    "name": "Tamro",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/5qWnnPP"],
+    "context": ["duel"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "489": {
+    "id": 489,
+    "name": "Elder",
+    "rounds": [6],
+    "link": ["https://imgur.com/a/OwII56k"],
+    "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
     "backstory": "",

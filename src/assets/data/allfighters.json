@@ -2421,15 +2421,16 @@
   },
   "142": {
     "name": "Elena Hellfire",
-    "rounds": [1, 2, 4, 5],
-    "faction": ["pyre", "pyre", "pyre", "pyre"],
+    "rounds": [1, 2, 4, 5, 6],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "link": [
       "https://imgur.com/a/ATnmU3U",
       "https://imgur.com/a/LgrQt3F",
       "https://imgur.com/a/hmnIqXS",
-      "https://imgur.com/a/rZsH8fe"
+      "https://imgur.com/a/rZsH8fe",
+      "https://imgur.com/a/vsPLDU0"
     ],
-    "context": ["gbs", "duel", "duel", "duel"],
+    "context": ["gbs", "duel", "duel", "duel", "gb"],
     "id": 142,
     "artists": {
       "Moiderah": {
@@ -5707,17 +5708,6 @@
     "link": ["https://imgur.com/a/6GJHjCN"],
     "context": ["gb"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "515": {
-    "id": 515,
-    "name": "ELENA THE RED",
-    "rounds": [6],
-    "link": ["https://imgur.com/a/vsPLDU0"],
-    "context": ["gb"],
-    "faction": ["pyre"],
     "artists": {},
     "backstory": "",
     "verified": false

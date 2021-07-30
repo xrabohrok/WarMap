@@ -500,8 +500,8 @@
       ]
     },
     "outcome": {
-      "pyre": "win",
-      "bastion": "lose"
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },
@@ -2628,7 +2628,7 @@
         512,
         513,
         66,
-        515,
+        142,
         36,
         383,
         519,
@@ -2674,8 +2674,8 @@
       ]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "win",
+      "bastion": "lose"
     },
     "events": []
   },
@@ -3250,8 +3250,8 @@
       "bastion": [536, 538, 539, 540, 541, 543, 545, 547, 549]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },

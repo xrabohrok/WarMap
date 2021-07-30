@@ -198,7 +198,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [1],
+    "note": "Ashlynn is injured!"
   },
   "a2": {
     "location": "a2",
@@ -270,7 +271,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "Vol 23 is slain!"
   },
   "b12": {
     "location": "b12",
@@ -288,7 +290,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Fog of Graves is slain!"
   },
   "b11": {
     "location": "b11",
@@ -306,7 +309,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "b10": {
     "location": "b10",
@@ -324,7 +327,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "Buried King dies(?)."
   },
   "b9": {
     "location": "b9",
@@ -342,7 +346,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "b8": {
     "location": "b8",
@@ -503,7 +507,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [5],
+    "note": "Ultra Limiter Tile: 2 page limit!"
   },
   "b1": {
     "location": "b1",
@@ -557,7 +562,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "Bronwyn is slain!"
   },
   "c12": {
     "location": "c12",
@@ -575,7 +581,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Alicante is slain!"
   },
   "c11": {
     "location": "c11",
@@ -593,7 +600,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c10": {
     "location": "c10",
@@ -611,7 +618,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c9": {
     "location": "c9",
@@ -629,7 +636,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Ten Anong is slain!"
   },
   "c8": {
     "location": "c8",
@@ -755,7 +763,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [],
+    "note": "The Coiled Snake Sword forces a fight to the death! Jaagup is slain!"
   },
   "c1": {
     "location": "c1",
@@ -773,7 +782,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [1],
+    "note": "Scarlett & Venus are injured!"
   },
   "d14": {
     "location": "d14",
@@ -809,7 +819,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d12": {
     "location": "d12",
@@ -827,7 +837,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d11": {
     "location": "d11",
@@ -845,7 +855,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "A.M.O.R. is slain!"
   },
   "d10": {
     "location": "d10",
@@ -863,7 +874,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d9": {
     "location": "d9",
@@ -881,7 +892,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d8": {
     "location": "d8",
@@ -971,7 +982,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [4],
+    "note": "Limiter tile: 10 page limit on submissions"
   },
   "d3": {
     "location": "d3",
@@ -1061,7 +1073,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "Fungal is slain!"
   },
   "e12": {
     "location": "e12",
@@ -1079,7 +1092,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Stylops is slain!"
   },
   "e11": {
     "location": "e11",
@@ -1097,7 +1111,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e10": {
     "location": "e10",
@@ -1115,7 +1129,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e9": {
     "location": "e9",
@@ -1133,7 +1147,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Bugmann is slain!"
   },
   "e8": {
     "location": "e8",
@@ -1277,7 +1292,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [],
+    "note": "The Vulture is injured!"
   },
   "f14": {
     "location": "f14",
@@ -1313,7 +1329,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2],
+    "note": "The Blade Bound Band is slain!"
   },
   "f12": {
     "location": "f12",
@@ -1331,7 +1348,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f11": {
     "location": "f11",
@@ -1349,7 +1366,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "The Ironclad is slain!"
   },
   "f10": {
     "location": "f10",
@@ -1367,7 +1385,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "777 Jackpot is slain!"
   },
   "f9": {
     "location": "f9",
@@ -1385,7 +1404,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f8": {
     "location": "f8",
@@ -1961,7 +1980,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [4]
   },
   "h4": {
     "location": "h4",
@@ -1997,7 +2016,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [1]
   },
   "h2": {
     "location": "h2",
@@ -2123,7 +2142,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [1],
+    "note": "Mechapod & co. are injured!"
   },
   "i9": {
     "location": "i9",
@@ -2573,7 +2593,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [4],
+    "note": "Limiter tile: 10 page limit on submissions"
   },
   "k12": {
     "location": "k12",
@@ -2713,7 +2734,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [],
+    "note": "0 REPENTANT KILLSTAR is injured!"
   },
   "k7": {
     "location": "k7",
@@ -2785,7 +2807,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [1]
   },
   "k3": {
     "location": "k3",
@@ -2875,7 +2897,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [1],
+    "note": "Solis is injured!  Landwaster has been activated! Tile J12 taken by Pyre!"
   },
   "l12": {
     "location": "l12",
@@ -2929,7 +2952,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [4]
   },
   "l9": {
     "location": "l9",
@@ -3055,7 +3078,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2],
+    "note": "Kiln is injured!"
   },
   "l2": {
     "location": "l2",
@@ -3127,7 +3151,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [5],
+    "note": "Ultra Limiter Tile: 2 page limit!"
   },
   "m12": {
     "location": "m12",
@@ -3145,7 +3170,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [1],
+    "note": "Page Turner is injured!"
   },
   "m11": {
     "location": "m11",
@@ -3271,7 +3297,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [1]
   },
   "m4": {
     "location": "m4",

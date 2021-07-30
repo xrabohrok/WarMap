@@ -3830,17 +3830,18 @@
   "343": {
     "id": 343,
     "name": "Basil & Jeeves",
-    "rounds": [3, 4, 5],
+    "rounds": [3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/b88D38i",
       "https://imgur.com/a/DKnqk43",
-      "https://imgur.com/a/G57tHeL"
+      "https://imgur.com/a/G57tHeL",
+      "https://imgur.com/a/D5W8e36"
     ],
-    "context": ["duel", "gbs", "duel"],
-    "faction": ["bastion", "bastion", "bastion"],
+    "context": ["duel", "gbs", "duel", "gb"],
+    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "backstory": "",
-    "verified": false
+    "verified": true
   },
   "344": {
     "id": 344,
@@ -5209,7 +5210,12 @@
     "faction": ["bastion"],
     "artists": {},
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "8.59",
+      "top": "49.17"
+    }
   },
   "468": {
     "id": 468,
@@ -5724,7 +5730,12 @@
     "faction": ["pyre"],
     "artists": {},
     "backstory": "",
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "32.68",
+      "top": "45.52"
+    }
   },
   "514": {
     "id": 514,
@@ -5957,17 +5968,6 @@
     "link": ["http://imgur.com/gallery/mODX9kA"],
     "context": ["gb"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "536": {
-    "id": 536,
-    "name": "Basil & Yato",
-    "rounds": [6],
-    "link": ["https://imgur.com/a/D5W8e36"],
-    "context": ["gb"],
-    "faction": ["bastion"],
     "artists": {},
     "backstory": "",
     "verified": false

@@ -123,14 +123,17 @@
   },
   "8": {
     "name": "Admiral Frogstar",
-    "rounds": [1, 2],
+    "rounds": [1, 2, 3, 4, 5],
     "link": [
       "https://imgur.com/gallery/AmzidK8",
-      "https://imgur.com/a/C8XlSAu"
+      "https://imgur.com/a/C8XlSAu",
+      "https://imgur.com/a/tP4RqpJ",
+      "https://imgur.com/a/tPitphG",
+      "https://imgur.com/a/c5ZAWiK"
     ],
     "id": 8,
-    "context": ["duel", "gbs"],
-    "faction": ["pyre", "pyre"],
+    "context": ["duel", "gbs", "duel", "gbn", "duel"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {
       "Galgoa": {
         "name": "Galgoa",
@@ -3854,17 +3857,6 @@
     "backstory": "",
     "verified": false
   },
-  "345": {
-    "id": 345,
-    "name": "Frogstar",
-    "rounds": [3],
-    "link": ["https://imgur.com/a/tP4RqpJ"],
-    "context": ["duel"],
-    "faction": ["pyre"],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
   "346": {
     "id": 346,
     "name": "Svala",
@@ -4412,17 +4404,6 @@
     "link": ["https://imgur.com/a/f0YPXYQ", "https://imgur.com/a/nFw8kaX"],
     "context": ["gbn", "gb"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
-    "backstory": "",
-    "verified": false
-  },
-  "399": {
-    "id": 399,
-    "name": "Frogstar Inc",
-    "rounds": [4, 5],
-    "link": ["https://imgur.com/a/tPitphG", "https://imgur.com/a/c5ZAWiK"],
-    "context": ["gbn", "duel"],
-    "faction": ["pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false

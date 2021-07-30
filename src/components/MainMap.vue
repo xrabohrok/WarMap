@@ -68,8 +68,9 @@ export default {
   top: 20vh;
   transform: translateX(-50%);
   left: 50vw;
-  margin-top: 11vh;
-  margin-bottom: 2vh;
+  margin-top: 14vh;
+  padding-bottom: 3vh;
+  margin-bottom: 5vh;
 }
 
 .row {

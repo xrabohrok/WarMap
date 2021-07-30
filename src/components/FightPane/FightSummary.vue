@@ -159,7 +159,13 @@ export default {
       return `${fightType} ${name}`
     },
     fightOutcome: function() {
-      if (!(this.zoneFight.contest || this.zoneFight.grandBattle))
+      if (
+        !(
+          this.zoneFight.contest ||
+          this.zoneFight.grandBattle ||
+          this.zoneFight.clash
+        )
+      )
         return { message: "Not Available" }
 
       const message =

@@ -3230,18 +3230,18 @@
   "m8": {
     "location": "m8",
     "contest": false,
-    "attacker": "na",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [32, 35, 50, 346],
+      "bastion": [41, 25, 31, 54]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },
@@ -3482,18 +3482,18 @@
   "n8": {
     "location": "n8",
     "contest": false,
-    "attacker": "na",
+    "attacker": "bastion",
     "owner": "pyre",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [32, 35, 50, 346],
+      "bastion": [41, 25, 31, 54]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },

@@ -425,17 +425,25 @@
   },
   "25": {
     "name": "THE CAT",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/yxcTZI0",
       "https://imgur.com/a/0m7jzGD",
       "https://imgur.com/a/n3b171V",
       "https://imgur.com/a/DdCL7td",
-      "https://imgur.com/a/ozCh9bg"
+      "https://imgur.com/a/ozCh9bg",
+      "https://imgur.com/a/ObIDmbk"
     ],
     "id": 25,
-    "context": ["duel", "duel", "gbs", "duel", "duel"],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "gbs", "duel", "duel", "clash"],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -542,17 +550,18 @@
   },
   "31": {
     "name": "The Marquis",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/gallery/GfUSibg",
       "https://imgur.com/gallery/bDax5gs",
       "https://imgur.com/gallery/VclRM6B",
       "https://imgur.com/a/aDXGGv5",
-      "https://imgur.com/gallery/DEKNqUu"
+      "https://imgur.com/gallery/DEKNqUu",
+      "https://imgur.com/a/ObIDmbk"
     ],
     "id": 31,
-    "context": ["duel", "duel", "gbn", "duel", "gb"],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "pyre"],
+    "context": ["duel", "duel", "gbn", "duel", "gb", "clash"],
+    "faction": ["bastion", "bastion", "bastion", "bastion", "pyre", "bastion"],
     "artists": {
       "Danny/Katros": {
         "name": "Danny/Katros",
@@ -568,17 +577,18 @@
   },
   "32": {
     "name": "The MANY HANDS",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/e213bbi",
       "https://imgur.com/a/vMNtbRR",
       "https://imgur.com/a/0X7RZ01",
       "https://imgur.com/a/qpH5p5z",
-      "https://imgur.com/a/2VORtYH"
+      "https://imgur.com/a/2VORtYH",
+      "https://imgur.com/a/0KvP4RT"
     ],
     "id": 32,
-    "context": ["duel", "gbn", "duel", "duel", "duel"],
-    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
+    "context": ["duel", "gbn", "duel", "duel", "duel", "clash"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -650,15 +660,16 @@
   },
   "35": {
     "name": "Cupid",
-    "rounds": [1, 3, 5],
+    "rounds": [1, 3, 5, 6],
     "link": [
       "https://imgur.com/a/uQjlgH9",
       "[No submission]",
-      "https://imgur.com/a/SephVkn"
+      "https://imgur.com/a/SephVkn",
+      "https://imgur.com/a/0KvP4RT"
     ],
     "id": 35,
-    "context": ["duel", "duel", "duel"],
-    "faction": ["bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "duel", "clash"],
+    "faction": ["bastion", "bastion", "bastion", "pyre"],
     "artists": {},
     "backstory": ""
   },
@@ -704,17 +715,25 @@
   },
   "41": {
     "name": "Temurin",
-    "rounds": [1, 2, 3, 4, 5],
+    "rounds": [1, 2, 3, 4, 5, 6],
     "link": [
       "https://imgur.com/a/iAooAs4",
       "https://imgur.com/a/XYfKV0l",
       "https://imgur.com/a/pC1a7IL",
       "https://imgur.com/a/vaKCjL7",
-      "https://imgur.com/a/j3EZa5d"
+      "https://imgur.com/a/j3EZa5d",
+      "https://imgur.com/a/ObIDmbk"
     ],
     "id": 41,
-    "context": ["duel", "duel", "gbs", "duel", "duel"],
-    "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
+    "context": ["duel", "duel", "gbs", "duel", "duel", "clash"],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -841,16 +860,17 @@
   },
   "50": {
     "name": "Aubrey Chamberlain IV",
-    "rounds": [1, 2, 4, 5],
+    "rounds": [1, 2, 4, 5, 6],
     "link": [
       "https://imgur.com/a/bNMruRa",
       "https://imgur.com/a/LHFF0y3",
       "https://imgur.com/a/ImUQbiR",
-      "https://imgur.com/a/DI52LWb"
+      "https://imgur.com/a/DI52LWb",
+      "https://imgur.com/a/0KvP4RT"
     ],
     "id": 50,
-    "context": ["duel", "gbs", "gbn", "duel"],
-    "faction": ["pyre", "pyre", "pyre", "pyre"],
+    "context": ["duel", "gbs", "gbn", "duel", "clash"],
+    "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -892,15 +912,16 @@
   },
   "54": {
     "name": "KU",
-    "rounds": [1, 3, 2],
+    "rounds": [1, 3, 2, 6],
     "link": [
       "https://twitter.com/juangeedraws/status/1362420844534792192?s=20",
       "https://twitter.com/juangeedraws/status/1381580039926378500?s=20",
-      "https://twitter.com/juangeedraws/status/1372360622520688642?s=20"
+      "https://twitter.com/juangeedraws/status/1372360622520688642?s=20",
+      "https://imgur.com/a/ObIDmbk"
     ],
     "id": 54,
-    "context": ["duel", "duel", "duel"],
-    "faction": ["pyre", "pyre", "pyre"],
+    "context": ["duel", "duel", "duel", "clash"],
+    "faction": ["pyre", "pyre", "pyre", "bastion"],
     "artists": {},
     "backstory": "",
     "verified": true
@@ -3846,10 +3867,14 @@
   "346": {
     "id": 346,
     "name": "Svala",
-    "rounds": [3, 5],
-    "link": ["https://imgur.com/a/7NSdXRP", "https://imgur.com/a/t4hCqaD"],
-    "context": ["duel", "duel"],
-    "faction": ["pyre", "pyre"],
+    "rounds": [3, 5, 6],
+    "link": [
+      "https://imgur.com/a/7NSdXRP",
+      "https://imgur.com/a/t4hCqaD",
+      "https://imgur.com/a/0KvP4RT"
+    ],
+    "context": ["duel", "duel", "clash"],
+    "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
     "backstory": "",
     "verified": false

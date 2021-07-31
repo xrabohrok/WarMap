@@ -462,6 +462,7 @@
     "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "Exalted Plains",
     "clash": false,
     "items": [],
     "fighters": {
@@ -2638,6 +2639,7 @@
     "attacker": "na",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "Hell Pit",
     "clash": false,
     "items": [],
     "fighters": {
@@ -2666,7 +2668,9 @@
         533,
         388,
         209,
-        535
+        535,
+        550,
+        551
       ],
       "bastion": [
         82,
@@ -3269,6 +3273,7 @@
     "attacker": "na",
     "owner": "pyre",
     "grandBattle": true,
+    "gbZone": "Arus Desert",
     "clash": false,
     "items": [],
     "fighters": {

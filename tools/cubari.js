@@ -7,6 +7,7 @@
 //pyre clash r5: https://git.io/Jnaek ; https://cubari.moe/read/gist/Jnaek/
 
 //prisoner/snix r6: https://git.io/JBu17 ; https://cubari.moe/read/gist/JBu17/
+//pyre glash r6: https://git.io/JBwpe ; https://cubari.moe/read/gist/JBu17/
 
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes("round")).split("=")[1], 10)

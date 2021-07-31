@@ -6097,5 +6097,27 @@
     "artists": {},
     "backstory": "",
     "verified": false
+  },
+  "550": {
+    "id": 550,
+    "name": "Ura",
+    "rounds": [6],
+    "link": ["https://cubari.moe/read/gist/JBu17/"],
+    "context": ["gb"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
+  },
+  "551": {
+    "id": 551,
+    "name": "Tristram",
+    "rounds": [6],
+    "link": ["https://cubari.moe/read/gist/JBu17/"],
+    "context": ["gb"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": false
   }
 }

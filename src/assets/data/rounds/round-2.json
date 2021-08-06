@@ -938,8 +938,8 @@
   "e13": {
     "location": "e13",
     "contest": true,
-    "attacker": "bastion",
-    "owner": "pyre",
+    "attacker": "pyre",
+    "owner": "bastion",
     "grandBattle": false,
     "items": [],
     "fighters": {

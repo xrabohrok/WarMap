@@ -962,8 +962,8 @@
     "grandBattle": true,
     "gbZone": "North Battlefield",
     "outcome": {
-      "bastion": "lose",
-      "pyre": "win"
+      "bastion": "win",
+      "pyre": "lose"
     },
     "items": []
   },

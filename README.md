@@ -31,13 +31,15 @@ This project has three goals:
 
 Discord keeps links to uploaded pictures as long as they aren't "orphaned" (i.e. are still linked to from somewhere).  A lot of the previous OCT (Ring of Power) has been functionally lost due to channel cleanup and discord server channel count limits.  Providing incentives for people to upload their work to more stable hosting is a small step to avoiding this fate again.  
 
+This record is a visualization of the [Archive Google Sheet (view-only mirror)](https://docs.google.com/spreadsheets/d/15d804_im5dHn1p22rEqSuRo29ezqsrGBkHyKALF9gDo/edit#gid=1678530749) , which I also help maintain.  Data for here comes directly from there, and is the more "canonical" source short of the discord itself. 
+
 ## What this is NOT
 
 **This is not your source for up-to-date WFR information**. Think of this more like an interactive history book tool. The source for what is happening currently in the OCT is still the discord channel itself and the enthusiastic members of the community who create, maintain, and publish tracking spreadsheets.  Information on this War Map lags behind round results by about a week, and some information is still not included yet.
 
 **This is not a replacement for the experience of being in the OCT or the Discord** What's up with Peepys?  Why do we all love MOd?  Did someone say "Magical Girl AU?  You had to have been there.
 
-Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the 265 fighters (_so far_), this suits me just fine.
+Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the ~~265~~ 415 fighters (_so far_), this suits me just fine.
 
 ~~This archive is not endorsed by Abaddon, KSBD, or the OCT team.~~ At this point the map has been endorsed several ways to Sunday, but it is important to point out that this effor and the OCT are different efforts by different people, and are not affiliated with each other.   
 
@@ -55,7 +57,7 @@ As the OCT progresses I am open to any good-faith suggestions and changes.  Know
 
 If you are not familiar with how GitHub works, feel free to reach out to Mr.Black on the WFR Discord server and we can talk about it.
 
-I encourage people to interact with this project as GitHub allows: make issues, pull-requests, forks, I'll be receptive to them.  However, the map graphics themselves are :copyright: Tom Parkinson-Morgan i.e. Abaddon (heck, I probably should get more explicit permission myself).
+I encourage people to interact with this project as GitHub allows: make issues, pull-requests, forks, I'll be receptive to them.  However, the map graphics themselves are :copyright: Tom Parkinson-Morgan i.e. Abaddon ~~(heck, I probably should get more explicit permission myself)~~ I basically have permission now for this limited purpose.
 
 ### Building and running.
 

@@ -66,13 +66,17 @@ export default {
       )
     },
     renderClashView: function() {
-      return (this.mode === LEFT || this.mode === RIGHT) && this.zoneFight.clash
+      return (
+        (this.mode === LEFT || this.mode === RIGHT) &&
+        (this.zoneFight.clash || this.zoneFight.miniclash)
+      )
     },
     shouldShowFighter: function() {
       return (
         (this.mode === LEFT || this.mode === RIGHT) &&
         !this.zoneFight.grandBattle &&
-        !this.zoneFight.clash
+        !this.zoneFight.clash &&
+        !this.zoneFight.miniclash
       )
     },
     renderOnLeft: function() {

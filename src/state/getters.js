@@ -57,7 +57,8 @@ const getters = {
   curZoneAttacker: state => tileName => {
     if (tileName === "NA") return "na"
     const curZoneData = state.roundData[state.curRound][tileName]
-    if (!curZoneData.contest && !curZoneData.clash) return "na"
+    if (!curZoneData.contest && !curZoneData.clash && !curZoneData.miniclash)
+      return "na"
     return state.roundData[state.curRound][tileName].attacker
   },
   curZoneGrandBattle: state => tileName => {

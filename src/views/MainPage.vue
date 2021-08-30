@@ -153,7 +153,12 @@ export default {
     },
     isSelectedFight: function() {
       if (this.selecting == "NA") return false
-      return this.fight.contest || this.fight.grandBattle || this.fight.clash
+      return (
+        this.fight.contest ||
+        this.fight.grandBattle ||
+        this.fight.clash ||
+        this.fight.miniclash
+      )
     },
     onLeft: function() {
       return LEFT

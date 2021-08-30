@@ -455,7 +455,7 @@
   },
   "b2": {
     "location": "b2",
-    "contest": true,
+    "contest": false,
     "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,

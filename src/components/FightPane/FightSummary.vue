@@ -151,6 +151,8 @@ export default {
         fightType = "Duel at "
       } else if (this.zoneFight.grandBattle) {
         return `The Grand Battle at ${this.zoneFight.gbZone} took this tile at ${this.zoneName}`
+      } else if (this.zoneFight.miniclash) {
+        return `Double the fighters faced each other at ${this.zoneFight.gbZone}`
       } else if (this.zoneFight.clash) {
         fightType = "Clash at"
       }
@@ -163,6 +165,7 @@ export default {
         !(
           this.zoneFight.contest ||
           this.zoneFight.grandBattle ||
+          this.zoneFight.miniclash ||
           this.zoneFight.clash
         )
       )

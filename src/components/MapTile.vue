@@ -143,6 +143,7 @@ import {
   CUR_ZONE_ATTACKER,
   ROUND_GRANDBATTLES,
   TILE_IS_CLASH,
+  TILE_IS_MINICLASH,
   CURRENT_ZONE_ITEMS,
   OPT_SHOW_GRAPHICS,
   OPT_SHOW_ITEMS,
@@ -233,12 +234,14 @@ export default {
     },
     pyreAttackingClash: function() {
       return (
-        this.isClash(this.title) && this.zoneAttacker(this.title) === "pyre"
+        (this.isClash(this.title) || this.isMiniClash(this.title)) &&
+        this.zoneAttacker(this.title) === "pyre"
       )
     },
     bastionAttackingClash: function() {
       return (
-        this.isClash(this.title) && this.zoneAttacker(this.title) === "bastion"
+        (this.isClash(this.title) || this.isMiniClash(this.title)) &&
+        this.zoneAttacker(this.title) === "bastion"
       )
     },
     markAsGrandBattle: function() {
@@ -288,6 +291,7 @@ export default {
       isContested: CURRENT_ZONE_CONTESTED,
       isGrandBattle: CURRENT_ZONE_GRANDBATTLE,
       isClash: TILE_IS_CLASH,
+      isMiniClash: TILE_IS_MINICLASH,
       curZoneId: CUR_ZONE_ID,
       showZoneTitle: SHOW_ZONE_LABEL,
       currZoneTitle: CURRENT_ZONE_NAME,

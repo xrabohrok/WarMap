@@ -5,6 +5,20 @@ const alpahbeticalSort = function(a, b) {
   return textA < textB ? -1 : textA > textB ? 1 : 0
 }
 
+const isClash = function(tile) {
+  if (!("clash" in tile)) {
+    return false
+  }
+  return tile.clash
+}
+
+const isMiniClash = function(tile) {
+  if (!("miniclash" in tile)) {
+    return false
+  }
+  return tile.miniclash
+}
+
 const getters = {
   selecting: state => state.curSelected,
   round: state => state.curRound,
@@ -95,13 +109,13 @@ const getters = {
   curZoneIsClash: state => {
     //state.roundData[state.curRound][state.curSelected].fighters[faction]
     if (state.curSelected === "NA") return false
-    if (!("clash" in state.roundData[state.curRound][state.curSelected]))
-      return false
-    return state.roundData[state.curRound][state.curSelected].clash
+    return isClash(state.roundData[state.curRound][state.curSelected])
   },
   tileIsClash: state => tile => {
-    if (!("clash" in state.roundData[state.curRound][tile])) return false
-    return state.roundData[state.curRound][tile].clash
+    return isClash(state.roundData[state.curRound][tile])
+  },
+  tileIsMiniClash: state => tile => {
+    return isMiniClash(state.roundData[state.curRound][tile])
   },
   hasReadFightersComic: state => (fighterId, round) => {
     if (!(`${fighterId}` in state.readingList)) return false
@@ -181,6 +195,7 @@ const ROUND_GRANDBATTLES = "roundGrandBattles"
 const MASSBATTLE_FIGHTERS = "massBattleFighters"
 const CURZONE_IS_CLASH = "curZoneIsClash"
 const TILE_IS_CLASH = "tileIsClash"
+const TILE_IS_MINICLASH = "tileIsMiniClash"
 const FIGHTER_BACKSTORY = "fighterBackstory"
 const ALL_FIGHTERS_IN_ROUND = "getAllFightersThisRoundForFaction"
 
@@ -218,5 +233,6 @@ export {
   OPT_SHOW_ITEMS,
   OPT_SHOW_LABELS,
   ALL_FIGHTERS_IN_ROUND,
-  OPT_SHOW_SUMMARIES
+  OPT_SHOW_SUMMARIES,
+  TILE_IS_MINICLASH
 }

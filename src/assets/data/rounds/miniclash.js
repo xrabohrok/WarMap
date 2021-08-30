@@ -27,7 +27,7 @@ const round_data = require(filename)
 var fighters = require("../allfighters.json")
 var convert = require("./convert.js")
 
-var map_round = {}
+var map_round = require(`./round-${round_num}.json`)
 var lastId = 0
 
 var fighterIter = Object.values(fighters)
@@ -86,18 +86,19 @@ round_data.forEach((match, i) => {
   //do the round def
   // console.log(`|${match.tile.toLowerCase()}|`)
   var tile = map_round[match.tile.toLowerCase()]
-  tile.contest = true
+  console.log(`updating: ${match.tile.toLowerCase()}`)
+  tile.contest = false
   tile.attacker =
     (pyre_attacking && i < round_data.length / 2) ||
     (!pyre_attacking && i > round_data.length / 2)
       ? "pyre"
       : "bastion"
-  tile.fighters.bastion = tile.fighters.bastion.push(bastionfighterId)
-  tile.fighters.pyre = this.fighters.pyre.push(pyrefighterId)
+  tile.fighters.bastion.push(bastionfighterId)
+  tile.fighters.pyre.push(pyrefighterId)
   tile.outcome.bastion = winnerId === bastionfighterId ? "win" : "lose"
   tile.outcome.pyre = winnerId === bastionfighterId ? "lose" : "win"
 
-  tile.clash = true
+  tile.miniclash = true
 })
 
 var flatmap = {}

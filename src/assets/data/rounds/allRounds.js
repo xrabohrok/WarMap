@@ -5,7 +5,17 @@ import round3 from "./round-3.json"
 import round4 from "./round-4.json"
 import round5 from "./round-5.json"
 import round6 from "./round-6.json"
+import round7 from "./round-7.json"
 
-const allRounds = [round0, round1, round2, round3, round4, round5, round6]
+const allRounds = [
+  round0,
+  round1,
+  round2,
+  round3,
+  round4,
+  round5,
+  round6,
+  round7
+]
 
 export default allRounds

@@ -6625,7 +6625,7 @@
   },
   "577": {
     "id": 577,
-    "name": "S3",
+    "name": "Stratosaber Surma Suuhun",
     "rounds": [7],
     "link": ["https://imgur.com/a/fzZpOec"],
     "context": ["duel"],
@@ -6817,7 +6817,7 @@
     "id": 594,
     "name": "Girl with Gun",
     "rounds": [7],
-    "link": ["https://imgur.com/a/TjQ6IGg"],
+    "link": ["https://cubari.moe/read/gist/JED9q/"],
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
@@ -7047,5 +7047,27 @@
     "artists": {},
     "backstory": "",
     "verified": false
+  },
+  "615": {
+    "id": 615,
+    "name": "Watchers of the Shadows (campfire collab)",
+    "rounds": [7],
+    "link": ["https://cubari.moe/read/imgur/x6oMyiT/"],
+    "context": ["gb"],
+    "faction": ["bastion"],
+    "artists": {},
+    "backstory": "",
+    "verified": true
+  },
+  "616": {
+    "id": 616,
+    "name": "Feeders of the Fire (campfire collab)",
+    "rounds": [7],
+    "link": ["https://cubari.moe/read/imgur/x6oMyiT/"],
+    "context": ["gb"],
+    "faction": ["pyre"],
+    "artists": {},
+    "backstory": "",
+    "verified": true
   }
 }

@@ -28,46 +28,10 @@
       </transition>
       <transition name="ghost">
         <img
-          src="../assets/pics/pyre-attack.png"
-          id="conflictedpyre"
+          :src="iconPath"
+          id="conflicted"
           class="battleIndicator"
-          v-if="pyreAttacking"
-          draggable="false"
-        />
-      </transition>
-      <transition name="ghost">
-        <img
-          src="../assets/pics/bastion-attack.png"
-          id="conflictedbastion"
-          class="battleIndicator"
-          v-if="bastionAttacking"
-          draggable="false"
-        />
-      </transition>
-      <transition name="ghost">
-        <img
-          src="../assets/pics/clash-pyre.png"
-          id="clashbastion"
-          class="battleIndicator"
-          v-if="bastionAttackingClash"
-          draggable="false"
-        />
-      </transition>
-      <transition name="ghost">
-        <img
-          src="../assets/pics/clash-bastion.png"
-          id="clashpyre"
-          class="battleIndicator"
-          v-if="pyreAttackingClash"
-          draggable="false"
-        />
-      </transition>
-      <transition name="ghost">
-        <img
-          src="../assets/pics/gb-conflicted-marker.png"
-          id="conflictedgrand"
-          class="battleIndicator"
-          v-if="tileGrandBattle"
+          v-if="showAnyIcon"
           draggable="false"
         />
       </transition>
@@ -101,11 +65,6 @@
         />
       </transition>
     </div>
-    <!-- <transition name="fade">
-            <div class="label" v-if="isHovered">
-                {{title}}
-            </div>
-        </transition> -->
     <img
       src="../assets/pics/simple_tile/top-left.png"
       class="mapborder"
@@ -168,6 +127,18 @@ const letters = [
   "n"
 ]
 
+const images = {
+  duel: {
+    pyre: require("../assets/pics/pyre-attack.png"),
+    bastion: require("../assets/pics/bastion-attack.png")
+  },
+  grandBattle: require("../assets/pics/gb-conflicted-marker.png"),
+  clash: {
+    pyre: require("../assets/pics/clash-pyre.png"),
+    bastion: require("../assets/pics/clash-bastion.png")
+  }
+}
+
 export default {
   name: "MapTile",
   data() {
@@ -207,6 +178,23 @@ export default {
       return {
         "--fall-time": `${(Math.random() + 0.1) * 1.1}s`
       }
+    },
+    showAnyIcon: function() {
+      return (
+        this.pyreAttacking ||
+        this.bastionAttacking ||
+        this.pyreAttackingClash ||
+        this.bastionAttackingClash ||
+        this.tileGrandBattle
+      )
+    },
+    iconPath: function() {
+      if (this.pyreAttacking) return images.duel.pyre
+      if (this.bastionAttacking) return images.duel.bastion
+      if (this.pyreAttackingClash) return images.clash.pyre
+      if (this.bastionAttackingClash) return images.clash.bastion
+      if (this.tileGrandBattle) return images.grandBattle
+      return ""
     },
     tileContested: function() {
       return this.isContested(this.title) && !this.isGrandBattle(this.title)

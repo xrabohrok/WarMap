@@ -351,6 +351,7 @@
     "attacker": "na",
     "owner": "bastion",
     "grandBattle": true,
+    "gbZone": "The Crags",
     "clash": false,
     "items": [],
     "fighters": {
@@ -3128,6 +3129,7 @@
     "attacker": "na",
     "owner": "pyre",
     "grandBattle": true,
+    "gbZone": "The Mines",
     "clash": false,
     "items": [],
     "fighters": {

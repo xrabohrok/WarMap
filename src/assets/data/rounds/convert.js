@@ -55,7 +55,6 @@ exports.upsert_fighter = function(
       context: [context],
       faction: [faction],
       artists: {},
-      backstory: "",
       verified: false //new fighters need to be audited
     })
     console.log(

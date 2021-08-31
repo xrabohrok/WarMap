@@ -11,7 +11,6 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "1": {
@@ -21,8 +20,7 @@
     "id": 1,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "2": {
     "name": "Vessel Corpse",
@@ -38,7 +36,6 @@
     "context": ["duel", "gbn", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "3": {
@@ -71,7 +68,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -91,7 +87,6 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "5": {
@@ -101,8 +96,7 @@
     "id": 5,
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "6": {
     "name": "Vol. 23",
@@ -116,7 +110,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "7": {
@@ -126,8 +119,7 @@
     "id": 7,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "8": {
     "name": "Admiral Frogstar",
@@ -152,7 +144,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "9": {
@@ -162,8 +153,7 @@
     "id": 9,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "10": {
     "name": "The King's Players",
@@ -180,7 +170,6 @@
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "11": {
@@ -195,7 +184,6 @@
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "12": {
@@ -209,8 +197,7 @@
     "id": 12,
     "context": ["duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "13": {
     "name": "Harrison Merrystide",
@@ -225,7 +212,6 @@
     "context": ["duel", "gbn", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "14": {
@@ -241,7 +227,6 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "15": {
@@ -251,8 +236,7 @@
     "id": 15,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "16": {
     "name": "Yuma Yun Yma",
@@ -262,7 +246,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "17": {
@@ -277,7 +260,6 @@
     "context": ["duel", "gbs", "gb"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "18": {
@@ -287,8 +269,7 @@
     "id": 18,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "19": {
     "name": "Rem",
@@ -314,7 +295,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "20": {
@@ -346,7 +326,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.50",
@@ -387,7 +366,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true
   },
   "22": {
@@ -409,7 +387,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -429,7 +406,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "24": {
@@ -444,7 +420,6 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "25": {
@@ -471,7 +446,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "26": {
@@ -482,7 +456,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "27": {
@@ -517,7 +490,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "10.00",
@@ -537,8 +509,7 @@
     "id": 28,
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "29": {
     "name": "KINGDOM",
@@ -547,8 +518,7 @@
     "id": 29,
     "context": ["duel", "clash"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "30": {
     "name": "Al Railcatcher",
@@ -575,7 +545,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "2.75",
@@ -607,7 +576,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "32": {
@@ -626,7 +594,6 @@
     "context": ["duel", "gbn", "duel", "duel", "duel", "clash", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "33": {
@@ -661,7 +628,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.75",
@@ -689,7 +655,6 @@
         }
       }
     },
-    "backstory": "",
     "profilePic": {
       "zoom": "4.75",
       "left": "12.52",
@@ -709,8 +674,7 @@
     "id": 35,
     "context": ["duel", "duel", "duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion", "pyre", "pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "36": {
     "name": "20 Cresting Magma",
@@ -724,8 +688,7 @@
     "id": 36,
     "context": ["duel", "gbn", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "38": {
     "name": "JUGGERNAUT HYLDE",
@@ -734,8 +697,7 @@
     "id": 38,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "40": {
     "name": "Purity",
@@ -750,7 +712,6 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "41": {
@@ -777,7 +738,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "42": {
@@ -787,8 +747,7 @@
     "id": 42,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "43": {
     "name": "Needle Artist Mayura",
@@ -797,8 +756,7 @@
     "id": 43,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "44": {
     "name": "Prayer of the Refugee",
@@ -808,7 +766,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "45": {
@@ -833,7 +790,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "46": {
@@ -851,7 +807,6 @@
     "context": ["duel", "gbn", "clash", "gbn", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "47": {
@@ -875,7 +830,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -890,8 +844,7 @@
     "id": 48,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "49": {
     "name": "Bugmann",
@@ -906,7 +859,6 @@
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "50": {
@@ -924,7 +876,6 @@
     "context": ["duel", "gbs", "gbn", "duel", "clash", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "51": {
@@ -939,7 +890,6 @@
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "52": {
@@ -949,8 +899,7 @@
     "id": 52,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "53": {
     "name": "Giga-Dreadnaught Galeru",
@@ -963,8 +912,7 @@
     "id": 53,
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "54": {
     "name": "KU",
@@ -979,7 +927,6 @@
     "context": ["duel", "duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "55": {
@@ -1004,7 +951,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "56": {
@@ -1021,7 +967,6 @@
     "context": ["duel", "gbs", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "57": {
@@ -1045,7 +990,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -1060,8 +1004,7 @@
     "id": 58,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "59": {
     "name": "Baja",
@@ -1074,8 +1017,7 @@
     "id": 59,
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "60": {
     "name": "Tower of Eyes",
@@ -1084,8 +1026,7 @@
     "id": 60,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "61": {
     "name": "Zan",
@@ -1099,8 +1040,7 @@
     "id": 61,
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "62": {
     "name": "Bull",
@@ -1124,7 +1064,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -1156,7 +1095,6 @@
       "bastion"
     ],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "64": {
@@ -1180,7 +1118,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.50",
@@ -1195,8 +1132,7 @@
     "id": 65,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "66": {
     "name": "Jude",
@@ -1214,7 +1150,6 @@
     "context": ["duel", "gbn", "clash", "gbs", "duel", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "67": {
@@ -1232,7 +1167,6 @@
     "context": ["duel", "gbn", "duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "68": {
@@ -1247,7 +1181,6 @@
     "context": ["duel", "duel", "gbn"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "69": {
@@ -1257,8 +1190,7 @@
     "id": 69,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "70": {
     "name": "Locher",
@@ -1267,8 +1199,7 @@
     "id": 70,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "71": {
     "name": "Trikol",
@@ -1279,8 +1210,7 @@
     "id": 71,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "72": {
     "name": "Clearbell",
@@ -1296,7 +1226,6 @@
     "context": ["duel", "gbn", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "73": {
@@ -1312,8 +1241,7 @@
     "id": 73,
     "context": ["duel", "gbn", "duel", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "74": {
     "name": "MOLOSSUS MEGATON",
@@ -1322,8 +1250,7 @@
     "id": 74,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "75": {
     "name": "Blanket Wizard",
@@ -1338,7 +1265,6 @@
     "context": ["duel", "gbn", "gbn", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "76": {
@@ -1363,7 +1289,6 @@
     "context": ["gbn", "gbs", "gbn", "gbn", "duel", "duel"],
     "id": 76,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "77": {
@@ -1390,7 +1315,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -1432,7 +1356,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.50",
@@ -1447,8 +1370,7 @@
     "link": ["https://imgur.com/a/c14eDPV"],
     "context": ["gbn"],
     "id": 79,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "80": {
     "name": "Marian & Mugon",
@@ -1470,7 +1392,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "81": {
@@ -1491,8 +1412,7 @@
         "role": "Creator",
         "contacts": {}
       }
-    },
-    "backstory": ""
+    }
   },
   "82": {
     "name": "Disassembly",
@@ -1520,7 +1440,6 @@
     "context": ["gbn", "gbn", "duel", "gbs", "gb", "gb", "gb", "gb"],
     "id": 82,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "83": {
@@ -1537,7 +1456,6 @@
     "context": ["gbn", "duel", "gbs", "duel", "gb"],
     "id": 83,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "84": {
@@ -1562,7 +1480,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -1592,7 +1509,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "86": {
@@ -1617,7 +1533,6 @@
     "context": ["gbn", "duel", "gbn", "duel", "duel", "gb"],
     "id": 86,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "87": {
@@ -1636,7 +1551,6 @@
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb", "duel"],
     "id": 87,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "88": {
@@ -1669,7 +1583,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.25",
@@ -1684,8 +1597,7 @@
     "link": ["https://imgur.com/a/WhPMqej"],
     "context": ["gbn"],
     "id": 89,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "90": {
     "name": "Netta",
@@ -1701,7 +1613,6 @@
     "context": ["gbn", "duel", "duel", "duel", "gb"],
     "id": 90,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "91": {
@@ -1717,8 +1628,7 @@
     ],
     "context": ["gbn", "duel", "duel", "duel", "gb"],
     "id": 91,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "92": {
     "name": "Grace the Huntress",
@@ -1727,8 +1637,7 @@
     "link": ["https://imgur.com/a/eO0vw0n"],
     "context": ["gbn"],
     "id": 92,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "93": {
     "name": "Lassius",
@@ -1741,7 +1650,6 @@
     "context": ["gbn", "duel"],
     "id": 93,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "94": {
@@ -1751,8 +1659,7 @@
     "link": ["https://imgur.com/a/Xnmoy4h"],
     "context": ["gbn"],
     "id": 94,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "95": {
     "name": "Kinnip",
@@ -1761,8 +1668,7 @@
     "link": ["https://imgur.com/a/EXDpZX5"],
     "context": ["gbn"],
     "id": 95,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "96": {
     "name": "Kerry",
@@ -1778,7 +1684,6 @@
     "context": ["gbn", "gbn", "gbn", "duel", "gb"],
     "id": 96,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "97": {
@@ -1788,8 +1693,7 @@
     "link": ["https://imgur.com/a/xhUfHIR"],
     "context": ["gbn"],
     "id": 97,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "98": {
     "name": "Kloe Canular",
@@ -1804,7 +1708,6 @@
     "context": ["gbn", "gbn", "gb", "gb"],
     "id": 98,
     "artists": {},
-    "backstory": "",
     "profilePic": {
       "zoom": "4.00",
       "left": "8.02",
@@ -1824,7 +1727,6 @@
     "context": ["gbn", "gbs", "gbs", "duel"],
     "id": 99,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "100": {
@@ -1839,7 +1741,6 @@
     "context": ["gbn", "duel", "duel"],
     "id": 100,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "101": {
@@ -1854,7 +1755,6 @@
     "context": ["gbn", "duel", "duel"],
     "id": 101,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "102": {
@@ -1864,8 +1764,7 @@
     "link": ["https://imgur.com/a/bHX8RJo"],
     "context": ["gbn"],
     "id": 102,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "103": {
     "name": "Razzberry Tallshark",
@@ -1880,7 +1779,6 @@
     "context": ["gbn", "duel", "gbs", "duel"],
     "id": 103,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "104": {
@@ -1905,7 +1803,6 @@
     "context": ["gbn", "duel", "gbn", "duel", "gb", "duel"],
     "id": 104,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "105": {
@@ -1915,8 +1812,7 @@
     "link": ["https://photos.app.goo.gl/CwaqVSgxGj99Wjc47"],
     "context": ["gbn"],
     "id": 105,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "106": {
     "name": "56 Broken Spear",
@@ -1940,7 +1836,6 @@
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb"],
     "id": 106,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "107": {
@@ -1956,7 +1851,6 @@
     "context": ["gbn", "duel", "duel", "duel"],
     "id": 107,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "108": {
@@ -1967,7 +1861,6 @@
     "context": ["gbn", "gbs"],
     "id": 108,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "110": {
@@ -1985,8 +1878,7 @@
           "instagram": "https://www.instagram.com/ragnarokrose/"
         }
       }
-    },
-    "backstory": ""
+    }
   },
   "111": {
     "name": "Izer Naam",
@@ -1999,8 +1891,7 @@
     ],
     "context": ["gbn", "gbs", "duel"],
     "id": 111,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "112": {
     "name": "Lezaford",
@@ -2024,7 +1915,6 @@
     "context": ["gbn", "gbn", "clash", "duel", "duel", "duel"],
     "id": 112,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "113": {
@@ -2055,7 +1945,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true
   },
   "114": {
@@ -2066,7 +1955,6 @@
     "context": ["gbn", "duel"],
     "id": 114,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "115": {
@@ -2076,8 +1964,7 @@
     "link": ["https://imgur.com/a/qg9RcfY"],
     "context": ["gbn"],
     "id": 115,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "116": {
     "name": "Elseways",
@@ -2090,7 +1977,6 @@
     "context": ["gbn", "gbs"],
     "id": 116,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "117": {
@@ -2114,7 +2000,6 @@
         }
       }
     },
-    "backstory": "",
     "profilePic": {
       "zoom": "3.75",
       "left": "13.24",
@@ -2134,7 +2019,6 @@
     "context": ["gbn", "gbs", "gb", "duel"],
     "id": 118,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "119": {
@@ -2151,7 +2035,6 @@
     "context": ["gbn", "gbn", "duel", "gbn", "gb"],
     "id": 119,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "120": {
@@ -2165,8 +2048,7 @@
     ],
     "context": ["gbn", "gb", "duel"],
     "id": 120,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "121": {
     "name": "Solis",
@@ -2190,7 +2072,6 @@
     "context": ["gbn", "gbn", "duel", "duel", "duel", "duel"],
     "id": 121,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "122": {
@@ -2206,7 +2087,6 @@
     "context": ["gbn", "gbs", "duel", "duel"],
     "id": 122,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "123": {
@@ -2220,7 +2100,6 @@
     "context": ["gbn", "duel"],
     "id": 123,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "124": {
@@ -2230,8 +2109,7 @@
     "link": ["https://imgur.com/a/1Rx9j8x"],
     "context": ["gbn"],
     "id": 124,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "125": {
     "name": "Nipih-mar-Immunsu",
@@ -2251,7 +2129,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true
   },
   "126": {
@@ -2267,7 +2144,6 @@
     "context": ["gbs", "duel", "duel", "duel"],
     "id": 126,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "127": {
@@ -2284,7 +2160,6 @@
     "context": ["gbs", "duel", "clash", "duel", "duel"],
     "id": 127,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "128": {
@@ -2309,7 +2184,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.75",
@@ -2332,7 +2206,6 @@
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel"],
     "id": 129,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "130": {
@@ -2345,8 +2218,7 @@
     ],
     "context": ["gbs", "duel"],
     "id": 130,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "131": {
     "name": "ACRIFOTG",
@@ -2359,8 +2231,7 @@
     ],
     "context": ["gbs", "duel", "gbs"],
     "id": 131,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "132": {
     "name": "Murder Cube",
@@ -2392,7 +2263,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true
   },
   "133": {
@@ -2402,8 +2272,7 @@
     "link": ["https://imgur.com/a/f0cH89T"],
     "context": ["gbs"],
     "id": 133,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "134": {
     "name": "Lutha-YY-Sur",
@@ -2429,7 +2298,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.50",
@@ -2449,7 +2317,6 @@
     "context": ["gbs", "gbn", "duel"],
     "id": 135,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "136": {
@@ -2468,7 +2335,6 @@
     "context": ["gbs", "gbs", "gbn", "duel", "gb", "duel", "gb"],
     "id": 136,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "137": {
@@ -2482,8 +2348,7 @@
     ],
     "context": ["gbs", "gbn", "duel"],
     "id": 137,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "138": {
     "name": "Senki",
@@ -2502,7 +2367,6 @@
         }
       }
     },
-    "backstory": "",
     "profilePic": {
       "zoom": "1.25",
       "left": "38.37",
@@ -2531,7 +2395,6 @@
     "context": ["gbs", "duel", "gbs", "duel", "duel", "duel"],
     "id": 139,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "140": {
@@ -2541,8 +2404,7 @@
     "link": ["https://imgur.com/a/saHVIq1", "https://imgur.com/a/P6yuyFM"],
     "context": ["gbs", "duel"],
     "id": 140,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "141": {
     "name": "Te-Shou Haath",
@@ -2566,7 +2428,6 @@
     "context": ["gbs", "gbn", "duel", "gb", "gb", "gb"],
     "id": 141,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "142": {
@@ -2592,7 +2453,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.25",
@@ -2612,7 +2472,6 @@
     "context": ["gbs", "duel", "duel"],
     "id": 143,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "144": {
@@ -2623,7 +2482,6 @@
     "context": ["gbs", "gbs"],
     "id": 144,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "145": {
@@ -2633,8 +2491,7 @@
     "link": ["https://imgur.com/a/K3FOBBB"],
     "context": ["gbs"],
     "id": 145,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "146": {
     "name": "Turibas",
@@ -2643,8 +2500,7 @@
     "link": ["https://imgur.com/a/Gy1nKPp"],
     "context": ["gbs"],
     "id": 146,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "147": {
     "name": "Galvar the Stubborn",
@@ -2659,7 +2515,6 @@
     "context": ["gbs", "gbs", "gbs", "gb"],
     "id": 147,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "148": {
@@ -2673,8 +2528,7 @@
     ],
     "context": ["gbs", "duel", "gbn"],
     "id": 148,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "149": {
     "name": "IBFARSHAN",
@@ -2696,7 +2550,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -2716,7 +2569,6 @@
     "context": ["gbs", "duel", "duel"],
     "id": 150,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "151": {
@@ -2726,8 +2578,7 @@
     "link": ["https://imgur.com/a/IxQwrR5"],
     "context": ["gbs"],
     "id": 151,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "152": {
     "name": "They of Many Names",
@@ -2751,7 +2602,6 @@
     "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 152,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "153": {
@@ -2766,7 +2616,6 @@
     "context": ["gbs", "gbn", "duel"],
     "id": 153,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "154": {
@@ -2776,8 +2625,7 @@
     "link": ["https://imgur.com/a/61XagiC"],
     "context": ["gbs"],
     "id": 154,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "155": {
     "name": "GRAIL",
@@ -2792,7 +2640,6 @@
     "context": ["gbs", "duel", "duel", "duel"],
     "id": 155,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "156": {
@@ -2811,7 +2658,6 @@
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel", "duel"],
     "id": 156,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "157": {
@@ -2834,7 +2680,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -2855,7 +2700,6 @@
     "context": ["gbs", "duel", "gbn", "duel"],
     "id": 158,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "159": {
@@ -2880,7 +2724,6 @@
     "context": ["gbs", "duel", "gbn", "duel", "clash", "gb"],
     "id": 159,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "160": {
@@ -2896,8 +2739,7 @@
     ],
     "context": ["gbs", "gbs", "gb", "duel", "gb"],
     "id": 160,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "161": {
     "name": "Fog of Graves",
@@ -2937,7 +2779,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.75",
@@ -2957,7 +2798,6 @@
     "context": ["gbs", "duel", "duel"],
     "id": 162,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "163": {
@@ -2971,8 +2811,7 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 163,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "164": {
     "name": "Saturos Cratosaturius",
@@ -2981,8 +2820,7 @@
     "link": ["https://imgur.com/a/8P5hIKw"],
     "context": ["gbs"],
     "id": 164,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "165": {
     "name": "Vale & Sylvia",
@@ -3006,7 +2844,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "166": {
@@ -3025,8 +2862,7 @@
         "role": "Creator",
         "contacts": {}
       }
-    },
-    "backstory": ""
+    }
   },
   "167": {
     "name": "Enorog",
@@ -3040,7 +2876,6 @@
     "context": ["gbs", "duel", "gbs"],
     "id": 167,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "168": {
@@ -3055,7 +2890,6 @@
     "context": ["gbs", "duel", "duel"],
     "id": 168,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "169": {
@@ -3070,7 +2904,6 @@
     "context": ["gbs", "gbn", "duel"],
     "id": 169,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "170": {
@@ -3095,7 +2928,6 @@
     "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 170,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "171": {
@@ -3111,7 +2943,6 @@
     "context": ["gbs", "gbn", "duel", "duel"],
     "id": 171,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "172": {
@@ -3127,7 +2958,6 @@
     "context": ["gbs", "duel", "gbs", "duel"],
     "id": 172,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "173": {
@@ -3142,7 +2972,6 @@
     "context": ["gbs", "duel", "duel"],
     "id": 173,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "174": {
@@ -3152,8 +2981,7 @@
     "link": ["https://imgur.com/gallery/0thWGWU"],
     "context": ["gbs"],
     "id": 174,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "175": {
     "name": "Mamuthon & Marcus",
@@ -3162,8 +2990,7 @@
     "link": ["https://imgur.com/a/SWJtVgp"],
     "context": ["gbs"],
     "id": 175,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "177": {
     "name": "Murien Azur-Or",
@@ -3173,7 +3000,6 @@
     "context": ["gbs", "duel"],
     "id": 177,
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "178": {
@@ -3192,8 +3018,7 @@
         "role": "Artist",
         "contacts": {}
       }
-    },
-    "backstory": ""
+    }
   },
   "179": {
     "name": "Vangheist",
@@ -3202,8 +3027,7 @@
     "link": ["https://imgur.com/a/5EbOE3F"],
     "context": ["gbs"],
     "id": 179,
-    "artists": {},
-    "backstory": ""
+    "artists": {}
   },
   "180": {
     "name": "Mr. Scratch",
@@ -3236,7 +3060,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -3266,7 +3089,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true
   },
   "185": {
@@ -3277,7 +3099,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "187": {
@@ -3288,7 +3109,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "197": {
@@ -3299,7 +3119,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "198": {
@@ -3315,7 +3134,6 @@
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "203": {
@@ -3326,7 +3144,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "206": {
@@ -3345,7 +3162,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false
   },
   "209": {
@@ -3363,7 +3179,6 @@
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "212": {
@@ -3378,7 +3193,6 @@
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "217": {
@@ -3397,7 +3211,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "1.50",
@@ -3418,7 +3231,6 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "227": {
@@ -3429,7 +3241,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "228": {
@@ -3440,7 +3251,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "229": {
@@ -3451,7 +3261,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "237": {
@@ -3466,7 +3275,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "240": {
@@ -3481,7 +3289,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "241": {
@@ -3496,7 +3303,6 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "243": {
@@ -3513,7 +3319,6 @@
     "context": ["duel", "duel", "duel", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "246": {
@@ -3524,7 +3329,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "249": {
@@ -3535,7 +3339,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "251": {
@@ -3546,7 +3349,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "252": {
@@ -3557,7 +3359,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "253": {
@@ -3568,7 +3369,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "256": {
@@ -3579,7 +3379,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "258": {
@@ -3590,7 +3389,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "259": {
@@ -3601,7 +3399,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "263": {
@@ -3616,7 +3413,6 @@
     "context": ["duel", "clash", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "265": {
@@ -3633,7 +3429,6 @@
     "context": ["duel", "duel", "gb", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "268": {
@@ -3644,7 +3439,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "269": {
@@ -3659,7 +3453,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "271": {
@@ -3670,7 +3463,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "272": {
@@ -3681,7 +3473,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "274": {
@@ -3692,7 +3483,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "275": {
@@ -3703,7 +3493,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "276": {
@@ -3714,7 +3503,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "277": {
@@ -3732,7 +3520,6 @@
     "context": ["duel", "duel", "gbs", "clash", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "279": {
@@ -3752,7 +3539,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false
   },
   "281": {
@@ -3763,7 +3549,6 @@
     "context": ["duel", "gbs"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "284": {
@@ -3779,7 +3564,6 @@
     "context": ["gbn", "gbn", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "286": {
@@ -3793,7 +3577,6 @@
     "context": ["gbn", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "294": {
@@ -3818,7 +3601,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "2.50",
@@ -3857,7 +3639,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "1.50",
@@ -3873,7 +3654,6 @@
     "context": ["gbn"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "314": {
@@ -3890,7 +3670,6 @@
     "context": ["gbn", "gbn", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "323": {
@@ -3901,7 +3680,6 @@
     "context": ["gbs"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "331": {
@@ -3924,7 +3702,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "2.25",
@@ -3940,7 +3717,6 @@
     "context": ["gbs"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "334": {
@@ -3953,7 +3729,6 @@
     "context": ["gbs"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "340": {
@@ -3969,7 +3744,6 @@
     "context": ["gbs", "duel", "gbs", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "341": {
@@ -3980,7 +3754,6 @@
     "context": ["gbs"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "342": {
@@ -3996,7 +3769,6 @@
     "context": ["gbs", "duel", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "343": {
@@ -4012,7 +3784,6 @@
     "context": ["duel", "gbs", "duel", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "344": {
@@ -4023,7 +3794,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "346": {
@@ -4038,7 +3808,6 @@
     "context": ["duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "347": {
@@ -4052,7 +3821,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "348": {
@@ -4063,7 +3831,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "350": {
@@ -4074,7 +3841,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "355": {
@@ -4085,7 +3851,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "357": {
@@ -4096,7 +3861,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "358": {
@@ -4107,7 +3871,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "359": {
@@ -4118,7 +3881,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "360": {
@@ -4129,7 +3891,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "363": {
@@ -4140,7 +3901,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "364": {
@@ -4151,7 +3911,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "366": {
@@ -4162,7 +3921,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "367": {
@@ -4179,7 +3937,6 @@
     "context": ["duel", "gbn", "gb", "duel", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "368": {
@@ -4190,7 +3947,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "369": {
@@ -4201,7 +3957,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "370": {
@@ -4215,7 +3970,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "372": {
@@ -4231,7 +3985,6 @@
     "context": ["duel", "gbn", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "373": {
@@ -4242,7 +3995,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "377": {
@@ -4259,7 +4011,6 @@
     "context": ["gbn", "duel", "gb", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "380": {
@@ -4273,7 +4024,6 @@
     "context": ["gbn", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "381": {
@@ -4284,7 +4034,6 @@
     "context": ["gbn"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "382": {
@@ -4301,7 +4050,6 @@
     "context": ["gbs", "duel", "gb", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "2.25",
@@ -4321,7 +4069,6 @@
     "context": ["gbs", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -4337,7 +4084,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "385": {
@@ -4348,7 +4094,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "386": {
@@ -4372,7 +4117,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "1.00",
@@ -4407,7 +4151,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "4.50",
@@ -4427,7 +4170,6 @@
     "context": ["duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "389": {
@@ -4441,7 +4183,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "390": {
@@ -4452,7 +4193,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "391": {
@@ -4463,7 +4203,6 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "392": {
@@ -4474,7 +4213,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "393": {
@@ -4502,7 +4240,6 @@
         "contacts": {}
       }
     },
-    "backstory": "",
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -4518,7 +4255,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "395": {
@@ -4541,7 +4277,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false
   },
   "396": {
@@ -4552,7 +4287,6 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "397": {
@@ -4571,7 +4305,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -4587,7 +4320,6 @@
     "context": ["gbn", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "400": {
@@ -4601,7 +4333,6 @@
     "context": ["gbs", "clash"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "401": {
@@ -4612,7 +4343,6 @@
     "context": ["gbs"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "402": {
@@ -4623,7 +4353,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "403": {
@@ -4634,7 +4363,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "404": {
@@ -4647,7 +4375,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "405": {
@@ -4658,7 +4385,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "406": {
@@ -4669,7 +4395,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "407": {
@@ -4680,7 +4405,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "408": {
@@ -4691,7 +4415,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "409": {
@@ -4705,7 +4428,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "410": {
@@ -4716,7 +4438,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "411": {
@@ -4727,7 +4448,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "412": {
@@ -4738,7 +4458,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "413": {
@@ -4761,7 +4480,6 @@
         }
       }
     },
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "5.25",
@@ -4777,7 +4495,6 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "415": {
@@ -4788,7 +4505,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "416": {
@@ -4803,7 +4519,6 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "417": {
@@ -4818,7 +4533,6 @@
     "context": ["duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "418": {
@@ -4829,7 +4543,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "419": {
@@ -4840,7 +4553,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "420": {
@@ -4851,7 +4563,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "421": {
@@ -4865,7 +4576,6 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "422": {
@@ -4880,7 +4590,6 @@
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "423": {
@@ -4891,7 +4600,6 @@
     "context": ["gb", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "424": {
@@ -4902,7 +4610,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "425": {
@@ -4913,7 +4620,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "426": {
@@ -4927,7 +4633,6 @@
     "context": ["gb", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "427": {
@@ -4942,7 +4647,6 @@
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "428": {
@@ -4953,7 +4657,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "429": {
@@ -4968,7 +4671,6 @@
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "430": {
@@ -4979,7 +4681,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "431": {
@@ -4990,7 +4691,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "432": {
@@ -5001,7 +4701,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "433": {
@@ -5012,7 +4711,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "434": {
@@ -5023,7 +4721,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "435": {
@@ -5034,7 +4731,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "436": {
@@ -5048,7 +4744,6 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "437": {
@@ -5059,7 +4754,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "438": {
@@ -5070,7 +4764,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "439": {
@@ -5083,7 +4776,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "440": {
@@ -5094,7 +4786,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "441": {
@@ -5108,7 +4799,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "442": {
@@ -5119,7 +4809,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "443": {
@@ -5130,7 +4819,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "444": {
@@ -5141,7 +4829,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "445": {
@@ -5152,7 +4839,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "446": {
@@ -5163,7 +4849,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "447": {
@@ -5174,7 +4859,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "448": {
@@ -5185,7 +4869,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "449": {
@@ -5198,7 +4881,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "450": {
@@ -5209,7 +4891,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "451": {
@@ -5220,7 +4901,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "452": {
@@ -5231,7 +4911,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "453": {
@@ -5242,7 +4921,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "454": {
@@ -5253,7 +4931,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "455": {
@@ -5264,7 +4941,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "456": {
@@ -5275,7 +4951,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "457": {
@@ -5288,7 +4963,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "458": {
@@ -5299,7 +4973,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "459": {
@@ -5310,7 +4983,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "460": {
@@ -5321,7 +4993,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "461": {
@@ -5332,7 +5003,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "462": {
@@ -5343,7 +5013,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "463": {
@@ -5354,7 +5023,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "464": {
@@ -5365,7 +5033,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "465": {
@@ -5376,7 +5043,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "466": {
@@ -5387,7 +5053,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "467": {
@@ -5398,7 +5063,6 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "5.00",
@@ -5414,7 +5078,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "469": {
@@ -5425,7 +5088,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "470": {
@@ -5436,7 +5098,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "471": {
@@ -5447,7 +5108,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "472": {
@@ -5458,7 +5118,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "473": {
@@ -5469,7 +5128,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "474": {
@@ -5484,7 +5142,6 @@
     "context": ["duel", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "475": {
@@ -5495,7 +5152,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "476": {
@@ -5508,7 +5164,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "477": {
@@ -5519,7 +5174,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "478": {
@@ -5530,7 +5184,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "479": {
@@ -5541,7 +5194,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "480": {
@@ -5552,7 +5204,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "481": {
@@ -5563,7 +5214,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "482": {
@@ -5574,7 +5224,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "483": {
@@ -5588,7 +5237,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "484": {
@@ -5599,7 +5247,6 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "485": {
@@ -5610,7 +5257,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "486": {
@@ -5621,7 +5267,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "487": {
@@ -5632,7 +5277,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "488": {
@@ -5643,7 +5287,6 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "489": {
@@ -5654,7 +5297,6 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "490": {
@@ -5665,7 +5307,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "491": {
@@ -5679,7 +5320,6 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "492": {
@@ -5690,7 +5330,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "493": {
@@ -5703,7 +5342,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "494": {
@@ -5714,7 +5352,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "495": {
@@ -5725,7 +5362,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "496": {
@@ -5736,7 +5372,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "497": {
@@ -5747,7 +5382,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "498": {
@@ -5758,7 +5392,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "499": {
@@ -5769,7 +5402,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "500": {
@@ -5780,7 +5412,6 @@
     "context": ["gb", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "501": {
@@ -5791,7 +5422,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "502": {
@@ -5802,7 +5432,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "503": {
@@ -5813,7 +5442,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "504": {
@@ -5827,7 +5455,6 @@
     "context": ["gb", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "505": {
@@ -5838,7 +5465,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "506": {
@@ -5849,7 +5475,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "507": {
@@ -5860,7 +5485,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "508": {
@@ -5871,7 +5495,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "509": {
@@ -5882,7 +5505,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "510": {
@@ -5893,7 +5515,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "511": {
@@ -5906,7 +5527,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "512": {
@@ -5917,7 +5537,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "513": {
@@ -5928,7 +5547,6 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false,
     "profilePic": {
       "zoom": "3.25",
@@ -5944,7 +5562,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "516": {
@@ -5955,7 +5572,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "517": {
@@ -5966,7 +5582,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "518": {
@@ -5977,7 +5592,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "519": {
@@ -5988,7 +5602,6 @@
     "context": ["gb", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "520": {
@@ -5999,7 +5612,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "521": {
@@ -6010,7 +5622,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "522": {
@@ -6023,7 +5634,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "523": {
@@ -6034,7 +5644,6 @@
     "context": ["gb", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "524": {
@@ -6045,7 +5654,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "525": {
@@ -6056,7 +5664,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "526": {
@@ -6067,7 +5674,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "527": {
@@ -6078,7 +5684,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "528": {
@@ -6089,7 +5694,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "529": {
@@ -6102,7 +5706,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "530": {
@@ -6113,7 +5716,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "531": {
@@ -6124,7 +5726,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "532": {
@@ -6135,7 +5736,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "533": {
@@ -6146,7 +5746,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "534": {
@@ -6157,7 +5756,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "535": {
@@ -6168,7 +5766,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "537": {
@@ -6179,7 +5776,6 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "538": {
@@ -6190,7 +5786,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "539": {
@@ -6201,7 +5796,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "540": {
@@ -6212,7 +5806,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "541": {
@@ -6223,7 +5816,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "542": {
@@ -6234,7 +5826,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "543": {
@@ -6247,7 +5838,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "544": {
@@ -6258,7 +5848,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "545": {
@@ -6269,7 +5858,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "546": {
@@ -6283,7 +5871,6 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "547": {
@@ -6297,7 +5884,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "548": {
@@ -6308,7 +5894,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "549": {
@@ -6319,7 +5904,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "550": {
@@ -6330,7 +5914,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "551": {
@@ -6341,7 +5924,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "552": {
@@ -6352,7 +5934,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "553": {
@@ -6363,7 +5944,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "554": {
@@ -6376,7 +5956,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "555": {
@@ -6387,7 +5966,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "556": {
@@ -6398,7 +5976,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "557": {
@@ -6409,7 +5986,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "558": {
@@ -6420,7 +5996,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "559": {
@@ -6431,7 +6006,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "560": {
@@ -6442,7 +6016,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "561": {
@@ -6453,7 +6026,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "562": {
@@ -6464,7 +6036,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "563": {
@@ -6475,7 +6046,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "564": {
@@ -6486,7 +6056,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "565": {
@@ -6497,7 +6066,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "566": {
@@ -6508,7 +6076,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "567": {
@@ -6519,7 +6086,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "568": {
@@ -6530,7 +6096,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "569": {
@@ -6541,7 +6106,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "570": {
@@ -6552,7 +6116,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "571": {
@@ -6565,7 +6128,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "572": {
@@ -6576,7 +6138,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "573": {
@@ -6587,7 +6148,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "574": {
@@ -6598,7 +6158,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "575": {
@@ -6609,7 +6168,6 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "576": {
@@ -6620,7 +6178,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "577": {
@@ -6631,7 +6188,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "578": {
@@ -6642,7 +6198,6 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "579": {
@@ -6653,7 +6208,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "580": {
@@ -6664,7 +6218,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "581": {
@@ -6675,7 +6228,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "582": {
@@ -6686,7 +6238,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "583": {
@@ -6697,7 +6248,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "584": {
@@ -6708,7 +6258,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "585": {
@@ -6719,7 +6268,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "586": {
@@ -6730,7 +6278,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "587": {
@@ -6741,7 +6288,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "588": {
@@ -6752,7 +6298,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "589": {
@@ -6763,7 +6308,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "590": {
@@ -6777,7 +6321,6 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "591": {
@@ -6788,7 +6331,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "592": {
@@ -6799,7 +6341,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "593": {
@@ -6810,7 +6351,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "594": {
@@ -6821,7 +6361,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "595": {
@@ -6832,7 +6371,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "596": {
@@ -6843,7 +6381,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "597": {
@@ -6854,7 +6391,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "598": {
@@ -6865,7 +6401,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "599": {
@@ -6876,7 +6411,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "600": {
@@ -6887,7 +6421,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "601": {
@@ -6898,7 +6431,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "602": {
@@ -6909,7 +6441,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "603": {
@@ -6920,7 +6451,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "604": {
@@ -6931,7 +6461,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "605": {
@@ -6944,7 +6473,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "606": {
@@ -6955,7 +6483,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "607": {
@@ -6966,7 +6493,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "608": {
@@ -6977,7 +6503,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "609": {
@@ -6988,7 +6513,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "610": {
@@ -6999,7 +6523,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "611": {
@@ -7010,7 +6533,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "612": {
@@ -7021,7 +6543,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "613": {
@@ -7034,7 +6555,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "614": {
@@ -7045,7 +6565,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": false
   },
   "615": {
@@ -7056,7 +6575,6 @@
     "context": ["gb"],
     "faction": ["bastion"],
     "artists": {},
-    "backstory": "",
     "verified": true
   },
   "616": {
@@ -7067,7 +6585,6 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "backstory": "",
     "verified": true
   }
 }

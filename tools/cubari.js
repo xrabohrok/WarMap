@@ -9,6 +9,7 @@
 
 //prisoner/snix r6: https://git.io/JBu17 ; https://cubari.moe/read/gist/JBu17/
 //pyre glash r6: https://git.io/JBwpe ; https://cubari.moe/read/gist/JBu17/
+//girl with gun r7: https://git.io/JED9q ; https://cubari.moe/read/gist/JED9q/
 
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes("round")).split("=")[1], 10)

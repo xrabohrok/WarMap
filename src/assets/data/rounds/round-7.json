@@ -81,7 +81,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [3],
     "fighters": {
       "pyre": [35],
       "bastion": [76]
@@ -270,7 +270,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [],
+    "events": [2, 7],
     "miniclash": true
   },
   "b12": {
@@ -289,7 +289,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "b11": {
     "location": "b11",
@@ -307,7 +307,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2]
   },
   "b10": {
     "location": "b10",
@@ -325,7 +325,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2]
   },
   "b9": {
     "location": "b9",
@@ -343,7 +343,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "b8": {
     "location": "b8",
@@ -524,7 +524,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [],
+    "events": [7],
     "miniclash": true
   },
   "b1": {
@@ -534,7 +534,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [429],
       "bastion": [455]
@@ -543,7 +543,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [6]
   },
   "c14": {
     "location": "c14",
@@ -579,7 +579,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2]
   },
   "c12": {
     "location": "c12",
@@ -597,7 +597,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [],
+    "events": [2, 7],
     "miniclash": true
   },
   "c11": {
@@ -616,7 +616,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c10": {
     "location": "c10",
@@ -634,7 +634,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c9": {
     "location": "c9",
@@ -652,7 +652,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "c8": {
     "location": "c8",
@@ -778,7 +778,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [6]
   },
   "c1": {
     "location": "c1",
@@ -796,7 +796,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [],
+    "events": [7],
     "miniclash": true
   },
   "d14": {
@@ -833,7 +833,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2]
   },
   "d12": {
     "location": "d12",
@@ -851,7 +851,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d11": {
     "location": "d11",
@@ -869,7 +869,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2]
   },
   "d10": {
     "location": "d10",
@@ -887,7 +887,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d9": {
     "location": "d9",
@@ -905,7 +905,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "d8": {
     "location": "d8",
@@ -1085,7 +1085,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e12": {
     "location": "e12",
@@ -1103,7 +1103,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e11": {
     "location": "e11",
@@ -1121,7 +1121,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e10": {
     "location": "e10",
@@ -1139,7 +1139,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e9": {
     "location": "e9",
@@ -1157,7 +1157,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "e8": {
     "location": "e8",
@@ -1337,7 +1337,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f12": {
     "location": "f12",
@@ -1355,7 +1355,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f11": {
     "location": "f11",
@@ -1373,7 +1373,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f10": {
     "location": "f10",
@@ -1391,7 +1391,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f9": {
     "location": "f9",
@@ -1409,7 +1409,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "f8": {
     "location": "f8",
@@ -1445,7 +1445,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [6]
   },
   "f6": {
     "location": "f6",
@@ -1481,7 +1481,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [],
+    "events": [7],
     "miniclash": true
   },
   "f4": {
@@ -1752,7 +1752,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [6]
   },
   "g3": {
     "location": "g3",
@@ -1896,7 +1896,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [6]
   },
   "h9": {
     "location": "h9",
@@ -2130,7 +2130,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [6]
   },
   "i10": {
     "location": "i10",
@@ -2220,7 +2220,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2]
   },
   "i5": {
     "location": "i5",
@@ -2238,7 +2238,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "i4": {
     "location": "i4",
@@ -2256,7 +2256,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "i3": {
     "location": "i3",
@@ -2364,7 +2364,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [],
+    "events": [7],
     "miniclash": true
   },
   "j11": {
@@ -2473,7 +2473,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2]
   },
   "j5": {
     "location": "j5",
@@ -2491,7 +2491,7 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [2]
   },
   "j4": {
     "location": "j4",
@@ -2509,7 +2509,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "j3": {
     "location": "j3",
@@ -2725,7 +2725,7 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": []
+    "events": [2]
   },
   "k5": {
     "location": "k5",
@@ -2743,7 +2743,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [2]
   },
   "k4": {
     "location": "k4",

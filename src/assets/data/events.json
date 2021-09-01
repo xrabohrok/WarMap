@@ -18,5 +18,13 @@
   "5": {
     "name": "Super Limiter Match",
     "rule": "Comics can only have a limit of 2 pages, and will be judged upon this constraint."
+  },
+  "6": {
+    "name": "Bizarro Match",
+    "rule": "Submitters will submit a comic detailing their own character losing. Comics are judged as normal.  Submitter still wins territory for their team, but winning means their character pervails the way their opponent depicts."
+  },
+  "7": {
+    "name": "2 v 2 Match",
+    "rule": "Two artists team up to submit a comic against two other artists.  Winning grants one extra permanant point (due to one less panel being attacked)"
   }
 }

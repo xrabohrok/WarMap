@@ -40,9 +40,11 @@ export default {
     },
     specialRuleText: function() {
       var ruleset = []
-      this.zoneFight.events.forEach(rid => {
-        ruleset.push(specials[rid])
-      })
+      if (this.zoneFight.events) {
+        this.zoneFight.events.forEach(rid => {
+          ruleset.push(specials[rid])
+        })
+      }
       return ruleset
     },
     ...mapGetters({

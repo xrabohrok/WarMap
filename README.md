@@ -39,13 +39,15 @@ This record is a visualization of the [Archive Google Sheet (view-only mirror)](
 
 **This is not a replacement for the experience of being in the OCT or the Discord** What's up with Peepys?  Why do we all love MOd?  Did someone say "Magical Girl AU?  You had to have been there.
 
-Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the ~~265~~ 415 fighters (_so far_), this suits me just fine.
+Due to the limits of Github pages, this site cannot _host_ these comic works, but it can at least be an index to find them.  As a single person who is not equipped to sort out intellectual rights of the ~~265~~ ~~415~~ 472 fighters (_so far_), this suits me just fine.
 
-~~This archive is not endorsed by Abaddon, KSBD, or the OCT team.~~ At this point the map has been endorsed several ways to Sunday, but it is important to point out that this effor and the OCT are different efforts by different people, and are not affiliated with each other.   
+~~This archive is not endorsed by Abaddon, KSBD, or the OCT team.~~ At this point the map has been endorsed several ways to Sunday, but it is important to point out that this archive effort and the OCT are different projects by different people, and are not affiliated with each other.   
 
 ## A Note on Record Keeping
 
 Due to the fact that the tournament is run for humans, by humans, means some peculiarities are not captured here.  If items or special rules are invoked, those will be mentioned.  However, some events, such as defaults, expulsions, or special judgements are not recorded.  If infractions or events force an outcome on the board, the outcome alone is recorded (though with defaults, you might figure out what happened due to lack of links).  If the events don't affect the board, they are not recorded at all.
+
+Some comics, such as interludes and judge comics, are tracked in order to preserve narrative flow, despite the fact that they technically don't affect the map per se. However, these are backfilled to historically important figures as I deem fit.  
 
 Some characters have been merged to preserve narrative flow, despite becoming very different characters later.  For example, Prisoner Tallshark is listed under Razzberry Tallshark.  
 
@@ -70,10 +72,11 @@ The website requires no external access beyond the original npm download, all th
 ## Roadmap
 
 - [x] Reading list tracking
-- [ ] Rule lookup
-- [ ] Round reading list
-- [x] Battle item tracking
+- [x] Rule lookup
+- [x] Round reading list
+- [ ] Battle item tracking
 - [x] Mobile support
+- [ ] Character stories
 
 ## Other Things
 

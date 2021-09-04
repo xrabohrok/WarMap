@@ -11,3 +11,4 @@ README.md
 *.png
 
 src/assets/data/map.js
+**/.eslintignore

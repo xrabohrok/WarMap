@@ -718,7 +718,7 @@
     "grandBattle": false,
     "items": [],
     "fighters": {
-      "pyre": [185],
+      "pyre": [140],
       "bastion": [393]
     },
     "outcome": {
@@ -1700,7 +1700,7 @@
     "items": [],
     "fighters": {
       "pyre": [168],
-      "bastion": [206]
+      "bastion": [98]
     },
     "outcome": {
       "pyre": "lose",
@@ -2484,8 +2484,8 @@
     "grandBattle": false,
     "items": [],
     "fighters": {
-      "pyre": [277],
-      "bastion": [276]
+      "pyre": [175],
+      "bastion": [146]
     },
     "outcome": {
       "pyre": "win",

@@ -1342,10 +1342,10 @@
       "last_updated": "1630880384"
     },
     "168": {
-      "title": "Vale & Sylvia",
+      "title": "The Moon Knight",
       "volume": "7",
       "groups": {
-        "primary": "/proxy/api/imgur/chapter/MUYZ9eU/"
+        "primary": "/proxy/api/imgur/chapter/tBXGQF0/"
       },
       "last_updated": "1630880384"
     },
@@ -1470,18 +1470,18 @@
       "last_updated": "1630880384"
     },
     "184": {
-      "title": "The Moon Knight",
-      "volume": "7",
-      "groups": {
-        "primary": "/proxy/api/imgur/chapter/tBXGQF0/"
-      },
-      "last_updated": "1630880384"
-    },
-    "185": {
       "title": "Cori Vergale",
       "volume": "7",
       "groups": {
         "primary": "/proxy/api/imgur/chapter/D59H2qe/"
+      },
+      "last_updated": "1630880384"
+    },
+    "185": {
+      "title": "Vale & Sylvia",
+      "volume": "7",
+      "groups": {
+        "primary": "/proxy/api/imgur/chapter/MUYZ9eU/"
       },
       "last_updated": "1630880384"
     },

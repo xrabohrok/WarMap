@@ -14,16 +14,58 @@
 
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes("round")).split("=")[1], 10)
+const appenderMode = args.find(a => a.includes("append")) !== -1
 
 var fighters = require("../src/assets/data/allfighters.json")
 
-var roundData = {
-  title: `War For Rayuba Round ${round}`,
-  description: `A War for Rayuba master set of comics for round ${round}.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!`,
-  artist: "Various artists on the WFR Discord (check each comic)",
-  author: "Various artists on the WFR Discord (check each comic)",
-  cover: "",
-  chapters: {}
+var roundData = {}
+var chapterNum = 1
+
+if (!appenderMode) {
+  roundData = {
+    title: `War For Rayuba Round ${round}`,
+    description: `A War for Rayuba master set of comics for round ${round}.  PLEASE NOTE: This collection only includes comics that were submitted as imgur links; it does not include comics submitted directly through discord, twitter, or anything outside imgur.  You will still need to access the discord and view those battle channels to view those. \r\n ...And You should!`,
+    artist: "Various artists on the WFR Discord (check each comic)",
+    author: "Various artists on the WFR Discord (check each comic)",
+    cover: "",
+    chapters: {}
+  }
+} else {
+  //load previous list, find last place in that list, and filter out old already placed stuff
+  roundData = require(`./master-list-${round}.json`)
+  chapterNum =
+    parseInt(
+      Object.keys(roundData.chapters).reduce((a, b) => {
+        var ai = parseInt(a, 10)
+        var bi = parseInt(b, 10)
+        if (ai > bi) return a
+        if (bi > ai) return b
+        return a
+      })
+    ) + 1
+  var toDelete = []
+  Object.values(fighters).forEach(f => {
+    //not part of the round
+    if (!f.rounds.includes(round)) {
+      toDelete.push(`${f.id}`)
+    } else {
+      var roundIndex = f.rounds.findIndex(i => i === round)
+      var url = f.link[roundIndex]
+      //no imgur link (apender wont deal with these)
+      if (!url.includes("imgur")) {
+        toDelete.push(`${f.id}`)
+      } else {
+        //and of course, this fighter is already on the list (by imgur id)
+        var imgurPart = url.split("/")[4]
+        Object.values(roundData.chapters).forEach(rd => {
+          if (rd.groups.primary.includes(imgurPart)) {
+            toDelete.push(`${f.id}`)
+          }
+        })
+      }
+    }
+  })
+  toDelete.forEach(td => delete fighters[td])
 }
 
 const imgurIDPart = /\/(a|gallery)\/.......$/i
@@ -43,7 +85,6 @@ const newChapter = function(title, roundnum, link) {
 var excluded = []
 var linkMap = new Map()
 
-var chapterNum = 1
 for (const key of Object.keys(fighters)) {
   var fighter = fighters[key]
   if (!fighter.rounds.includes(round)) continue
@@ -85,7 +126,7 @@ linkMap.forEach((value, key) => {
   chapterNum += 1
 })
 
-if (excluded.length > 0) {
+if (excluded.length > 0 && !appenderMode) {
   var excludedString = ""
   excluded.forEach(e => (excludedString += ` ${e},`))
   roundData.description =
@@ -100,3 +141,5 @@ fs.writeFileSync(
   JSON.stringify(roundData, null, 2)
 )
 console.log("Complete!")
+if (appenderMode)
+  console.log("Reminder: you need to add the missing fighters yourself!")

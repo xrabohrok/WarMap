@@ -138,6 +138,23 @@ export default {
             })
             .catch(r2 => console.log(r2))
         })
+        .then(response => {
+          const updateFighters = response => {
+            this.availablePics = response.data
+            var keepers = Object.keys(this.curFighters).filter(cf =>
+              this.availablePics.includes(parseInt(cf, 10))
+            )
+            var retval = {}
+            keepers.forEach(k => (retval[`${k}`] = this.curFighters[`${k}`]))
+            this.curFighters = retval
+          }
+          axios
+            .get("/server/pics")
+            .then(updateFighters)
+            .catch(r => console.log(r))
+          this.clear()
+          return response
+        })
         .catch(r => console.log(r))
     },
 

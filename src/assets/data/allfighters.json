@@ -11,7 +11,12 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.20",
+      "top": "53.10"
+    }
   },
   "1": {
     "name": "Heliophage",
@@ -37,7 +42,12 @@
     "context": ["duel", "gbn", "duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "-6.00",
+      "top": "55.75"
+    }
   },
   "3": {
     "name": "Lata",
@@ -74,8 +84,8 @@
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
-      "left": "13.45",
-      "top": "52.32"
+      "left": "21.10",
+      "top": "49.62"
     }
   },
   "4": {
@@ -90,7 +100,12 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "10.63",
+      "top": "48.63"
+    }
   },
   "5": {
     "name": "Morten",
@@ -99,7 +114,12 @@
     "id": 5,
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "13.85",
+      "top": "46.92"
+    }
   },
   "6": {
     "name": "Vol. 23",
@@ -113,7 +133,12 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.00",
+      "left": "79.00",
+      "top": "49.80"
+    }
   },
   "7": {
     "name": "Dr. Lir Caldera",
@@ -147,7 +172,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "8.63",
+      "top": "24.45"
+    }
   },
   "9": {
     "name": "A-Kom Jameson",
@@ -156,7 +186,12 @@
     "id": 9,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "29.20",
+      "top": "44.20"
+    }
   },
   "10": {
     "name": "The King's Players",
@@ -175,7 +210,12 @@
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb", "gb", "clash"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "25.90",
+      "top": "5.75"
+    }
   },
   "11": {
     "name": "Teodora Roadside",
@@ -189,7 +229,12 @@
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "7.25",
+      "left": "7.53",
+      "top": "47.97"
+    }
   },
   "12": {
     "name": "A Gorilla",
@@ -202,7 +247,12 @@
     "id": 12,
     "context": ["duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "-11.35",
+      "top": "48.52"
+    }
   },
   "13": {
     "name": "Harrison Merrystide",
@@ -218,7 +268,12 @@
     "context": ["duel", "gbn", "duel", "duel", "gbc"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "11.52",
+      "top": "51.20"
+    }
   },
   "14": {
     "name": "Death Dealer",
@@ -233,7 +288,12 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "46.85",
+      "top": "46.85"
+    }
   },
   "15": {
     "name": "Qiu Ten Murijn",
@@ -242,7 +302,12 @@
     "id": 15,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "13.90",
+      "top": "47.00"
+    }
   },
   "16": {
     "name": "Yuma Yun Yma",
@@ -252,7 +317,12 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "7.00",
+      "left": "6.77",
+      "top": "33.42"
+    }
   },
   "17": {
     "name": "Old Man Duque",
@@ -266,7 +336,12 @@
     "context": ["duel", "gbs", "gb"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "20.20",
+      "top": "21.40"
+    }
   },
   "18": {
     "name": "Gromesh",
@@ -275,7 +350,12 @@
     "id": 18,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "23.65",
+      "top": "49.58"
+    }
   },
   "19": {
     "name": "Rem",
@@ -301,7 +381,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "4.43",
+      "top": "48.35"
+    }
   },
   "20": {
     "name": "Greenhorn",
@@ -375,7 +460,12 @@
         "contacts": {}
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "-0.85",
+      "top": "47.30"
+    }
   },
   "22": {
     "name": "Erasmus",
@@ -417,7 +507,12 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "12.25",
+      "top": "50.32"
+    }
   },
   "24": {
     "name": "Faze",
@@ -431,7 +526,12 @@
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "10.65",
+      "top": "48.60"
+    }
   },
   "25": {
     "name": "THE CAT",
@@ -457,7 +557,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "27.50",
+      "top": "48.00"
+    }
   },
   "26": {
     "name": "Smohg",
@@ -467,7 +572,12 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "16.00",
+      "top": "42.25"
+    }
   },
   "27": {
     "name": "Hok",
@@ -505,9 +615,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "10.00",
-      "left": "-7.22",
-      "top": "49.49"
+      "zoom": "7.00",
+      "left": "0.98",
+      "top": "49.19"
     }
   },
   "28": {
@@ -523,7 +633,12 @@
     "id": 28,
     "context": ["duel", "duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "11.80",
+      "top": "39.92"
+    }
   },
   "29": {
     "name": "KINGDOM",
@@ -532,7 +647,12 @@
     "id": 29,
     "context": ["duel", "clash"],
     "faction": ["bastion", "bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "37.65",
+      "top": "49.67"
+    }
   },
   "30": {
     "name": "Al Railcatcher",
@@ -602,7 +722,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "12.90",
+      "top": "48.60"
+    }
   },
   "32": {
     "name": "The MANY HANDS",
@@ -621,7 +746,12 @@
     "context": ["duel", "gbn", "duel", "duel", "duel", "clash", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "16.72",
+      "top": "29.22"
+    }
   },
   "33": {
     "name": "\"Long-Arms\" Ten Anong",
@@ -668,9 +798,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.75",
-      "left": "35.36",
-      "top": "57.21"
+      "zoom": "2.00",
+      "left": "30.36",
+      "top": "56.41"
     }
   },
   "34": {
@@ -695,8 +825,8 @@
       }
     },
     "profilePic": {
-      "zoom": "4.75",
-      "left": "12.52",
+      "zoom": "5.25",
+      "left": "16.72",
       "top": "48.29"
     }
   },
@@ -729,7 +859,12 @@
     "id": 36,
     "context": ["duel", "gbn", "duel", "gb", "gb", "gbb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "25.10",
+      "top": "44.23"
+    }
   },
   "38": {
     "name": "JUGGERNAUT HYLDE",
@@ -738,7 +873,12 @@
     "id": 38,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "7.50",
+      "left": "8.57",
+      "top": "43.85"
+    }
   },
   "40": {
     "name": "Purity",
@@ -753,7 +893,12 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "35.30",
+      "top": "53.50"
+    }
   },
   "41": {
     "name": "Temurin",
@@ -781,7 +926,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "15.35",
+      "top": "50.70"
+    }
   },
   "42": {
     "name": "Narcissa",
@@ -790,7 +940,12 @@
     "id": 42,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "14.23",
+      "top": "38.38"
+    }
   },
   "43": {
     "name": "Needle Artist Mayura",
@@ -799,7 +954,12 @@
     "id": 43,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "6.75",
+      "left": "10.47",
+      "top": "41.17"
+    }
   },
   "44": {
     "name": "Prayer of the Refugee",
@@ -835,7 +995,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "1.00",
+      "top": "49.40"
+    }
   },
   "46": {
     "name": "The Buried King",
@@ -852,7 +1017,12 @@
     "context": ["duel", "gbn", "clash", "gbn", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "2.50",
+      "top": "44.70"
+    }
   },
   "47": {
     "name": "Queen Paguroidea",
@@ -878,9 +1048,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "3.75",
-      "left": "-0.68",
-      "top": "43.82"
+      "zoom": "6.00",
+      "left": "-5.48",
+      "top": "36.02"
     }
   },
   "48": {
@@ -890,7 +1060,12 @@
     "id": 48,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "15.20",
+      "top": "42.60"
+    }
   },
   "49": {
     "name": "Bugmann",
@@ -905,7 +1080,12 @@
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "8.95",
+      "top": "44.05"
+    }
   },
   "50": {
     "name": "Aubrey Chamberlain IV",
@@ -924,7 +1104,12 @@
     "context": ["duel", "gbs", "gbn", "duel", "clash", "gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "22.90",
+      "top": "47.10"
+    }
   },
   "51": {
     "name": "Escher",
@@ -938,7 +1123,12 @@
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "27.50",
+      "top": "48.80"
+    }
   },
   "52": {
     "name": "Tricep",
@@ -947,7 +1137,12 @@
     "id": 52,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "9.40",
+      "top": "30.75"
+    }
   },
   "53": {
     "name": "Giga-Dreadnaught Galeru",
@@ -960,7 +1155,12 @@
     "id": 53,
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "104.22",
+      "top": "30.87"
+    }
   },
   "54": {
     "name": "KU",
@@ -975,7 +1175,12 @@
     "context": ["duel", "duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.75",
+      "left": "25.70",
+      "top": "47.38"
+    }
   },
   "55": {
     "name": "Page Turner",
@@ -1001,7 +1206,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "11.12",
+      "top": "43.52"
+    }
   },
   "56": {
     "name": "Sishigeshiji Song",
@@ -1017,7 +1227,12 @@
     "context": ["duel", "gbs", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "20.75",
+      "top": "52.28"
+    }
   },
   "57": {
     "name": "Grandmother Silence",
@@ -1042,9 +1257,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "3.75",
-      "left": "4.19",
-      "top": "37.17"
+      "zoom": "4.25",
+      "left": "5.89",
+      "top": "35.47"
     }
   },
   "58": {
@@ -1054,7 +1269,12 @@
     "id": 58,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "14.90",
+      "top": "46.40"
+    }
   },
   "59": {
     "name": "Baja",
@@ -1067,7 +1287,12 @@
     "id": 59,
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "12.60",
+      "top": "33.58"
+    }
   },
   "60": {
     "name": "Tower of Eyes",
@@ -1076,7 +1301,12 @@
     "id": 60,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "9.10",
+      "top": "32.25"
+    }
   },
   "61": {
     "name": "Zan",
@@ -1091,7 +1321,12 @@
     "id": 61,
     "context": ["duel", "duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "18.20",
+      "top": "35.30"
+    }
   },
   "62": {
     "name": "Bull",
@@ -1146,7 +1381,12 @@
       "bastion"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "12.65",
+      "top": "42.70"
+    }
   },
   "64": {
     "name": "Mauveline",
@@ -1171,9 +1411,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.50",
-      "left": "38.02",
-      "top": "48.65"
+      "zoom": "2.25",
+      "left": "20.00",
+      "top": "43.20"
     }
   },
   "65": {
@@ -1183,7 +1423,12 @@
     "id": 65,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "6.65",
+      "top": "38.65"
+    }
   },
   "66": {
     "name": "Jude",
@@ -1202,7 +1447,12 @@
     "context": ["duel", "gbn", "clash", "gbs", "duel", "gb", "duel", "gbc"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "23.60",
+      "top": "41.50"
+    }
   },
   "67": {
     "name": "Princess Xanthe Magellan",
@@ -1228,7 +1478,12 @@
       "pyre"
     ],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "21.20",
+      "top": "46.85"
+    }
   },
   "68": {
     "name": "(I want to be) The BRIDE of JAGGANOTH",
@@ -1243,7 +1498,12 @@
     "context": ["duel", "duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "18.80",
+      "top": "48.55"
+    }
   },
   "69": {
     "name": "Brick Witch",
@@ -1252,7 +1512,12 @@
     "id": 69,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "20.22",
+      "top": "33.90"
+    }
   },
   "70": {
     "name": "Locher",
@@ -1261,7 +1526,12 @@
     "id": 70,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.52",
+      "top": "44.75"
+    }
   },
   "71": {
     "name": "Trikol",
@@ -1272,7 +1542,12 @@
     "id": 71,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "5.87",
+      "top": "47.40"
+    }
   },
   "72": {
     "name": "Clearbell",
@@ -1288,7 +1563,12 @@
     "context": ["duel", "gbn", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.25",
+      "left": "6.85",
+      "top": "36.00"
+    }
   },
   "73": {
     "name": "Cassia Edgerite",
@@ -1325,6 +1605,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "16.90",
+      "top": "47.90"
+    },
     "verified": true
   },
   "74": {
@@ -1334,7 +1619,12 @@
     "id": 74,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "-31.72",
+      "top": "40.42"
+    }
   },
   "75": {
     "name": "Blanket Wizard",
@@ -1373,7 +1663,12 @@
     "context": ["gbn", "gbs", "gbn", "gbn", "duel", "duel"],
     "id": 76,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "6.50",
+      "top": "48.80"
+    }
   },
   "77": {
     "name": "Leslie Ten",
@@ -1445,9 +1740,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.50",
-      "left": "42.94",
-      "top": "20.00"
+      "zoom": "3.00",
+      "left": "43.04",
+      "top": "32.77"
     }
   },
   "79": {
@@ -1466,7 +1761,12 @@
     "context": ["gbn", "gba", "duel", "duel", "gb", "gb", "duel"],
     "id": 79,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "21.25",
+      "top": "51.65"
+    }
   },
   "80": {
     "name": "Marian & Mugon",
@@ -1490,7 +1790,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "13.23",
+      "top": "50.15"
+    }
   },
   "81": {
     "name": "Mnem",
@@ -1511,6 +1816,11 @@
         "role": "Creator",
         "contacts": {}
       }
+    },
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "10.08",
+      "top": "45.52"
     }
   },
   "82": {
@@ -1540,7 +1850,12 @@
     "context": ["gbn", "gbn", "duel", "gbs", "gb", "gb", "gb", "gb", "gbb"],
     "id": 82,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "12.95",
+      "top": "0.55"
+    }
   },
   "83": {
     "name": "Elsa Bee",
@@ -1558,7 +1873,12 @@
     "context": ["gbn", "duel", "gbs", "duel", "gb", "gb", "duel"],
     "id": 83,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "17.03",
+      "top": "38.15"
+    }
   },
   "84": {
     "name": "Mozz",
@@ -1592,9 +1912,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "4.00",
-      "left": "1.97",
-      "top": "49.25"
+      "zoom": "4.25",
+      "left": "2.40",
+      "top": "47.98"
     }
   },
   "85": {
@@ -1619,7 +1939,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "25.00",
+      "top": "36.20"
+    }
   },
   "86": {
     "name": "Vesna and Jarilo",
@@ -1655,6 +1980,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "6.02",
+      "top": "44.37"
+    },
     "verified": true
   },
   "87": {
@@ -1674,7 +2004,12 @@
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb", "duel", "duel"],
     "id": 87,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "6.17",
+      "top": "46.52"
+    }
   },
   "88": {
     "name": "Kay Guinto-Quintana",
@@ -1759,7 +2094,12 @@
     ],
     "context": ["gbn", "duel", "duel", "duel", "gb"],
     "id": 91,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "25.75",
+      "top": "42.50"
+    }
   },
   "92": {
     "name": "Grace the Huntress",
@@ -1768,7 +2108,12 @@
     "link": ["https://imgur.com/a/eO0vw0n"],
     "context": ["gbn"],
     "id": 92,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "27.50",
+      "top": "24.50"
+    }
   },
   "93": {
     "name": "Lassius",
@@ -1781,7 +2126,12 @@
     "context": ["gbn", "duel"],
     "id": 93,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.25",
+      "left": "108.72",
+      "top": "43.47"
+    }
   },
   "94": {
     "name": "The Aylwald",
@@ -1790,7 +2140,12 @@
     "link": ["https://imgur.com/a/Xnmoy4h"],
     "context": ["gbn"],
     "id": 94,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "-0.32",
+      "top": "49.88"
+    }
   },
   "95": {
     "name": "Kinnip",
@@ -1799,7 +2154,12 @@
     "link": ["https://imgur.com/a/EXDpZX5"],
     "context": ["gbn"],
     "id": 95,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "38.90",
+      "top": "35.30"
+    }
   },
   "96": {
     "name": "Kerry",
@@ -1815,7 +2175,12 @@
     "context": ["gbn", "gbn", "gbn", "duel", "gb"],
     "id": 96,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "29.00",
+      "top": "43.55"
+    }
   },
   "97": {
     "name": "Kwaaiwese",
@@ -1824,7 +2189,12 @@
     "link": ["https://imgur.com/a/xhUfHIR"],
     "context": ["gbn"],
     "id": 97,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "15.62",
+      "top": "48.30"
+    }
   },
   "98": {
     "name": "Kloe Canular",
@@ -1881,7 +2251,12 @@
     "context": ["gbn", "gbs", "gbs", "duel", "gbc"],
     "id": 99,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "1.33",
+      "top": "45.75"
+    }
   },
   "100": {
     "name": "Gene Fauntleroy",
@@ -1895,7 +2270,12 @@
     "context": ["gbn", "duel", "duel"],
     "id": 100,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "44.30",
+      "top": "53.30"
+    }
   },
   "101": {
     "name": "Saysandir",
@@ -1909,7 +2289,12 @@
     "context": ["gbn", "duel", "duel"],
     "id": 101,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "23.17",
+      "top": "46.90"
+    }
   },
   "102": {
     "name": "Captain Marcus",
@@ -1918,7 +2303,12 @@
     "link": ["https://imgur.com/a/bHX8RJo"],
     "context": ["gbn"],
     "id": 102,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "2.75",
+      "left": "43.60",
+      "top": "38.70"
+    }
   },
   "103": {
     "name": "Razzberry Tallshark",
@@ -1962,7 +2352,12 @@
     "context": ["gbn", "duel", "gbn", "duel", "gb", "duel", "gb", "duel"],
     "id": 104,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "17.40",
+      "top": "51.70"
+    }
   },
   "105": {
     "name": "Remiel Andronicus",
@@ -1971,7 +2366,12 @@
     "link": ["https://photos.app.goo.gl/CwaqVSgxGj99Wjc47"],
     "context": ["gbn"],
     "id": 105,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "17.75",
+      "top": "45.63"
+    }
   },
   "106": {
     "name": "56 Broken Spear",
@@ -1995,7 +2395,12 @@
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb"],
     "id": 106,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "11.80",
+      "top": "48.57"
+    }
   },
   "107": {
     "name": "Thyme",
@@ -2010,7 +2415,12 @@
     "context": ["gbn", "duel", "duel", "duel"],
     "id": 107,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.75",
+      "left": "22.50",
+      "top": "42.58"
+    }
   },
   "108": {
     "name": "Orlan-MT",
@@ -2020,7 +2430,12 @@
     "context": ["gbn", "gbs"],
     "id": 108,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "17.45",
+      "top": "38.27"
+    }
   },
   "110": {
     "name": "Yinda & Ceaseless",
@@ -2046,6 +2461,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "6.25",
+      "left": "22.48",
+      "top": "25.93"
+    },
     "verified": true
   },
   "111": {
@@ -2059,7 +2479,12 @@
     ],
     "context": ["gbn", "gbs", "duel"],
     "id": 111,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "14.38",
+      "top": "46.85"
+    }
   },
   "112": {
     "name": "Lezaford",
@@ -2085,7 +2510,12 @@
     "context": ["gbn", "gbn", "clash", "duel", "duel", "duel", "gba"],
     "id": 112,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "13.27",
+      "top": "49.02"
+    }
   },
   "113": {
     "name": "Fireonica",
@@ -2117,7 +2547,12 @@
         "contacts": {}
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "11.83",
+      "top": "27.18"
+    }
   },
   "114": {
     "name": "Scarlett Reed",
@@ -2127,7 +2562,12 @@
     "context": ["gbn", "duel"],
     "id": 114,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "13.23",
+      "top": "43.20"
+    }
   },
   "115": {
     "name": "El Gran Diablo - Pyre Team",
@@ -2149,7 +2589,12 @@
     "context": ["gbn", "gbs"],
     "id": 116,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.50",
+      "left": "7.50",
+      "top": "45.00"
+    }
   },
   "117": {
     "name": "Eliza & Wheels",
@@ -2191,7 +2636,12 @@
     "context": ["gbn", "gbs", "gb", "duel"],
     "id": 118,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "11.70",
+      "top": "50.33"
+    }
   },
   "119": {
     "name": "Pacha Manka",
@@ -2207,7 +2657,12 @@
     "context": ["gbn", "gbn", "duel", "gbn", "gb"],
     "id": 119,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "14.43",
+      "top": "26.05"
+    }
   },
   "120": {
     "name": "A.M.O.R.",
@@ -2244,7 +2699,12 @@
     "context": ["gbn", "gbn", "duel", "duel", "duel", "duel"],
     "id": 121,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "7.75",
+      "top": "47.07"
+    }
   },
   "122": {
     "name": "Corone",
@@ -2259,7 +2719,12 @@
     "context": ["gbn", "gbs", "duel", "duel"],
     "id": 122,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "-19.60",
+      "top": "42.88"
+    }
   },
   "123": {
     "name": "Darcy",
@@ -2272,7 +2737,12 @@
     "context": ["gbn", "duel"],
     "id": 123,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "13.45",
+      "top": "49.43"
+    }
   },
   "124": {
     "name": "Sekhmet & Apostle",
@@ -2281,7 +2751,12 @@
     "link": ["https://imgur.com/a/1Rx9j8x"],
     "context": ["gbn"],
     "id": 124,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "23.15",
+      "top": "31.17"
+    }
   },
   "125": {
     "name": "Nipih-mar-Immunsu",
@@ -2301,7 +2776,12 @@
         "contacts": {}
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.25",
+      "left": "8.30",
+      "top": "49.15"
+    }
   },
   "126": {
     "name": "The Red Hand of Ruin",
@@ -2332,7 +2812,12 @@
     "context": ["gbs", "duel", "clash", "duel", "duel"],
     "id": 127,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "7.70",
+      "top": "36.80"
+    }
   },
   "128": {
     "name": "The Sour Fruit of Kebby-Ya",
@@ -2380,7 +2865,12 @@
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel", "duel"],
     "id": 129,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "7.50",
+      "top": "42.00"
+    }
   },
   "130": {
     "name": "Eris",
@@ -2392,7 +2882,12 @@
     ],
     "context": ["gbs", "duel"],
     "id": 130,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "18.00",
+      "top": "49.58"
+    }
   },
   "131": {
     "name": "ACRIFOTG",
@@ -2405,7 +2900,12 @@
     ],
     "context": ["gbs", "duel", "gbs"],
     "id": 131,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "1.75",
+      "left": "25.33",
+      "top": "45.28"
+    }
   },
   "132": {
     "name": "Murder Cube",
@@ -2439,7 +2939,12 @@
         "contacts": {}
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.00",
+      "left": "33.60",
+      "top": "28.80"
+    }
   },
   "133": {
     "name": "Scrumbis",
@@ -2448,7 +2953,12 @@
     "link": ["https://imgur.com/a/f0cH89T"],
     "context": ["gbs"],
     "id": 133,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "29.75",
+      "top": "50.50"
+    }
   },
   "134": {
     "name": "Lutha-YY-Sur",
@@ -2476,9 +2986,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.50",
-      "left": "38.94",
-      "top": "41.83"
+      "zoom": "4.25",
+      "left": "16.19",
+      "top": "48.01"
     }
   },
   "135": {
@@ -2494,7 +3004,12 @@
     "context": ["gbs", "gbn", "duel", "duel"],
     "id": 135,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "1.00",
+      "left": "40.10",
+      "top": "50.10"
+    }
   },
   "136": {
     "name": "Pretzel Man",
@@ -2524,6 +3039,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "14.87",
+      "top": "47.90"
+    },
     "verified": true
   },
   "137": {
@@ -2537,7 +3057,12 @@
     ],
     "context": ["gbs", "gbn", "duel"],
     "id": 137,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "11.50",
+      "top": "48.85"
+    }
   },
   "138": {
     "name": "Senki",
@@ -2557,9 +3082,9 @@
       }
     },
     "profilePic": {
-      "zoom": "1.25",
-      "left": "38.37",
-      "top": "39.90"
+      "zoom": "1.50",
+      "left": "23.07",
+      "top": "31.35"
     }
   },
   "139": {
@@ -2594,6 +3119,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "18.20",
+      "top": "49.03"
+    },
     "verified": true
   },
   "140": {
@@ -2608,7 +3138,12 @@
     "context": ["gbs", "duel", "duel"],
     "id": 140,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "12.88",
+      "top": "48.80"
+    }
   },
   "141": {
     "name": "Te-Shou Haath",
@@ -2632,7 +3167,12 @@
     "context": ["gbs", "gbn", "duel", "gb", "gb", "gb"],
     "id": 141,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "4.50",
+      "top": "49.40"
+    }
   },
   "142": {
     "name": "Elena Hellfire",
@@ -2660,9 +3200,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.25",
-      "left": "45.30",
-      "top": "38.30"
+      "zoom": "6.75",
+      "left": "26.10",
+      "top": "39.33"
     }
   },
   "143": {
@@ -2677,7 +3217,12 @@
     "context": ["gbs", "duel", "duel"],
     "id": 143,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "15.15",
+      "top": "43.20"
+    }
   },
   "144": {
     "name": "Exalted Raiment",
@@ -2696,7 +3241,12 @@
     "link": ["https://imgur.com/a/K3FOBBB"],
     "context": ["gbs"],
     "id": 145,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "15.50",
+      "top": "48.45"
+    }
   },
   "146": {
     "name": "Turibas",
@@ -2722,7 +3272,12 @@
     "context": ["gbs", "gbs", "gbs", "gb", "gbc"],
     "id": 147,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "-4.90",
+      "top": "46.78"
+    }
   },
   "148": {
     "name": "Venus & Scarlett",
@@ -2748,7 +3303,12 @@
     "context": ["gbs", "duel", "gbn", "duel", "duel", "duel", "duel"],
     "id": 148,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "22.20",
+      "top": "41.15"
+    }
   },
   "149": {
     "name": "IBFARSHAN",
@@ -2773,8 +3333,8 @@
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
-      "left": "9.06",
-      "top": "47.92"
+      "left": "11.56",
+      "top": "42.92"
     }
   },
   "150": {
@@ -2790,7 +3350,12 @@
     "context": ["gbs", "duel", "duel", "gbb"],
     "id": 150,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "10.02",
+      "top": "47.75"
+    }
   },
   "151": {
     "name": "Technique of Relief",
@@ -2837,7 +3402,12 @@
     "context": ["gbs", "gbn", "duel"],
     "id": 153,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "11.05",
+      "top": "51.80"
+    }
   },
   "154": {
     "name": "Rudy Pembrook",
@@ -2846,7 +3416,12 @@
     "link": ["https://imgur.com/a/61XagiC"],
     "context": ["gbs"],
     "id": 154,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "16.40",
+      "top": "33.50"
+    }
   },
   "155": {
     "name": "GRAIL",
@@ -2862,7 +3437,12 @@
     "context": ["gbs", "duel", "duel", "duel", "duel"],
     "id": 155,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "16.05",
+      "top": "27.88"
+    }
   },
   "156": {
     "name": "Ink",
@@ -2881,7 +3461,12 @@
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel", "duel", "duel"],
     "id": 156,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "11.25",
+      "top": "46.90"
+    }
   },
   "157": {
     "name": "MOd",
@@ -2906,8 +3491,8 @@
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
-      "left": "21.90",
-      "top": "27.08"
+      "left": "23.70",
+      "top": "33.08"
     }
   },
   "158": {
@@ -2923,7 +3508,12 @@
     "context": ["gbs", "duel", "gbn", "duel"],
     "id": 158,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "9.93",
+      "top": "49.35"
+    }
   },
   "159": {
     "name": "Victorious Flame",
@@ -2949,7 +3539,12 @@
     "context": ["gbs", "duel", "gbn", "duel", "clash", "gb", "gbc"],
     "id": 159,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "2.23",
+      "top": "46.10"
+    }
   },
   "160": {
     "name": "28 Quicksilver",
@@ -2964,7 +3559,12 @@
     ],
     "context": ["gbs", "gbs", "gb", "duel", "gb"],
     "id": 160,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "12.72",
+      "top": "48.68"
+    }
   },
   "161": {
     "name": "Fog of Graves",
@@ -3006,9 +3606,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.75",
-      "left": "28.84",
-      "top": "17.59"
+      "zoom": "5.75",
+      "left": "10.24",
+      "top": "47.07"
     }
   },
   "162": {
@@ -3024,7 +3624,12 @@
     "context": ["gbs", "duel", "duel", "duel"],
     "id": 162,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.15",
+      "top": "45.10"
+    }
   },
   "163": {
     "name": "Xiton",
@@ -3037,7 +3642,12 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 163,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "17.20",
+      "top": "45.20"
+    }
   },
   "164": {
     "name": "Saturos Cratosaturius",
@@ -3047,7 +3657,12 @@
     "context": ["gbs", "duel"],
     "id": 164,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "16.27",
+      "top": "29.93"
+    }
   },
   "165": {
     "name": "Vale & Sylvia",
@@ -3073,7 +3688,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "10.10",
+      "top": "53.85"
+    }
   },
   "166": {
     "name": "Impo the ebon devil",
@@ -3091,6 +3711,11 @@
         "role": "Creator",
         "contacts": {}
       }
+    },
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "20.30",
+      "top": "47.90"
     }
   },
   "167": {
@@ -3105,7 +3730,12 @@
     "context": ["gbs", "duel", "gbs"],
     "id": 167,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "23.02",
+      "top": "37.97"
+    }
   },
   "168": {
     "name": "Inami",
@@ -3119,7 +3749,12 @@
     "context": ["gbs", "duel", "duel"],
     "id": 168,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "11.00",
+      "top": "50.50"
+    }
   },
   "169": {
     "name": "Marissa Oran",
@@ -3135,7 +3770,12 @@
     "context": ["gbs", "gbn", "duel", "gb", "gbc"],
     "id": 169,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "8.83",
+      "top": "49.53"
+    }
   },
   "170": {
     "name": "Jaagup",
@@ -3159,7 +3799,12 @@
     "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 170,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "13.00",
+      "top": "49.62"
+    }
   },
   "171": {
     "name": "Grace Thoruson",
@@ -3175,7 +3820,12 @@
     "context": ["gbs", "gbn", "duel", "duel", "gb"],
     "id": 171,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "19.25",
+      "top": "42.50"
+    }
   },
   "172": {
     "name": "Koji Ten Hekati",
@@ -3190,7 +3840,12 @@
     "context": ["gbs", "duel", "gbs", "duel"],
     "id": 172,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "10.20",
+      "top": "48.60"
+    }
   },
   "173": {
     "name": "Cecil & Mr. Green",
@@ -3205,7 +3860,12 @@
     "context": ["gbs", "duel", "duel", "gbb"],
     "id": 173,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "-11.43",
+      "top": "42.20"
+    }
   },
   "174": {
     "name": "G.O.R.E.",
@@ -3214,7 +3874,12 @@
     "link": ["https://imgur.com/gallery/0thWGWU"],
     "context": ["gbs"],
     "id": 174,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "24.60",
+      "top": "49.60"
+    }
   },
   "175": {
     "name": "Mamuthon & Marcus",
@@ -3232,7 +3897,12 @@
     "context": ["gbs", "duel", "duel", "gbs", "clash", "gb", "duel"],
     "id": 175,
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "2.68",
+      "top": "20.85"
+    }
   },
   "177": {
     "name": "Murien Azur-Or",
@@ -3260,6 +3930,11 @@
         "role": "Artist",
         "contacts": {}
       }
+    },
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "-10.25",
+      "top": "50.65"
     }
   },
   "179": {
@@ -3269,7 +3944,12 @@
     "link": ["https://imgur.com/a/5EbOE3F"],
     "context": ["gbs"],
     "id": 179,
-    "artists": {}
+    "artists": {},
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "21.60",
+      "top": "41.20"
+    }
   },
   "180": {
     "name": "Mr. Scratch",
@@ -3332,7 +4012,12 @@
         }
       }
     },
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "12.20",
+      "top": "49.02"
+    }
   },
   "197": {
     "id": 197,
@@ -3342,7 +4027,12 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "-13.85",
+      "top": "46.40"
+    }
   },
   "198": {
     "id": 198,
@@ -3357,7 +4047,12 @@
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "16.70",
+      "top": "50.30"
+    }
   },
   "203": {
     "id": 203,
@@ -3367,7 +4062,12 @@
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "-9.00",
+      "top": "46.60"
+    }
   },
   "209": {
     "id": 209,
@@ -3385,7 +4085,12 @@
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "-7.40",
+      "top": "49.50"
+    }
   },
   "212": {
     "id": 212,
@@ -3399,7 +4104,12 @@
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "16.10",
+      "top": "49.70"
+    }
   },
   "217": {
     "id": 217,
@@ -3419,9 +4129,9 @@
     },
     "verified": false,
     "profilePic": {
-      "zoom": "1.50",
-      "left": "35.61",
-      "top": "41.40"
+      "zoom": "7.25",
+      "left": "0.78",
+      "top": "46.37"
     }
   },
   "222": {
@@ -3437,7 +4147,12 @@
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "12.52",
+      "top": "48.33"
+    }
   },
   "227": {
     "id": 227,
@@ -3467,7 +4182,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.25",
+      "left": "2.57",
+      "top": "42.12"
+    }
   },
   "237": {
     "id": 237,
@@ -3496,7 +4216,12 @@
     "context": ["duel", "gbn", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "7.00",
+      "left": "11.00",
+      "top": "23.13"
+    }
   },
   "243": {
     "id": 243,
@@ -3513,7 +4238,12 @@
     "context": ["duel", "duel", "duel", "gb", "duel", "gba"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "1.10",
+      "top": "48.70"
+    }
   },
   "246": {
     "id": 246,
@@ -3533,7 +4263,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "11.08",
+      "top": "47.62"
+    }
   },
   "251": {
     "id": 251,
@@ -3543,7 +4278,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "21.85",
+      "top": "48.28"
+    }
   },
   "252": {
     "id": 252,
@@ -3553,7 +4293,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "18.13",
+      "top": "49.58"
+    }
   },
   "256": {
     "id": 256,
@@ -3563,7 +4308,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "16.90",
+      "top": "48.90"
+    }
   },
   "258": {
     "id": 258,
@@ -3573,7 +4323,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "18.45",
+      "top": "45.73"
+    }
   },
   "259": {
     "id": 259,
@@ -3597,7 +4352,12 @@
     "context": ["duel", "clash", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "7.25",
+      "left": "14.90",
+      "top": "47.75"
+    }
   },
   "268": {
     "id": 268,
@@ -3607,7 +4367,12 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.10",
+      "top": "43.90"
+    }
   },
   "269": {
     "id": 269,
@@ -3621,7 +4386,12 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "11.25",
+      "top": "47.50"
+    }
   },
   "271": {
     "id": 271,
@@ -3635,7 +4405,12 @@
     "context": ["duel", "duel", "gbc"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "6.00",
+      "left": "9.63",
+      "top": "48.73"
+    }
   },
   "272": {
     "id": 272,
@@ -3645,7 +4420,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "13.70",
+      "top": "45.25"
+    }
   },
   "275": {
     "id": 275,
@@ -3655,7 +4435,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "18.30",
+      "top": "42.80"
+    }
   },
   "279": {
     "id": 279,
@@ -3684,7 +4469,12 @@
     "context": ["duel", "gbs"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.75",
+      "left": "65.73",
+      "top": "37.57"
+    }
   },
   "284": {
     "id": 284,
@@ -3699,7 +4489,12 @@
     "context": ["gbn", "gbn", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "6.75",
+      "left": "2.28",
+      "top": "43.82"
+    }
   },
   "286": {
     "id": 286,
@@ -3712,7 +4507,12 @@
     "context": ["gbn", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "14.30",
+      "top": "48.27"
+    }
   },
   "294": {
     "id": 294,
@@ -3738,9 +4538,9 @@
     },
     "verified": false,
     "profilePic": {
-      "zoom": "2.50",
-      "left": "24.60",
-      "top": "45.75"
+      "zoom": "4.50",
+      "left": "10.00",
+      "top": "47.00"
     }
   },
   "303": {
@@ -3778,9 +4578,9 @@
     },
     "verified": true,
     "profilePic": {
-      "zoom": "1.50",
-      "left": "36.28",
-      "top": "47.67"
+      "zoom": "4.50",
+      "left": "7.93",
+      "top": "46.77"
     }
   },
   "305": {
@@ -3819,7 +4619,12 @@
     "context": ["gbs"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "10.17",
+      "top": "37.25"
+    }
   },
   "331": {
     "id": 331,
@@ -3883,7 +4688,12 @@
     "context": ["gbs", "duel", "gbs", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "15.00",
+      "top": "20.50"
+    }
   },
   "341": {
     "id": 341,
@@ -3908,7 +4718,12 @@
     "context": ["gbs", "duel", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "66.40",
+      "top": "30.60"
+    }
   },
   "343": {
     "id": 343,
@@ -3924,7 +4739,12 @@
     "context": ["duel", "gbs", "duel", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": true
+    "verified": true,
+    "profilePic": {
+      "zoom": "2.50",
+      "left": "14.00",
+      "top": "20.50"
+    }
   },
   "344": {
     "id": 344,
@@ -3934,7 +4754,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.00",
+      "left": "38.43",
+      "top": "41.15"
+    }
   },
   "346": {
     "id": 346,
@@ -4001,7 +4826,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "19.70",
+      "top": "51.10"
+    }
   },
   "359": {
     "id": 359,
@@ -4031,7 +4861,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "8.18",
+      "top": "40.55"
+    }
   },
   "364": {
     "id": 364,
@@ -4143,7 +4978,12 @@
     "context": ["gbn", "duel", "gb", "gb", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "8.50",
+      "top": "37.50"
+    }
   },
   "380": {
     "id": 380,
@@ -4156,7 +4996,12 @@
     "context": ["gbn", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.00",
+      "left": "71.70",
+      "top": "25.30"
+    }
   },
   "381": {
     "id": 381,
@@ -4192,7 +5037,7 @@
     "artists": {},
     "verified": false,
     "profilePic": {
-      "zoom": "2.25",
+      "zoom": "2.50",
       "left": "27.27",
       "top": "39.87"
     }
@@ -4249,9 +5094,9 @@
     },
     "verified": false,
     "profilePic": {
-      "zoom": "1.00",
-      "left": "58.43",
-      "top": "52.95"
+      "zoom": "5.25",
+      "left": "14.41",
+      "top": "40.58"
     }
   },
   "387": {
@@ -4319,7 +5164,12 @@
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.50",
+      "left": "2.55",
+      "top": "45.55"
+    }
   },
   "392": {
     "id": 392,
@@ -4436,7 +5286,12 @@
     "context": ["gbn", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "19.10",
+      "top": "46.70"
+    }
   },
   "400": {
     "id": 400,
@@ -4588,9 +5443,9 @@
     },
     "verified": false,
     "profilePic": {
-      "zoom": "5.25",
-      "left": "-12.31",
-      "top": "24.19"
+      "zoom": "5.75",
+      "left": "-10.59",
+      "top": "28.79"
     }
   },
   "414": {
@@ -4777,7 +5632,12 @@
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "33.13",
+      "top": "47.75"
+    }
   },
   "429": {
     "id": 429,
@@ -4812,7 +5672,12 @@
     "context": ["gb"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.25",
+      "left": "34.25",
+      "top": "47.75"
+    }
   },
   "432": {
     "id": 432,
@@ -4822,7 +5687,12 @@
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "31.60",
+      "top": "25.20"
+    }
   },
   "433": {
     "id": 433,
@@ -4856,7 +5726,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "15.17",
+      "top": "36.70"
+    }
   },
   "436": {
     "id": 436,
@@ -4879,7 +5754,12 @@
     "context": ["duel", "gbc"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "15.97",
+      "top": "42.12"
+    }
   },
   "438": {
     "id": 438,
@@ -4915,7 +5795,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.95",
+      "top": "49.60"
+    }
   },
   "441": {
     "id": 441,
@@ -4947,7 +5832,12 @@
     "context": ["duel"],
     "faction": ["pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.00",
+      "left": "11.00",
+      "top": "42.50"
+    }
   },
   "443": {
     "id": 443,
@@ -5171,7 +6061,12 @@
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "6.25",
+      "left": "14.77",
+      "top": "42.62"
+    }
   },
   "463": {
     "id": 463,
@@ -5261,7 +6156,12 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.75",
+      "left": "17.28",
+      "top": "48.35"
+    }
   },
   "469": {
     "id": 469,
@@ -5392,7 +6292,12 @@
     "context": ["duel"],
     "faction": ["bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.50",
+      "left": "6.55",
+      "top": "47.85"
+    }
   },
   "480": {
     "id": 480,
@@ -5416,7 +6321,12 @@
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.75",
+      "left": "9.15",
+      "top": "42.35"
+    }
   },
   "482": {
     "id": 482,
@@ -5542,6 +6452,11 @@
         }
       }
     },
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "8.70",
+      "top": "41.70"
+    },
     "verified": false
   },
   "491": {
@@ -5555,7 +6470,12 @@
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "3.00",
+      "left": "46.77",
+      "top": "12.72"
+    }
   },
   "492": {
     "id": 492,
@@ -6031,7 +6951,12 @@
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "2.00",
+      "left": "25.20",
+      "top": "16.00"
+    }
   },
   "538": {
     "id": 538,
@@ -6144,7 +7069,12 @@
     "context": ["gb", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "5.00",
+      "left": "17.15",
+      "top": "44.15"
+    }
   },
   "548": {
     "id": 548,
@@ -6634,7 +7564,12 @@
     "context": ["gb", "gbc"],
     "faction": ["pyre", "pyre"],
     "artists": {},
-    "verified": false
+    "verified": false,
+    "profilePic": {
+      "zoom": "4.25",
+      "left": "12.35",
+      "top": "41.22"
+    }
   },
   "598": {
     "id": 598,

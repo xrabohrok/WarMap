@@ -21,19 +21,25 @@
       <ProfilePicEditor
         :imgUrl="`/fighterimages/${curFighterPic}.png`"
         class="profPic"
-        :startPos="curPositioning"
+        :zoom_start="curPositioning.zoom"
+        :left_start="curPositioning.left"
+        :top_start="curPositioning.top"
         :lazyUpdate="updatePos"
       />
       <ProfilePic
         :imgUrl="`/fighterimages/${curFighterPic}.png`"
         class="smallPic"
-        :startPos="curPositioning"
+        :zoom_start="curPositioning.zoom"
+        :left_start="curPositioning.left"
+        :top_start="curPositioning.top"
         ref="smallView"
       />
       <ProfilePic
         :imgUrl="`/fighterimages/${curFighterPic}.png`"
         class="gbPic"
-        :startPos="curPositioning"
+        :zoom_start="curPositioning.zoom"
+        :left_start="curPositioning.left"
+        :top_start="curPositioning.top"
         ref="tinyView"
       />
     </div>
@@ -68,7 +74,8 @@ export default {
     return {
       selected: [],
       curFighters: [],
-      curPositioning: { zoom: 1, left: 50, top: 50 }
+      curPositioning: { zoom: 1, left: 50, top: 50 },
+      availablePics: []
     }
   },
   computed: {
@@ -143,7 +150,27 @@ export default {
   mounted: function() {
     axios
       .get("/server/allFighters")
-      .then(response => (this.curFighters = response.data))
+      .then(response => {
+        this.curFighters = response.data
+        return response
+      })
+      .then(response => {
+        const updateFighters = response => {
+          this.availablePics = response.data
+          var keepers = Object.keys(this.curFighters).filter(cf =>
+            this.availablePics.includes(parseInt(cf, 10))
+          )
+          var retval = {}
+          keepers.forEach(k => (retval[`${k}`] = this.curFighters[`${k}`]))
+          this.curFighters = retval
+        }
+
+        axios
+          .get("/server/pics")
+          .then(updateFighters)
+          .catch(r => console.log(r))
+        return response
+      })
       .catch(r => console.log(r))
   },
   name: "PicZoomer"

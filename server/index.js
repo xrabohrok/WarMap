@@ -10,6 +10,17 @@ const readAvailableRounds = async function() {
   return files.filter(f => roundtype.test(f))
 }
 
+const existingPics = async function() {
+  let files = await fsp.readdir("./public/fighterimages")
+  let allList = files.map(f => f.split(".")[0])
+  allList.splice(
+    allList.findIndex(f => f.includes("error")),
+    1
+  )
+  var idList = allList.map(s => parseInt(s, 10))
+  return idList
+}
+
 const syncFileLoc = async function() {
   if (!fs.existsSync("./changes")) {
     fs.mkdirSync("./changes")
@@ -97,6 +108,15 @@ module.exports = function(app) {
       }
 
       res.send(allstories[req.params.fighterId].toString())
+    } catch (err) {
+      console.log(err)
+      res.status(500).send(err)
+    }
+  })
+
+  app.get("/server/pics", async function(req, res) {
+    try {
+      res.send(JSON.stringify(await existingPics()))
     } catch (err) {
       console.log(err)
       res.status(500).send(err)

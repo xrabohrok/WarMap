@@ -20,7 +20,18 @@ export default {
   props: {
     imgUrl: String,
     lazyUpdate: Function,
-    startPos: Object
+    zoom_start: {
+      type: Number,
+      default: 1
+    },
+    left_start: {
+      type: Number,
+      default: 50
+    },
+    top_start: {
+      type: Number,
+      default: 50
+    }
   },
   data: function() {
     return {
@@ -32,6 +43,8 @@ export default {
         topp: defaultImageHeight / 2
       },
       dragging: false,
+      startX: 0,
+      startY: 0,
       dragX: 0,
       dragY: 0
     }
@@ -76,10 +89,8 @@ export default {
       event.target.src = "fighterimages/error.png"
     },
     imageClipDragStart(e) {
-      if (e.button === 0) {
+      if (e.button === 0 && !this.dragging) {
         this.dragging = true
-        this.dragX = e.clientX
-        this.dragY = e.clientY
       }
     },
     imageClipDragStop() {
@@ -97,50 +108,26 @@ export default {
         return
       }
 
-      const x0 = this.dragX
-      const y0 = this.dragY
-      const x1 = e.clientX
-      const y1 = e.clientY
-
-      this.dragX = x1
-      this.dragY = y1
-
-      const dx = x1 - x0
-      const dy = y1 - y0
-
-      let left = 0
-      let top = 0
-      left += dx / (this.positioning.zoom / 100)
-      this.positioning.leftp += left
-      // left = Math.max(0, Math.min(this.imageWidth - this.clipSize, left));
-      top += dy / (this.positioning.zoom / 100)
-      this.positioning.topp += top
-      // top = Math.max(0, Math.min(this.imageHeight - this.clipSize, top));
-
-      this.positioning.left = this.positioning.leftp / defaultImageWidth
-      this.positioning.top = this.positioning.topp / defaultImageHeight
-      // this.$emit('update:clipLeft', left);
-      // this.$emit('update:clipTop', top);
+      this.positioning.top += e.movementY * (this.positioning.zoom / 10)
+      this.positioning.left += e.movementX * (this.positioning.zoom / 10)
     }
   },
   watch: {
-    startPos: function() {
-      if (this.startPos !== null && this.startPos !== undefined) {
-        this.positioning = {
-          zoom: this.startPos.zoom,
-          left: this.startPos.left,
-          top: this.startPos.top,
-          leftp: (this.startPos.left / 100) * defaultImageWidth,
-          topp: (this.startPos.top / 100) * defaultImageHeight
-        }
-      } else {
-        this.positioning = {
-          zoom: 1,
-          left: 50,
-          top: 50,
-          leftp: defaultImageWidth / 2,
-          topp: defaultImageHeight / 2
-        }
+    zoom_start: function(newVal, oldVal) {
+      if (newVal != oldVal) {
+        this.positioning.zoom = newVal
+      }
+    },
+    left_start: function(newVal, oldVal) {
+      if (newVal != oldVal) {
+        this.positioning.left = newVal
+        this.positioning.leftp = (newVal / 100) * defaultImageWidth
+      }
+    },
+    top_start: function(newVal, oldVal) {
+      if (newVal != oldVal) {
+        this.positioning.top = newVal
+        this.positioning.topp = (newVal / 100) * defaultImageHeight
       }
     }
   }

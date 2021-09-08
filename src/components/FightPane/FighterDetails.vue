@@ -45,7 +45,9 @@
         <ProfilePic
           :imgUrl="fighterIcon"
           :faction="faction"
-          :startPos="fighter.profilePic"
+          :zoom_start="fighter.profilePic.zoom"
+          :left_start="fighter.profilePic.left"
+          :top_start="fighter.profilePic.top"
           class="fighterIcon mobile"
         />
 
@@ -57,7 +59,9 @@
         :class="{ right: rightward }"
         :imgUrl="fighterIcon"
         :faction="faction"
-        :startPos="fighter.profilePic"
+        :zoom_start="fighter.profilePic.zoom"
+        :left_start="fighter.profilePic.left"
+        :top_start="fighter.profilePic.top"
         class="fighterIcon"
       />
       <div class="detail_row fighterName">

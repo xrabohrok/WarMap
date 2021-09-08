@@ -9,35 +9,52 @@ export default {
   name: "ProfilePic",
   props: {
     imgUrl: String,
-    startPos: {
-      zoom: 1,
-      left: 50,
-      top: 50
+    zoom_start: {
+      type: Number,
+      default: 1
+    },
+    left_start: {
+      type: Number,
+      default: 50
+    },
+    top_start: {
+      type: Number,
+      default: 50
     },
     faction: String
   },
   data: function() {
-    return {}
+    return {
+      zoom: 1,
+      left: 50,
+      top: 50
+    }
   },
   computed: {
     smallStyle: function() {
-      if (this.startPos === null || this.startPos === undefined) {
-        return {
-          position: "absolute",
-          width: "auto",
-          height: `100%`,
-          left: `50%`,
-          top: `50%`
-        }
-      }
-
       return {
         position: "absolute",
         width: "auto",
-        height: `${100 * this.startPos.zoom}%`,
-        left: `${this.startPos.left * this.startPos.zoom}%`,
-        top: `${this.startPos.top * this.startPos.zoom}%`
+        height: `${100 * this.zoom}%`,
+        left: `${this.left * this.zoom}%`,
+        top: `${this.top * this.zoom}%`
       }
+    }
+  },
+  created: function() {
+    this.zoom = this.zoom_start
+    this.left = this.left_start
+    this.top = this.top_start
+  },
+  watch: {
+    zoom_start: function(newVal, oldVal) {
+      if (newVal != oldVal) this.zoom = newVal
+    },
+    left_start: function(newVal, oldVal) {
+      if (newVal != oldVal) this.left = newVal
+    },
+    top_start: function(newVal, oldVal) {
+      if (newVal != oldVal) this.top = newVal
     }
   },
   methods: {
@@ -53,10 +70,10 @@ export default {
       event.target.src = "fighterimages/error.png"
     },
     updateView() {
-      this.startPos = {
-        zoom: this.startPos.zoom,
-        left: this.startPos.left,
-        top: this.startPos.top
+      this.pos = {
+        zoom: this.zoom,
+        left: this.left,
+        top: this.top
       }
     }
   }

@@ -8,7 +8,9 @@
         <ProfilePic
           :imgUrl="fighterIcon"
           :faction="faction"
-          :startPos="pictureShift"
+          :zoom_start="pictureShift ? pictureShift.zoom : 1"
+          :top_start="pictureShift ? pictureShift.top : 50"
+          :left_start="pictureShift ? pictureShift.left : 50"
           class="fighterIcon"
         />
       </div>

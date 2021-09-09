@@ -152,3 +152,40 @@ var new_airtable = missing_keys.map(mk => {
   })
   return retval
 })
+
+airtable
+  .filter(a => a.W_ID)
+  .forEach(a => {
+    var curfighter = fighters[a.W_ID]
+    console.log(
+      `${a.W_ID} - ${a["Character Name"]} - ${
+        Object.keys(curfighter.artists).length
+      }`
+    )
+    if (Object.keys(curfighter.artists).length === 0) {
+      console.log("...empty artist, filling...")
+      if (a.Artist !== "" && a.Writer === "") {
+        curfighter.artists[a.Artist] = {
+          role: "Creator",
+          name: a.Artist,
+          contacts: {}
+        }
+        console.log(`Added ${a.Artist} as Creator for ${a["Character Name"]}`)
+      } else if (a.Artist !== "") {
+        curfighter.artists[a.Artist] = {
+          role: "Artist",
+          name: a.Artist,
+          contacts: {}
+        }
+        console.log(`Added ${a.Artist} as Artist for ${a["Character Name"]}`)
+      }
+      if (a.Writer !== "") {
+        curfighter.artists[a.Writer] = {
+          role: "Writer",
+          name: a.Writer,
+          contacts: {}
+        }
+        console.log(`Added ${a.Writer} as Writer for ${a["Character Name"]}`)
+      }
+    }
+  })

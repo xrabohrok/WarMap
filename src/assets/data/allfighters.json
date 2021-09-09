@@ -10,7 +10,13 @@
     "id": 0,
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "maria/hawthorn": {
+        "role": "Creator",
+        "name": "maria/hawthorn",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -25,7 +31,13 @@
     "id": 1,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {
+      "Heliophage": {
+        "role": "Creator",
+        "name": "Heliophage",
+        "contacts": {}
+      }
+    }
   },
   "2": {
     "name": "Vessel Corpse",
@@ -41,7 +53,13 @@
     "id": 2,
     "context": ["duel", "gbn", "duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Des": {
+        "role": "Creator",
+        "name": "Des",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -99,7 +117,13 @@
     "id": 4,
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Vabam": {
+        "role": "Creator",
+        "name": "Vabam",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -114,7 +138,13 @@
     "id": 5,
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Sassy-Tarborian": {
+        "role": "Creator",
+        "name": "Sassy-Tarborian",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.50",
       "left": "13.85",
@@ -132,7 +162,13 @@
     "id": 6,
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Magnus": {
+        "role": "Creator",
+        "name": "Magnus",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.00",
@@ -147,7 +183,13 @@
     "id": 7,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {}
+    "artists": {
+      "E_VII": {
+        "role": "Creator",
+        "name": "E_VII",
+        "contacts": {}
+      }
+    }
   },
   "8": {
     "name": "Admiral Frogstar",
@@ -186,7 +228,13 @@
     "id": 9,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Kaizen(Na3)": {
+        "role": "Creator",
+        "name": "Kaizen(Na3)",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.75",
       "left": "29.20",
@@ -209,7 +257,13 @@
     "id": 10,
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb", "gb", "clash"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Meebob": {
+        "role": "Creator",
+        "name": "Meebob",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -228,7 +282,18 @@
     "id": 11,
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Malkshake": {
+        "role": "Artist",
+        "name": "Malkshake",
+        "contacts": {}
+      },
+      "Anna": {
+        "role": "Writer",
+        "name": "Anna",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "7.25",
@@ -247,7 +312,13 @@
     "id": 12,
     "context": ["duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Radio Throne Matt": {
+        "role": "Creator",
+        "name": "Radio Throne Matt",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.00",
       "left": "-11.35",
@@ -267,7 +338,13 @@
     "id": 13,
     "context": ["duel", "gbn", "duel", "duel", "gbc"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Selevan": {
+        "role": "Creator",
+        "name": "Selevan",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -287,7 +364,13 @@
     "id": 14,
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Randio Calrissian": {
+        "role": "Creator",
+        "name": "Randio Calrissian",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.25",
@@ -302,7 +385,13 @@
     "id": 15,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "larkine": {
+        "role": "Creator",
+        "name": "larkine",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.25",
       "left": "13.90",
@@ -316,7 +405,13 @@
     "id": 16,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Yoko": {
+        "role": "Creator",
+        "name": "Yoko",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "7.00",
@@ -335,7 +430,13 @@
     "id": 17,
     "context": ["duel", "gbs", "gb"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Fabo": {
+        "role": "Creator",
+        "name": "Fabo",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -350,7 +451,13 @@
     "id": 18,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Grom": {
+        "role": "Creator",
+        "name": "Grom",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.50",
       "left": "23.65",
@@ -380,7 +487,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Voxeler": {
+        "role": "Creator",
+        "name": "Voxeler",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -506,7 +619,13 @@
     "id": 23,
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Nolvit": {
+        "role": "Creator",
+        "name": "Nolvit",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -525,7 +644,13 @@
     "id": 24,
     "context": ["duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "At least 3 goblins": {
+        "role": "Creator",
+        "name": "At least 3 goblins",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -556,7 +681,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "dande": {
+        "role": "Creator",
+        "name": "dande",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -571,7 +702,18 @@
     "id": 26,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Arthai": {
+        "role": "Artist",
+        "name": "Arthai",
+        "contacts": {}
+      },
+      "likealuca": {
+        "role": "Writer",
+        "name": "likealuca",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -633,7 +775,13 @@
     "id": 28,
     "context": ["duel", "duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Horology": {
+        "role": "Creator",
+        "name": "Horology",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.50",
       "left": "11.80",
@@ -647,7 +795,13 @@
     "id": 29,
     "context": ["duel", "clash"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Vwa Dya 2": {
+        "role": "Creator",
+        "name": "Vwa Dya 2",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.25",
       "left": "37.65",
@@ -745,7 +899,13 @@
     "id": 32,
     "context": ["duel", "gbn", "duel", "duel", "duel", "clash", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Lobatus": {
+        "role": "Creator",
+        "name": "Lobatus",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.50",
@@ -843,7 +1003,13 @@
     "id": 35,
     "context": ["duel", "duel", "duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion", "pyre", "pyre"],
-    "artists": {}
+    "artists": {
+      "Myeth": {
+        "role": "Creator",
+        "name": "Myeth",
+        "contacts": {}
+      }
+    }
   },
   "36": {
     "name": "20 Cresting Magma",
@@ -859,7 +1025,13 @@
     "id": 36,
     "context": ["duel", "gbn", "duel", "gb", "gb", "gbb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Cevius": {
+        "role": "Creator",
+        "name": "Cevius",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.75",
       "left": "25.10",
@@ -873,7 +1045,13 @@
     "id": 38,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "ev": {
+        "role": "Creator",
+        "name": "ev",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "7.50",
       "left": "8.57",
@@ -892,7 +1070,13 @@
     "id": 40,
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Cozzymandias": {
+        "role": "Creator",
+        "name": "Cozzymandias",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -925,7 +1109,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Fancymancer": {
+        "role": "Creator",
+        "name": "Fancymancer",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -940,7 +1130,13 @@
     "id": 42,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Arno": {
+        "role": "Creator",
+        "name": "Arno",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.75",
       "left": "14.23",
@@ -954,7 +1150,13 @@
     "id": 43,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "maguichu1": {
+        "role": "Creator",
+        "name": "maguichu1",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "6.75",
       "left": "10.47",
@@ -968,7 +1170,13 @@
     "id": 44,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Dust": {
+        "role": "Creator",
+        "name": "Dust",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "45": {
@@ -994,7 +1202,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "RedDragonRaz": {
+        "role": "Creator",
+        "name": "RedDragonRaz",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "6.00",
@@ -1016,7 +1230,13 @@
     "id": 46,
     "context": ["duel", "gbn", "clash", "gbn", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Calvin": {
+        "role": "Creator",
+        "name": "Calvin",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -1060,7 +1280,13 @@
     "id": 48,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "WereGoat": {
+        "role": "Creator",
+        "name": "WereGoat",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.50",
       "left": "15.20",
@@ -1079,7 +1305,13 @@
     "id": 49,
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Mavell": {
+        "role": "Creator",
+        "name": "Mavell",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -1103,7 +1335,13 @@
     "id": 50,
     "context": ["duel", "gbs", "gbn", "duel", "clash", "gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Neat": {
+        "role": "Creator",
+        "name": "Neat",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -1122,7 +1360,13 @@
     "id": 51,
     "context": ["duel", "gbs", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Dyo": {
+        "role": "Creator",
+        "name": "Dyo",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -1137,7 +1381,13 @@
     "id": 52,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "GoonGoblin": {
+        "role": "Creator",
+        "name": "GoonGoblin",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.75",
       "left": "9.40",
@@ -1155,7 +1405,13 @@
     "id": 53,
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "joy": {
+        "role": "Creator",
+        "name": "joy",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "2.25",
       "left": "104.22",
@@ -1174,7 +1430,13 @@
     "id": 54,
     "context": ["duel", "duel", "duel", "clash"],
     "faction": ["pyre", "pyre", "pyre", "bastion"],
-    "artists": {},
+    "artists": {
+      "jg!!": {
+        "role": "Creator",
+        "name": "jg!!",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "6.75",
@@ -1205,7 +1467,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Monday": {
+        "role": "Creator",
+        "name": "Monday",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -1226,7 +1494,13 @@
     "id": 56,
     "context": ["duel", "gbs", "duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "G U N": {
+        "role": "Creator",
+        "name": "G U N",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.25",
@@ -1269,7 +1543,13 @@
     "id": 58,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Aster": {
+        "role": "Creator",
+        "name": "Aster",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.50",
       "left": "14.90",
@@ -1287,7 +1567,13 @@
     "id": 59,
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Lex": {
+        "role": "Creator",
+        "name": "Lex",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.50",
       "left": "12.60",
@@ -1301,7 +1587,13 @@
     "id": 60,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Oshlet": {
+        "role": "Creator",
+        "name": "Oshlet",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.75",
       "left": "9.10",
@@ -1321,7 +1613,13 @@
     "id": 61,
     "context": ["duel", "duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Plaid": {
+        "role": "Creator",
+        "name": "Plaid",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.00",
       "left": "18.20",
@@ -1380,7 +1678,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Miss": {
+        "role": "Creator",
+        "name": "Miss",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.75",
@@ -1423,7 +1727,13 @@
     "id": 65,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Taborlin": {
+        "role": "Creator",
+        "name": "Taborlin",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.75",
       "left": "6.65",
@@ -1446,7 +1756,18 @@
     "id": 66,
     "context": ["duel", "gbn", "clash", "gbs", "duel", "gb", "duel", "gbc"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Holo": {
+        "role": "Artist",
+        "name": "Holo",
+        "contacts": {}
+      },
+      "E3": {
+        "role": "Writer",
+        "name": "E3",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -1477,7 +1798,13 @@
       "pyre",
       "pyre"
     ],
-    "artists": {},
+    "artists": {
+      "Sleepy": {
+        "role": "Creator",
+        "name": "Sleepy",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.25",
@@ -1497,7 +1824,13 @@
     "id": 68,
     "context": ["duel", "duel", "gbn", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "flat!": {
+        "role": "Creator",
+        "name": "flat!",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -1512,7 +1845,13 @@
     "id": 69,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Flinkelinks": {
+        "role": "Creator",
+        "name": "Flinkelinks",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.25",
       "left": "20.22",
@@ -1526,7 +1865,13 @@
     "id": 70,
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Magnus": {
+        "role": "Creator",
+        "name": "Magnus",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.00",
       "left": "11.52",
@@ -1542,7 +1887,13 @@
     "id": 71,
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Spejoku": {
+        "role": "Creator",
+        "name": "Spejoku",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.00",
       "left": "5.87",
@@ -1562,7 +1913,13 @@
     "id": 72,
     "context": ["duel", "gbn", "duel", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "aron": {
+        "role": "Creator",
+        "name": "aron",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "6.25",
@@ -1619,7 +1976,13 @@
     "id": 74,
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Heuso Papi": {
+        "role": "Creator",
+        "name": "Heuso Papi",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.75",
       "left": "-31.72",
@@ -1638,7 +2001,13 @@
     "id": 75,
     "context": ["duel", "gbn", "gbn", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "GearGrinder ": {
+        "role": "Creator",
+        "name": "GearGrinder ",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "76": {
@@ -1662,7 +2031,13 @@
     ],
     "context": ["gbn", "gbs", "gbn", "gbn", "duel", "duel"],
     "id": 76,
-    "artists": {},
+    "artists": {
+      "Pr0m-A-Gog": {
+        "role": "Creator",
+        "name": "Pr0m-A-Gog",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -1760,8 +2135,19 @@
     ],
     "context": ["gbn", "gba", "duel", "duel", "gb", "gb", "duel"],
     "id": 79,
-    "artists": {},
     "verified": true,
+    "artists": {
+      "TheRebelSpy": {
+        "role": "Artist",
+        "name": "TheRebelSpy",
+        "contacts": {}
+      },
+      "Proletarri": {
+        "role": "Writer",
+        "name": "Proletarri",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.75",
       "left": "21.25",
@@ -1849,7 +2235,13 @@
     ],
     "context": ["gbn", "gbn", "duel", "gbs", "gb", "gb", "gb", "gb", "gbb"],
     "id": 82,
-    "artists": {},
+    "artists": {
+      "Druplesnubb": {
+        "role": "Creator",
+        "name": "Druplesnubb",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -1872,7 +2264,13 @@
     ],
     "context": ["gbn", "duel", "gbs", "duel", "gb", "gb", "duel"],
     "id": 83,
-    "artists": {},
+    "artists": {
+      "Ledgem": {
+        "role": "Creator",
+        "name": "Ledgem",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -2003,7 +2401,13 @@
     ],
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb", "duel", "duel"],
     "id": 87,
-    "artists": {},
+    "artists": {
+      "BallisticBerserkFroggo (Doe)": {
+        "role": "Creator",
+        "name": "BallisticBerserkFroggo (Doe)",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -2078,7 +2482,13 @@
     ],
     "context": ["gbn", "duel", "duel", "duel", "gb", "gbc"],
     "id": 90,
-    "artists": {},
+    "artists": {
+      "RedStalk": {
+        "role": "Creator",
+        "name": "RedStalk",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "91": {
@@ -2094,7 +2504,18 @@
     ],
     "context": ["gbn", "duel", "duel", "duel", "gb"],
     "id": 91,
-    "artists": {},
+    "artists": {
+      "MrSmiles": {
+        "role": "Artist",
+        "name": "MrSmiles",
+        "contacts": {}
+      },
+      "Graves": {
+        "role": "Writer",
+        "name": "Graves",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.25",
       "left": "25.75",
@@ -2108,7 +2529,13 @@
     "link": ["https://imgur.com/a/eO0vw0n"],
     "context": ["gbn"],
     "id": 92,
-    "artists": {},
+    "artists": {
+      "Kitbaus": {
+        "role": "Creator",
+        "name": "Kitbaus",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.25",
       "left": "27.50",
@@ -2125,7 +2552,13 @@
     ],
     "context": ["gbn", "duel"],
     "id": 93,
-    "artists": {},
+    "artists": {
+      "Constellado": {
+        "role": "Creator",
+        "name": "Constellado",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.25",
@@ -2140,7 +2573,13 @@
     "link": ["https://imgur.com/a/Xnmoy4h"],
     "context": ["gbn"],
     "id": 94,
-    "artists": {},
+    "artists": {
+      "Nevermore4now": {
+        "role": "Creator",
+        "name": "Nevermore4now",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.50",
       "left": "-0.32",
@@ -2154,7 +2593,13 @@
     "link": ["https://imgur.com/a/EXDpZX5"],
     "context": ["gbn"],
     "id": 95,
-    "artists": {},
+    "artists": {
+      "Hoot": {
+        "role": "Creator",
+        "name": "Hoot",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.50",
       "left": "38.90",
@@ -2174,7 +2619,13 @@
     ],
     "context": ["gbn", "gbn", "gbn", "duel", "gb"],
     "id": 96,
-    "artists": {},
+    "artists": {
+      "mentalocrity": {
+        "role": "Creator",
+        "name": "mentalocrity",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -2250,7 +2701,13 @@
     ],
     "context": ["gbn", "gbs", "gbs", "duel", "gbc"],
     "id": 99,
-    "artists": {},
+    "artists": {
+      "charms": {
+        "role": "Creator",
+        "name": "charms",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.25",
@@ -2269,7 +2726,13 @@
     ],
     "context": ["gbn", "duel", "duel"],
     "id": 100,
-    "artists": {},
+    "artists": {
+      "King Cauliflower": {
+        "role": "Creator",
+        "name": "King Cauliflower",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -2288,7 +2751,13 @@
     ],
     "context": ["gbn", "duel", "duel"],
     "id": 101,
-    "artists": {},
+    "artists": {
+      "Benmobile": {
+        "role": "Creator",
+        "name": "Benmobile",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -2303,7 +2772,13 @@
     "link": ["https://imgur.com/a/bHX8RJo"],
     "context": ["gbn"],
     "id": 102,
-    "artists": {},
+    "artists": {
+      "Kastor": {
+        "role": "Creator",
+        "name": "Kastor",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "2.75",
       "left": "43.60",
@@ -2323,7 +2798,13 @@
     ],
     "context": ["gbn", "duel", "gbs", "duel", "duel"],
     "id": 103,
-    "artists": {},
+    "artists": {
+      "voktyr": {
+        "role": "Creator",
+        "name": "voktyr",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "104": {
@@ -2351,7 +2832,13 @@
     ],
     "context": ["gbn", "duel", "gbn", "duel", "gb", "duel", "gb", "duel"],
     "id": 104,
-    "artists": {},
+    "artists": {
+      "Brassmoon": {
+        "role": "Creator",
+        "name": "Brassmoon",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -2366,7 +2853,13 @@
     "link": ["https://photos.app.goo.gl/CwaqVSgxGj99Wjc47"],
     "context": ["gbn"],
     "id": 105,
-    "artists": {},
+    "artists": {
+      "Thunder": {
+        "role": "Creator",
+        "name": "Thunder",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.00",
       "left": "17.75",
@@ -2394,7 +2887,13 @@
     ],
     "context": ["gbn", "gbs", "duel", "duel", "duel", "gb"],
     "id": 106,
-    "artists": {},
+    "artists": {
+      "MechanicalBrain": {
+        "role": "Creator",
+        "name": "MechanicalBrain",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -2414,7 +2913,13 @@
     ],
     "context": ["gbn", "duel", "duel", "duel"],
     "id": 107,
-    "artists": {},
+    "artists": {
+      "bubwat": {
+        "role": "Creator",
+        "name": "bubwat",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.75",
@@ -2429,7 +2934,13 @@
     "link": ["https://imgur.com/a/DRlcx0g", "https://imgur.com/a/aBdxbks"],
     "context": ["gbn", "gbs"],
     "id": 108,
-    "artists": {},
+    "artists": {
+      "Artemyiss": {
+        "role": "Creator",
+        "name": "Artemyiss",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -2479,7 +2990,13 @@
     ],
     "context": ["gbn", "gbs", "duel"],
     "id": 111,
-    "artists": {},
+    "artists": {
+      "Whibsy": {
+        "role": "Creator",
+        "name": "Whibsy",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "3.75",
       "left": "14.38",
@@ -2509,7 +3026,13 @@
     ],
     "context": ["gbn", "gbn", "clash", "duel", "duel", "duel", "gba"],
     "id": 112,
-    "artists": {},
+    "artists": {
+      "punkoz": {
+        "role": "Creator",
+        "name": "punkoz",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.25",
@@ -2561,7 +3084,13 @@
     "link": ["https://imgur.com/a/HEPZN9Z", "https://imgur.com/a/NZM07HI"],
     "context": ["gbn", "duel"],
     "id": 114,
-    "artists": {},
+    "artists": {
+      "Technicolor Yawn": {
+        "role": "Creator",
+        "name": "Technicolor Yawn",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -2588,7 +3117,13 @@
     ],
     "context": ["gbn", "gbs"],
     "id": 116,
-    "artists": {},
+    "artists": {
+      "Soularis": {
+        "role": "Creator",
+        "name": "Soularis",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.50",
@@ -2635,7 +3170,13 @@
     ],
     "context": ["gbn", "gbs", "gb", "duel"],
     "id": 118,
-    "artists": {},
+    "artists": {
+      "plexiglassportent": {
+        "role": "Creator",
+        "name": "plexiglassportent",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -2656,7 +3197,13 @@
     ],
     "context": ["gbn", "gbn", "duel", "gbn", "gb"],
     "id": 119,
-    "artists": {},
+    "artists": {
+      "Pachito": {
+        "role": "Creator",
+        "name": "Pachito",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -2698,7 +3245,13 @@
     ],
     "context": ["gbn", "gbn", "duel", "duel", "duel", "duel"],
     "id": 121,
-    "artists": {},
+    "artists": {
+      "Eldritch uwu": {
+        "role": "Creator",
+        "name": "Eldritch uwu",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -2718,7 +3271,13 @@
     ],
     "context": ["gbn", "gbs", "duel", "duel"],
     "id": 122,
-    "artists": {},
+    "artists": {
+      "Schazer": {
+        "role": "Creator",
+        "name": "Schazer",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -2736,7 +3295,13 @@
     ],
     "context": ["gbn", "duel"],
     "id": 123,
-    "artists": {},
+    "artists": {
+      "Georgia": {
+        "role": "Creator",
+        "name": "Georgia",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -2751,7 +3316,13 @@
     "link": ["https://imgur.com/a/1Rx9j8x"],
     "context": ["gbn"],
     "id": 124,
-    "artists": {},
+    "artists": {
+      "Maersk": {
+        "role": "Creator",
+        "name": "Maersk",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.75",
       "left": "23.15",
@@ -2811,7 +3382,13 @@
     ],
     "context": ["gbs", "duel", "clash", "duel", "duel"],
     "id": 127,
-    "artists": {},
+    "artists": {
+      "Sloof": {
+        "role": "Creator",
+        "name": "Sloof",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -2864,7 +3441,13 @@
     ],
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel", "duel"],
     "id": 129,
-    "artists": {},
+    "artists": {
+      "skullbucket": {
+        "role": "Creator",
+        "name": "skullbucket",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -2882,7 +3465,13 @@
     ],
     "context": ["gbs", "duel"],
     "id": 130,
-    "artists": {},
+    "artists": {
+      "septi": {
+        "role": "Creator",
+        "name": "septi",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.25",
       "left": "18.00",
@@ -2900,7 +3489,13 @@
     ],
     "context": ["gbs", "duel", "gbs"],
     "id": 131,
-    "artists": {},
+    "artists": {
+      "Cheff": {
+        "role": "Creator",
+        "name": "Cheff",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "1.75",
       "left": "25.33",
@@ -2953,7 +3548,13 @@
     "link": ["https://imgur.com/a/f0cH89T"],
     "context": ["gbs"],
     "id": 133,
-    "artists": {},
+    "artists": {
+      "Local Bear": {
+        "role": "Creator",
+        "name": "Local Bear",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "2.50",
       "left": "29.75",
@@ -3003,7 +3604,13 @@
     ],
     "context": ["gbs", "gbn", "duel", "duel"],
     "id": 135,
-    "artists": {},
+    "artists": {
+      "hydre39": {
+        "role": "Creator",
+        "name": "hydre39",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "1.00",
@@ -3028,15 +3635,10 @@
     "context": ["gbs", "gbs", "gbn", "duel", "gb", "duel", "gb", "gbb"],
     "id": 136,
     "artists": {
-      "Pancake Lord": {
-        "name": "Pancake Lord",
+      "The Pancake Lord": {
         "role": "Creator",
-        "contacts": {
-          "twitter": "No",
-          "instagram": "No",
-          "pw1": "No",
-          "pw2": "No"
-        }
+        "name": "The Pancake Lord",
+        "contacts": {}
       }
     },
     "profilePic": {
@@ -3057,7 +3659,13 @@
     ],
     "context": ["gbs", "gbn", "duel"],
     "id": 137,
-    "artists": {},
+    "artists": {
+      "aethermachinist": {
+        "role": "Creator",
+        "name": "aethermachinist",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.25",
       "left": "11.50",
@@ -3137,7 +3745,13 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 140,
-    "artists": {},
+    "artists": {
+      "Rav3n": {
+        "role": "Creator",
+        "name": "Rav3n",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -3166,7 +3780,13 @@
     ],
     "context": ["gbs", "gbn", "duel", "gb", "gb", "gb"],
     "id": 141,
-    "artists": {},
+    "artists": {
+      "furlitz": {
+        "role": "Creator",
+        "name": "furlitz",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "6.00",
@@ -3216,7 +3836,13 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 143,
-    "artists": {},
+    "artists": {
+      "Weirdington": {
+        "role": "Creator",
+        "name": "Weirdington",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -3231,7 +3857,13 @@
     "link": ["https://imgur.com/a/XhYQdc6", "https://imgur.com/a/4l0mPIO"],
     "context": ["gbs", "gbs"],
     "id": 144,
-    "artists": {},
+    "artists": {
+      "Emy": {
+        "role": "Creator",
+        "name": "Emy",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "145": {
@@ -3241,7 +3873,13 @@
     "link": ["https://imgur.com/a/K3FOBBB"],
     "context": ["gbs"],
     "id": 145,
-    "artists": {},
+    "artists": {
+      "Xhotime": {
+        "role": "Creator",
+        "name": "Xhotime",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "5.75",
       "left": "15.50",
@@ -3249,13 +3887,24 @@
     }
   },
   "146": {
-    "name": "Turibas",
+    "name": "Turibas, The Bear King",
     "rounds": [1, 2],
     "faction": ["bastion", "bastion"],
     "link": ["https://imgur.com/a/Gy1nKPp", "https://imgur.com/a/tbeoqkh"],
     "context": ["gbs", "duel"],
     "id": 146,
-    "artists": {},
+    "artists": {
+      "Mythical Faun": {
+        "role": "Artist",
+        "name": "Mythical Faun",
+        "contacts": {}
+      },
+      "Mythical WTF": {
+        "role": "Writer",
+        "name": "Mythical WTF",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "147": {
@@ -3271,7 +3920,13 @@
     ],
     "context": ["gbs", "gbs", "gbs", "gb", "gbc"],
     "id": 147,
-    "artists": {},
+    "artists": {
+      "Karefree": {
+        "role": "Creator",
+        "name": "Karefree",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.75",
@@ -3302,7 +3957,13 @@
     ],
     "context": ["gbs", "duel", "gbn", "duel", "duel", "duel", "duel"],
     "id": 148,
-    "artists": {},
+    "artists": {
+      "Drakk": {
+        "role": "Creator",
+        "name": "Drakk",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -3349,7 +4010,13 @@
     ],
     "context": ["gbs", "duel", "duel", "gbb"],
     "id": 150,
-    "artists": {},
+    "artists": {
+      "Silvertealeaf": {
+        "role": "Creator",
+        "name": "Silvertealeaf",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.50",
@@ -3387,7 +4054,13 @@
     ],
     "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 152,
-    "artists": {},
+    "artists": {
+      "Hella": {
+        "role": "Creator",
+        "name": "Hella",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "153": {
@@ -3401,7 +4074,13 @@
     ],
     "context": ["gbs", "gbn", "duel"],
     "id": 153,
-    "artists": {},
+    "artists": {
+      "lesbosmer": {
+        "role": "Creator",
+        "name": "lesbosmer",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -3416,7 +4095,13 @@
     "link": ["https://imgur.com/a/61XagiC"],
     "context": ["gbs"],
     "id": 154,
-    "artists": {},
+    "artists": {
+      "iamkathybrown": {
+        "role": "Creator",
+        "name": "iamkathybrown",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "6.00",
       "left": "16.40",
@@ -3436,7 +4121,13 @@
     ],
     "context": ["gbs", "duel", "duel", "duel", "duel"],
     "id": 155,
-    "artists": {},
+    "artists": {
+      "Gitfinder": {
+        "role": "Creator",
+        "name": "Gitfinder",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -3460,7 +4151,13 @@
     ],
     "context": ["gbs", "duel", "duel", "clash", "duel", "duel", "duel", "duel"],
     "id": 156,
-    "artists": {},
+    "artists": {
+      "Luzu": {
+        "role": "Creator",
+        "name": "Luzu",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.50",
@@ -3507,7 +4204,13 @@
     ],
     "context": ["gbs", "duel", "gbn", "duel"],
     "id": 158,
-    "artists": {},
+    "artists": {
+      "Mudequipy": {
+        "role": "Creator",
+        "name": "Mudequipy",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -3538,7 +4241,13 @@
     ],
     "context": ["gbs", "duel", "gbn", "duel", "clash", "gb", "gbc"],
     "id": 159,
-    "artists": {},
+    "artists": {
+      "RocketShep": {
+        "role": "Creator",
+        "name": "RocketShep",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.25",
@@ -3559,7 +4268,13 @@
     ],
     "context": ["gbs", "gbs", "gb", "duel", "gb"],
     "id": 160,
-    "artists": {},
+    "artists": {
+      "Bobert": {
+        "role": "Creator",
+        "name": "Bobert",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.75",
       "left": "12.72",
@@ -3623,7 +4338,13 @@
     ],
     "context": ["gbs", "duel", "duel", "duel"],
     "id": 162,
-    "artists": {},
+    "artists": {
+      "Casket": {
+        "role": "Creator",
+        "name": "Casket",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -3642,7 +4363,13 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 163,
-    "artists": {},
+    "artists": {
+      "NullCode": {
+        "role": "Creator",
+        "name": "NullCode",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.00",
       "left": "17.20",
@@ -3656,7 +4383,13 @@
     "link": ["https://imgur.com/a/8P5hIKw", "https://imgur.com/a/KXU4FEM"],
     "context": ["gbs", "duel"],
     "id": 164,
-    "artists": {},
+    "artists": {
+      "Bad Lad": {
+        "role": "Creator",
+        "name": "Bad Lad",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.50",
@@ -3729,7 +4462,13 @@
     ],
     "context": ["gbs", "duel", "gbs"],
     "id": 167,
-    "artists": {},
+    "artists": {
+      "Jernej": {
+        "role": "Creator",
+        "name": "Jernej",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.25",
@@ -3748,7 +4487,13 @@
     ],
     "context": ["gbs", "duel", "duel"],
     "id": 168,
-    "artists": {},
+    "artists": {
+      "hughmlong": {
+        "role": "Creator",
+        "name": "hughmlong",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.00",
@@ -3769,7 +4514,13 @@
     ],
     "context": ["gbs", "gbn", "duel", "gb", "gbc"],
     "id": 169,
-    "artists": {},
+    "artists": {
+      "Huginn": {
+        "role": "Creator",
+        "name": "Huginn",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -3798,7 +4549,13 @@
     ],
     "context": ["gbs", "duel", "duel", "duel", "duel", "duel"],
     "id": 170,
-    "artists": {},
+    "artists": {
+      "Kitkat": {
+        "role": "Creator",
+        "name": "Kitkat",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.75",
@@ -3819,7 +4576,13 @@
     ],
     "context": ["gbs", "gbn", "duel", "duel", "gb"],
     "id": 171,
-    "artists": {},
+    "artists": {
+      "action shakespeare": {
+        "role": "Creator",
+        "name": "action shakespeare",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -3839,7 +4602,13 @@
     ],
     "context": ["gbs", "duel", "gbs", "duel"],
     "id": 172,
-    "artists": {},
+    "artists": {
+      "Epee102": {
+        "role": "Creator",
+        "name": "Epee102",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "5.50",
@@ -3859,7 +4628,13 @@
     ],
     "context": ["gbs", "duel", "duel", "gbb"],
     "id": 173,
-    "artists": {},
+    "artists": {
+      "SpaghettiDabaiji": {
+        "role": "Creator",
+        "name": "SpaghettiDabaiji",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "3.00",
@@ -3874,7 +4649,18 @@
     "link": ["https://imgur.com/gallery/0thWGWU"],
     "context": ["gbs"],
     "id": 174,
-    "artists": {},
+    "artists": {
+      "Slim Shady": {
+        "role": "Artist",
+        "name": "Slim Shady",
+        "contacts": {}
+      },
+      "Felicity": {
+        "role": "Writer",
+        "name": "Felicity",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.00",
       "left": "24.60",
@@ -3896,7 +4682,13 @@
     ],
     "context": ["gbs", "duel", "duel", "gbs", "clash", "gb", "duel"],
     "id": 175,
-    "artists": {},
+    "artists": {
+      "Hisagi": {
+        "role": "Creator",
+        "name": "Hisagi",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -3911,7 +4703,13 @@
     "link": ["https://imgur.com/a/ivNuTwn", "https://imgur.com/a/iXuJPuf"],
     "context": ["gbs", "duel"],
     "id": 177,
-    "artists": {},
+    "artists": {
+      "PhantomOTL": {
+        "role": "Creator",
+        "name": "PhantomOTL",
+        "contacts": {}
+      }
+    },
     "verified": true
   },
   "178": {
@@ -3944,7 +4742,18 @@
     "link": ["https://imgur.com/a/5EbOE3F"],
     "context": ["gbs"],
     "id": 179,
-    "artists": {},
+    "artists": {
+      "Megan": {
+        "role": "Artist",
+        "name": "Megan",
+        "contacts": {}
+      },
+      "Eddy": {
+        "role": "Writer",
+        "name": "Eddy",
+        "contacts": {}
+      }
+    },
     "profilePic": {
       "zoom": "4.00",
       "left": "21.60",
@@ -4026,7 +4835,13 @@
     "link": ["https://imgur.com/a/XA7eoP7", "https://imgur.com/a/7xWR54l"],
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "MarkRemp": {
+        "role": "Creator",
+        "name": "MarkRemp",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.00",
@@ -4046,7 +4861,13 @@
     ],
     "context": ["duel", "gbs", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "M3thyl": {
+        "role": "Creator",
+        "name": "M3thyl",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.00",
@@ -4061,7 +4882,13 @@
     "link": ["https://imgur.com/a/3asmfSn", "https://imgur.com/a/FXfHihB"],
     "context": ["duel", "gb"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Bill": {
+        "role": "Creator",
+        "name": "Bill",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.00",
@@ -4084,7 +4911,13 @@
     ],
     "context": ["duel", "gbn", "duel", "duel", "gb", "gb", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "LexiLopezi": {
+        "role": "Creator",
+        "name": "LexiLopezi",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.50",
@@ -4103,7 +4936,13 @@
     ],
     "context": ["duel", "clash", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Oddsbod": {
+        "role": "Creator",
+        "name": "Oddsbod",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.50",
@@ -4146,7 +4985,13 @@
     ],
     "context": ["duel", "duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Bob the Seagull King": {
+        "role": "Creator",
+        "name": "Bob the Seagull King",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.25",
@@ -4161,7 +5006,13 @@
     "link": ["https://imgur.com/a/0wx1vnC"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "realis / Uvemvane": {
+        "role": "Creator",
+        "name": "realis / Uvemvane",
+        "contacts": {}
+      }
+    },
     "verified": false
   },
   "228": {
@@ -4181,7 +5032,13 @@
     "link": ["https://imgur.com/a/TOfTXBA"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "ProbablyPixel": {
+        "role": "Creator",
+        "name": "ProbablyPixel",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.25",
@@ -4215,7 +5072,18 @@
     ],
     "context": ["duel", "gbn", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "TheIncredibleSir": {
+        "role": "Artist",
+        "name": "TheIncredibleSir",
+        "contacts": {}
+      },
+      "Gab": {
+        "role": "Writer",
+        "name": "Gab",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "7.00",
@@ -4237,7 +5105,13 @@
     ],
     "context": ["duel", "duel", "duel", "gb", "duel", "gba"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "court": {
+        "role": "Creator",
+        "name": "court",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.00",
@@ -4262,7 +5136,13 @@
     "link": ["https://imgur.com/a/03vYNDq"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Martacus": {
+        "role": "Creator",
+        "name": "Martacus",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.25",
@@ -4277,7 +5157,13 @@
     "link": ["https://imgur.com/a/S9zh36d"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Moths": {
+        "role": "Creator",
+        "name": "Moths",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -4292,7 +5178,13 @@
     "link": ["https://i.imgur.com/Cv9K9umh.jpg"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "S.C.R.E.A.M.B.L.A.C.K.": {
+        "role": "Creator",
+        "name": "S.C.R.E.A.M.B.L.A.C.K.",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.25",
@@ -4307,7 +5199,13 @@
     "link": ["https://imgur.com/a/EJL6Y9L"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Boo Rad13y": {
+        "role": "Creator",
+        "name": "Boo Rad13y",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -4322,7 +5220,13 @@
     "link": ["https://twitter.com/rajavlitra/status/1374925570119634951"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "raj": {
+        "role": "Creator",
+        "name": "raj",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.75",
@@ -4351,7 +5255,13 @@
     ],
     "context": ["duel", "clash", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Magistelle": {
+        "role": "Creator",
+        "name": "Magistelle",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "7.25",
@@ -4366,7 +5276,13 @@
     "link": ["https://imgur.com/a/NZM07HI", "[No submission]"],
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Aryogaten": {
+        "role": "Creator",
+        "name": "Aryogaten",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -4385,7 +5301,13 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "4O4Tales": {
+        "role": "Creator",
+        "name": "4O4Tales",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -4404,7 +5326,13 @@
     ],
     "context": ["duel", "duel", "gbc"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Daanikduul": {
+        "role": "Creator",
+        "name": "Daanikduul",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "6.00",
@@ -4419,7 +5347,13 @@
     "link": ["https://imgur.com/a/SMcwQpB"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Gresha": {
+        "role": "Creator",
+        "name": "Gresha",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.00",
@@ -4434,7 +5368,13 @@
     "link": ["https://imgur.com/a/Mvf9gUo"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Doc-101": {
+        "role": "Creator",
+        "name": "Doc-101",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -4468,7 +5408,13 @@
     "link": ["https://imgur.com/a/NBGS9E3", "https://imgur.com/a/7HVGird"],
     "context": ["duel", "gbs"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Bee?": {
+        "role": "Creator",
+        "name": "Bee?",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.75",
@@ -4488,7 +5434,13 @@
     ],
     "context": ["gbn", "gbn", "gb", "gb"],
     "faction": ["bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Glempy": {
+        "role": "Creator",
+        "name": "Glempy",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "6.75",
@@ -4506,7 +5458,13 @@
     ],
     "context": ["gbn", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "MaybeAMako (Mako)": {
+        "role": "Creator",
+        "name": "MaybeAMako (Mako)",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "4.75",
@@ -4618,7 +5576,13 @@
     "link": ["https://imgur.com/a/nqhksgH"],
     "context": ["gbs"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "SSRReichel": {
+        "role": "Creator",
+        "name": "SSRReichel",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -4687,7 +5651,13 @@
     ],
     "context": ["gbs", "duel", "gbs", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "doodle": {
+        "role": "Creator",
+        "name": "doodle",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.25",
@@ -4717,7 +5687,13 @@
     ],
     "context": ["gbs", "duel", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "grilledicecream": {
+        "role": "Creator",
+        "name": "grilledicecream",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.00",
@@ -4738,7 +5714,13 @@
     ],
     "context": ["duel", "gbs", "duel", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Thermo": {
+        "role": "Creator",
+        "name": "Thermo",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -4753,7 +5735,13 @@
     "link": ["https://imgur.com/a/mFsNAbK"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "swampyyyyyyy": {
+        "role": "Creator",
+        "name": "swampyyyyyyy",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "2.00",
@@ -4825,7 +5813,13 @@
     "link": ["https://imgur.com/a/k1eFTa0"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Grendel": {
+        "role": "Creator",
+        "name": "Grendel",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -4860,7 +5854,13 @@
     "link": ["[No submission]"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Starduster": {
+        "role": "Creator",
+        "name": "Starduster",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -4977,7 +5977,13 @@
     ],
     "context": ["gbn", "duel", "gb", "gb", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre", "pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Pencil": {
+        "role": "Creator",
+        "name": "Pencil",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -4995,7 +6001,13 @@
     ],
     "context": ["gbn", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Ambroise": {
+        "role": "Creator",
+        "name": "Ambroise",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "2.00",
@@ -5034,7 +6046,13 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Supreme Krispy Kreme": {
+        "role": "Creator",
+        "name": "Supreme Krispy Kreme",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "2.50",
@@ -5053,7 +6071,13 @@
     ],
     "context": ["gbs", "duel", "gb"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "InexcusableFridgeman": {
+        "role": "Creator",
+        "name": "InexcusableFridgeman",
+        "contacts": {}
+      }
+    },
     "verified": true,
     "profilePic": {
       "zoom": "2.50",
@@ -5163,7 +6187,13 @@
     "link": ["https://imgur.com/a/XAZlcES", "https://imgur.com/a/nYBS54V"],
     "context": ["duel", "gb"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "L-Mop": {
+        "role": "Creator",
+        "name": "L-Mop",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.50",
@@ -5285,7 +6315,13 @@
     "link": ["https://imgur.com/a/f0YPXYQ", "https://imgur.com/a/nFw8kaX"],
     "context": ["gbn", "gb"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "ChronoRebel": {
+        "role": "Creator",
+        "name": "ChronoRebel",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.00",
@@ -5365,7 +6401,13 @@
     "link": ["https://imgur.com/a/6dgwB4O"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "syzygy": {
+        "role": "Creator",
+        "name": "syzygy",
+        "contacts": {}
+      }
+    },
     "verified": false
   },
   "408": {
@@ -5487,7 +6529,13 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "BuddBudd": {
+        "role": "Creator",
+        "name": "BuddBudd",
+        "contacts": {}
+      }
+    },
     "verified": false
   },
   "417": {
@@ -5631,7 +6679,13 @@
     "link": ["https://imgur.com/a/tEHZTRc", "https://imgur.com/a/Y5PHxhn"],
     "context": ["gb", "gb"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Funkifan": {
+        "role": "Creator",
+        "name": "Funkifan",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.75",
@@ -5671,7 +6725,13 @@
     "link": ["https://imgur.com/a/rYmtTyB"],
     "context": ["gb"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "MilitaryZoned": {
+        "role": "Creator",
+        "name": "MilitaryZoned",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.25",
@@ -5686,7 +6746,13 @@
     "link": ["https://imgur.com/a/zSUgYu3", "https://imgur.com/a/5piNFL6"],
     "context": ["duel", "duel"],
     "faction": ["bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Doygie": {
+        "role": "Creator",
+        "name": "Doygie",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -5725,7 +6791,13 @@
     "link": ["https://imgur.com/a/QP5QlaB"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "SantiA": {
+        "role": "Creator",
+        "name": "SantiA",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.50",
@@ -5753,7 +6825,13 @@
     "link": ["https://imgur.com/a/OAT2g8t", "https://imgur.com/a/CTUUtAa"],
     "context": ["duel", "gbc"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Cataclysmically Gay": {
+        "role": "Creator",
+        "name": "Cataclysmically Gay",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.50",
@@ -5794,7 +6872,13 @@
     "link": ["https://imgur.com/a/qEk1dlE"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Druelbozo": {
+        "role": "Creator",
+        "name": "Druelbozo",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -5831,7 +6915,13 @@
     "link": ["https://imgur.com/a/OlI2F9Q"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
+    "artists": {
+      "Ham": {
+        "role": "Creator",
+        "name": "Ham",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.00",
@@ -6060,7 +7150,13 @@
     "link": ["https://imgur.com/a/M87FsaN", "https://imgur.com/a/SGgeElQ"],
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "E.W. Schneider": {
+        "role": "Creator",
+        "name": "E.W. Schneider",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "6.25",
@@ -6155,7 +7251,13 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Matthis": {
+        "role": "Creator",
+        "name": "Matthis",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.75",
@@ -6291,7 +7393,13 @@
     "link": ["https://imgur.com/a/E6pe8yU"],
     "context": ["duel"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "DeadBrain": {
+        "role": "Creator",
+        "name": "DeadBrain",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.50",
@@ -6320,7 +7428,18 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Skullcloud": {
+        "role": "Artist",
+        "name": "Skullcloud",
+        "contacts": {}
+      },
+      "Cakers": {
+        "role": "Writer",
+        "name": "Cakers",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.75",
@@ -6358,6 +7477,11 @@
           "instagram": "@forestfireinikea",
           "pw1": "https://m.webtoons.com/en/challenge/ingvald/list?title_no=657000"
         }
+      },
+      "Chng Jun Wei": {
+        "role": "Writer",
+        "name": "Chng Jun Wei",
+        "contacts": {}
       }
     },
     "verified": false
@@ -6469,7 +7593,13 @@
     ],
     "context": ["gb", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Cogs": {
+        "role": "Creator",
+        "name": "Cogs",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.00",
@@ -6950,7 +8080,13 @@
     ],
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "swoopfell || ENTSPAWN": {
+        "role": "Creator",
+        "name": "swoopfell || ENTSPAWN",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "2.00",
@@ -7068,7 +8204,13 @@
     ],
     "context": ["gb", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Vortexz": {
+        "role": "Creator",
+        "name": "Vortexz",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.00",
@@ -7563,7 +8705,13 @@
     "link": ["https://imgur.com/a/tl755mp", "https://imgur.com/a/yaBqLsu"],
     "context": ["gb", "gbc"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Neuromute": {
+        "role": "Creator",
+        "name": "Neuromute",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "4.25",

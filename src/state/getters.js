@@ -123,7 +123,7 @@ const getters = {
     return state.readingList[fighterId].includes(round)
   },
   fighterBackstory: state => fighterId => {
-    if (!(`${fighterId}` in state.backstories)) return "Not Available"
+    if (!(`${fighterId}` in state.backstories)) return "No Backstory Registered"
     return state.backstories[fighterId]
   },
   showItems: state => {

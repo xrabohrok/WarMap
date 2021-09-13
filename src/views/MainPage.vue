@@ -335,7 +335,7 @@ export default {
 .desktopHeader {
   position: fixed;
   width: 32vw;
-  height: 25vh;
+  height: 27vh;
 
   top: 0%;
   z-index: 300;

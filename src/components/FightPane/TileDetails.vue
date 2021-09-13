@@ -3,7 +3,7 @@
     <h2 class="zoneTitle">
       {{ zoneName }}
     </h2>
-    <div class="row">
+    <div class="descText">
       <div class="blockText areaDescription">
         <div
           class="RuleText"
@@ -90,8 +90,8 @@ export default {
   padding-bottom: 0.6em;
 }
 
-.row {
-  height: 18vh;
+.descText {
+  height: 70%;
   overflow-y: auto;
 }
 

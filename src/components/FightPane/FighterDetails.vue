@@ -4,7 +4,7 @@
     :class="{ leftward: leftward, rightward: rightward }"
     v-if="isSelected"
   >
-    <div class="deets">
+    <div class="deets mobile">
       <div class="detail_row fighterName mobile">
         <h2>{{ this.fighterName }}</h2>
       </div>
@@ -56,7 +56,6 @@
           "
           class="fighterIcon mobile"
         />
-
         {{ backstory(fighter.id) }}
       </div>
     </div>
@@ -78,6 +77,14 @@
       />
       <div class="detail_row fighterName">
         <h2>{{ this.fighterName }}</h2>
+      </div>
+    </div>
+    <div
+      class="expand_button desktop"
+      :class="{ leftward: leftward, rightward: rightward }"
+    >
+      <div class="buttonText">
+        Expand
       </div>
     </div>
   </div>
@@ -162,6 +169,34 @@ export default {
 </script>
 
 <style scoped>
+.expand_button {
+  /* padding-top: 50%; */
+  /* padding-bottom: 50%; */
+  background-color: rgb(3, 3, 80);
+  color: rgb(100, 69, 69);
+  text-orientation: mixed;
+  writing-mode: vertical-lr;
+}
+
+.expand_button:hover {
+  color: white;
+  background-color: rgb(22, 22, 105);
+  cursor: pointer;
+}
+
+.expand_button {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.expand_button.leftward .buttonText {
+  transform: rotate(180deg);
+}
+
+.expand_button.rightward .buttonText {
+  transform: rotate(0);
+}
+
 .fighterIcon {
   width: 12vh;
   height: 12vh;

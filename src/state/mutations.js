@@ -4,6 +4,19 @@ const mutations = {
   newSelected(state, target) {
     state.curSelected = target
     state.showSummary = false
+    state.showOverview = false
+  },
+  showCharOverview(state, charId) {
+    state.curSelected = "NA"
+    state.showOverview = true
+    state.selectedChar = charId
+  },
+  closeOverview(state) {
+    state.showOverview = false
+  },
+  welcomeScreen(state) {
+    state.showOverview = true
+    state.selectedChar = -1
   },
   deSelect(state) {
     state.curSelected = "NA"
@@ -99,6 +112,10 @@ const OPT_SET_ZONE_VISIBILITY = "setLabelVisibility"
 const OPT_SET_ITEM_VISIBILITY = "setItemVisibility"
 const OPT_SET_SUMMARY_SHOW = "toggleSummaryPane"
 
+const SHOW_CHARACTER_OVERVIEW = "showCharOverview"
+const CLOSE_OVERVIEW = "closeOverview"
+const SHOW_WELCOME_SCREEN = "welcomeScreen"
+
 export {
   NEW_SELECTED,
   DESELECT,
@@ -111,5 +128,8 @@ export {
   OPT_SET_GRAPHIC_VISIBILITY,
   OPT_SET_ZONE_VISIBILITY,
   OPT_SET_ITEM_VISIBILITY,
-  OPT_SET_SUMMARY_SHOW
+  OPT_SET_SUMMARY_SHOW,
+  SHOW_WELCOME_SCREEN,
+  CLOSE_OVERVIEW,
+  SHOW_CHARACTER_OVERVIEW
 }

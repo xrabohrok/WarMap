@@ -136,6 +136,12 @@ const getters = {
   showGraphics: state => {
     return state.showGraphics
   },
+  showCharSummary: state => {
+    return state.showOverview && state.selectedChar >= 0
+  },
+  showWelcomScreen: state => {
+    return state.showOverview && state.selectedChar < 0
+  },
   getAllFightersThisRoundForFaction: (state, getters) => isBastion => {
     var curRound = getters.round
     var correctFaction = isBastion ? "bastion" : "pyre"
@@ -206,6 +212,9 @@ const OPT_SHOW_ITEMS = "showItems"
 const OPT_SHOW_LABELS = "showLabels"
 const OPT_SHOW_SUMMARIES = "showingSummary"
 
+const SHOULD_SHOW_CHARACTER_SCREEN = "showCharSummary"
+const SHOULD_SHOW_WELCOME_SCREEN = "showWelcomScreen"
+
 const HAS_READ_COMIC = "hasReadFightersComic"
 
 export {
@@ -236,5 +245,7 @@ export {
   OPT_SHOW_LABELS,
   ALL_FIGHTERS_IN_ROUND,
   OPT_SHOW_SUMMARIES,
-  TILE_IS_MINICLASH
+  TILE_IS_MINICLASH,
+  SHOULD_SHOW_CHARACTER_SCREEN,
+  SHOULD_SHOW_WELCOME_SCREEN
 }

@@ -82,6 +82,7 @@
     <div
       class="expand_button desktop"
       :class="{ leftward: leftward, rightward: rightward }"
+      @click="launchOverview"
     >
       <div class="buttonText">
         Expand
@@ -99,6 +100,7 @@ import {
   CURRENT_ZONE_CONTESTED,
   FIGHTER_BACKSTORY
 } from "../../state/getters"
+import { SHOW_CHARACTER_OVERVIEW } from "../../state/mutations"
 import { buildTwitterLink, buildInstagramLink } from "../../common/links"
 import ProfilePic from "../elements/ProfilePic.vue"
 
@@ -122,6 +124,9 @@ export default {
       if (key.toLowerCase() === "twitter") return buildTwitterLink(value)
       if (key.toLowerCase() === "instagram") return buildInstagramLink(value)
       return value
+    },
+    launchOverview() {
+      this.$store.commit(SHOW_CHARACTER_OVERVIEW, this.fighter.id)
     }
   },
   computed: {
@@ -132,13 +137,13 @@ export default {
       return this.isRight
     },
     fighter: function() {
-      if (!this.isSelected) return -1
+      if (!this.isSelected) return { id: -1 }
       var zonefighters = this.zoneFight.fighters[this.faction]
       if (zonefighters.length === 0) return null
       return this.fighterGet(zonefighters[0])
     },
     fighterName: function() {
-      if (this.fighter === -1) return "unselected"
+      if (this.fighter.id === -1) return "unselected"
       return this.fighter.name
     },
     attackerDefender: function() {

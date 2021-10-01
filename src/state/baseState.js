@@ -11,14 +11,17 @@ const defaultState = {
   metaMap: mapMeta,
   zoneDesc: zoneInfo,
   allFighters: fighters,
-  revealed: [[], [], [], [], [], [], [], [], []],
+  backstories: allBackstories,
+  revealed: [[], [], [], [], [], [], [], [], [], []],
   localStorageAvailable: null,
   readingList: {},
-  backstories: allBackstories,
   showGraphics: true,
   showItems: true,
   showLabels: true,
-  showSummary: false
+  showSummary: false,
+
+  showOverview: false,
+  selectedChar: -1
 }
 
 export default defaultState

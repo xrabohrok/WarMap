@@ -48,7 +48,7 @@
       </transition>
     </div>
 
-    <div class="screenContainer" v-if="mobile">
+    <div class="screenContainer view" v-if="mobile">
       <div id="mobileMap">
         <MobileMapZoom />
       </div>
@@ -107,6 +107,7 @@
         </transition-group>
       </div>
     </div>
+    <FrontAndCenter v-if="showFrontAndCenter" class="overview" />
   </div>
 </template>
 
@@ -119,6 +120,7 @@ import DetailPane from "../components/DetailPane.vue"
 import MapHeader from "../components/MapHeader.vue"
 import MobileMapZoom from "../components/MobileMapZoom.vue"
 import RoundSummary from "../components/RoundSummary.vue"
+import FrontAndCenter from "../components/FrontCenterPane.vue"
 import { LEFT, RIGHT, DETAILS, FIGHT } from "../components/DetailPane.vue"
 
 import { storageAvailable } from "../common/localStorage"
@@ -128,7 +130,9 @@ import {
   SELECTING_GETTER,
   CURRENT_ZONE_FIGHT,
   CURRENT_ROUND,
-  OPT_SHOW_SUMMARIES
+  OPT_SHOW_SUMMARIES,
+  SHOULD_SHOW_WELCOME_SCREEN,
+  SHOULD_SHOW_CHARACTER_SCREEN
 } from "../state/getters"
 import { mapGetters } from "vuex"
 
@@ -148,7 +152,8 @@ export default {
     DetailPane,
     MapHeader,
     MobileMapZoom,
-    RoundSummary
+    RoundSummary,
+    FrontAndCenter
   },
   computed: {
     isSelected: function() {
@@ -185,11 +190,16 @@ export default {
     whichMap: function() {
       return this.curRound <= 8 ? "main" : "final"
     },
+    showFrontAndCenter: function() {
+      return this.showChars || this.showWelcome
+    },
     ...mapGetters({
       selecting: SELECTING_GETTER,
       fight: CURRENT_ZONE_FIGHT,
       curRound: CURRENT_ROUND,
-      showingRoster: OPT_SHOW_SUMMARIES
+      showingRoster: OPT_SHOW_SUMMARIES,
+      showChars: SHOULD_SHOW_CHARACTER_SCREEN,
+      showWelcome: SHOULD_SHOW_WELCOME_SCREEN
     })
   },
   mounted: function() {
@@ -245,6 +255,14 @@ export default {
   /*portrait*/
   height: 50vh;
   width: 100vw;
+}
+
+.view {
+  z-index: 300;
+}
+
+.overview {
+  z-index: 400;
 }
 
 .prompt {

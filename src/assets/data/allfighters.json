@@ -2617,16 +2617,29 @@
   },
   "148": {
     "name": "Venus & Scarlett",
-    "rounds": [1, 3, 4],
-    "faction": ["bastion", "bastion", "bastion"],
+    "rounds": [1, 3, 4, 2, 5, 6, 8],
+    "faction": [
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion",
+      "bastion"
+    ],
     "link": [
       "https://imgur.com/a/eV5w0fc",
       "https://imgur.com/a/E3e5ioe",
-      "https://imgur.com/a/p6bQG0M"
+      "https://imgur.com/a/p6bQG0M",
+      "https://imgur.com/a/EJ2K2FJ",
+      "https://imgur.com/a/vGnGmMB",
+      "https://imgur.com/a/lZjGaZX",
+      "https://imgur.com/a/Vb5uegG"
     ],
-    "context": ["gbs", "duel", "gbn"],
+    "context": ["gbs", "duel", "gbn", "duel", "duel", "duel", "duel"],
     "id": 148,
-    "artists": {}
+    "artists": {},
+    "verified": true
   },
   "149": {
     "name": "IBFARSHAN",
@@ -3360,21 +3373,6 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
-    "verified": false
-  },
-  "240": {
-    "id": 240,
-    "name": "Scarlett & Venus",
-    "rounds": [2, 5, 6, 8],
-    "link": [
-      "https://imgur.com/a/EJ2K2FJ",
-      "https://imgur.com/a/vGnGmMB",
-      "https://imgur.com/a/lZjGaZX",
-      "https://imgur.com/a/Vb5uegG"
-    ],
-    "context": ["duel", "duel", "duel", "duel"],
-    "faction": ["bastion", "bastion", "bastion", "bastion"],
     "artists": {},
     "verified": false
   },
@@ -4917,14 +4915,15 @@
   "449": {
     "id": 449,
     "name": "1 The Smith Answers the Broken Blade",
-    "rounds": [6],
+    "rounds": [6, 7],
     "link": [
-      "https://discord.com/channels/613730018446671878/860878676941340672/866895713286619137"
+      "https://discord.com/channels/613730018446671878/860878676941340672/866895713286619137",
+      "https://imgur.com/a/w4CRNrW"
     ],
-    "context": ["duel"],
-    "faction": ["bastion"],
+    "context": ["duel", "duel"],
+    "faction": ["bastion", "bastion"],
     "artists": {},
-    "verified": false
+    "verified": true
   },
   "450": {
     "id": 450,
@@ -6134,16 +6133,6 @@
     "link": ["https://imgur.com/a/M4IGrdP"],
     "context": ["duel"],
     "faction": ["pyre"],
-    "artists": {},
-    "verified": false
-  },
-  "566": {
-    "id": 566,
-    "name": "1 The Smith Answers The Broken Blade",
-    "rounds": [7],
-    "link": ["https://imgur.com/a/w4CRNrW"],
-    "context": ["duel"],
-    "faction": ["bastion"],
     "artists": {},
     "verified": false
   },

@@ -1,0 +1,92 @@
+[
+  {
+    "tile": "B12",
+    "pyre_fighter": "Mosskeeper",
+    "pyre_comic_link": "https://imgur.com/gallery/jFdfWDd",
+    "bastion_fighter": "Ingvald",
+    "bastion_comic_link": "https://imgur.com/gallery/QLFYUhA",
+    "winner": "Ingvald",
+    "notes": "Grubmush and X:ON are slain! "
+  },
+  {
+    "tile": "B12",
+    "pyre_fighter": "X:ON",
+    "pyre_comic_link": "https://imgur.com/gallery/jFdfWDd",
+    "bastion_fighter": "General Morsu",
+    "bastion_comic_link": "https://imgur.com/gallery/QLFYUhA",
+    "winner": "General Morsu",
+    "notes": ""
+  },
+  {
+    "tile": "F7",
+    "pyre_fighter": "Bronwyn ",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/jZY590V/1/1/",
+    "bastion_fighter": "Shoota",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/nw5zONl/1/1/",
+    "winner": "Shoota",
+    "notes": "Bronwyn and Execution of Agony are injured!"
+  },
+  {
+    "tile": "F7",
+    "pyre_fighter": "Execution of Agony",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/jZY590V/1/1/",
+    "bastion_fighter": "Basil & Jeeves",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/nw5zONl/1/1/",
+    "winner": "Basil & Jeeves",
+    "notes": ""
+  },
+  {
+    "tile": "L6",
+    "pyre_fighter": "Alice Dougherty",
+    "pyre_comic_link": "https://imgur.com/gallery/8JQyDJg",
+    "bastion_fighter": "Hanz",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/YokAihg/1/1/",
+    "winner": "Hanz",
+    "notes": "Alice Doughtery is slain!"
+  },
+  {
+    "tile": "L6",
+    "pyre_fighter": "Alice Dougherty",
+    "pyre_comic_link": "https://imgur.com/gallery/8JQyDJg",
+    "bastion_fighter": "Leopold",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/YokAihg/1/1/",
+    "winner": "Leopold",
+    "notes": "Alice Doughtery is slain!"
+  },
+  {
+    "tile": "G9",
+    "pyre_fighter": "Brazen Pun",
+    "pyre_comic_link": "https://w4rasmus.myportfolio.com/round-8",
+    "bastion_fighter": "The Marquis",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/plfXLa6/1/1/",
+    "winner": "The Marquis",
+    "notes": "Brazen Pun and Erasmus and Heedless are injured!"
+  },
+  {
+    "tile": "G9",
+    "pyre_fighter": "Erasmus",
+    "pyre_comic_link": "https://w4rasmus.myportfolio.com/round-9",
+    "bastion_fighter": "The Piranesian Hydra",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/plfXLa6/1/1/",
+    "winner": "The Piranesian Hydra",
+    "notes": ""
+  },
+  {
+    "tile": "H6",
+    "pyre_fighter": "Vanta ",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ovaL54n/1/1/",
+    "bastion_fighter": "7 Grim Sage",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/IE0GAzT/1/1/",
+    "winner": "7 Grim Sage",
+    "notes": ""
+  },
+  {
+    "tile": "H6",
+    "pyre_fighter": "Ink",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ovaL54n/1/1/",
+    "bastion_fighter": "1 The Smith Answers the Broken Blade",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/IE0GAzT/1/1/",
+    "winner": "1 The Smith Answers the Broken Blade",
+    "notes": ""
+  }
+]

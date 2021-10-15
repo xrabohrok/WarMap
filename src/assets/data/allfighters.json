@@ -1471,7 +1471,7 @@
   },
   "82": {
     "name": "Disassembly",
-    "rounds": [1, 2, 3, 4, 5, 6, 7, 7],
+    "rounds": [1, 2, 3, 4, 5, 6, 7],
     "faction": [
       "bastion",
       "bastion",
@@ -1489,8 +1489,7 @@
       "https://imgur.com/a/76Z3rP7",
       "https://imgur.com/a/zkhHQyq",
       "https://imgur.com/a/rMHhOP9",
-      "https://imgur.com/a/R8S9Lxx",
-      "https://imgur.com/gallery/k9dlcob"
+      "https://imgur.com/a/R8S9Lxx"
     ],
     "context": ["gbn", "gbn", "duel", "gbs", "gb", "gb", "gb", "gb"],
     "id": 82,

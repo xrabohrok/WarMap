@@ -1785,7 +1785,7 @@
     "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [30, 277, 12, 400],
+      "pyre": [30, 175, 12, 400],
       "bastion": [3, 78, 27, 159]
     },
     "outcome": {

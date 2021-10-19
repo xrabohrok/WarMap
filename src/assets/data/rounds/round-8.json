@@ -221,18 +221,18 @@
   "a1": {
     "location": "a1",
     "contest": false,
-    "attacker": "na",
+    "attacker": "pyre",
     "owner": "bastion",
     "grandBattle": false,
-    "clash": false,
+    "clash": true,
     "items": [],
     "fighters": {
-      "pyre": [],
-      "bastion": []
+      "pyre": [429, 10, 67, 697],
+      "bastion": [695, 696, 47, 488]
     },
     "outcome": {
-      "pyre": "",
-      "bastion": ""
+      "pyre": "lose",
+      "bastion": "win"
     },
     "events": []
   },
@@ -1279,7 +1279,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [],
+    "gbZone": "The Lost City"
   },
   "e4": {
     "location": "e4",

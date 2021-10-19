@@ -6,6 +6,7 @@ import round4 from "./round-4.json"
 import round5 from "./round-5.json"
 import round6 from "./round-6.json"
 import round7 from "./round-7.json"
+import round8 from "./round-8.json"
 
 const allRounds = [
   round0,
@@ -15,7 +16,8 @@ const allRounds = [
   round4,
   round5,
   round6,
-  round7
+  round7,
+  round8
 ]
 
 export default allRounds

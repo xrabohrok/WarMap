@@ -1345,7 +1345,7 @@
     "items": [],
     "fighters": {
       "pyre": [30],
-      "bastion": [240]
+      "bastion": [148]
     },
     "outcome": {
       "pyre": "lose",
@@ -1958,14 +1958,15 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [644],
-      "bastion": [84]
+      "pyre": [644, 87],
+      "bastion": [84, 61]
     },
     "outcome": {
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": []
+    "events": [],
+    "miniClash": true
   },
   "h8": {
     "location": "h8",

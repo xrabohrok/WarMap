@@ -5,6 +5,7 @@
 //round 5: https://git.io/JcJJF ; https://cubari.moe/read/gist/JcJJF/
 //round 6: https://git.io/JBXt1 ; https://cubari.moe/read/gist/JBXt1/
 //round 7: https://git.io/JEyjS ; https://cubari.moe/read/gist/JEyjS/
+//round 8: https://git.io/J6Bqb ; https://cubari.moe/read/gist/J6Bqb/
 
 //pyre clash r5: https://git.io/Jnaek ; https://cubari.moe/read/gist/Jnaek/
 
@@ -14,7 +15,8 @@
 
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes("round")).split("=")[1], 10)
-const appenderMode = args.find(a => a.includes("append")) !== -1
+const appenderModeValue = args.find(a => a.includes("append"))
+const appenderMode = appenderModeValue >= 0 && appenderModeValue <= 9
 
 var fighters = require("../src/assets/data/allfighters.json")
 

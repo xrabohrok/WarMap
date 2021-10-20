@@ -1795,7 +1795,7 @@
     "clash": false,
     "items": [],
     "fighters": {
-      "pyre": [388],
+      "pyre": [110],
       "bastion": [90]
     },
     "outcome": {
@@ -2553,7 +2553,7 @@
     "items": [],
     "fighters": {
       "pyre": [400, 281, 340, 175, 149, 66, 64, 175],
-      "bastion": [343, 82, 401, 147, 19, 303, 103]
+      "bastion": [343, 82, 80, 147, 19, 303, 103]
     },
     "outcome": {
       "pyre": "",

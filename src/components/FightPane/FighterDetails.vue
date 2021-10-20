@@ -45,9 +45,15 @@
         <ProfilePic
           :imgUrl="fighterIcon"
           :faction="faction"
-          :zoom_start="fighter.profilePic ? fighter.profilePic.zoom : 1"
-          :left_start="fighter.profilePic ? fighter.profilePic.left : 50"
-          :top_start="fighter.profilePic ? fighter.profilePic.top : 50"
+          :zoom_start="
+            fighter.profilePic ? parseFloat(fighter.profilePic.zoom) : 1
+          "
+          :left_start="
+            fighter.profilePic ? parseFloat(fighter.profilePic.left) : 50
+          "
+          :top_start="
+            fighter.profilePic ? parseFloat(fighter.profilePic.top) : 50
+          "
           class="fighterIcon mobile"
         />
 
@@ -59,9 +65,15 @@
         :class="{ right: rightward }"
         :imgUrl="fighterIcon"
         :faction="faction"
-        :zoom_start="fighter.profilePic ? fighter.profilePic.zoom : 1"
-        :left_start="fighter.profilePic ? fighter.profilePic.left : 50"
-        :top_start="fighter.profilePic ? fighter.profilePic.top : 50"
+        :zoom_start="
+          fighter.profilePic ? parseFloat(fighter.profilePic.zoom) : 1
+        "
+        :left_start="
+          fighter.profilePic ? parseFloat(fighter.profilePic.left) : 50
+        "
+        :top_start="
+          fighter.profilePic ? parseFloat(fighter.profilePic.top) : 50
+        "
         class="fighterIcon"
       />
       <div class="detail_row fighterName">

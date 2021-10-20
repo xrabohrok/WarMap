@@ -1315,7 +1315,16 @@
       "bastion",
       "bastion"
     ],
-    "artists": {},
+    "artists": {
+      "Spiral_Joe": {
+        "name": "Spiral_Joe",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "Spiral_Joe",
+          "instagram": "spiral.joe"
+        }
+      }
+    },
     "verified": true
   },
   "74": {
@@ -1613,7 +1622,7 @@
     "verified": true
   },
   "86": {
-    "name": "Vesna & Jarilo",
+    "name": "Vesna and Jarilo",
     "rounds": [1, 2, 3, 4, 5, 6, 7, 8],
     "faction": [
       "bastion",
@@ -1637,7 +1646,15 @@
     ],
     "context": ["gbn", "duel", "gbn", "duel", "duel", "gb", "duel", "gba"],
     "id": 86,
-    "artists": {},
+    "artists": {
+      "Emm": {
+        "name": "Emm",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@propalitetz"
+        }
+      }
+    },
     "verified": true
   },
   "87": {
@@ -2495,7 +2512,18 @@
     ],
     "context": ["gbs", "gbs", "gbn", "duel", "gb", "duel", "gb", "gbb"],
     "id": 136,
-    "artists": {},
+    "artists": {
+      "Pancake Lord": {
+        "name": "Pancake Lord",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "No",
+          "instagram": "No",
+          "pw1": "No",
+          "pw2": "No"
+        }
+      }
+    },
     "verified": true
   },
   "137": {
@@ -2557,7 +2585,15 @@
     ],
     "context": ["gbs", "duel", "gbs", "duel", "duel", "duel", "duel"],
     "id": 139,
-    "artists": {},
+    "artists": {
+      "Ziyanthus": {
+        "name": "Ziyanthus",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@Ziyanthus"
+        }
+      }
+    },
     "verified": true
   },
   "140": {
@@ -4892,7 +4928,15 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Abe": {
+        "name": "Abe",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@Carapace777"
+        }
+      }
+    },
     "verified": false
   },
   "442": {
@@ -5188,7 +5232,16 @@
     ],
     "context": ["duel", "gb", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Sciman101": {
+        "name": "Sciman101",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "Sciman101",
+          "pw1": "https://sciman.info"
+        }
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "5.00",
@@ -5222,12 +5275,22 @@
   },
   "470": {
     "id": 470,
-    "name": "Fugu",
+    "name": "fugu moray",
     "rounds": [6, 7],
     "link": ["https://imgur.com/a/LnRneJY", "https://imgur.com/a/SGgeElQ"],
     "context": ["duel", "duel"],
     "faction": ["pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Kozispoon": {
+        "name": "Kozispoon",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "https://twitter.com/Kozispoon",
+          "instagram": "https://www.instagram.com/kozispoon/",
+          "pw1": "https://kozispoon.crevado.com/"
+        }
+      }
+    },
     "verified": false
   },
   "471": {
@@ -5367,7 +5430,7 @@
   },
   "483": {
     "id": 483,
-    "name": "Ingvald",
+    "name": "INGVALD",
     "rounds": [6, 7, 8],
     "link": [
       "https://imgur.com/gallery/U7LEYSL",
@@ -5376,7 +5439,17 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "forestfireinikea": {
+        "name": "forestfireinikea",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@kongurei_",
+          "instagram": "@forestfireinikea",
+          "pw1": "https://m.webtoons.com/en/challenge/ingvald/list?title_no=657000"
+        }
+      }
+    },
     "verified": false
   },
   "484": {
@@ -5414,7 +5487,15 @@
     ],
     "context": ["duel", "duel", "duel"],
     "faction": ["bastion", "bastion", "bastion"],
-    "artists": {},
+    "artists": {
+      "Aegis": {
+        "name": "Aegis",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "https://twitter.com/Liminal_Aegis"
+        }
+      }
+    },
     "verified": false
   },
   "487": {
@@ -5452,7 +5533,15 @@
     ],
     "context": ["duel", "gb", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "Slug": {
+        "name": "Slug",
+        "role": "Creator",
+        "contacts": {
+          "twitter": "@Celerybuster"
+        }
+      }
+    },
     "verified": false
   },
   "491": {
@@ -5695,7 +5784,13 @@
     ],
     "context": ["gb", "duel", "duel"],
     "faction": ["pyre", "pyre", "pyre"],
-    "artists": {},
+    "artists": {
+      "RWD130": {
+        "name": "RWD130",
+        "role": "Creator",
+        "contacts": {}
+      }
+    },
     "verified": false,
     "profilePic": {
       "zoom": "3.25",
@@ -6909,14 +7004,20 @@
   },
   "633": {
     "id": 633,
-    "name": "Wandering Dragon Clinic",
+    "name": "The Wandering Dragon's Hospital",
     "rounds": [7],
     "link": [
       "https://discord.com/channels/613730018446671878/872197964376997929/877635551396761631"
     ],
     "context": ["gb"],
     "faction": ["bastion"],
-    "artists": {},
+    "artists": {
+      "Caw": {
+        "name": "Caw",
+        "role": "Creator",
+        "contacts": {}
+      }
+    },
     "verified": false
   },
   "634": {

@@ -2357,9 +2357,10 @@
       "bastion": [483]
     },
     "outcome": {
-      "pyre": "lose",
-      "bastion": "win"
+      "pyre": "win",
+      "bastion": "lose"
     },
+    "notes": "Bastion wins the duel, but Landwaster from L13 makes it go away.",
     "events": []
   },
   "j11": {
@@ -2892,7 +2893,7 @@
     "owner": "pyre",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [2],
     "fighters": {
       "pyre": [263],
       "bastion": [121]

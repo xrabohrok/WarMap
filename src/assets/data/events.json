@@ -26,5 +26,9 @@
   "7": {
     "name": "2 v 2 Match",
     "rule": "Two artists team up to submit a comic against two other artists.  Winning grants one extra permanant point (due to one less tile being attacked)"
+  },
+  "8": {
+    "name": "Merged Match",
+    "rule": "2 characters who were being submitted seperately came together here.  Sometimes it was a collab, sometimes the artist had two characters they wanted to bring together.  This is a normal match unless stated by other rules."
   }
 }

@@ -36,7 +36,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [1]
+    "events": [1],
+    "notes": "Nya~bi is injured!"
   },
   "a11": {
     "location": "a11",
@@ -108,7 +109,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [4]
+    "events": [4],
+    "notes": "The Spiked Collar Judge item is invoked!"
   },
   "a7": {
     "location": "a7",
@@ -307,7 +309,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "Shadow Wizard is slain!"
   },
   "b10": {
     "location": "b10",
@@ -343,7 +346,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "Saint Nameless is slain!"
   },
   "b8": {
     "location": "b8",
@@ -487,7 +491,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [3, 1]
+    "events": [3, 1],
+    "notes": "Haberdasher is injured!"
   },
   "c14": {
     "location": "c14",
@@ -613,7 +618,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [6]
+    "events": [6],
+    "notes": "Vessel Corpse prevails in a way they didn't expect!"
   },
   "c7": {
     "location": "c7",
@@ -775,7 +781,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "Nugget is slain!"
   },
   "d12": {
     "location": "d12",
@@ -811,7 +818,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "Frost is slain!"
   },
   "d10": {
     "location": "d10",
@@ -901,7 +909,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [3]
+    "events": [3],
+    "notes": "The Crone defects to the Bastion!"
   },
   "d5": {
     "location": "d5",
@@ -919,7 +928,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [4, 2]
+    "events": [4, 2],
+    "notes": "Many Hands is slain!"
   },
   "d4": {
     "location": "d4",
@@ -1316,7 +1326,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [6]
+    "events": [6],
+    "notes": "Spaceman Dan prevails in a way they didn't expect!"
   },
   "e2": {
     "location": "e2",
@@ -1388,7 +1399,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [2, 6]
+    "events": [2, 6],
+    "notes": "Toreda V is slain in a way he saw coming!"
   },
   "f12": {
     "location": "f12",
@@ -2184,7 +2196,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "events": [3]
+    "events": [3],
+    "notes": "Udre Peru defects to Pyre!"
   },
   "i10": {
     "location": "i10",
@@ -2274,7 +2287,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "The Devourer is slain!"
   },
   "i5": {
     "location": "i5",
@@ -2544,7 +2558,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [2]
+    "events": [2],
+    "notes": "Voice of the Green is slain!"
   },
   "j4": {
     "location": "j4",
@@ -3085,7 +3100,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [5, 2]
+    "events": [5, 2],
+    "notes": "Carrion Queen is slain!"
   },
   "l2": {
     "location": "l2",
@@ -3355,7 +3371,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "events": [1]
+    "events": [1],
+    "notes": "Kilroy is injured!"
   },
   "m1": {
     "location": "m1",

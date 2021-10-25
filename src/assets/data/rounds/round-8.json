@@ -27,7 +27,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": false,
-    "items": [],
+    "items": [3],
     "fighters": {
       "pyre": [648],
       "bastion": [647]
@@ -37,7 +37,7 @@
       "bastion": "win"
     },
     "events": [1],
-    "notes": "Nya~bi is injured!"
+    "notes": "Nya~bi is injured, and is compelled to the Bastion side!"
   },
   "a11": {
     "location": "a11",
@@ -227,7 +227,7 @@
     "owner": "bastion",
     "grandBattle": false,
     "clash": true,
-    "items": [],
+    "items": [1],
     "fighters": {
       "pyre": [429, 10, 67, 697],
       "bastion": [695, 696, 47, 488]

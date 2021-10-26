@@ -134,8 +134,8 @@ const images = {
   },
   grandBattle: require("../assets/pics/gb-conflicted-marker.png"),
   clash: {
-    pyre: require("../assets/pics/clash-pyre.png"),
-    bastion: require("../assets/pics/clash-bastion.png")
+    pyre: require("../assets/pics/clash-bastion.png"),
+    bastion: require("../assets/pics/clash-pyre.png")
   }
 }
 

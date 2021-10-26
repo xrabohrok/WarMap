@@ -126,7 +126,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "a6": {
     "location": "a6",
@@ -382,7 +382,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "b6": {
     "location": "b6",
@@ -1783,7 +1783,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "g1": {
     "location": "g1",
@@ -1801,7 +1801,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h14": {
     "location": "h14",
@@ -1819,7 +1819,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h13": {
     "location": "h13",
@@ -1837,7 +1837,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h12": {
     "location": "h12",

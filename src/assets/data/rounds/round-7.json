@@ -126,7 +126,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "a6": {
     "location": "a6",
@@ -442,7 +442,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "b6": {
     "location": "b6",
@@ -1796,7 +1796,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "g1": {
     "location": "g1",
@@ -1814,7 +1814,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h14": {
     "location": "h14",
@@ -1832,7 +1832,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h13": {
     "location": "h13",
@@ -1850,7 +1850,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "h12": {
     "location": "h12",
@@ -3249,7 +3249,7 @@
     "location": "m8",
     "contest": false,
     "attacker": "na",
-    "owner": "pyre",
+    "owner": "bastion",
     "grandBattle": false,
     "clash": false,
     "items": [],
@@ -3261,7 +3261,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "m7": {
     "location": "m7",
@@ -3501,7 +3501,7 @@
     "location": "n8",
     "contest": false,
     "attacker": "na",
-    "owner": "pyre",
+    "owner": "bastion",
     "grandBattle": false,
     "clash": false,
     "items": [],
@@ -3513,7 +3513,7 @@
       "pyre": "",
       "bastion": ""
     },
-    "events": []
+    "events": [9]
   },
   "n7": {
     "location": "n7",

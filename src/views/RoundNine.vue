@@ -1,6 +1,6 @@
 <template>
   <div class="map_page main">
-    <div v-if="!mobile">
+    <div v-if="!mobile" style="width:100vw; height:100vh;">
       <TowerMap />
       <transition name="slideup">
         <div class=" desktopHeader left" v-show="isSelected">

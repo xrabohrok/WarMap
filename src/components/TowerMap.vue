@@ -1,22 +1,20 @@
 <template>
-  <div id="zoomMap" ref="zoomMap">
-    <div id="mainMap" ref="mainMap">
-      <div
-        class="row"
-        v-for="row in mapSource"
-        v-bind:key="row.id"
-        :style="rowPosition(row.id, mapSource.length)"
-      >
-        <!-- {{row.id}} :  -->
-        <MapTile v-for="item in row.set" :key="item" :title="item" />
+  <div id="mainMap">
+    <div
+      class="sections"
+      v-for="row in mapSource"
+      v-bind:key="row.id"
+      :style="pageLocation(row.id)"
+    >
+      <div class="singleBattle" v-for="cell in row.set" v-bind:key="cell">
+        {{ cell }}
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { mapLayout } from "../assets/data/map.js"
-import MapTile from "./MapTile.vue"
+import { towerGroups } from "../assets/data/towerLayout.js"
 import { CHANGE_ROUND } from "../state/mutations.js"
 
 export default {
@@ -25,19 +23,40 @@ export default {
   },
   data() {
     return {
-      mapSource: mapLayout
+      mapSource: towerGroups
     }
   },
-  components: {
-    MapTile
-  },
+  components: {},
   methods: {
-    rowPosition: function(rowId, maxRow) {
-      var horizontalPos = (((rowId - 1) / (maxRow + 1)) * 100).toFixed(2)
-      // console.log(`${rowId} : against ${maxRow}, ${horizontalPos}`)
-      return {
-        top: `${horizontalPos}%`,
-        "z-index": `${rowId}`
+    pageLocation: function(zoneName) {
+      switch (zoneName) {
+        case "pinnacle":
+          return {
+            left: "50%",
+            top: "10%"
+          }
+        case "archive":
+          return {
+            left: "50%",
+            top: "22%"
+          }
+        case "gallery":
+          return {
+            left: "25%",
+            top: "40%"
+          }
+        case "hall":
+          return {
+            right: "25%",
+            top: "40%"
+          }
+        case "grandBattle":
+          return {
+            left: "50%",
+            top: "75%"
+          }
+        default:
+          console.log(`Failed to find style for ${zoneName}`)
       }
     }
   },
@@ -49,44 +68,22 @@ export default {
 </script>
 
 <style scoped>
-#zoomMap {
-  height: 50vh;
-  width: 100vw;
-  transform-origin: top left;
-  position: relative;
-  touch-action: pinch-zoom pan-x pan-y;
+.singleBattle {
+  background-color: rgb(73, 30, 30);
+  width: 4vw;
+  height: 4vh;
 }
 
-@media only screen and (orientation: landscape) and (max-width: 840px) {
-  #zoomMap {
-    height: 100vh;
-    width: 50vw;
-    transform: translateX(-50%);
-  }
+.sections {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 #mainMap {
-  position: absolute;
-  height: 44vw;
-  width: 88vw;
-  top: 20vh;
-  transform: translateX(-50%);
-  left: 50vw;
-  margin-top: 14vh;
-  padding-bottom: 3vh;
-  margin-bottom: 5vh;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
   width: 100%;
-  height: 7.14%;
+  height: 100%;
 }
 </style>
 

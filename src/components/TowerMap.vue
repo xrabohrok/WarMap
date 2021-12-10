@@ -6,6 +6,7 @@
       v-bind:key="row.id"
       :style="pageLocation(row.id)"
     >
+      <div class="section_title">{{ row.id }}</div>
       <div class="singleBattle" v-for="cell in row.set" v-bind:key="cell">
         {{ cell }}
       </div>
@@ -33,27 +34,29 @@ export default {
         case "pinnacle":
           return {
             left: "50%",
-            top: "10%"
+            top: "20%"
           }
         case "archive":
           return {
             left: "50%",
-            top: "22%"
+            top: "43%"
           }
         case "gallery":
           return {
-            left: "25%",
-            top: "40%"
+            left: "20%",
+            top: "55%",
+            width: "35vw"
           }
         case "hall":
           return {
-            right: "25%",
-            top: "40%"
+            left: "80%",
+            top: "60%",
+            width: "35vw"
           }
         case "grandBattle":
           return {
             left: "50%",
-            top: "75%"
+            bottom: "6%"
           }
         default:
           console.log(`Failed to find style for ${zoneName}`)
@@ -70,8 +73,11 @@ export default {
 <style scoped>
 .singleBattle {
   background-color: rgb(73, 30, 30);
-  width: 4vw;
-  height: 4vh;
+  padding: 0.6em 0.8em;
+  margin: 0.15em;
+
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
 }
 
 .sections {
@@ -79,6 +85,16 @@ export default {
   justify-content: center;
   position: absolute;
   transform: translate(-50%, -50%);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section_title {
+  position: absolute;
+  top: -1.6em;
+
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.9em;
 }
 
 #mainMap {

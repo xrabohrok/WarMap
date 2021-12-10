@@ -1,35 +1,13 @@
 export let towerGroups = [
-  { id: "pinnacle", set: ["pinnacle"] },
-  { id: "archive", set: ["archive"] },
+  { id: "pinnacle", set: ["1"] },
+  { id: "archive", set: ["1"] },
   {
     id: "gallery",
-    set: [
-      "gallery1",
-      "gallery2",
-      "gallery3",
-      "gallery4",
-      "gallery5",
-      "gallery6",
-      "gallery7",
-      "gallery8",
-      "gallery9",
-      "gallery10"
-    ]
+    set: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
   },
   {
     id: "hall",
-    set: [
-      "hall1",
-      "hall2",
-      "hall3",
-      "hall4",
-      "hall5",
-      "hall6",
-      "hall7",
-      "hall8",
-      "hall9",
-      "hall10"
-    ]
+    set: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
   },
-  { id: "grandBattle", set: ["gb1", "gb2", "gb3"] }
+  { id: "grandBattle", set: ["1", "2", "3"] }
 ]

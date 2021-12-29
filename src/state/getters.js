@@ -100,7 +100,8 @@ const getters = {
   },
   currentSpoilerRevealed: (state, getters) => {
     var fight = getters.curZoneFight
-    if (!(fight.contest || fight.grandBattle || fight.clash)) return false
+    if (!(fight.contest || fight.grandBattle || fight.clash || fight.miniclash))
+      return false
 
     return (
       state.revealed[state.curRound].findIndex(i => i === state.curSelected) !==

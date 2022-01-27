@@ -1,12 +1,12 @@
 {
   "Version": "0.7.2",
   "LockProject": false,
-  "BoardIndex": 0,
+  "BoardIndex": 2,
   "BoardCount": 4,
   "AutoSave": false,
-  "Pan.X": -563.5346069335938,
-  "Pan.Y": -464.65472412109375,
-  "ZoomLevel": 3,
+  "Pan.X": -451.88763427734375,
+  "Pan.Y": -252.78662109375,
+  "ZoomLevel": 4,
   "TaskTransparency": 5,
   "OutlineTasks": true,
   "BracketSubtasks": true,
@@ -267,7 +267,7 @@
       "Progression.Current": 9,
       "Progression.Max": 9,
       "Description": "Rounds completed in-universe",
-      "Selected": true,
+      "Selected": false,
       "TaskType.CurrentChoice": 1,
       "CreationTime": "Apr 19 2021 10:45:58",
       "CompletionTime": "Dec 23 2021 23:30:49"
@@ -1550,6 +1550,18 @@
       "Selected": false,
       "TaskType.CurrentChoice": 0,
       "CreationTime": "Dec 23 2021 23:30:28"
+    }, 
+    {
+      "BoardIndex": 3,
+      "Position.X": 144,
+      "Position.Y": 240,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "Animate Tower in Final Map image link",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Jan 26 2022 22:01:06"
     }
   ]
 }

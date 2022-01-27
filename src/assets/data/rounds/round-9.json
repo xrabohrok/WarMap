@@ -1,0 +1,324 @@
+{
+  "pinnacle1": {
+    "location": "pinnacle1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "archive1": {
+    "location": "archive1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery1": {
+    "location": "gallery1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery2": {
+    "location": "gallery2",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery3": {
+    "location": "gallery3",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery4": {
+    "location": "gallery4",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery5": {
+    "location": "gallery5",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery6": {
+    "location": "gallery6",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery7": {
+    "location": "gallery7",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery8": {
+    "location": "gallery8",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery9": {
+    "location": "gallery9",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "gallery10": {
+    "location": "gallery10",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall1": {
+    "location": "hall1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall2": {
+    "location": "hall2",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall3": {
+    "location": "hall3",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall4": {
+    "location": "hall4",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall5": {
+    "location": "hall5",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall6": {
+    "location": "hall6",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall7": {
+    "location": "hall7",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall8": {
+    "location": "hall8",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall9": {
+    "location": "hall9",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "hall10": {
+    "location": "hall10",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "grandbattle1": {
+    "location": "grandbattle1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": false,
+      "bastion": false
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  }
+}

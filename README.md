@@ -100,4 +100,6 @@ Thanks to anyone who contributes to the round summary spreadsheets, without whic
 
 Thanks to Cpt.M3thyl for allowing your airtable and my DB to cross-pollinate.  
 
+Thanks to Sleepy for the Final Map image (and letting us use it).
+
 Thanks to the CAPTAINS, WITNESSES, and EMISSARYS that made this OCT possible.  

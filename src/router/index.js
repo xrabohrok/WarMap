@@ -13,17 +13,11 @@ const routes = [
   {
     path: "/chars",
     name: "Chars",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/CharacterEditor.vue")
   },
   {
     path: "/pics",
     name: "Pics",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import("../views/PicZoomer.vue")
   },
   {

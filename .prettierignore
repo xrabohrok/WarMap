@@ -9,6 +9,7 @@ README.md
 .gitignore
 
 *.png
+*.csv
 
 src/assets/data/map.js
 **/.eslintignore

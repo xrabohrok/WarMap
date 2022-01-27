@@ -1,7 +1,14 @@
 <template>
   <div class="map_page main">
     <div v-if="!mobile">
-      <MainMap />
+      <MainMap v-if="whichMap === 'main'" />
+      <router-link to="/final">
+        <img
+          :src="require('../assets/pics/finalmap.png')"
+          v-if="whichMap === 'final'"
+          class="finalMap"
+        />
+      </router-link>
       <transition name="slideup">
         <div class=" desktopHeader left" v-show="isSelected">
           <DetailPane :mode="showDetails" />
@@ -175,6 +182,9 @@ export default {
     rosterEnabled: function() {
       return this.curRound !== 0
     },
+    whichMap: function() {
+      return this.curRound <= 8 ? "main" : "final"
+    },
     ...mapGetters({
       selecting: SELECTING_GETTER,
       fight: CURRENT_ZONE_FIGHT,
@@ -243,6 +253,17 @@ export default {
   height: 50%;
   background-color: #631042;
   padding-top: 1em;
+}
+
+.finalMap,
+img {
+  height: 44vw;
+  width: 88vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 24vh;
+  padding-bottom: 3vh;
+  margin-bottom: 5vh;
 }
 
 .screenContainer {

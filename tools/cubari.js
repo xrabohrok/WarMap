@@ -13,6 +13,8 @@
 //pyre glash r6: https://git.io/JBwpe ; https://cubari.moe/read/gist/JBu17/
 //girl with gun r7: https://git.io/JED9q ; https://cubari.moe/read/gist/JED9q/
 
+//Pyre collab GB 3 r9 https://cubari.moe/read/gist/Z2lzdC94cmFib2hyb2svYTk2ZTlmYzM4YTQ1Njg2ZmYxYTE2NzlkY2NjZTE5MzYvcmF3Lw/
+
 var args = process.argv.slice(2)
 const round = parseInt(args.find(a => a.includes("round")).split("=")[1], 10)
 const appenderModeValue = args.find(a => a.includes("append"))

@@ -81,3 +81,17 @@ const derive_cubari_link = function(link) {
   var index = link.match(imgurId)[0].slice(1)
   return `https://imgur.com/a/${index}`
 }
+
+exports.check_fighter_exists = function(allFighters, name, verbose = false) {
+  var id = -1
+  Object.values(allFighters).forEach(f => {
+    if (f.name.toLowerCase().trim() === name.toLowerCase().trim()) {
+      id = f.id
+    }
+  })
+
+  if (id >= -1 && verbose) console.log(`Found ${name}`)
+  else if (id === -1) console.log(`Would add ${name}`)
+
+  return -1 === id
+}

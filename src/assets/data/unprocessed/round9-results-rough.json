@@ -1,0 +1,362 @@
+[
+  {
+    "tile": "Pinnacle",
+    "pyre_fighter": "Aubrey Chamberlain IV",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/wIP3EJe/1/1/",
+    "bastion_fighter": "The Marquis",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/COA6nAI/1/1/",
+    "winner": "Aubrey Chamberlain IV"
+  },
+  {
+    "tile": "archive1",
+    "pyre_fighter": "ASPARAGORR",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
+    "bastion_fighter": "Zan",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Z9KIJhj/1/1/",
+    "winner": "ASPARAGORR"
+  },
+  {
+    "tile": "archive2",
+    "pyre_fighter": "Bronwyn",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
+    "bastion_fighter": "Page Turner",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Z9KIJhj/1/1/",
+    "winner": "Bronwyn"
+  },
+  {
+    "tile": "archive3",
+    "pyre_fighter": "Elena Hellfire",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
+    "bastion_fighter": "Viscera",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Z9KIJhj/1/1/",
+    "winner": "Elena Hellfire"
+  },
+  {
+    "tile": "archive4",
+    "pyre_fighter": "Fugu Moray",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
+    "bastion_fighter": "Enzo di Bastille",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Z9KIJhj/1/1/",
+    "winner": "Fugu Moray"
+  },
+  {
+    "tile": "gallery1",
+    "pyre_fighter": "4 Colossus Purged The Stain From Their Soul",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ecQKIW2/1/1/",
+    "bastion_fighter": "Murder Cube",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Mv9bLjT/1/1/",
+    "winner": "4 Colossus Purged The Stain From Their Soul"
+  },
+  {
+    "tile": "gallery1",
+    "pyre_fighter": "The Decamountain",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ecQKIW2/1/1/",
+    "bastion_fighter": "Kiln",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Mv9bLjT/1/1/",
+    "winner": "The Decamountain"
+  },
+  {
+    "tile": "gallery2",
+    "pyre_fighter": "Mamuthon & Marcus",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/d8PznFk/1/1/",
+    "bastion_fighter": "Keenblade",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/QE5sLqR/1/1/",
+    "winner": "Mamuthon & Marcus"
+  },
+  {
+    "tile": "gallery2",
+    "pyre_fighter": "Ink",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/d8PznFk/1/1/",
+    "bastion_fighter": "0 REPENTANT KILLSTAR SHATTERS RUIN",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/QE5sLqR/1/1/",
+    "winner": "Ink"
+  },
+  {
+    "tile": "gallery3",
+    "pyre_fighter": "Beshker & Harken",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ZhZfvNo/1/1/",
+    "bastion_fighter": "Lata",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/GwtI67l/1/1/",
+    "winner": "Beshker & Harken"
+  },
+  {
+    "tile": "gallery3",
+    "pyre_fighter": "Greenhorn",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ZhZfvNo/1/1/",
+    "bastion_fighter": "Lezaford",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/GwtI67l/1/1/",
+    "winner": "Greenhorn"
+  },
+  {
+    "tile": "gallery4",
+    "pyre_fighter": "Gilebren",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/sO5VRyI/1/1/",
+    "bastion_fighter": "Baltazar.",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/eVYzNL1/1/1/",
+    "winner": "Baltazar."
+  },
+  {
+    "tile": "gallery4",
+    "pyre_fighter": "Dregliege",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/sO5VRyI/1/1/",
+    "bastion_fighter": "Fog of Graves",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/eVYzNL1/1/1/",
+    "winner": "Fog of Graves"
+  },
+  {
+    "tile": "gallery5",
+    "pyre_fighter": "Tatters",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/iEne1gp/1/1/",
+    "bastion_fighter": "The Host",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/rCg1nWk/1/1/",
+    "winner": "The Host"
+  },
+  {
+    "tile": "gallery5",
+    "pyre_fighter": "Elsa Bee",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/iEne1gp/1/1/",
+    "bastion_fighter": "Rho",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/rCg1nWk/1/1/",
+    "winner": "Rho"
+  },
+  {
+    "tile": "gallery6",
+    "pyre_fighter": "Vessel Corpse",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/QMeEs3Q/1/1/",
+    "bastion_fighter": "INGVALD",
+    "bastion_comic_link": "https://imgur.com/gallery/HQaTIqx",
+    "winner": "Vessel Corpse"
+  },
+  {
+    "tile": "gallery6",
+    "pyre_fighter": "Vanta",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/QMeEs3Q/1/1/",
+    "bastion_fighter": "General Morsu",
+    "bastion_comic_link": "https://imgur.com/gallery/HQaTIqx",
+    "winner": "Vanta"
+  },
+  {
+    "tile": "gallery7",
+    "pyre_fighter": "Trinket",
+    "pyre_comic_link": "https://imgur.com/a/yDz3Q4k",
+    "bastion_fighter": "\"Long-Arms\" Ten Anong",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/JFsjups/1/1/",
+    "winner": "\"Long-Arms\" Ten Anong"
+  },
+  {
+    "tile": "gallery7",
+    "pyre_fighter": "ACRIFOTG",
+    "pyre_comic_link": "https://imgur.com/a/yDz3Q4k",
+    "bastion_fighter": "Lutha-YY-Sur",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/JFsjups/1/1/",
+    "winner": "Lutha-YY-Sur"
+  },
+  {
+    "tile": "gallery8",
+    "pyre_fighter": "Yanxuan",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ryMzWBE/1/1/",
+    "bastion_fighter": "Kazuhiro Kindle",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Pf0dyrv/1/1/",
+    "winner": "Yanxuan"
+  },
+  {
+    "tile": "gallery8",
+    "pyre_fighter": "Nic",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/ryMzWBE/1/1/",
+    "bastion_fighter": "Carol de Rakoczi",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/Pf0dyrv/1/1/",
+    "winner": "Nic"
+  },
+  {
+    "tile": "gallery9",
+    "pyre_fighter": "Bei-Qi, Speaker of Truth",
+    "pyre_comic_link": "https://imgur.com/a/gs9jf08",
+    "bastion_fighter": "Cherry Bomb",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/F13LGE6/1/1/",
+    "winner": "Cherry Bomb"
+  },
+  {
+    "tile": "gallery9",
+    "pyre_fighter": "JOAT",
+    "pyre_comic_link": "https://imgur.com/a/gs9jf09",
+    "bastion_fighter": "Enoch Nomes",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/F13LGE6/1/1/",
+    "winner": "Enoch Nomes"
+  },
+  {
+    "tile": "gallery10",
+    "pyre_fighter": "The Sour Fruit of Kebby-Ya",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/7HqPgxm/1/1/to",
+    "bastion_fighter": "Mr. Scratch",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/HXND1Yl/1/1/",
+    "winner": "The Sour Fruit of Kebby-Ya"
+  },
+  {
+    "tile": "gallery10",
+    "pyre_fighter": "Skrim",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/7HqPgxm/1/1/to",
+    "bastion_fighter": "Ernest",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/HXND1Yl/1/1/",
+    "winner": "Skrim"
+  },
+  {
+    "tile": "hall1",
+    "pyre_fighter": "Brazen Pun",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/eQSfbF2/1/1/",
+    "bastion_fighter": "Temurin",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/vxTR4hv/1/1/",
+    "winner": "Temurin"
+  },
+  {
+    "tile": "hall1",
+    "pyre_fighter": "Al Railcatcher",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/eQSfbF2/1/1/",
+    "bastion_fighter": "Rhye & Rhone",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/vxTR4hv/1/1/",
+    "winner": "Rhye & Rhone"
+  },
+  {
+    "tile": "hall2",
+    "pyre_fighter": "Towerfucker",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/8e0bGPk/1/1/",
+    "bastion_fighter": "Prince Leopold",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/qrxnofS/1/1/",
+    "winner": "Towerfucker"
+  },
+  {
+    "tile": "hall2",
+    "pyre_fighter": "Execution of Agony",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/8e0bGPk/1/1/",
+    "bastion_fighter": "THE HESSIAN",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/qrxnofS/1/1/",
+    "winner": "Execution of Agony"
+  },
+  {
+    "tile": "hall3",
+    "pyre_fighter": "The MANY HANDS",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/iFQ0pIH/1/1/",
+    "bastion_fighter": "Shoota",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/szLO1o8/1/1/",
+    "winner": "Shoota"
+  },
+  {
+    "tile": "hall3",
+    "pyre_fighter": "Smohg",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/iFQ0pIH/1/1/",
+    "bastion_fighter": "Lucille Evalume",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/szLO1o8/1/1/",
+    "winner": "Lucille Evalume"
+  },
+  {
+    "tile": "hall4",
+    "pyre_fighter": "Scoria",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/DgPRQip/1/1/",
+    "bastion_fighter": "Kay Guinto-Quintana",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/cxOxDPT/1/1/",
+    "winner": "Kay Guinto-Quintana"
+  },
+  {
+    "tile": "hall4",
+    "pyre_fighter": "16 Porcelain Mask",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/DgPRQip/1/1/",
+    "bastion_fighter": "Cassia Edgerite",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/cxOxDPT/1/1/",
+    "winner": "Cassia Edgerite"
+  },
+  {
+    "tile": "hall5",
+    "pyre_fighter": "Toro",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/dV5W82B/1/1/",
+    "bastion_fighter": "Tamro",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/xm5C9WO/1/1/",
+    "winner": "Tamro"
+  },
+  {
+    "tile": "hall5",
+    "pyre_fighter": "Jared",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/dV5W82B/1/1/",
+    "bastion_fighter": "Loam",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/xm5C9WO/1/1/",
+    "winner": "Loam"
+  },
+  {
+    "tile": "hall6",
+    "pyre_fighter": "Ianox",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/w9t1R1u/1/1/",
+    "bastion_fighter": "Atte",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/8X583GD/1/1/",
+    "winner": "Ianox"
+  },
+  {
+    "tile": "hall6",
+    "pyre_fighter": "Little Baby",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/w9t1R1u/1/1/",
+    "bastion_fighter": "Deliver",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/8X583GD/1/1/",
+    "winner": "Little Baby"
+  },
+  {
+    "tile": "hall7",
+    "pyre_fighter": "Annihilation Halo",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/au1nODG/1/1/",
+    "bastion_fighter": "Bolted Bogan",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/4TorKem/1/1/",
+    "winner": "Bolted Bogan"
+  },
+  {
+    "tile": "hall7",
+    "pyre_fighter": "Coyote Squad",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/au1nODG/1/1/",
+    "bastion_fighter": "Sam Hoffman",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/4TorKem/1/1/",
+    "winner": "Sam Hoffman"
+  },
+  {
+    "tile": "hall8",
+    "pyre_fighter": "Chiquita & Hot Chicken",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/6haFHWQ/1/1/",
+    "bastion_fighter": "1 The Smith Answers the Broken Blade",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/0yw6Tvo/1/1/",
+    "winner": "1 The Smith Answers the Broken Blade"
+  },
+  {
+    "tile": "hall8",
+    "pyre_fighter": "Karanath & Roderick",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/6haFHWQ/1/1/",
+    "bastion_fighter": "7 Grim Sage",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/0yw6Tvo/1/1/",
+    "winner": "7 Grim Sage"
+  },
+  {
+    "tile": "hall9",
+    "pyre_fighter": "Ajiid",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/0yVFpfI/1/1/",
+    "bastion_fighter": "Sabi",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/5kelSq5/1/1/",
+    "winner": "Sabi"
+  },
+  {
+    "tile": "hall9",
+    "pyre_fighter": "Grile",
+    "pyre_comic_link": "https://cubari.moe/read/imgur/0yVFpfI/1/1/",
+    "bastion_fighter": "Acheron",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/5kelSq5/1/1/",
+    "winner": "Acheron"
+  },
+  {
+    "tile": "hall10",
+    "pyre_fighter": "Zhiva",
+    "pyre_comic_link": "https://imgur.com/a/e3sGcP7",
+    "bastion_fighter": "Marian & Mugon",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/F2VpC7r/1/1/",
+    "winner": "Marian & Mugon"
+  },
+  {
+    "tile": "hall10",
+    "pyre_fighter": "Aezelith",
+    "pyre_comic_link": "https://imgur.com/a/e3sGcP8",
+    "bastion_fighter": "Old Man Duque",
+    "bastion_comic_link": "https://cubari.moe/read/imgur/F2VpC7r/1/1/",
+    "winner": "Old Man Duque"
+  }
+]

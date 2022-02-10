@@ -4,302 +4,338 @@
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [50],
+      "bastion": [31]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "archive1": {
     "location": "archive1",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [570, 28, 142, 470],
+      "bastion": [61, 55, 432, 434]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery1": {
     "location": "gallery1",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [416, 460],
+      "bastion": [132, 486]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery2": {
     "location": "gallery2",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [175, 156],
+      "bastion": [45, 222]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery3": {
     "location": "gallery3",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [79, 20],
+      "bastion": [3, 112]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery4": {
     "location": "gallery4",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [271, 395],
+      "bastion": [698, 161]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "gallery5": {
     "location": "gallery5",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [513, 83],
+      "bastion": [591, 474]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "gallery6": {
     "location": "gallery6",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [2, 468],
+      "bastion": [483, 481]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery7": {
     "location": "gallery7",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [669, 131],
+      "bastion": [33, 134]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "gallery8": {
     "location": "gallery8",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [699, 701],
+      "bastion": [691, 700]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "gallery9": {
     "location": "gallery9",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [181, 622],
+      "bastion": [404, 212]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "gallery10": {
     "location": "gallery10",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [128, 519],
+      "bastion": [180, 702]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "hall1": {
     "location": "hall1",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [129, 30],
+      "bastion": [41, 466]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall2": {
     "location": "hall2",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [703, 656],
+      "bastion": [34, 441]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "hall3": {
     "location": "hall3",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [32, 26],
+      "bastion": [78, 139]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall4": {
     "location": "hall4",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [87, 627],
+      "bastion": [88, 73]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall5": {
     "location": "hall5",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [546, 415],
+      "bastion": [488, 704]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall6": {
     "location": "hall6",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [705, 706],
+      "bastion": [559, 561]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "win",
+      "bastion": "lose"
+    },
+    "miniclash": true
   },
   "hall7": {
     "location": "hall7",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [707, 708],
+      "bastion": [569, 555]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall8": {
     "location": "hall8",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [709, 625],
+      "bastion": [449, 438]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall9": {
     "location": "hall9",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [448, 603],
+      "bastion": [63, 650]
     },
     "notes": "",
     "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
   },
   "hall10": {
     "location": "hall10",
     "grandBattle": false,
     "clash": false,
     "fighters": {
-      "pyre": false,
-      "bastion": false
+      "pyre": [602, 652],
+      "bastion": [80, 17]
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": "lose",
+      "bastion": "win"
+    },
+    "miniclash": true
+  },
+  "grandbattle1": {
+    "location": "grandbattle1",
+    "grandBattle": false,
+    "clash": false,
+    "fighters": {
+      "pyre": [],
+      "bastion": []
     },
     "notes": "",
     "outcome": {
@@ -307,18 +343,7 @@
       "bastion": []
     }
   },
-  "grandbattle1": {
-    "location": "grandbattle1",
-    "grandBattle": false,
-    "clash": false,
-    "fighters": {
-      "pyre": false,
-      "bastion": false
-    },
-    "notes": "",
-    "outcome": {
-      "pyre": [],
-      "bastion": []
-    }
+  "grandbattle": {
+    "zones": ["grandbattle1", "grandbattle2", "grandbattle3"]
   }
 }

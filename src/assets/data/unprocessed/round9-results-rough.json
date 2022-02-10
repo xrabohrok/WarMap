@@ -1,6 +1,6 @@
 [
   {
-    "tile": "Pinnacle",
+    "tile": "pinnacle1",
     "pyre_fighter": "Aubrey Chamberlain IV",
     "pyre_comic_link": "https://cubari.moe/read/imgur/wIP3EJe/1/1/",
     "bastion_fighter": "The Marquis",
@@ -16,7 +16,7 @@
     "winner": "ASPARAGORR"
   },
   {
-    "tile": "archive2",
+    "tile": "archive1",
     "pyre_fighter": "Bronwyn",
     "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
     "bastion_fighter": "Page Turner",
@@ -24,7 +24,7 @@
     "winner": "Bronwyn"
   },
   {
-    "tile": "archive3",
+    "tile": "archive1",
     "pyre_fighter": "Elena Hellfire",
     "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
     "bastion_fighter": "Viscera",
@@ -32,7 +32,7 @@
     "winner": "Elena Hellfire"
   },
   {
-    "tile": "archive4",
+    "tile": "archive1",
     "pyre_fighter": "Fugu Moray",
     "pyre_comic_link": "https://cubari.moe/read/imgur/rpMA4qx/1/1/",
     "bastion_fighter": "Enzo di Bastille",

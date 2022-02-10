@@ -383,6 +383,71 @@
       "bastion": []
     }
   },
+  "grandbattle2": {
+    "location": "grandbattle2",
+    "grandBattle": true,
+    "clash": false,
+    "fighters": {
+      "pyre": [721],
+      "bastion": [720, 511, 169, 90, 372, 119, 582, 492, 641, 303]
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
+  "grandbattle3": {
+    "location": "grandbattle3",
+    "grandBattle": true,
+    "clash": false,
+    "fighters": {
+      "pyre": [
+        36,
+        160,
+        722,
+        685,
+        632,
+        632,
+        22,
+        406,
+        725,
+        66,
+        727,
+        654,
+        544,
+        136,
+        679,
+        730,
+        165,
+        10,
+        86
+      ],
+      "bastion": [
+        391,
+        593,
+        104,
+        82,
+        27,
+        723,
+        724,
+        596,
+        121,
+        641,
+        726,
+        547,
+        76,
+        35,
+        728,
+        729
+      ]
+    },
+    "notes": "",
+    "outcome": {
+      "pyre": [],
+      "bastion": []
+    }
+  },
   "grandbattle": {
     "zones": ["grandbattle1", "grandbattle2", "grandbattle3"]
   }

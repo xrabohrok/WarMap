@@ -1,5 +1,7 @@
 <template>
-  <div id="FrontCenter" class="secondary"></div>
+  <div id="FrontCenter" class="secondary">
+    <FighterSheet :fighterId="180" />
+  </div>
 </template>
 
 <script>
@@ -18,10 +20,12 @@ import {
 // import FightSummary from "./FightPane/FightSummary.vue"
 // import TileDetails from "./FightPane/TileDetails.vue"
 
+import FighterSheet from "./FighterSheet.vue"
+
 export default {
   components: {
     // Welcome Screen
-    // Fighter
+    FighterSheet
   },
   props: {
     fighterId: {

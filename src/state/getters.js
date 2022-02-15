@@ -142,6 +142,13 @@ const getters = {
   showWelcomScreen: state => {
     return state.showOverview && state.selectedChar < 0
   },
+  fullFighterDetails: (state, getters) => id => {
+    var nowfighter = getters.fighter(id)
+    delete nowfighter.profilePic
+    delete nowfighter.verified
+    var backstory = getters.fighterBackstory(id)
+    return { ...nowfighter, backstory: backstory }
+  },
   getAllFightersThisRoundForFaction: (state, getters) => isBastion => {
     var curRound = getters.round
     var correctFaction = isBastion ? "bastion" : "pyre"
@@ -205,6 +212,7 @@ const CURZONE_IS_CLASH = "curZoneIsClash"
 const TILE_IS_CLASH = "tileIsClash"
 const TILE_IS_MINICLASH = "tileIsMiniClash"
 const FIGHTER_BACKSTORY = "fighterBackstory"
+const FIGHTER_SHEET = "fullFighterDetails"
 const ALL_FIGHTERS_IN_ROUND = "getAllFightersThisRoundForFaction"
 
 const OPT_SHOW_GRAPHICS = "showGraphics"
@@ -240,6 +248,7 @@ export {
   TILE_IS_CLASH,
   HAS_READ_COMIC,
   FIGHTER_BACKSTORY,
+  FIGHTER_SHEET,
   CURRENT_ZONE_ITEMS,
   OPT_SHOW_ITEMS,
   OPT_SHOW_LABELS,

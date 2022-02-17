@@ -24,6 +24,7 @@ const getters = {
   round: state => state.curRound,
   curRoundBoard: state => state.roundData[state.curRound],
   showingSummary: state => state.showSummary,
+  expandedChar: state => state.selectedChar,
 
   tileState: state => tileName => {
     return state.roundData[state.curRound][tileName]
@@ -213,6 +214,7 @@ const TILE_IS_CLASH = "tileIsClash"
 const TILE_IS_MINICLASH = "tileIsMiniClash"
 const FIGHTER_BACKSTORY = "fighterBackstory"
 const FIGHTER_SHEET = "fullFighterDetails"
+const SELECTED_CHAR = "expandedChar"
 const ALL_FIGHTERS_IN_ROUND = "getAllFightersThisRoundForFaction"
 
 const OPT_SHOW_GRAPHICS = "showGraphics"
@@ -256,5 +258,6 @@ export {
   OPT_SHOW_SUMMARIES,
   TILE_IS_MINICLASH,
   SHOULD_SHOW_CHARACTER_SCREEN,
-  SHOULD_SHOW_WELCOME_SCREEN
+  SHOULD_SHOW_WELCOME_SCREEN,
+  SELECTED_CHAR
 }

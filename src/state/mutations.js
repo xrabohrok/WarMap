@@ -13,6 +13,7 @@ const mutations = {
   },
   closeOverview(state) {
     state.showOverview = false
+    state.selectedChar = -1
   },
   welcomeScreen(state) {
     state.showOverview = true

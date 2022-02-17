@@ -107,7 +107,11 @@
         </transition-group>
       </div>
     </div>
-    <FrontAndCenter v-if="showFrontAndCenter" class="overview" />
+    <FrontAndCenter
+      v-if="showFrontAndCenter"
+      :fighterId="bigChar"
+      class="overview"
+    />
   </div>
 </template>
 
@@ -132,7 +136,8 @@ import {
   CURRENT_ROUND,
   OPT_SHOW_SUMMARIES,
   SHOULD_SHOW_WELCOME_SCREEN,
-  SHOULD_SHOW_CHARACTER_SCREEN
+  SHOULD_SHOW_CHARACTER_SCREEN,
+  SELECTED_CHAR
 } from "../state/getters"
 import { mapGetters } from "vuex"
 
@@ -199,7 +204,8 @@ export default {
       curRound: CURRENT_ROUND,
       showingRoster: OPT_SHOW_SUMMARIES,
       showChars: SHOULD_SHOW_CHARACTER_SCREEN,
-      showWelcome: SHOULD_SHOW_WELCOME_SCREEN
+      showWelcome: SHOULD_SHOW_WELCOME_SCREEN,
+      bigChar: SELECTED_CHAR
     })
   },
   mounted: function() {

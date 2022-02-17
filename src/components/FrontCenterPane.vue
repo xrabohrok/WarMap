@@ -1,6 +1,6 @@
 <template>
   <div id="FrontCenter" class="secondary">
-    <FighterSheet :fighterId="180" />
+    <FighterSheet :fighterId="fighterId" />
   </div>
 </template>
 

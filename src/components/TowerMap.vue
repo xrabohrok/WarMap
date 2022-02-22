@@ -7,14 +7,18 @@
       :style="pageLocation(row.id)"
     >
       <div class="section_title">{{ row.id }}</div>
-      <div class="singleBattle" v-for="cell in row.set" v-bind:key="cell">
-        {{ cell }}
-      </div>
+      <RoomTile
+        :title="cell"
+        class="singleBattle"
+        v-for="cell in row.set"
+        v-bind:key="cell"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import RoomTile from "./RoomTile.vue"
 import { towerGroups } from "../assets/data/towerLayout.js"
 import { CHANGE_ROUND } from "../state/mutations.js"
 
@@ -27,7 +31,9 @@ export default {
       mapSource: towerGroups
     }
   },
-  components: {},
+  components: {
+    RoomTile
+  },
   methods: {
     pageLocation: function(zoneName) {
       switch (zoneName) {
@@ -50,7 +56,7 @@ export default {
         case "hall":
           return {
             left: "80%",
-            top: "60%",
+            top: "55%",
             width: "35vw"
           }
         case "grandBattle":
@@ -73,8 +79,9 @@ export default {
 <style scoped>
 .singleBattle {
   background-color: rgb(73, 30, 30);
-  padding: 0.6em 0.8em;
+  padding: 0.2em 0.8em;
   margin: 0.15em;
+  min-width: 5vw;
 
   font-family: "Permanent Marker", cursive;
   font-size: 1.5em;

@@ -98,7 +98,8 @@ import {
   SELECTING_GETTER,
   FIGHTER_GETTER,
   CURRENT_ZONE_CONTESTED,
-  FIGHTER_BACKSTORY
+  FIGHTER_BACKSTORY,
+  CURRENT_ROUND
 } from "../../state/getters"
 import { SHOW_CHARACTER_OVERVIEW } from "../../state/mutations"
 import { buildTwitterLink, buildInstagramLink } from "../../common/links"
@@ -151,7 +152,10 @@ export default {
       return this.zoneFight.attacker == this.faction ? "Attacker" : "Defender"
     },
     isSelected: function() {
-      return this.selected !== "na" && this.contested(this.selected)
+      return (
+        this.selected !== "na" &&
+        (this.round == 9 || this.contested(this.selected))
+      )
     },
     fighterIcon: function() {
       return `fighterimages/${this.fighter.id}.png`
@@ -166,7 +170,8 @@ export default {
       selected: SELECTING_GETTER,
       fighterGet: FIGHTER_GETTER,
       contested: CURRENT_ZONE_CONTESTED,
-      backstory: FIGHTER_BACKSTORY
+      backstory: FIGHTER_BACKSTORY,
+      round: CURRENT_ROUND
     })
   },
   name: "FighterDetails"

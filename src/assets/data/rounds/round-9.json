@@ -12,7 +12,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "pinnacle"
   },
   "archive1": {
     "location": "archive1",
@@ -27,7 +28,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "archive"
   },
   "gallery1": {
     "location": "gallery1",
@@ -42,7 +44,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery2": {
     "location": "gallery2",
@@ -57,7 +60,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery3": {
     "location": "gallery3",
@@ -72,7 +76,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery4": {
     "location": "gallery4",
@@ -87,7 +92,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery5": {
     "location": "gallery5",
@@ -102,7 +108,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery6": {
     "location": "gallery6",
@@ -117,7 +124,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery7": {
     "location": "gallery7",
@@ -132,7 +140,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery8": {
     "location": "gallery8",
@@ -147,7 +156,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery9": {
     "location": "gallery9",
@@ -162,7 +172,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "gallery10": {
     "location": "gallery10",
@@ -177,7 +188,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "gallery"
   },
   "hall1": {
     "location": "hall1",
@@ -192,7 +204,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall2": {
     "location": "hall2",
@@ -207,7 +220,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall3": {
     "location": "hall3",
@@ -222,7 +236,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall4": {
     "location": "hall4",
@@ -237,7 +252,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall5": {
     "location": "hall5",
@@ -252,7 +268,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall6": {
     "location": "hall6",
@@ -267,7 +284,8 @@
       "pyre": "win",
       "bastion": "lose"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall7": {
     "location": "hall7",
@@ -282,7 +300,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall8": {
     "location": "hall8",
@@ -297,7 +316,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall9": {
     "location": "hall9",
@@ -312,7 +332,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "hall10": {
     "location": "hall10",
@@ -327,7 +348,8 @@
       "pyre": "lose",
       "bastion": "win"
     },
-    "miniclash": true
+    "miniclash": true,
+    "zone": "hall"
   },
   "grandbattle1": {
     "location": "grandbattle1",

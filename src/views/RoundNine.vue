@@ -148,13 +148,7 @@ export default {
       return this.fight.contest
     },
     isSelectedFight: function() {
-      if (this.selecting == "NA") return false
-      return (
-        this.fight.contest ||
-        this.fight.grandBattle ||
-        this.fight.clash ||
-        this.fight.miniclash
-      )
+      return this.selecting == "NA"
     },
     onLeft: function() {
       return LEFT

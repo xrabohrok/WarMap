@@ -8,7 +8,7 @@
     >
       <div class="section_title">{{ row.id }}</div>
       <RoomTile
-        :title="cell"
+        :title="`${row.id}${cell}`"
         class="singleBattle"
         v-for="cell in row.set"
         v-bind:key="cell"
@@ -70,7 +70,7 @@ export default {
     }
   },
   beforeMount: function() {
-    this.$store.commit(CHANGE_ROUND, 8)
+    this.$store.commit(CHANGE_ROUND, 9)
   },
   name: "TowerMap"
 }
